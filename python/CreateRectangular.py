@@ -15,5 +15,5 @@ args = parser.parse_args()
 # ----------------------------------------------------------------
 # Call matlab program to create rectangular treemaps
 
-p = subprocess.Popen(['matlab', '-nodesktop', '-nosplash', '-nodisplay', '-r "data_directory = \'' + args.data_dir + '\'; proteomap_treemap; quit;"'])
+p = subprocess.Popen(['matlab', '-nodesktop', '-nosplash', '-nodisplay', '-r "addpath(genpath(\'' + MATLAB_PATH + '\')); data_directory = \'' + args.data_dir + '\'; proteomap_treemap; quit;"'])
 p.wait()

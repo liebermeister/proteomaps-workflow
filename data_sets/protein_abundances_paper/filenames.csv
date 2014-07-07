@@ -1,0 +1,11 @@
+mpn	/home/wolfram/Proteomaps/data_original/paper/mpn_272634-kuehner_science_2009.csv	mpn_Kuehner	MPN Kuehner	Mycoplasma pneumoniae - K&uuml;hner et al. (2009)
+sce	/home/wolfram/Proteomaps/data_original/paper/sce_nagaraj.csv	sce_Nagaraj	SCE Nagaraj	Saccharomyces cerevisiae - Nagaraj et al. (2012)
+sce	/home/wolfram/Proteomaps/data_original/paper/sce_4932-deGodoy_et_al.csv	sce_deGodoy	SCE de Godoy	Saccharomyces cerevisiae - de Godoy et al. (2008)
+sce	/home/wolfram/Proteomaps/data_original/paper/sce_4932-Newman_et_al_YEPD.csv	sce_Newman_rich	SCE Newman (+)	Saccharomyces cerevisiae - Newman et al. (2006) - Rich Medium
+sce	/home/wolfram/Proteomaps/data_original/paper/sce_4932-Newman_et_al_Ave.SD.csv	sce_Newman_minimal	SCE Newman (-)	Saccharomyces cerevisiae - Newman et al. (2006) - Minimal Medium
+hsa	/home/wolfram/Proteomaps/data_original/paper/human_chimp_Chimpanzee_Protein.csv	hsa_Khan_Chimpanzee_Protein	PAN Khan	Chimpanzee - Lymphoblastoid cell line - Khan et al. (2013)
+hsa	/home/wolfram/Proteomaps/data_original/paper/human_chimp_Human_Protein.csv	hsa_Khan_Human_Protein	HSA Khan	Human - Lymphoblastoid cell line - Khan et al. (2013)
+hsa	/home/wolfram/Proteomaps/data_original/paper/geiger_2012_human_cell_lines/processed_data/geiger_2012_HeLa.csv	hsa_Geiger_2012_HeLa	HSA Geiger HeLa	Homo sapiens - HeLa cell line - Geiger et al. (2012)
+hsa	/home/wolfram/Proteomaps/data_original/paper/geiger_2012_human_cell_lines/processed_data/geiger_2012_U2OS.csv	hsa_Geiger_2012_U2OS	HSA Geiger U2OS	Homo sapiens - U2OS cell line - Geiger et al. (2012)
+hsa	/home/wolfram/Proteomaps/data_original/paper/hsa_nagaraj_actin_tubulin_abundance_final.csv	hsa_Nagaraj_2011	HSA Nagaraj	Homo sapiens - Nagaraj et al. (2011) - HeLa cell line
+hsa	/home/wolfram/Proteomaps/data_original/paper/hsa_msb201182-s2-copies-per-cell.csv	hsa_Beck	HSA Beck	Homo sapiens - U2OS cell line - Beck et al. (2011)

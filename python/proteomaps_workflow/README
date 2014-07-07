@@ -1,0 +1,23 @@
+# The entire workflow is run by the script CreateProteomaps.py
+# (one directory above)
+
+cd ~/projekte/protein_abundance/proteomaps_code/python/
+
+# The workflow
+
+python map_protein_data.py                <DATA_DIRECTORY>
+python filter_ko_hierarchy.py             <DATA_DIRECTORY>
+python filter_ko_hierarchy_mult.py        <DATA_DIRECTORY> <N_SUBSAMPLING>
+python organism_standardise_mappings.py   <DATA_DIRECTORY>
+python organism_standardised_hierarchy.py <DATA_DIRECTORY>
+python prune_nonmapped_proteins.py        <DATA_DIRECTORY>
+python make_tsv_tables.py                 <DATA_DIRECTORY>
+
+# Make colormap
+matlab -nodesktop -nosplash -nodisplay -r "data_directory = '<DATA_DIRECTORY>'; show_protein_colormap; quit;"
+
+# Create results with matlab
+matlab -nodesktop -nosplash -nodisplay -r "data_directory = '<DATA_DIRECTORY>'; n_randomised_trees = '<N_SUBSAMPLING>'; protein_abundance; quit;"
+
+# Data for Paver
+python /prepare_files_for_paver.py  <DATA_DIRECTORY> <PAVER_INFILE_DIRECTORY>

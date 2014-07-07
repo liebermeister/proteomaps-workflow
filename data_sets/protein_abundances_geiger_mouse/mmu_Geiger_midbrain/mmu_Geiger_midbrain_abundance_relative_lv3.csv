@@ -1,0 +1,194 @@
+Adherens junction	0.00024034665
+Aldosterone-regulated sodium reabsorption	5.8205986e-06
+Alzheimer's disease	0.0033071812
+Amino acid metabolism	0.028851047
+Amoebiasis	2.4961545e-06
+Amyotrophic lateral sclerosis (ALS)	0.00030759292
+Antigen processing and presentation	0.00022379891
+Apoptosis	0.0040522441
+Arrhythmogenic right ventricular cardiomyopathy (ARVC)	2.9336595e-06
+Axon guidance	0.0020966345
+B cell receptor signaling pathway	1.0606024e-06
+Bacterial chemotaxis	0
+Bacterial invasion of epithelial cells	3.8507332e-05
+Bacterial motility proteins	0
+Bacterial toxins	0
+Basal transcription factors	0.00010999231
+Base excision repair	0.002341327
+Bile secretion	7.8612823e-06
+Biosynthesis of other secondary metabolites	5.5251684e-05
+Blood proteins	0.0018592813
+Butanoate metabolism	0.00061624428
+C5-Branched dibasic acid metabolism	0
+CAM ligands	0.0006837835
+Calcium signaling pathway	0.0089592076
+Carbohydrate digestion and absorption	0
+Carbohydrate metabolism	0.0039639254
+Carbon fixation in photosynthetic organisms	0
+Carbon fixation pathways in prokaryotes	0
+Cardiac muscle contraction	0.013770885
+Cell adhesion molecules (CAMs)	0.00038218298
+Cell cycle	0.040337488
+Cellular antigens	0.00013662044
+Chaperones and folding catalysts	0.076432345
+Chemokine signaling pathway	5.8278253e-05
+Chromosome-related	0.01400704
+Cofactor biosynthesis	0.010616554
+Collecting duct acid secretion	6.5615632e-08
+Complement and coagulation cascades	0.00086409865
+Crystallins	0.0045422138
+Cytochrome P450	5.6995895e-06
+Cytokine-cytokine receptor interaction	1.7101397e-05
+Cytokines	4.5020479e-07
+Cytoskeleton proteins	0.074332671
+Cytosolic DNA-sensing pathway	7.2080307e-07
+DNA repair and recombination proteins	0.00076682013
+DNA replication	8.8315332e-05
+DNA replication complex	0
+DNA replication control	1.362712e-05
+Dopaminergic synapse	5.3254618e-05
+Dorso-ventral axis formation	8.6609184e-06
+ECM-receptor interaction	0.00035569791
+Endocrine and other factor-regulated calcium reabsorption	8.8143525e-05
+Endocytosis	0.013427554
+Enzyme-linked receptors	0
+ErbB signaling pathway	0.00066971099
+Fat digestion and absorption	0
+Fc gamma R-mediated phagocytosis	0.0025854228
+Focal adhesion	0.00075065299
+FoxO signaling pathway	0.010339509
+G protein-coupled receptors	1.1186824e-05
+GABAergic synapse	5.9453067e-06
+GTP-binding signaling proteins	0.0029140254
+Gap junction	6.4146326e-06
+Gastric acid secretion	8.1114777e-06
+Glutamatergic synapse	0
+Glycan binding proteins	0.00011756433
+Glycan metabolism	0.00069185923
+Glycolysis	0.064043215
+HIF-1 signaling pathway	0.0015998093
+Hedgehog signaling pathway	1.6963166e-06
+Hematopoietic cell lineage	0
+Hemoglobin	0.043774489
+Hepatitis C	9.66476e-07
+Herpes simplex infection	0.00072783252
+Hippo signaling pathway	0.00016851796
+Homologous recombination	6.1690109e-07
+Huntington's disease	0.00091036312
+Hypertrophic cardiomyopathy (HCM)	4.9827766e-07
+Immunoglobulins	0
+Influenza A	0
+Insulin secretion	0
+Insulin signaling pathway	6.4404351e-05
+Intestinal immune network for IgA production	2.4725491e-07
+Ion channels	0.00052060179
+Jak-STAT signaling pathway	0
+Legionellosis	0.00012687768
+Leukocyte transendothelial migration	0.00055090485
+Lipid and steroid metabolism	0.006541104
+Long-term depression	2.3170663e-05
+Long-term potentiation	3.5047828e-05
+Lysosome	0.006492772
+MAPK signaling pathway	0.010056996
+Malaria	0
+Maturity onset diabetes of the young	0
+Measles	8.6579321e-06
+Meiosis	0
+Methane metabolism	6.0571667e-07
+MicroRNAs in cancer	4.7662169e-06
+Mineral absorption	4.5659812e-07
+Mismatch repair	1.4112182e-06
+Motor proteins	0.0016697144
+Myelin	0.018102453
+NF-kappa B signaling pathway	2.9985905e-05
+NOD-like receptor signaling pathway	2.7078814e-05
+Natural killer cell mediated cytotoxicity	6.0080438e-07
+Neuroactive ligand-receptor interaction	9.1355981e-05
+Neurotrophin signaling pathway	0.0015469172
+Non-homologous end-joining	2.4005372e-06
+Not mapped	0.16625047
+Notch signaling pathway	3.0899464e-05
+Nuclear membrane	0.0012495574
+Nucleotide excision repair	0.0010015609
+Olfactory transduction	4.957509e-06
+Oocyte meiosis	1.0943765e-05
+Osteoclast differentiation	2.2158255e-05
+Other central metabolism enzymes	0.0007511328
+Other enzymes	0.011504452
+Oxidative phosphorylation	0.099041941
+PI3K-Akt signaling pathway	0.00032474112
+PPAR signaling pathway	0.017030741
+Pancreatic secretion	0.00013268851
+Parkinson's disease	0.0059429045
+Pathways in cancer	0.00047525994
+Pentose phosphate metabolism	0.001869961
+Peptidases	0.0023247605
+Peroxisome	0.012361415
+Pertussis	1.0004768e-07
+Phagosome	0.0011307197
+Phosphatidylinositol signaling system	0
+Photosynthesis	0
+Photosynthesis - antenna proteins	0
+Phototransduction	0
+Plant hormone signal transduction	0
+Plant-pathogen interaction	0
+Protease inhibitors	0.00052043254
+Proteasome	0.0067395786
+Protein digestion and absorption	5.3454318e-05
+Protein export	0.0025661858
+Protein kinases	0.00042935792
+Protein processing in endoplasmic reticulum	0.017774251
+Proteoglycans in cancer	5.8881149e-05
+Proximal tubule bicarbonate reclamation	1.3574814e-05
+Purine metabolism	0.015344876
+Pyrimidine metabolism	0.002016406
+Pyruvate metabolism	0.0029644899
+RIG-I-like receptor signaling pathway	1.1690471e-05
+RNA degradation	0.0056803765
+RNA polymerase	4.0920378e-05
+RNA transport	0.0072348408
+Rap1 signaling pathway	0.0045547371
+Ras signaling pathway	0.010010353
+Regulation of actin cytoskeleton	0.016596948
+Regulation of autophagy	1.7723992e-05
+Renin-angiotensin system	7.5251662e-05
+Ribosome	0.027714446
+Ribosome biogenesis	0.00062104161
+Ribosome biogenesis in eukaryotes	0.0016869213
+SNARE interactions in vesicular transport	0.0032813445
+SNAREs	2.9714426e-05
+Salivary secretion	0.00063882282
+Secretion system	0
+Serotonergic synapse	6.7424485e-05
+Signaling molecules	0.00018492493
+Spliceosome	0.011099331
+Steroid hormone biosynthesis	7.4337526e-06
+Sulfur relay system	4.8571407e-05
+Synaptic vesicle cycle	0.0083510008
+Systemic lupus erythematosus	9.9504293e-05
+T cell receptor signaling pathway	0
+TCA cycle and anaplerotic enzymes	0.018436433
+TGF-beta signaling pathway	3.2088774e-05
+TNF signaling pathway	7.5018486e-06
+Tight junction	0.0028770433
+Toll-like receptor signaling pathway	9.6651573e-05
+Transcription factors	0.002328732
+Transcriptional misregulation in cancer	0.00059795629
+Translation factors	0.0043777324
+Transport	1.6671584e-05
+Tuberculosis	0
+Two-component system	0
+Type I diabetes mellitus	6.5942748e-05
+Ubiquitin labeling	0.0077317966
+Ubiquitin mediated proteolysis	0.0035390198
+VEGF signaling pathway	0
+Vascular smooth muscle contraction	0.0029306761
+Vasopressin-regulated water reabsorption	0.0026223603
+Viral carcinogenesis	4.8865725e-05
+Viral myocarditis	5.5751009e-07
+Vitamin digestion and absorption	5.4123799e-07
+Wnt signaling pathway	0.00040141579
+mRNA surveillance pathway	0.0011138686
+mTOR signaling pathway	0.00063174994
+p53 signaling pathway	3.9448041e-05
+tRNA loading	0.00084680883

@@ -1,0 +1,9 @@
+eco	/home/wolfram/Proteomaps/data_original/other/protein_data_E_coli_Lu_1.csv	eco_Lu	ECO Lu	Escherichia coli - Lu et al. (2007)
+eco	/home/wolfram/Proteomaps/data_original/other/Arike_iBAQ_Average.csv	eco_Arike_2012	ECO Arike	Escherichia coli - Arike et al. (2012)
+sce	/home/wolfram/Proteomaps/data_original/other/protein_data_S_cerevisiae_Lu_1.csv	sce_Lu_rich	SCE Lu (+)	Saccharomyces cerevisiae - Lu et al. (2007) - Rich Medium
+sce	/home/wolfram/Proteomaps/data_original/other/protein_data_S_cerevisiae_Lu_2.csv	sce_Lu_minimal	SCE Lu (-)	Saccharomyces cerevisiae - Lu et al. (2007) - Minimal Medium
+spo	/home/wolfram/Proteomaps/data_original/other/spo_marguerat_proliferating.csv	spo_Marguerat_proliferating	SPO Marguerat proliferating	Schizosaccharomyces pombe - Proliferating cells - Marguerat et al. (2012)
+spo	/home/wolfram/Proteomaps/data_original/other/spo_marguerat_quiescent.csv	spo_Marguerat_quiescent	SPO Marguerat quiescent	Schizosaccharomyces pombe - Quiescent cells - Marguerat et al. (2012)
+ath	/home/wolfram/Proteomaps/data_original/other/ath_3702-castellana.csv	ath_Castellana	ATH Castellana	Arabidopsis thaliana - Castellana et al. (2008)
+dme	/home/wolfram/Proteomaps/data_original/other/dme_7227-Spectral_counting_D.melanogaster_Brunner_Nat_Biotechnol_2007.txt	dme_Brunner_2007	DME Brunner	Drosophila melanogaster - Brunner et al. (2007)
+syn	/home/wolfram/Proteomaps/data_original/other/syn_1148-Spectral_counting_Synechocystis.sp_Wegener_MCP_2010.txt	syn_Wegener	SYN Wegener	Synechocystis sp. 6803 - Wegener et al. (2010)

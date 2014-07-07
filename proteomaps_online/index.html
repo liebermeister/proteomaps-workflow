@@ -1,0 +1,1016 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head profile="http://www.w3.org/2005/10/profile">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+    <title>Proteomaps</title>
+
+    <link rel="stylesheet" type="text/css" href="./proteomaps.css">
+
+    <script src="./shiftzoom.js" language="javascript" type="text/javascript"></script>
+
+    <script src="chrome-extension://nmgdlkljbfeeinemfljcbmnkmbeligmn/page.js" type="text/javascript"></script>
+  
+    <script language="javascript" type="text/javascript">
+      function showRow(rowId) {
+      document.getElementById(rowId).style.display = "";
+      }
+      function hideRow(rowId) {
+      document.getElementById(rowId).style.display = "none";
+     }
+    </script>
+  
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-4526009-11', 'proteomaps.net');
+     ga('send', 'pageview');
+    </script>
+
+  <link rel="icon" 
+      type="image/png" 
+      href="pictures/proteomaps_favicon.png">
+
+  </head>
+
+  <body>
+    <table>
+	<tbody><tr>
+	  <td width="350">
+	    <div> 
+	      <img class="wrap" width = "70"  src="pictures/proteomaps_label.jpg">&nbsp;&nbsp;  
+	      <img class="wrap" width = "256" src="pictures/eco_Valgepea_2013_48_cost_small.png" usemap="\#proteins" class="wrap" > 
+	    </div>  
+	  </td>
+	  <td width="50"></td>
+	  <td style="vertical-align:top;">	    
+	    <div><br>
+	      <h2>Depicting the protein composition of cells</h2>
+	      
+	      <p style="font-size:11pt; width:430;">Proteomaps show
+		the quantitative composition of proteomes with a focus on protein
+		function. They are built automatically from proteome data and based on
+		the KEGG Pathways  gene
+		classification. Each protein is shown by a polygon and functionally
+		related proteins are arranged in common regions. To emphasize highly
+		expressed proteins, polygon areas represent protein abundances,
+		weighted by protein size.</p><p> 
+	    
+	    <p style="font-size:11pt; width:430">To open a proteomap,
+	    choose an organism and click on a proteomap symbol in the
+	    list. The line above the proteomap allows you to navigate
+	    between hierarchy levels. Hover the mouse pointer over a
+	    map to see the abundance values.</p>
+
+	    <p style="font-size:11pt; width:450;">
+		<a href="./methods.html">See methods description and data tables</a>
+	      </p>
+	  </div></td>
+	</tr>
+	<tr height="30"></tr></tbody>
+    </table>
+
+    <table><tbody>
+
+      <tr>
+      <td width="75"></td>
+
+      <td style="background-color:#f0dda0">
+      <table>
+		<tr style="height:10"></tr>
+		<tr>
+		  <td></td>
+		  <td align="center"><i>M. pneumoniae</i></td>
+		  <td align="center"><i>E. coli</i></td>
+		  <td align="center"><i>S. sp. 6803</td>
+		  <td align="center"><i>S. cerevisiae</i></td>
+		  <td align="center"><i>S. pombe</i></td>
+		</tr>
+		  <td width="20"></td>
+
+		  <td id="mpn_on" width="110">
+		    <a href="javascript: void(0);" onclick="hideRow('mpn_on'); showRow('mpn_off'); showRow('title'); showRow('mpn_kuehner');">
+		      <img src="./pictures/organisms/M_pneumoniae.png" width="100"></a>
+		  </td>
+		  <td id="mpn_off" style="display: none" width="110">
+		    <a href="javascript: void(0);" onclick="showRow('mpn_on'); hideRow('mpn_off'); hideRow('mpn_kuehner');">
+		      <img src="./pictures/organisms/M_pneumoniae.png" width="100"></a>
+		  </td>
+
+		  <td id="eco_on" width="110">
+		    <a href="javascript: void(0);" onclick="hideRow('eco_on'); showRow('eco_off'); showRow('title'); showRow('eco_lu'); showRow('eco_arike');  showRow('eco_valgepea11'); showRow('eco_valgepea21');  showRow('eco_valgepea31');  showRow('eco_valgepea40');  showRow('eco_valgepea48');">
+		      <img src="./pictures/organisms/E_coli.png" width="100"></a>
+		  </td>
+		  <td id="eco_off" style="display: none" width="110">
+		    <a href="javascript: void(0);" onclick="showRow('eco_on'); hideRow('eco_off'); hideRow('eco_lu'); hideRow('eco_arike'); hideRow('eco_valgepea11'); hideRow('eco_valgepea21'); hideRow('eco_valgepea31'); hideRow('eco_valgepea40'); hideRow('eco_valgepea48');">
+		      <img src="./pictures/organisms/E_coli.png" width="100"></a>
+		  </td>
+
+		  <td id="syn_on" width="110">
+		    <a href="javascript: void(0);" onclick="hideRow('syn_on'); showRow('syn_off'); showRow('title'); showRow('syn_wegener');">
+		      <img src="./pictures/organisms/Synechocystis.png" width="100"></a>
+		  </td>
+		  <td id="syn_off" style="display: none" width="110">
+		    <a href="javascript: void(0);" onclick="showRow('syn_on'); hideRow('syn_off'); hideRow('syn_wegener');">
+		      <img src="./pictures/organisms/Synechocystis.png" width="100"></a>
+		  </td>
+
+		  <td id="sce_on" width="110">
+		    <a href="javascript: void(0);" onclick="hideRow('sce_on'); showRow('sce_off'); showRow('title'); showRow('sce_deGodoy'); showRow('sce_Nagaraj'); showRow('sce_Lu_minimal'); showRow('sce_Lu_rich'); showRow('sce_Newman_minimal'); showRow('sce_Newman_rich'); showRow('sce_legend');"><img src="./pictures/organisms/S_cerevisiae.png" width="100"></a></td>
+		  <td id="sce_off" style="display: none" width="110">
+		    <a href="javascript: void(0);" onclick="showRow('sce_on'); hideRow('sce_off'); hideRow('sce_deGodoy'); hideRow('sce_Nagaraj'); hideRow('sce_Lu_minimal'); hideRow('sce_Lu_rich'); hideRow('sce_Newman_minimal'); hideRow('sce_Newman_rich'); hideRow('sce_legend');"><img src="./pictures/organisms/S_cerevisiae.png" width="100"></a></td>
+
+		  <td id="spo_on" width="110"><a href="javascript: void(0);" onclick="hideRow('spo_on'); showRow('spo_off'); showRow('title'); showRow('spo_Marguerat_proliferating'); showRow('spo_Marguerat_quiescent');">
+		      <img src="./pictures/organisms/S_pombe.png" width="100"></a></td>
+		  <td id="spo_off" style="display: none" width="110"><a href="javascript: void(0);" onclick="showRow('spo_on'); hideRow('spo_off'); hideRow('spo_Marguerat_proliferating'); hideRow('spo_Marguerat_quiescent');">
+		      <img src="./pictures/organisms/S_pombe.png" width="100"></a></td>
+
+</tr>
+		<tr style="height:10"></tr>
+		<tr>
+		  <td></td>
+		  <td align="center"><i>A. thaliana</i></td>
+		  <td align="center"><i>D. melanogaster</i></td>
+		  <td align="center"><i>M. musculus</i></td>
+		  <td align="center"><i>P. troglodytes</i></td>
+		  <td align="center"><i>H. sapiens</i></td>
+		</tr>
+		<tr style="height:105">
+<td></td>
+		  <td id="ath_on" width="105"><a href="javascript: void(0);" onclick="hideRow('ath_on'); showRow('ath_off'); showRow('title'); showRow('ath_Castellana');">
+		      <img src="./pictures/organisms/A_thaliana.png" width="100"></a></td>
+		  <td id="ath_off" style="display: none" width="105"><a href="javascript: void(0);" onclick="showRow('ath_on'); hideRow('ath_off'); hideRow('ath_Castellana');">
+		      <img src="./pictures/organisms/A_thaliana.png" width="100"></a></td>
+
+		  <td id="dme_on" width="105">
+		    <a href="javascript: void(0);" onclick="hideRow('dme_on'); showRow('dme_off'); showRow('title'); showRow('dme_brunner');">
+		      <img src="./pictures/organisms/D_repleta.png" width="100"></a>
+		  </td>
+		  <td id="dme_off" style="display: none" width="105">
+		    <a href="javascript: void(0);" onclick="showRow('dme_on'); hideRow('dme_off'); hideRow('dme_brunner');">
+		      <img src="./pictures/organisms/D_repleta.png" width="100"></a>
+		  </td>
+
+		  <td id="mmu_on" width="105"><a href="javascript: void(0);" onclick="hideRow('mmu_on'); showRow('mmu_off'); showRow('title'); showRow('mmu_Geiger_adrenal_gland');  showRow('mmu_Geiger_brain_cortex');  showRow('mmu_Geiger_brain_medulla');  showRow('mmu_Geiger_brown_fat');  showRow('mmu_Geiger_cerebellum');  showRow('mmu_Geiger_colon');  showRow('mmu_Geiger_diaphragm');  showRow('mmu_Geiger_duodenum');  showRow('mmu_Geiger_embryonic_tissue');  showRow('mmu_Geiger_eye');  showRow('mmu_Geiger_heart');  showRow('mmu_Geiger_ileum');  showRow('mmu_Geiger_jejunum');  showRow('mmu_Geiger_kidney_cortex');  showRow('mmu_Geiger_kidney_medulla');  showRow('mmu_Geiger_liver');  showRow('mmu_Geiger_lung');  showRow('mmu_Geiger_midbrain');  showRow('mmu_Geiger_muscle');  showRow('mmu_Geiger_olfactory_bulb');  showRow('mmu_Geiger_ovary');  showRow('mmu_Geiger_pancreas');  showRow('mmu_Geiger_salivary_gland');  showRow('mmu_Geiger_spleen');  showRow('mmu_Geiger_stomach');  showRow('mmu_Geiger_thymus');  showRow('mmu_Geiger_uterus');  showRow('mmu_Geiger_white_fat');"><img src="./pictures/organisms/M_musculus.png" width="100"></a></td>
+		  <td id="mmu_off" style="display: none" width="105"><a href="javascript: void(0);" onclick="showRow('mmu_on'); hideRow('mmu_off'); hideRow('mmu_Geiger_adrenal_gland');  hideRow('mmu_Geiger_brain_cortex');  hideRow('mmu_Geiger_brain_medulla');  hideRow('mmu_Geiger_brown_fat');  hideRow('mmu_Geiger_cerebellum');  hideRow('mmu_Geiger_colon');  hideRow('mmu_Geiger_diaphragm');  hideRow('mmu_Geiger_duodenum');  hideRow('mmu_Geiger_embryonic_tissue');  hideRow('mmu_Geiger_eye');  hideRow('mmu_Geiger_heart');  hideRow('mmu_Geiger_ileum');  hideRow('mmu_Geiger_jejunum');  hideRow('mmu_Geiger_kidney_cortex');  hideRow('mmu_Geiger_kidney_medulla');  hideRow('mmu_Geiger_liver');  hideRow('mmu_Geiger_lung');  hideRow('mmu_Geiger_midbrain');  hideRow('mmu_Geiger_muscle');  hideRow('mmu_Geiger_olfactory_bulb');  hideRow('mmu_Geiger_ovary');  hideRow('mmu_Geiger_pancreas');  hideRow('mmu_Geiger_salivary_gland');  hideRow('mmu_Geiger_spleen');  hideRow('mmu_Geiger_stomach');  hideRow('mmu_Geiger_thymus');  hideRow('mmu_Geiger_uterus');  hideRow('mmu_Geiger_white_fat');"><img src="./pictures/organisms/M_musculus.png" width="100"></a></td>
+
+		  <td id="ptr_on" width="105"><a href="javascript: void(0);" onclick="hideRow('ptr_on'); showRow('ptr_off'); showRow('title'); showRow('hsa_Khan_Chimpanzee_Protein');"><img src="./pictures/organisms/P_troglodytes.png" width="100"></a></td>
+		  <td id="ptr_off" style="display: none" width="105"><a href="javascript: void(0);" onclick="showRow('ptr_on'); hideRow('ptr_off'); hideRow('hsa_Khan_Chimpanzee_Protein');"><img src="./pictures/organisms/P_troglodytes.png" width="100"></a></td>
+
+		  <td id="hsa_on" width="105"><a href="javascript: void(0);" onclick="hideRow('hsa_on'); showRow('hsa_off'); showRow('title'); showRow('hsa_Nagaraj'); showRow('hsa_Beck'); showRow('hsa_Geiger_2012_A549'); showRow('hsa_Geiger_2012_GAMG'); showRow('hsa_Geiger_2012_HEK293'); showRow('hsa_Geiger_2012_HeLa'); showRow('hsa_Geiger_2012_HepG2'); showRow('hsa_Geiger_2012_Jurkat'); showRow('hsa_Geiger_2012_K562');  showRow('hsa_Geiger_2012_LnCap'); showRow('hsa_Geiger_2012_MCF7'); showRow('hsa_Geiger_2012_RKO'); showRow('hsa_Geiger_2012_U2OS'); showRow('hsa_Khan_Human_Protein'); showRow('hsa_legend');"><img src="./pictures/organisms/M_lisa.png" width="100"></a>
+		  </td>
+		  <td id="hsa_off" style="display: none" width="105"><a href="javascript: void(0);" onclick="showRow('hsa_on'); hideRow('hsa_off'); hideRow('hsa_Nagaraj'); hideRow('hsa_Beck'); hideRow('hsa_Geiger_2012_A549'); hideRow('hsa_Geiger_2012_GAMG'); hideRow('hsa_Geiger_2012_HEK293'); hideRow('hsa_Geiger_2012_HeLa'); hideRow('hsa_Geiger_2012_HepG2'); hideRow('hsa_Geiger_2012_Jurkat'); hideRow('hsa_Geiger_2012_K562');  hideRow('hsa_Geiger_2012_LnCap'); hideRow('hsa_Geiger_2012_MCF7'); hideRow('hsa_Geiger_2012_RKO'); hideRow('hsa_Geiger_2012_U2OS');  hideRow('hsa_Khan_Human_Protein'); hideRow('hsa_legend');"><img src="./pictures/organisms/M_lisa.png" width="100"></a>
+		  </td>
+		  <td width="20"></td>
+		</tr>
+                <tr height="10"></tr>
+	    </table>
+      </td>
+</table>
+<br>
+
+<table>
+<tr>
+     <td width="10"></td>
+     <td id = "title" style="display:none; background-color:#faf2ca">
+
+     <table>
+	<tbody>
+
+  <tr id="mpn_kuehner" style="display:none;"> <td style="width:10"></td>
+  <td style="width:230">
+    <a href="javascript: void(0);" onclick="showRow('mpn_on'); hideRow('mpn_off'); hideRow('mpn_kuehner');">
+    <img src="./pictures/cross.jpg"></a>
+    <strong>Mycoplasma pneumoniae</strong>
+  </td>
+  <td style="width:185">Adherent culture</td>
+  <td style="width:110">
+   <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv1.html"><img src="./pictures/symbol_1.jpg" width="20"> </a>
+   <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv2.html"><img src="./pictures/symbol_2.jpg" width="20"></a>
+   <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv3.html"><img src="./pictures/symbol_3.jpg" width="20"></a>
+   <a href="data_sets/mpn_Kuehner/mpn_Kuehner_cost_lv5.html"><img src="./pictures/symbol_p.jpg" width="20"></a></td>
+  <td style="width:50" ><a href="data_sets/mpn_Kuehner/mpn_Kuehner.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ><a href="http://pax-db.org/#%21species/272634" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19965468" target="_blank">K&uuml;hner et al. (2009)</a></td>
+</tr>
+
+<tr id="eco_arike" style="display: none;"> <td style="width:10"></td>
+  <td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('eco_on'); hideRow('eco_off'); hideRow('eco_lu'); hideRow('eco_arike'); hideRow('eco_valgepea11'); hideRow('eco_valgepea21'); hideRow('eco_valgepea31'); hideRow('eco_valgepea40'); hideRow('eco_valgepea48'); "> <img src="./pictures/cross.jpg"></a>
+  <strong>Escherichia coli</strong>
+</td>
+  <td style="width:185">Glucose-limited chemostat</td>
+  <td style="width:110">
+  <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/eco_Arike_2012/eco_Arike_2012_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/eco_Arike_2012/eco_Arike_2012.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22771841" target="_blank">Arike et al. (2012)</a></td>
+</tr>
+
+<tr id="eco_lu" style="display: none;height:24"> <td></td> <td></td>
+  <td>Minimal medium</td>
+  <td>
+   <a href="data_sets/eco_Lu/eco_Lu_cost_lv1.html"><img src="./pictures/symbol_1.jpg" width="20"></a>
+   <a href="data_sets/eco_Lu/eco_Lu_cost_lv2.html"><img src="./pictures/symbol_2.jpg" width="20"></a>
+   <a href="data_sets/eco_Lu/eco_Lu_cost_lv3.html"><img src="./pictures/symbol_3.jpg" width="20"></a>
+   <a href="data_sets/eco_Lu/eco_Lu_cost_lv5.html"><img src="./pictures/symbol_p.jpg" width="20"></a></td>
+  <td><a href="data_sets/eco_Lu/eco_Lu.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#%21species/511145" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/17187058" target="_blank">Lu et al. (2007)</a></td>
+</tr>
+
+<tr id="eco_valgepea11" style="display: none;"> <td></td>
+  <td></td>
+  <td>Continous culture &mu;=0.11/h</td>
+  <td><a href="data_sets/eco_Valgepea_2013_11/eco_Valgepea_2013_11_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_11/eco_Valgepea_2013_11_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_11/eco_Valgepea_2013_11_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_11/eco_Valgepea_2013_11_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/eco_Valgepea_2013_11/eco_Valgepea_2013_11.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/23824091" target="_blank">Valgepea et al. (2013)</a></td>
+</tr>
+
+<tr id="eco_valgepea21" style="display: none;"> <td></td>
+  <td></td>
+  <td>Continous culture &mu;=0.21/h</td>
+  <td><a href="data_sets/eco_Valgepea_2013_21/eco_Valgepea_2013_21_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_21/eco_Valgepea_2013_21_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_21/eco_Valgepea_2013_21_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_21/eco_Valgepea_2013_21_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/eco_Valgepea_2013_21/eco_Valgepea_2013_21.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/23824091" target="_blank">Valgepea et al. (2013)</a></td>
+</tr>
+
+<tr id="eco_valgepea31" style="display: none;"> <td></td>
+  <td></td>
+  <td>Continous culture &mu;=0.31/h</td>
+  <td><a href="data_sets/eco_Valgepea_2013_31/eco_Valgepea_2013_31_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_31/eco_Valgepea_2013_31_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_31/eco_Valgepea_2013_31_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_31/eco_Valgepea_2013_31_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/eco_Valgepea_2013_31/eco_Valgepea_2013_31.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/23824091" target="_blank">Valgepea et al. (2013)</a></td>
+</tr>
+
+<tr id="eco_valgepea40" style="display: none;"> <td></td>
+  <td></td>
+  <td>Continous culture &mu;=0.40/h</td>
+  <td><a href="data_sets/eco_Valgepea_2013_40/eco_Valgepea_2013_40_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_40/eco_Valgepea_2013_40_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_40/eco_Valgepea_2013_40_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_40/eco_Valgepea_2013_40_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/eco_Valgepea_2013_40/eco_Valgepea_2013_40.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/23824091" target="_blank">Valgepea et al. (2013)</a></td>
+</tr>
+
+<tr id="eco_valgepea48" style="display: none;"> <td></td>
+  <td></td>
+  <td>Continous culture &mu;=0.48/h</td>
+  <td><a href="data_sets/eco_Valgepea_2013_48/eco_Valgepea_2013_48_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_48/eco_Valgepea_2013_48_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_48/eco_Valgepea_2013_48_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/eco_Valgepea_2013_48/eco_Valgepea_2013_48_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/eco_Valgepea_2013_48/eco_Valgepea_2013_48.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/23824091" target="_blank">Valgepea et al. (2013)</a></td>
+</tr>
+
+<tr id="syn_wegener" style="display: none;"> <td style="width:10"></td>
+  <td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('syn_on'); hideRow('syn_off'); hideRow('syn_wegener');"> <img src="./pictures/cross.jpg"></a>
+<strong>Synechocystis sp. 6803</strong></td>
+  <td style="width:185"></td>
+  <td style="width:110">
+<a href="data_sets/syn_Wegener/syn_Wegener_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/syn_Wegener/syn_Wegener_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/syn_Wegener/syn_Wegener_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/syn_Wegener/syn_Wegener_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/syn_Wegener/syn_Wegener.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20858728/" target="_blank">Wegener et al. (2010)</a></td>
+</tr>
+
+<tr id="sce_Nagaraj" style="display: none;height:24">  <td style="width:10"></td>
+  <td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('sce_on'); hideRow('sce_off'); hideRow('sce_deGodoy'); hideRow('sce_Nagaraj'); hideRow('sce_Lu_minimal'); hideRow('sce_Lu_rich'); hideRow('sce_Newman_minimal'); hideRow('sce_Newman_rich'); hideRow('sce_legend');"> <img src="./pictures/cross.jpg"></a>
+<strong>Saccharomyces cerevisiae</strong>
+ </td>
+ <td style="width:185">Rich medium</td>
+ <td style="width:110">
+<a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/sce_Nagaraj/sce_Nagaraj_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/sce_Nagaraj/sce_Nagaraj.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ><a href="http://pax-db.org/#!species/4932" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22021278" target="_blank">Nagaraj et al. (2012)</a></td>
+</tr>
+
+<tr id="sce_deGodoy" style="display: none;height:24"> <td></td> <td></td>
+  <td>Minimal medium</td>
+  <td><a href="data_sets/sce_deGodoy/sce_deGodoy_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/sce_deGodoy/sce_deGodoy_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/sce_deGodoy/sce_deGodoy_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/sce_deGodoy/sce_deGodoy_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/sce_deGodoy/sce_deGodoy.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#!species/4932" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/18820680" target="_blank">de Godoy et al. (2008)</a></td>
+</tr>
+
+
+<tr id="sce_Lu_minimal" style="display: none;height:24"> <td></td> <td></td>
+<td>Minimal medium</td>
+  <td><a href="data_sets/sce_Lu_minimal/sce_Lu_minimal_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+    <a href="data_sets/sce_Lu_minimal/sce_Lu_minimal_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+    <a href="data_sets/sce_Lu_minimal/sce_Lu_minimal_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+    <a href="data_sets/sce_Lu_minimal/sce_Lu_minimal_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/sce_Lu_minimal/sce_Lu_minimal.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#!species/4932" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/17187058" target="_blank">Lu et al. (2007)</a></td>
+</tr>
+
+<tr id="sce_Lu_rich" style="display: none;height:24"> <td></td> <td></td>
+  <td>Rich medium</td>
+  <td><a href="data_sets/sce_Lu_rich/sce_Lu_rich_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/sce_Lu_rich/sce_Lu_rich_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/sce_Lu_rich/sce_Lu_rich_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/sce_Lu_rich/sce_Lu_rich_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/sce_Lu_rich/sce_Lu_rich.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#!species/4932" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/17187058" target="_blank">Lu et al. (2007)</a></td>
+</tr>
+
+<tr id="sce_Newman_minimal" style="display: none;height:24"> <td></td> <td></td>
+  <td>Minimal medium*</td>
+  <td><a href="data_sets/sce_Newman_minimal/sce_Newman_minimal_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/sce_Newman_minimal/sce_Newman_minimal_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/sce_Newman_minimal/sce_Newman_minimal_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/sce_Newman_minimal/sce_Newman_minimal_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/sce_Newman_minimal/sce_Newman_minimal.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#!species/4932" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/16699522" target="_blank">Newman et al. (2006)</a></td>
+</tr>
+
+<tr id="sce_Newman_rich" style="display: none;height:24"> <td></td> <td></td>
+  <td>Rich medium*</td>
+  <td><a href="data_sets/sce_Newman_rich/sce_Newman_rich_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/sce_Newman_rich/sce_Newman_rich_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/sce_Newman_rich/sce_Newman_rich_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/sce_Newman_rich/sce_Newman_rich_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/sce_Newman_rich/sce_Newman_rich.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#!species/4932" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/16699522" target="_blank">Newman et al. (2006)</a> </td>
+</tr>
+
+<tr id="spo_Marguerat_proliferating" style="display: none;height:24"> <td style="width:10"></td>
+  <td style="width:230">
+	    <a href="javascript: void(0);" onclick="showRow('spo_on'); hideRow('spo_off'); hideRow('spo_Marguerat_proliferating'); hideRow('spo_Marguerat_quiescent');"> <img src="./pictures/cross.jpg"></a>
+ <strong>Schizosaccharomyces pombe</strong>
+</td>
+  <td style="width:185">Proliferating cells</td>
+  <td style="width:110">
+<a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/spo_Marguerat_proliferating/spo_Marguerat_proliferating.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ><a href="http://pax-db.org/#!species/4896" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/23101633" target="_blank">Marguerat et al. (2012)</a></td>
+</tr>
+
+<tr id="spo_Marguerat_quiescent" style="display: none;height:24"> <td></td> <td></td>
+      <td>Quiescent cells</td>
+  <td><a href="data_sets/spo_Marguerat_quiescent/spo_Marguerat_quiescent_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/spo_Marguerat_quiescent/spo_Marguerat_quiescent_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/spo_Marguerat_quiescent/spo_Marguerat_quiescent_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/spo_Marguerat_quiescent/spo_Marguerat_quiescent_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/spo_Marguerat_quiescent/spo_Marguerat_quiescent.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td><a href="http://pax-db.org/#!species/4896" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/23101633" target="_blank">Marguerat et al. (2012)</a></td>
+</tr>
+
+<tr id="ath_Castellana" style="display: none;height:24">  <td style="width:10"></td>
+  <td style="width:230">	
+	    <a href="javascript: void(0);" onclick="showRow('ath_on'); hideRow('ath_off'); hideRow('ath_Castellana');"> <img src="./pictures/cross.jpg">
+</a><strong>Arabidopsis thaliana</strong>
+</td>
+  <td style="width:185">Tissue sample</td>
+  <td style="width:110">
+<a href="data_sets/ath_Castellana/ath_Castellana_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/ath_Castellana/ath_Castellana_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/ath_Castellana/ath_Castellana_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/ath_Castellana/ath_Castellana_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/ath_Castellana/ath_Castellana.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ><a href="http://pax-db.org/#!species/3702" target="_blank"><img src="./pictures/hist-icon.svg" width="20"></a></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19098097" target="_blank">Castellana et al. (2008)</a></td>
+</tr>
+
+<tr id="dme_brunner" style="display: none;"> <td style="width:10"></td>
+  <td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('dme_on'); hideRow('dme_off'); hideRow('dme_brunner');"> <img src="./pictures/cross.jpg"></a>
+<strong>Drosophila melanogaster</strong>
+</td>
+  <td style="width:185"></td>
+  <td style="width:110"><a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv1.html"><img width="20" src="pictures/symbol_1.jpg"></a>
+  <a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv2.html"><img width="20" src="pictures/symbol_2.jpg"></a>
+  <a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv3.html"><img width="20" src="pictures/symbol_3.jpg"></a>
+  <a href="data_sets/dme_Brunner_2007/dme_Brunner_2007_cost_lv5.html"><img width="20" src="pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/dme_Brunner_2007/dme_Brunner_2007.csv"><img src="pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/17450130/" target="_blank">Brunner et al. (2007)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_adrenal_gland" style="display: none;height:24"><td style="width:10"></td>
+ <td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('mmu_on'); hideRow('mmu_off'); hideRow('mmu_Geiger_adrenal_gland');  hideRow('mmu_Geiger_brain_cortex');  hideRow('mmu_Geiger_brain_medulla');  hideRow('mmu_Geiger_brown_fat');  hideRow('mmu_Geiger_cerebellum');  hideRow('mmu_Geiger_colon');  hideRow('mmu_Geiger_diaphragm');  hideRow('mmu_Geiger_duodenum');  hideRow('mmu_Geiger_embryonic_tissue');  hideRow('mmu_Geiger_eye');  hideRow('mmu_Geiger_heart');  hideRow('mmu_Geiger_ileum');  hideRow('mmu_Geiger_jejunum');  hideRow('mmu_Geiger_kidney_cortex');  hideRow('mmu_Geiger_kidney_medulla');  hideRow('mmu_Geiger_liver');  hideRow('mmu_Geiger_lung');  hideRow('mmu_Geiger_midbrain');  hideRow('mmu_Geiger_muscle');  hideRow('mmu_Geiger_olfactory_bulb');  hideRow('mmu_Geiger_ovary');  hideRow('mmu_Geiger_pancreas');  hideRow('mmu_Geiger_salivary_gland');  hideRow('mmu_Geiger_spleen');  hideRow('mmu_Geiger_stomach');  hideRow('mmu_Geiger_thymus');  hideRow('mmu_Geiger_uterus');  hideRow('mmu_Geiger_white_fat');"> <img src="./pictures/cross.jpg"></a>
+<strong>Mus musculus</strong>
+</td>
+ <td style="width:185">Adrenal gland</td>
+ <td style="width:110">
+  <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/mmu_Geiger_adrenal_gland/mmu_Geiger_adrenal_gland.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ></td>
+  <td style="width:205"><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_brain_cortex" style="display: none;height:24"><td></td>
+ <td></td>
+ <td>Brain cortex</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_brain_cortex/mmu_Geiger_brain_cortex_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brain_cortex/mmu_Geiger_brain_cortex_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brain_cortex/mmu_Geiger_brain_cortex_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brain_cortex/mmu_Geiger_brain_cortex_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_brain_cortex/mmu_Geiger_brain_cortex.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_brain_medulla" style="display: none;height:24"> <td></td> <td></td>
+ <td>Brain medulla</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_brain_medulla/mmu_Geiger_brain_medulla_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brain_medulla/mmu_Geiger_brain_medulla_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brain_medulla/mmu_Geiger_brain_medulla_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brain_medulla/mmu_Geiger_brain_medulla_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_brain_medulla/mmu_Geiger_brain_medulla.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_brown_fat" style="display: none;height:24"> <td></td> <td></td>
+ <td>Brown fat</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_brown_fat/mmu_Geiger_brown_fat_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brown_fat/mmu_Geiger_brown_fat_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brown_fat/mmu_Geiger_brown_fat_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_brown_fat/mmu_Geiger_brown_fat_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_brown_fat/mmu_Geiger_brown_fat.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_cerebellum" style="display: none;height:24"> <td></td> <td></td>
+ <td>Cerebellum</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_cerebellum/mmu_Geiger_cerebellum_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_cerebellum/mmu_Geiger_cerebellum_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_cerebellum/mmu_Geiger_cerebellum_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_cerebellum/mmu_Geiger_cerebellum_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_cerebellum/mmu_Geiger_cerebellum.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_colon" style="display: none;height:24"> <td></td> <td></td>
+ <td>Colon</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_colon/mmu_Geiger_colon_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_colon/mmu_Geiger_colon_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_colon/mmu_Geiger_colon_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_colon/mmu_Geiger_colon_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_colon/mmu_Geiger_colon.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_diaphragm" style="display: none;height:24"> <td></td> <td></td>
+ <td>Diaphragm</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_diaphragm/mmu_Geiger_diaphragm_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_diaphragm/mmu_Geiger_diaphragm_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_diaphragm/mmu_Geiger_diaphragm_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_diaphragm/mmu_Geiger_diaphragm_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_diaphragm/mmu_Geiger_diaphragm.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_duodenum" style="display: none;height:24"> <td></td> <td></td>
+ <td>Duodenum</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_duodenum/mmu_Geiger_duodenum_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_duodenum/mmu_Geiger_duodenum_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_duodenum/mmu_Geiger_duodenum_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_duodenum/mmu_Geiger_duodenum_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_duodenum/mmu_Geiger_duodenum.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_embryonic_tissue" style="display: none;height:24"> <td></td> <td></td>
+ <td>Embryonic tissue</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_embryonic_tissue/mmu_Geiger_embryonic_tissue_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_embryonic_tissue/mmu_Geiger_embryonic_tissue_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_embryonic_tissue/mmu_Geiger_embryonic_tissue_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_embryonic_tissue/mmu_Geiger_embryonic_tissue_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_embryonic_tissue/mmu_Geiger_embryonic_tissue.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_eye" style="display: none;height:24"> <td></td> <td></td>
+ <td>Eye</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_eye/mmu_Geiger_eye_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_eye/mmu_Geiger_eye_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_eye/mmu_Geiger_eye_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_eye/mmu_Geiger_eye_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_eye/mmu_Geiger_eye.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_heart" style="display: none;height:24"> <td></td> <td></td>
+ <td>Heart</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_heart/mmu_Geiger_heart_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_heart/mmu_Geiger_heart_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_heart/mmu_Geiger_heart_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_heart/mmu_Geiger_heart_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_heart/mmu_Geiger_heart.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_ileum" style="display: none;height:24"> <td></td> <td></td>
+ <td>Ileum</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_ileum/mmu_Geiger_ileum_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_ileum/mmu_Geiger_ileum_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_ileum/mmu_Geiger_ileum_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_ileum/mmu_Geiger_ileum_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_ileum/mmu_Geiger_ileum.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_jejunum" style="display: none;height:24"> <td></td> <td></td>
+ <td>Jejunum</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_jejunum/mmu_Geiger_jejunum_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_jejunum/mmu_Geiger_jejunum_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_jejunum/mmu_Geiger_jejunum_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_jejunum/mmu_Geiger_jejunum_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_jejunum/mmu_Geiger_jejunum.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_kidney_cortex" style="display: none;height:24"> <td></td> <td></td>
+ <td>Kidney</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_kidney_cortex/mmu_Geiger_kidney_cortex_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_kidney_cortex/mmu_Geiger_kidney_cortex_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_kidney_cortex/mmu_Geiger_kidney_cortex_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_kidney_cortex/mmu_Geiger_kidney_cortex_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_kidney_cortex/mmu_Geiger_kidney_cortex.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_kidney_medulla" style="display: none;height:24"> <td></td> <td></td>
+ <td>Medulla</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_kidney_medulla/mmu_Geiger_kidney_medulla_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_kidney_medulla/mmu_Geiger_kidney_medulla_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_kidney_medulla/mmu_Geiger_kidney_medulla_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_kidney_medulla/mmu_Geiger_kidney_medulla_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_kidney_medulla/mmu_Geiger_kidney_medulla.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_liver" style="display: none;height:24"> <td></td> <td></td>
+ <td>Liver</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_liver/mmu_Geiger_liver_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_liver/mmu_Geiger_liver_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_liver/mmu_Geiger_liver_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_liver/mmu_Geiger_liver_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_liver/mmu_Geiger_liver.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_lung" style="display: none;height:24"> <td></td> <td></td>
+ <td>Lung</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_lung/mmu_Geiger_lung_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_lung/mmu_Geiger_lung_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_lung/mmu_Geiger_lung_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_lung/mmu_Geiger_lung_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_lung/mmu_Geiger_lung.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_midbrain" style="display: none;height:24"> <td></td> <td></td>
+ <td>Midbrain</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_midbrain/mmu_Geiger_midbrain_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_midbrain/mmu_Geiger_midbrain_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_midbrain/mmu_Geiger_midbrain_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_midbrain/mmu_Geiger_midbrain_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_midbrain/mmu_Geiger_midbrain.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_muscle" style="display: none;height:24"> <td></td> <td></td>
+ <td>Muscle</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_muscle/mmu_Geiger_muscle_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_muscle/mmu_Geiger_muscle_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_muscle/mmu_Geiger_muscle_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_muscle/mmu_Geiger_muscle_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_muscle/mmu_Geiger_muscle.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_olfactory_bulb" style="display: none;height:24"> <td></td> <td></td>
+ <td>Olfactory bulb</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_olfactory_bulb/mmu_Geiger_olfactory_bulb_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_olfactory_bulb/mmu_Geiger_olfactory_bulb_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_olfactory_bulb/mmu_Geiger_olfactory_bulb_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_olfactory_bulb/mmu_Geiger_olfactory_bulb_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_olfactory_bulb/mmu_Geiger_olfactory_bulb.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_ovary" style="display: none;height:24"> <td></td> <td></td>
+ <td>Ovary</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_ovary/mmu_Geiger_ovary_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_ovary/mmu_Geiger_ovary_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_ovary/mmu_Geiger_ovary_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_ovary/mmu_Geiger_ovary_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_ovary/mmu_Geiger_ovary.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_pancreas" style="display: none;height:24"> <td></td> <td></td>
+ <td>Pancreas</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_pancreas/mmu_Geiger_pancreas_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_pancreas/mmu_Geiger_pancreas_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_pancreas/mmu_Geiger_pancreas_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_pancreas/mmu_Geiger_pancreas_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_pancreas/mmu_Geiger_pancreas.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_salivary_gland" style="display: none;height:24"> <td></td> <td></td>
+ <td>Salivary gland</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_salivary_gland/mmu_Geiger_salivary_gland_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_salivary_gland/mmu_Geiger_salivary_gland_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_salivary_gland/mmu_Geiger_salivary_gland_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_salivary_gland/mmu_Geiger_salivary_gland_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_salivary_gland/mmu_Geiger_salivary_gland.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_spleen" style="display: none;height:24"> <td></td> <td></td>
+ <td>Spleen</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_spleen/mmu_Geiger_spleen_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_spleen/mmu_Geiger_spleen_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_spleen/mmu_Geiger_spleen_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_spleen/mmu_Geiger_spleen_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_spleen/mmu_Geiger_spleen.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_stomach" style="display: none;height:24"> <td></td> <td></td>
+ <td>Stomach</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_stomach/mmu_Geiger_stomach_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_stomach/mmu_Geiger_stomach_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_stomach/mmu_Geiger_stomach_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_stomach/mmu_Geiger_stomach_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_stomach/mmu_Geiger_stomach.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_thymus" style="display: none;height:24"> <td></td> <td></td>
+ <td>Thymus</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_thymus/mmu_Geiger_thymus_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_thymus/mmu_Geiger_thymus_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_thymus/mmu_Geiger_thymus_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_thymus/mmu_Geiger_thymus_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_thymus/mmu_Geiger_thymus.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_uterus" style="display: none;height:24"> <td></td> <td></td>
+ <td>Uterus</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_uterus/mmu_Geiger_uterus_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_uterus/mmu_Geiger_uterus_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_uterus/mmu_Geiger_uterus_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_uterus/mmu_Geiger_uterus_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_uterus/mmu_Geiger_uterus.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="mmu_Geiger_white_fat" style="display: none;height:24"> <td></td> <td></td>
+ <td>White fat</td>
+ <td>
+  <a href="data_sets/mmu_Geiger_white_fat/mmu_Geiger_white_fat_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/mmu_Geiger_white_fat/mmu_Geiger_white_fat_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/mmu_Geiger_white_fat/mmu_Geiger_white_fat_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/mmu_Geiger_white_fat/mmu_Geiger_white_fat_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+ <td><a href="data_sets/mmu_Geiger_white_fat/mmu_Geiger_white_fat.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+<td></td><td><a href="http://www.mcponline.org/content/12/6/1709" target="_blank">Geiger et al. (2013)</a></td>
+</tr>
+
+<tr id="hsa_Khan_Chimpanzee_Protein" style="display: none;height:24">  <td style="width:10"></td>
+  <td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('ptr_on'); hideRow('ptr_off'); hideRow('hsa_Khan_Chimpanzee_Protein');"> <img src="./pictures/cross.jpg"></a>
+<strong>Pan troglodytes</strong>
+</td>
+  <td style="width:185">Lymphoblastoid cells</td>
+  <td style="width:110"><a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td style="width:50" ><a href="data_sets/hsa_Khan_Chimpanzee_Protein/hsa_Khan_Chimpanzee_Protein.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td style="width:30" ></td>
+  <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/24136357" target="_blank">Khan et al. (2013)</a></td>
+</tr>
+
+  <tr id="hsa_Nagaraj" style="display: none;height:24"> <td style="width:10"></td>
+<td style="width:230">
+<a href="javascript: void(0);" onclick="showRow('hsa_on'); hideRow('hsa_off'); hideRow('hsa_Nagaraj'); hideRow('hsa_Beck'); hideRow('hsa_Geiger_2012_A549'); hideRow('hsa_Geiger_2012_GAMG'); hideRow('hsa_Geiger_2012_HEK293'); hideRow('hsa_Geiger_2012_HeLa'); hideRow('hsa_Geiger_2012_HepG2'); hideRow('hsa_Geiger_2012_Jurkat'); hideRow('hsa_Geiger_2012_K562');  hideRow('hsa_Geiger_2012_LnCap'); hideRow('hsa_Geiger_2012_MCF7'); hideRow('hsa_Geiger_2012_RKO'); hideRow('hsa_Geiger_2012_U2OS'); hideRow('hsa_Khan_Human_Protein'); hideRow('hsa_legend');"> <img src="./pictures/cross.jpg"></a>
+<strong>Homo sapiens</strong></td>
+    <td style="width:185">HeLa cell line</td>
+    <td style="width:110">
+      <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+      <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+      <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+      <a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+    <td style="width:50" ><a href="data_sets/hsa_Nagaraj_2011/hsa_Nagaraj_2011.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+    <td style="width:30" ></td>
+    <td style="width:205"><a href="http://www.ncbi.nlm.nih.gov/pubmed/22068331" target="_blank">Nagaraj et al. (2011)</a></td>
+  </tr>
+
+<tr id="hsa_Beck" style="display: none;height:24"> <td></td> <td></td>
+  <td>U2OS cell line</td>
+  <td>
+   <a href="data_sets/hsa_Beck/hsa_Beck_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+   <a href="data_sets/hsa_Beck/hsa_Beck_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+   <a href="data_sets/hsa_Beck/hsa_Beck_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+   <a href="data_sets/hsa_Beck/hsa_Beck_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Beck/hsa_Beck.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261713/" target="_blank">Beck et al. (2011)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_A549" style="display: none;height:24"> <td></td> <td></td>
+<td>A549 cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_A549/hsa_Geiger_2012_A549_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_A549/hsa_Geiger_2012_A549_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_A549/hsa_Geiger_2012_A549_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_A549/hsa_Geiger_2012_A549_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_A549/hsa_Geiger_2012_A549.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_GAMG" style="display: none;height:24"> <td></td> <td></td>
+<td>GAMG cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_GAMG/hsa_Geiger_2012_GAMG_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_GAMG/hsa_Geiger_2012_GAMG_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_GAMG/hsa_Geiger_2012_GAMG_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_GAMG/hsa_Geiger_2012_GAMG_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_GAMG/hsa_Geiger_2012_GAMG.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_HEK293" style="display: none;height:24"> <td></td> <td></td>
+<td>HEK293 cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_HEK293/hsa_Geiger_2012_HEK293_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HEK293/hsa_Geiger_2012_HEK293_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HEK293/hsa_Geiger_2012_HEK293_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HEK293/hsa_Geiger_2012_HEK293_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_HEK293/hsa_Geiger_2012_HEK293.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_HeLa" style="display: none;height:24"> <td></td> <td></td>
+<td>HeLa cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_HeLa/hsa_Geiger_2012_HeLa_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HeLa/hsa_Geiger_2012_HeLa_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HeLa/hsa_Geiger_2012_HeLa_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HeLa/hsa_Geiger_2012_HeLa_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_HeLa/hsa_Geiger_2012_HeLa.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_HepG2" style="display: none;height:24"> <td></td> <td></td>
+<td>HepG2 cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_HepG2/hsa_Geiger_2012_HepG2_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HepG2/hsa_Geiger_2012_HepG2_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HepG2/hsa_Geiger_2012_HepG2_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_HepG2/hsa_Geiger_2012_HepG2_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_HepG2/hsa_Geiger_2012_HepG2.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_Jurkat" style="display: none;height:24"> <td></td> <td></td>
+  <td>Jurkat cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_Jurkat/hsa_Geiger_2012_Jurkat_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_Jurkat/hsa_Geiger_2012_Jurkat_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_Jurkat/hsa_Geiger_2012_Jurkat_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_Jurkat/hsa_Geiger_2012_Jurkat_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_Jurkat/hsa_Geiger_2012_Jurkat.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_K562" style="display: none;height:24"> <td></td> <td></td>
+  <td>K562 cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_K562/hsa_Geiger_2012_K562_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_K562/hsa_Geiger_2012_K562_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_K562/hsa_Geiger_2012_K562_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_K562/hsa_Geiger_2012_K562_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_K562/hsa_Geiger_2012_K562.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_LnCap" style="display: none;height:24"> <td></td> <td></td>
+  <td>LnCap cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_LnCap/hsa_Geiger_2012_LnCap_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_LnCap/hsa_Geiger_2012_LnCap_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_LnCap/hsa_Geiger_2012_LnCap_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_LnCap/hsa_Geiger_2012_LnCap_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_LnCap/hsa_Geiger_2012_LnCap.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_MCF7" style="display: none;height:24"> <td></td> <td></td>
+  <td>MCF7 cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_MCF7" style="display: none;height:24"> <td></td> <td></td>
+  <td>MCF7 cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_MCF7/hsa_Geiger_2012_MCF7.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_RKO" style="display: none;height:24"> <td></td> <td></td>
+  <td>RKO cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_RKO/hsa_Geiger_2012_RKO_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_RKO/hsa_Geiger_2012_RKO_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_RKO/hsa_Geiger_2012_RKO_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_RKO/hsa_Geiger_2012_RKO_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_RKO/hsa_Geiger_2012_RKO.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+
+<tr id="hsa_Geiger_2012_U2OS" style="display: none;height:24"> <td></td> <td></td>
+  <td>U2OS cell line</td>
+  <td><a href="data_sets/hsa_Geiger_2012_U2OS/hsa_Geiger_2012_U2OS_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_U2OS/hsa_Geiger_2012_U2OS_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_U2OS/hsa_Geiger_2012_U2OS_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Geiger_2012_U2OS/hsa_Geiger_2012_U2OS_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Geiger_2012_U2OS/hsa_Geiger_2012_U2OS.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/22278370" target="_blank">Geiger et al. (2012)</a></td>
+</tr>
+      
+<tr id="hsa_Khan_Human_Protein" style="display: none;height:24"> <td></td>
+  <td></td>
+  <td>Lymphoblastoid cells</td>
+  <td><a href="data_sets/hsa_Khan_Human_Protein/hsa_Khan_Human_Protein_cost_lv1.html"><img width="20" src="./pictures/symbol_1.jpg"></a>
+  <a href="data_sets/hsa_Khan_Human_Protein/hsa_Khan_Human_Protein_cost_lv2.html"><img width="20" src="./pictures/symbol_2.jpg"></a>
+  <a href="data_sets/hsa_Khan_Human_Protein/hsa_Khan_Human_Protein_cost_lv3.html"><img width="20" src="./pictures/symbol_3.jpg"></a>
+  <a href="data_sets/hsa_Khan_Human_Protein/hsa_Khan_Human_Protein_cost_lv5.html"><img width="20" src="./pictures/symbol_p.jpg"></a></td>
+  <td><a href="data_sets/hsa_Khan_Human_Protein/hsa_Khan_Human_Protein.csv"><img src="./pictures/symbol_data.jpg" width="36"></a></td>
+  <td></td>
+  <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/24136357" target="_blank">Khan et al. (2013)</a></td>
+</tr>
+
+<tr id="sce_legend" style="display: none;height:24"> <td></td> <td></td> 
+ <td>* Fluorescent labeling</td></tr>
+
+  </tbody></table>
+ </td>
+ </tr>
+ </tbody>
+</table>
+
+<br> 
+
+<table>
+  <tr><td width="10"></td><td><p style="font-size:11pt; width:800;;">Contact: 
+    <a href="http://www.weizmann.ac.il/plants/Milo/" target="_blank">Ron Milo</a> &nbsp; // &nbsp;
+    <a href="http://jaguar.biologie.hu-berlin.de/~wolfram/" target="_blank">Wolfram Liebermeister</a> &nbsp; // &nbsp;
+    <a href="http://www.mikrobiologie.uni-greifswald.de/index.php?id=21">J&ouml;rg Bernhardt</a>
+  </p></td></tr>
+</table>
+
+    <map name="proteins">
+       <area shape="poly" coords="54,0,180,0,178,16,63,16," alt="Transcription" title="Transcription
+Estimated copy number: ~ 1.0 * 10^5
+Fraction by copy number:3.4 percent
+Fraction by mass:3.1 percent">
+       <area shape="poly" coords="204,52,196,111,28,110,63,16,178,16," alt="Translation" title="Translation
+Estimated copy number: ~ 1.1 * 10^6
+Fraction by copy number:37 percent
+Fraction by mass:23 percent">
+       <area shape="poly" coords="54,0,63,16,28,110,0,109,0,0," alt="Folding, Sorting and Degradation" title="Folding, Sorting and Degradation
+Estimated copy number: ~ 2.5 * 10^5
+Fraction by copy number:8.3 percent
+Fraction by mass:8.3 percent">
+       <area shape="poly" coords="180,0,211,0,204,52,178,16," alt="DNA Maintenance" title="DNA Maintenance
+Estimated copy number: ~ 60000
+Fraction by copy number:2.0 percent
+Fraction by mass:1.5 percent">
+       <area shape="poly" coords="255,166,255,208,246,207,245,168," alt="Signal Transduction" title="Signal Transduction
+Estimated copy number: ~ 22000
+Fraction by copy number:0.73 percent
+Fraction by mass:0.55 percent">
+       <area shape="poly" coords="255,232,255,236,252,235," alt="Vesicular Transport" title="Vesicular Transport
+Estimated copy number: ~ 490
+Fraction by copy number:0.016 percent
+Fraction by mass:0.010 percent">
+       <area shape="poly" coords="255,236,255,255,244,255,242,238,252,235," alt="Cytoskeleton" title="Cytoskeleton
+Estimated copy number: ~ 9400
+Fraction by copy number:0.31 percent
+Fraction by mass:0.33 percent">
+       <area shape="poly" coords="255,232,252,235,242,238,238,237,246,207,255,208," alt="Cell Motility" title="Cell Motility
+Estimated copy number: ~ 17000
+Fraction by copy number:0.55 percent
+Fraction by mass:0.53 percent">
+       <area shape="poly" coords="244,255,233,255,238,237,242,238," alt="Cell Growth and Death" title="Cell Growth and Death
+Estimated copy number: ~ 4900
+Fraction by copy number:0.16 percent
+Fraction by mass:0.20 percent">
+       <area shape="poly" coords="245,177,246,207,233,255,140,255," alt="Membrane Transport" title="Membrane Transport
+Estimated copy number: ~ 1.7 * 10^5
+Fraction by copy number:5.5 percent
+Fraction by mass:6.1 percent">
+       <area shape="poly" coords="143,111,196,111,245,168,245,177,140,255,139,255,110,211," alt="Central Carbon Metabolism" title="Central Carbon Metabolism
+Estimated copy number: ~ 3.6 * 10^5
+Fraction by copy number:12 percent
+Fraction by mass:19 percent">
+       <area shape="poly" coords="139,255,81,255,78,229,110,211," alt="Energy Metabolism" title="Energy Metabolism
+Estimated copy number: ~ 60000
+Fraction by copy number:2.0 percent
+Fraction by mass:2.5 percent">
+       <area shape="poly" coords="143,111,110,211,78,229,0,222,0,109," alt="Biosynthesis" title="Biosynthesis
+Estimated copy number: ~ 5.2 * 10^5
+Fraction by copy number:17 percent
+Fraction by mass:23 percent">
+       <area shape="poly" coords="0,222,78,229,81,255,0,255," alt="Other Enzymes" title="Other Enzymes
+Estimated copy number: ~ 1.2 * 10^5
+Fraction by copy number:3.9 percent
+Fraction by mass:3.6 percent">
+       <area shape="poly" coords="211,0,255,0,255,166,245,168,196,111," alt="Not Mapped" title="Not Mapped
+Estimated copy number: ~ 2.2 * 10^5
+Fraction by copy number:7.5 percent
+Fraction by mass:9.2 percent">
+     </map>
+
+  </body>
+</html>

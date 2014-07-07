@@ -1,0 +1,11 @@
+cd /home/wolfram/projekte/protein_abundance/html/proteomaps_online/pictures/go
+convert -geometry 320x320 sce_Lu_rich_cost_lv1.png sce_Lu_rich_cost_lv1_small.png
+convert -geometry 320x320 sce_Lu_rich_cost_lv2.png sce_Lu_rich_cost_lv2_small.png
+convert -geometry 320x320 sce_Lu_rich_cost_lv3.png sce_Lu_rich_cost_lv3_small.png
+convert -geometry 320x320 sce_Lu_rich_cost_lv4.png sce_Lu_rich_cost_lv4_small.png
+
+cd /home/wolfram/projekte/protein_abundance/html/proteomaps_online/pictures/diagrams
+convert -geometry x320 pie_chart_eco_Lu.png pie_chart_eco_Lu_small.png 
+convert -geometry x320 bar_chart_eco_Lu.png bar_chart_eco_Lu_small.png 
+convert -geometry x320 pie_chart_sce_Nagaraj.png pie_chart_sce_Nagaraj_small.png 
+convert -geometry x320 bar_chart_sce_Nagaraj.png bar_chart_sce_Nagaraj_small.png 

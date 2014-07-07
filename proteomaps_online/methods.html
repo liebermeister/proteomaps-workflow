@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Proteomaps methods description</title>
+    <link rel="stylesheet" type="text/css" href="proteomaps.css">
+
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-4526009-11', 'proteomaps.net');
+   ga('send', 'pageview');
+  </script>
+
+  </head>
+
+  <body>
+
+
+    <h1>How are proteomaps generated?</h1>
+
+
+    <table>
+<tr>
+	  <td>
+	    <div> <a href="index.html">
+		<img class="wrap"  src="pictures/eco_Valgepea_2013_48_cost_small.png" width="256"></a> 
+	    </div>  
+	  <td width="10"/>    
+</tr>
+</table>
+
+    <ol type="circle">
+      <li> Back to <a href="index.html">Proteomaps home</a><br></li>
+      <li> See <a href="./diagrams/index.html">comparison to pie or bar plots</a></li>
+      <li> See <a href="./go/index.html">proteomap based on Gene Ontology</a></li>
+      <li> Read  <a href="./help.html">further help</a></li>
+    </ol>
+
+<h3>Proteome tree maps visualization</h3>
+
+<p style="width:700">To generate proteomaps, we modified the algorithm
+for the construction of Voronoi treemaps described in bernhardt et
+al. (2009) to present polygons with variable sizes. The algorithm was
+implemented in the <a href="http://www.decodon.com/paver.html">Paver
+software</a> (DECODON (Greifswald, Germany)). Example maps can be
+browsed interactively; individual protein tiles are linked to protein
+information on the <a href="http://www.genome.jp/kegg/">KEGG
+website</a>.</p>
+
+<p style="width:700">In the proteomaps shown here, we visualize three
+levels of functional categories and a level of individual proteins. To
+create a proteomap, a total area is first divided into polygons
+representing the top-level categories. These polygons are constructed
+from a Voronoi diagram, where the polygons' areas were chosen to
+represent copy numbers weighted by protein chain lengths (the
+investment in terms of amino acids, also termed the mass
+fraction). The top-level areas are then subdivided into subcategories
+and the procedure is repeated down to the level of individual
+proteins. When several orthologous proteins exist in the same
+proteome, e.g. isozymes such as the two enolases Eno1 and Eno2 in
+yeast glycolysis, they share one subdivided polygon.</p>
+
+<p style="width:700">Proteins that do not have a functional category
+annotation are lumped in a subclass labeled "Not mapped". Mass
+fractions smaller than 1/1,500,000 of the whole proteome (corresponding
+to 4 pixels within an area of 2500 x 2500 pixels in size) are
+excluded. The arrangement of categories and proteins over the area is
+kept as consistent as possible between proteomaps. To ensure a similar
+layout across datasets, a template proteomap can be used to initialize
+proteomaps for other data sets at the highest hierarchy
+level. However, due to differences in protein abundances, congruent
+arrangements cannot always be fully achieved. Colors are used for
+association within functional categories and have no quantitative
+meaning. Specifically, small variations in color are used to
+differentiate among detailed functional categories within the same
+broad functional category, e.g. shades of blue within "Genetic
+Information Processing".</p>
+
+<h3>Protein abundance data sources and gene mapping</h3>
+
+<p style="width:700">Protein data were taken from the original
+publications and from the proteome database <a
+href="pax-db.org">PaxDb</a>. Criteria for choosing data sets to be
+included were: a high proteome coverage; quantitative values that are
+proportional to abundance, ideally reported as absolute numbers; and
+refraining from biases such as mixed cell types or a known strong
+misrepresentation of cellular compartments or functions. All proteomes
+had been quantified by mass spectrometry, except for the data from
+Newman et al. (2006) which were quantified by fluorescence of
+GFP-tagged proteins. To assign proteins to functional categories,
+systematic gene names (ORF names) were annotated with KEGG Orthology
+identifiers. Protein chain lengths were obtained from
+Uniprot. Proteins of unknown length, due to mapping issues, were
+assigned a standard length of 350 amino acids.</p>
+
+<h3>Protein functional hierarchy and category assignment</h3>
+
+<p style="width:700">KEGG pathway maps were chosen as a basis for our
+functional gene hierarchy because of their clearly layered structure,
+which shows protein functions in different categories on a comparable
+degree of resolution. Proteins are assigned to functions via Kegg
+Orthology (KO) IDs, which makes them comparable between organisms.</p>
+
+<p style="width:700">The same protein can be assigned to multiple
+functional categories. Voronoi Treemaps, in contrast, require a
+tree-like hierarchy. To assign each KO ID to a single bottom-level
+category, we had to define a default priority order between the
+functional categories, in which, for instance, assignments to
+"Transcription" would override assignments to "Metabolism". The
+default choice can be overridden by manual assignments. Moreover, we
+found that for consistency with the literature some functional
+categories had to be added, renamed, or restructured. The customized
+version of the KEGG hierarchy can be downloaded below.</p>
+
+<p style="width:700">Since each KO ID appears, on average, in about
+two pathway categories, our priority order can create a bias towards
+certain categories. To quantify this bias, we randomized the priority
+order and computed median values and uncertainty ranges for category
+areas arising from different possible protein annotations. We find
+that random reassignments had only little effect on the overall
+category areas and that none of our qualitative observations change
+substantially.</p>
+
+<p style="width:700">The KEGG hierarchy proved useful for the present
+purpose, but proteomaps can also be produced with other classification
+trees such as TIGRFams, the original KEGG pathway maps, the MIPS
+Functional Catalogue, <a href="http://www.theseed.org">TheSEED</a>, Riley
+scheme derived classification systems, and many more. Ontologies such
+as the widely used and flexible <href="geneontology.org">Gene
+Ontology</a> (GO) are typically directed acyclic graphs rather than a
+tree. In GO, many non-terminal nodes are connected to several
+higher-level terms, and terminal terms are located at different
+distances from the root; for some genes, GO contains more than 10
+hierarchy levels. We found that proteomaps with a compact 3-level
+hierarchy are useful for visual comprehension. Thus, adapting GO
+requires adaptation beyond the scope of this study.</p>
+</br>
+
+<table style="background-color:#faf2ca">
+<tr><td style="width:750">
+<h3>Downloads</h3>
+
+<p style="width:550">
+<ol>
+
+<li><strong>Protein functional hierarchy</strong><br>
+
+The functional hierarchy is based on KEGG's functional hierarchy, but
+has been manually adapted. In the downloadable file, the same KEGG
+Orthology ID may still appear in several functional categories.
+<br><a href="data/KO_hierarchy.tms">[Download hierarchy tree]</a>
+<br><a href="data/KO_organism_mapping.zip">[Download ID mapping files]</a>
+<p/>
+</li>
+
+ <li><strong>Abundance values for protein categories</strong><br>
+
+Abundance values for single proteins can be downloaded from the proteomaps home page. 
+Here you can download abundance values for protein categories for a selection of data sets. 
+In the files, protein abundances (possibly , weighted by protein chain lengths) are
+normalised by their total value. Sub-categories (first column) are 
+marked by "-" (2nd level categories) and "--" (3rd level categories).
+<br><a href="data/category_abundance.csv">[Download protein abundances]</a>
+<br><a href="data/category_cost.csv">[Download protein abundances (length-weighted)]</a>
+<p/>
+</li>
+
+<li><strong>Protein abundance ratios between functional categories</strong><br>
+Protein abundances are weighted by protein chain lengths.
+<br><a href="data/category_cost_ratios.csv">[Download abundance ratios ]</a>
+<br><a href="data/category_cost_ratios.csv">[Download abundance ratios (length-weighted)]</a>
+<p/>
+</li>
+
+<li><strong>Protein abundance ratios (ranges obtained from permutation test)</strong><br> 
+
+Instead of choosing, for each protein, the primary functional
+annotation, one of the possible annotations for this protein was
+chosen randomly. From 1000 such subsampled KEGG Orthology trees, we
+can estimate how different choices of the primary annotations would
+affect the weighted abundances of functional categories. The files
+contain, for each abundance value, the 10% quantile, the median, and
+the 90% quantile for a selection of data sets.
+
+<br>  <a href="data/category_abundance_ratios_quantiles.csv"> [Download abundance quantiles]</a>
+<br>  <a href="data/category_cost_ratios_quantiles.csv"> [Download abundance quantiles (length-weighted)]</a>
+</p>
+
+</li>
+</ol>
+
+</td></tr>
+</table>
+
+<h3>Citing proteomaps</h3>
+
+<p>To cite proteomaps in scientific publications, please refer to:</p>
+
+<p>
+<a href="http://www.pnas.org/cgi/doi/10.1073/pnas.1314810111" target ="_blank">
+A visual account of protein investment in cellular functions</a><br>
+Liebermeister W., Noor  E.,  Flamholz A., Davidi D., Bernhardt J., and
+ Milo R. (2014), PNAS Early edition
+</p>
+
+<h3>References</h3>
+
+<p style="width:700">Kanehisa, M., Goto, S., Kawashima, S., Okuno, Y.,
+and Hattori, M. (2004). The KEGG resource for deciphering the genome.
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/14681412">
+Nucleic Acids Research 32, D277-280</a>.</p>
+
+<p style="width:700">Otto, A., Bernhardt, J., Meyer, H., Schaffer, M.,
+Herbst, F.-A., Siebourg, J., M&auml;der, U., Lalk, M., Hecker, M., and
+Becher, D. (2010). Systems-wide temporal proteomic profiling in
+glucose-starved Bacillus subtilis.
+<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105300/">
+Nature Communications 1, 137</a>.</p>
+
+<p style="width:700">
+Bernhardt J, Funke S, Hecker M, Siebourg J (2009) in Sixth International Symposium on
+Voronoi Diagrams, pp 233-241.</p>
+
+  </body>
+</html>
+

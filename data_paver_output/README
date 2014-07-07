@@ -1,0 +1,16 @@
+Requirements for paver output files:
+
+Pictures in png format (all four levels, 2512x2512)
+(jpg is also possible, but must be indicated when makin gthe html files)
+
+Naming conventions: (FILENAME as in the paver input filename)
+
+[DATASET]_abundance_lv1.png
+[DATASET]_abundance_lv2.png
+[DATASET]_abundance_lv3.png
+[DATASET]_abundance_lv5.png
+
+[DATASET]_cost_lv1.png
+[DATASET]_cost_lv2.png
+[DATASET]_cost_lv3.png
+[DATASET]_cost_lv5.png

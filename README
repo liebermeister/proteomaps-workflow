@@ -1,0 +1,32 @@
+----------------------------------------
+Proteomaps workflow and data directories
+----------------------------------------
+
+CODE
+  python - python code
+  matlab - matlab code
+
+DATA RESOURCES (functional hierarchy)
+  genomic_data
+
+PROTEOME DATA (different stages of processing)
+  data_sets         - directories for data 
+  data_paver_input  - input data for paver
+  data_paver_output - output data from paver (images and html)
+  html              - processed html (to be copied into website directory)
+
+
+To create a new set ("bundle") of data sets to be analysed together:
+
+ o create a new directory for the data bundle 
+ o create the file filenames.csv with all necessary information
+ o create a new directory for the paver input files (../data_paver_input/data_for_paver_[data bundle])
+ o create a shell script CreateProteomaps.sh calling CreateProteomaps.py
+ o run the shell script
+
+Afterwards:
+
+ o use the files from (in ../data_paver_input/data_for_paver_[data bundle]) and run paver
+ o save the output files in (in ../data_paver_output/proteomaps_[data bundle])
+ o use Make_proteomaps_html.py to create html files
+ o Possibly, use copy_files_to_website.py to put the maps on the website

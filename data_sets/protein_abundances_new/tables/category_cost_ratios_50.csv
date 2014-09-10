@@ -1,0 +1,1937 @@
+Numerator	Denominator	eco WeiLi old	eco WeiLi complete	eco WeiLi minimal	eco WeiLi without methionine
+TOTAL	TOTAL	1	1	1	1
+MAPPED	TOTAL	0.8637	0.7567	0.7009	0.7858
+Genetic Information Processing	TOTAL	0.4148	0.3966	0.2117	0.3244
+-Transcription	TOTAL	0.009232	0.01369	0.01568	0.01313
+-Translation	TOTAL	0.2889	0.3008	0.1353	0.2295
+-Folding, Sorting and Degradation	TOTAL	0.06566	0.05396	0.04152	0.05717
+-DNA Maintenance	TOTAL	0.02526	0.02037	0.01549	0.01545
+-RNA Family	TOTAL	0	0	0	0
+Environmental Information Processing	TOTAL	0.002643	0.003163	0.004156	0.003036
+-Signal Transduction	TOTAL	0.002633	0.003155	0.004143	0.003032
+-Signaling Molecules and Interaction	TOTAL	9.844e-06	8.615e-06	1.263e-05	4.422e-06
+Cellular Processes	TOTAL	0.004082	0.005881	0.008713	0.004605
+-Crystallins	TOTAL	0	0	0	0
+-Stress Response	TOTAL	1.664e-05	6.015e-05	0.004184	8.217e-05
+-Vesicular Transport	TOTAL	0	0	0	0
+-Cytoskeleton	TOTAL	0.002512	0.002149	0.002029	0.002006
+-Cell Motility	TOTAL	0.0002801	0.0002508	0.0003463	0.0001071
+-Cell Growth and Death	TOTAL	0.000984	0.002975	0.001811	0.002408
+-Cell Communication	TOTAL	0	0	0	0
+Metabolism	TOTAL	0.4345	0.343	0.4649	0.4419
+-Membrane Transport	TOTAL	0.08798	0.063	0.08668	0.0792
+-Central Carbon Metabolism	TOTAL	0.08108	0.0563	0.07369	0.0536
+-Energy Metabolism	TOTAL	0.02469	0.01895	0.01908	0.01643
+-Biosynthesis	TOTAL	0.1102	0.1015	0.1647	0.1846
+-Other Enzymes	TOTAL	0.1133	0.09721	0.1173	0.1025
+Organismal Systems	TOTAL	7.161e-05	4.555e-05	0.000132	3.172e-05
+-Immune System	TOTAL	0	0	0	0
+-Endocrine System	TOTAL	7.161e-05	4.555e-05	4.073e-05	3.172e-05
+-Circulatory System	TOTAL	0	0	0	0
+-Digestive System	TOTAL	0	0	0	0
+-Excretory System	TOTAL	0	0	0	0
+-Nervous System	TOTAL	0	0	0	0
+-Sensory System	TOTAL	0	0	0	0
+-Development	TOTAL	0	0	0	0
+-Environmental Adaptation	TOTAL	0	0	0	0
+Human Diseases	TOTAL	0.009998	0.009126	0.01002	0.01136
+-Cancers	TOTAL	0	0	0	0
+-Immune System Diseases	TOTAL	0	0	0	0
+-Neurodegenerative Diseases	TOTAL	9.814e-07	1.166e-06	5.255e-05	7.627e-07
+-Cardiovascular Diseases	TOTAL	0	0	0	0
+-Metabolic Diseases	TOTAL	0	0	0	0
+-Infectious Diseases	TOTAL	0.00127	0.001054	0.00356	0.0009381
+Not Mapped	TOTAL	0.1363	0.2433	0.2991	0.2142
+-Not Mapped	TOTAL	0.1363	0.2433	0.2991	0.2142
+TOTAL	MAPPED	1.158	1.322	1.427	1.273
+MAPPED	MAPPED	1	1	1	1
+Genetic Information Processing	MAPPED	0.4802	0.5242	0.302	0.4128
+-Transcription	MAPPED	0.01069	0.01809	0.02236	0.01671
+-Translation	MAPPED	0.3345	0.3976	0.193	0.2921
+-Folding, Sorting and Degradation	MAPPED	0.07602	0.07131	0.05924	0.07275
+-DNA Maintenance	MAPPED	0.02925	0.02693	0.0221	0.01966
+-RNA Family	MAPPED	0	0	0	0
+Environmental Information Processing	MAPPED	0.00306	0.00418	0.00593	0.003864
+-Signal Transduction	MAPPED	0.003049	0.004169	0.005912	0.003859
+-Signaling Molecules and Interaction	MAPPED	1.14e-05	1.138e-05	1.802e-05	5.628e-06
+Cellular Processes	MAPPED	0.004726	0.007772	0.01243	0.005861
+-Crystallins	MAPPED	0	0	0	0
+-Stress Response	MAPPED	1.926e-05	7.949e-05	0.005969	0.0001046
+-Vesicular Transport	MAPPED	0	0	0	0
+-Cytoskeleton	MAPPED	0.002908	0.00284	0.002895	0.002552
+-Cell Motility	MAPPED	0.0003243	0.0003315	0.0004941	0.0001362
+-Cell Growth and Death	MAPPED	0.001139	0.003932	0.002583	0.003064
+-Cell Communication	MAPPED	0	0	0	0
+Metabolism	MAPPED	0.5031	0.4533	0.6633	0.5624
+-Membrane Transport	MAPPED	0.1019	0.08326	0.1237	0.1008
+-Central Carbon Metabolism	MAPPED	0.09388	0.07441	0.1051	0.06822
+-Energy Metabolism	MAPPED	0.02858	0.02505	0.02722	0.02091
+-Biosynthesis	MAPPED	0.1276	0.1341	0.235	0.235
+-Other Enzymes	MAPPED	0.1312	0.1285	0.1674	0.1304
+Organismal Systems	MAPPED	8.292e-05	6.02e-05	0.0001883	4.037e-05
+-Immune System	MAPPED	0	0	0	0
+-Endocrine System	MAPPED	8.292e-05	6.02e-05	5.811e-05	4.037e-05
+-Circulatory System	MAPPED	0	0	0	0
+-Digestive System	MAPPED	0	0	0	0
+-Excretory System	MAPPED	0	0	0	0
+-Nervous System	MAPPED	0	0	0	0
+-Sensory System	MAPPED	0	0	0	0
+-Development	MAPPED	0	0	0	0
+-Environmental Adaptation	MAPPED	0	0	0	0
+Human Diseases	MAPPED	0.01158	0.01206	0.0143	0.01446
+-Cancers	MAPPED	0	0	0	0
+-Immune System Diseases	MAPPED	0	0	0	0
+-Neurodegenerative Diseases	MAPPED	1.136e-06	1.541e-06	7.498e-05	9.707e-07
+-Cardiovascular Diseases	MAPPED	0	0	0	0
+-Metabolic Diseases	MAPPED	0	0	0	0
+-Infectious Diseases	MAPPED	0.00147	0.001393	0.005079	0.001194
+Not Mapped	MAPPED	0.1578	0.3216	0.4268	0.2726
+-Not Mapped	MAPPED	0.1578	0.3216	0.4268	0.2726
+TOTAL	Genetic Information Processing	2.406	2.52	4.721	3.078
+MAPPED	Genetic Information Processing	2.078	1.907	3.309	2.419
+Genetic Information Processing	Genetic Information Processing	1	1	1	1
+-Transcription	Genetic Information Processing	0.02494	0.03622	0.07269	0.04365
+-Translation	Genetic Information Processing	0.6986	0.7636	0.641	0.7059
+-Folding, Sorting and Degradation	Genetic Information Processing	0.162	0.1388	0.2002	0.1803
+-DNA Maintenance	Genetic Information Processing	0.06437	0.05194	0.07342	0.04756
+-RNA Family	Genetic Information Processing	0	0	0	0
+Environmental Information Processing	Genetic Information Processing	0.006359	0.007956	0.01965	0.009159
+-Signal Transduction	Genetic Information Processing	0.006335	0.007935	0.01959	0.009144
+-Signaling Molecules and Interaction	Genetic Information Processing	2.368e-05	2.171e-05	5.964e-05	1.363e-05
+Cellular Processes	Genetic Information Processing	0.00964	0.01479	0.04116	0.01421
+-Crystallins	Genetic Information Processing	0	0	0	0
+-Stress Response	Genetic Information Processing	4.003e-05	0.0001516	0.01975	0.0002529
+-Vesicular Transport	Genetic Information Processing	0	0	0	0
+-Cytoskeleton	Genetic Information Processing	0.006044	0.005416	0.009582	0.006174
+-Cell Motility	Genetic Information Processing	0.000724	0.0006571	0.001669	0.000326
+-Cell Growth and Death	Genetic Information Processing	0.002372	0.007457	0.008396	0.007352
+-Cell Communication	Genetic Information Processing	0	0	0	0
+Metabolism	Genetic Information Processing	1.048	0.8625	2.19	1.354
+-Membrane Transport	Genetic Information Processing	0.209	0.1592	0.4095	0.245
+-Central Carbon Metabolism	Genetic Information Processing	0.2024	0.1433	0.3513	0.1647
+-Energy Metabolism	Genetic Information Processing	0.06118	0.0474	0.08888	0.05067
+-Biosynthesis	Genetic Information Processing	0.2757	0.2649	0.7846	0.5666
+-Other Enzymes	Genetic Information Processing	0.2679	0.2439	0.5766	0.3235
+Organismal Systems	Genetic Information Processing	0.0001833	0.0001161	0.0006255	9.534e-05
+-Immune System	Genetic Information Processing	0	0	0	0
+-Endocrine System	Genetic Information Processing	0.0001723	0.0001139	0.0001907	9.533e-05
+-Circulatory System	Genetic Information Processing	0	0	0	0
+-Digestive System	Genetic Information Processing	0	0	0	0
+-Excretory System	Genetic Information Processing	0	0	0	0
+-Nervous System	Genetic Information Processing	0	0	0	0
+-Sensory System	Genetic Information Processing	0	0	0	0
+-Development	Genetic Information Processing	0	0	0	0
+-Environmental Adaptation	Genetic Information Processing	0	0	0	0
+Human Diseases	Genetic Information Processing	0.02548	0.02326	0.04723	0.03502
+-Cancers	Genetic Information Processing	0	0	0	0
+-Immune System Diseases	Genetic Information Processing	0	0	0	0
+-Neurodegenerative Diseases	Genetic Information Processing	2.61e-06	3.054e-06	0.0002582	2.456e-06
+-Cardiovascular Diseases	Genetic Information Processing	0	0	0	0
+-Metabolic Diseases	Genetic Information Processing	0	0	0	0
+-Infectious Diseases	Genetic Information Processing	0.003061	0.002659	0.01749	0.002895
+Not Mapped	Genetic Information Processing	0.328	0.6133	1.412	0.6595
+-Not Mapped	Genetic Information Processing	0.328	0.6133	1.412	0.6595
+TOTAL	-Transcription	82.36	68.69	63.73	69.81
+MAPPED	-Transcription	71.14	51.98	44.66	54.85
+Genetic Information Processing	-Transcription	32.18	26.95	13.3	22.78
+-Transcription	-Transcription	1	1	1	1
+-Translation	-Transcription	23.52	20.61	8.647	16.01
+-Folding, Sorting and Degradation	-Transcription	5.332	3.418	2.87	4.125
+-DNA Maintenance	-Transcription	1.698	1.224	1.018	1.004
+-RNA Family	-Transcription	0	0	0	0
+Environmental Information Processing	-Transcription	0.1833	0.2068	0.2527	0.2098
+-Signal Transduction	-Transcription	0.1825	0.2062	0.2519	0.2095
+-Signaling Molecules and Interaction	-Transcription	0.0008108	0.0005917	0.0008049	0.0003087
+Cellular Processes	-Transcription	0.3031	0.368	0.55	0.3199
+-Crystallins	-Transcription	0	0	0	0
+-Stress Response	-Transcription	0.00137	0.004132	0.2666	0.005736
+-Vesicular Transport	-Transcription	0	0	0	0
+-Cytoskeleton	-Transcription	0.2069	0.1476	0.1293	0.14
+-Cell Motility	-Transcription	0.02082	0.02092	0.02486	0.008213
+-Cell Growth and Death	-Transcription	0.07392	0.2008	0.1225	0.1651
+-Cell Communication	-Transcription	0	0	0	0
+Metabolism	-Transcription	37.89	23.84	29.25	30.85
+-Membrane Transport	-Transcription	7.277	4.391	5.487	5.61
+-Central Carbon Metabolism	-Transcription	6.473	3.63	4.662	3.751
+-Energy Metabolism	-Transcription	1.608	1.287	1.24	1.216
+-Biosynthesis	-Transcription	11.89	7.333	10.91	12
+-Other Enzymes	-Transcription	9.757	6.762	7.157	7.135
+Organismal Systems	-Transcription	0.003082	0.002736	0.00882	0.00184
+-Immune System	-Transcription	0	0	0	0
+-Endocrine System	-Transcription	0.002756	0.002522	0.002503	0.00184
+-Circulatory System	-Transcription	0	0	0	0
+-Digestive System	-Transcription	0	0	0	0
+-Excretory System	-Transcription	0	0	0	0
+-Nervous System	-Transcription	0	0	0	0
+-Sensory System	-Transcription	0	0	0	0
+-Development	-Transcription	0	0	0	0
+-Environmental Adaptation	-Transcription	0	0	0	0
+Human Diseases	-Transcription	0.5764	0.639	0.6282	0.8307
+-Cancers	-Transcription	0	0	0	0
+-Immune System Diseases	-Transcription	0	0	0	0
+-Neurodegenerative Diseases	-Transcription	0.0001132	9.723e-05	0.004112	6.456e-05
+-Cardiovascular Diseases	-Transcription	0	0	0	0
+-Metabolic Diseases	-Transcription	0	0	0	0
+-Infectious Diseases	-Transcription	0.1336	0.08953	0.2311	0.07985
+Not Mapped	-Transcription	11.23	16.71	19.06	14.96
+-Not Mapped	-Transcription	11.23	16.71	19.06	14.96
+TOTAL	-Translation	3.456	3.314	7.377	4.347
+MAPPED	-Translation	2.985	2.507	5.171	3.415
+Genetic Information Processing	-Translation	1.418	1.307	1.551	1.413
+-Transcription	-Translation	0.0319	0.04521	0.1152	0.05702
+-Translation	-Translation	1	1	1	1
+-Folding, Sorting and Degradation	-Translation	0.2245	0.1772	0.3025	0.2461
+-DNA Maintenance	-Translation	0.08804	0.06773	0.1145	0.06737
+-RNA Family	-Translation	0	0	0	0
+Environmental Information Processing	-Translation	0.009014	0.01042	0.0304	0.01309
+-Signal Transduction	-Translation	0.008981	0.01039	0.03031	0.01307
+-Signaling Molecules and Interaction	-Translation	3.402e-05	2.855e-05	9.319e-05	1.922e-05
+Cellular Processes	-Translation	0.01396	0.01937	0.06382	0.01998
+-Crystallins	-Translation	0	0	0	0
+-Stress Response	-Translation	5.75e-05	0.0001993	0.03086	0.0003572
+-Vesicular Transport	-Translation	0	0	0	0
+-Cytoskeleton	-Translation	0.008681	0.00712	0.01497	0.008718
+-Cell Motility	-Translation	0.0009577	0.0008375	0.002522	0.0004614
+-Cell Growth and Death	-Translation	0.003396	0.009858	0.01336	0.01047
+-Cell Communication	-Translation	0	0	0	0
+Metabolism	-Translation	1.499	1.139	3.426	1.922
+-Membrane Transport	-Translation	0.3018	0.2074	0.6392	0.343
+-Central Carbon Metabolism	-Translation	0.2807	0.1872	0.5451	0.2338
+-Energy Metabolism	-Translation	0.08603	0.06225	0.1413	0.07135
+-Biosynthesis	-Translation	0.3847	0.3376	1.214	0.8058
+-Other Enzymes	-Translation	0.392	0.3221	0.871	0.445
+Organismal Systems	-Translation	0.0002508	0.0001518	0.0009758	0.0001367
+-Immune System	-Translation	0	0	0	0
+-Endocrine System	-Translation	0.0002443	0.0001496	0.000298	0.0001367
+-Circulatory System	-Translation	0	0	0	0
+-Digestive System	-Translation	0	0	0	0
+-Excretory System	-Translation	0	0	0	0
+-Nervous System	-Translation	0	0	0	0
+-Sensory System	-Translation	0	0	0	0
+-Development	-Translation	0	0	0	0
+-Environmental Adaptation	-Translation	0	0	0	0
+Human Diseases	-Translation	0.03484	0.03041	0.07291	0.0495
+-Cancers	-Translation	0	0	0	0
+-Immune System Diseases	-Translation	0	0	0	0
+-Neurodegenerative Diseases	-Translation	3.443e-06	3.893e-06	0.0003901	3.339e-06
+-Cardiovascular Diseases	-Translation	0	0	0	0
+-Metabolic Diseases	-Translation	0	0	0	0
+-Infectious Diseases	-Translation	0.004381	0.003493	0.02642	0.004051
+Not Mapped	-Translation	0.4711	0.8063	2.207	0.9312
+-Not Mapped	-Translation	0.4711	0.8063	2.207	0.9312
+TOTAL	-Folding, Sorting and Degradation	13.88	16.72	22.26	14.61
+MAPPED	-Folding, Sorting and Degradation	11.99	12.65	15.6	11.48
+Genetic Information Processing	-Folding, Sorting and Degradation	5.523	6.568	4.762	4.814
+-Transcription	-Folding, Sorting and Degradation	0.1677	0.2434	0.3462	0.2268
+-Translation	-Folding, Sorting and Degradation	3.983	5.016	3.011	3.35
+-Folding, Sorting and Degradation	-Folding, Sorting and Degradation	1	1	1	1
+-DNA Maintenance	-Folding, Sorting and Degradation	0.4531	0.3387	0.3543	0.2457
+-RNA Family	-Folding, Sorting and Degradation	0	0	0	0
+Environmental Information Processing	-Folding, Sorting and Degradation	0.04521	0.06213	0.1046	0.04779
+-Signal Transduction	-Folding, Sorting and Degradation	0.04501	0.06194	0.1029	0.04771
+-Signaling Molecules and Interaction	-Folding, Sorting and Degradation	0.0001499	0.0001596	0.0003042	7.735e-05
+Cellular Processes	-Folding, Sorting and Degradation	0.06078	0.1007	0.1983	0.07277
+-Crystallins	-Folding, Sorting and Degradation	0	0	0	0
+-Stress Response	-Folding, Sorting and Degradation	0.000231	0.001005	0.09314	0.0012
+-Vesicular Transport	-Folding, Sorting and Degradation	0	0	0	0
+-Cytoskeleton	-Folding, Sorting and Degradation	0.03487	0.03592	0.04518	0.0293
+-Cell Motility	-Folding, Sorting and Degradation	0.004468	0.004735	0.00834	0.001876
+-Cell Growth and Death	-Folding, Sorting and Degradation	0.01585	0.05459	0.04303	0.04167
+-Cell Communication	-Folding, Sorting and Degradation	0	0	0	0
+Metabolism	-Folding, Sorting and Degradation	6.342	5.802	10.35	6.439
+-Membrane Transport	-Folding, Sorting and Degradation	1.22	1.069	1.975	1.164
+-Central Carbon Metabolism	-Folding, Sorting and Degradation	1.235	1.008	1.687	0.783
+-Energy Metabolism	-Folding, Sorting and Degradation	0.3427	0.3146	0.4438	0.2523
+-Biosynthesis	-Folding, Sorting and Degradation	1.663	1.817	3.94	3.096
+-Other Enzymes	-Folding, Sorting and Degradation	1.636	1.646	2.748	1.606
+Organismal Systems	-Folding, Sorting and Degradation	0.0009891	0.0007615	0.003456	0.0004461
+-Immune System	-Folding, Sorting and Degradation	0	0	0	0
+-Endocrine System	-Folding, Sorting and Degradation	0.0009478	0.0007378	0.0008722	0.0004461
+-Circulatory System	-Folding, Sorting and Degradation	0	0	0	0
+-Digestive System	-Folding, Sorting and Degradation	0	0	0	0
+-Excretory System	-Folding, Sorting and Degradation	0	0	0	0
+-Nervous System	-Folding, Sorting and Degradation	0	0	0	0
+-Sensory System	-Folding, Sorting and Degradation	0	0	0	0
+-Development	-Folding, Sorting and Degradation	0	0	0	0
+-Environmental Adaptation	-Folding, Sorting and Degradation	0	0	0	0
+Human Diseases	-Folding, Sorting and Degradation	0.1388	0.1525	0.2414	0.176
+-Cancers	-Folding, Sorting and Degradation	0	0	0	0
+-Immune System Diseases	-Folding, Sorting and Degradation	0	0	0	0
+-Neurodegenerative Diseases	-Folding, Sorting and Degradation	1.716e-05	2.327e-05	0.001413	1.415e-05
+-Cardiovascular Diseases	-Folding, Sorting and Degradation	0	0	0	0
+-Metabolic Diseases	-Folding, Sorting and Degradation	0	0	0	0
+-Infectious Diseases	-Folding, Sorting and Degradation	0.01707	0.01916	0.07871	0.01508
+Not Mapped	-Folding, Sorting and Degradation	1.892	4.067	6.659	3.129
+-Not Mapped	-Folding, Sorting and Degradation	1.892	4.067	6.659	3.129
+TOTAL	-DNA Maintenance	25.38	46.93	57.84	55.5
+MAPPED	-DNA Maintenance	21.92	35.51	40.54	43.61
+Genetic Information Processing	-DNA Maintenance	10.75	18.79	12.28	18.39
+-Transcription	-DNA Maintenance	0.4139	0.709	0.966	0.9454
+-Translation	-DNA Maintenance	7.422	14.1	7.951	12.89
+-Folding, Sorting and Degradation	-DNA Maintenance	1.937	2.866	2.401	3.46
+-DNA Maintenance	-DNA Maintenance	1	1	1	1
+-RNA Family	-DNA Maintenance	0	0	0	0
+Environmental Information Processing	-DNA Maintenance	0.0854	0.165	0.2604	0.1913
+-Signal Transduction	-DNA Maintenance	0.08516	0.1646	0.2598	0.1909
+-Signaling Molecules and Interaction	-DNA Maintenance	0.0002499	0.0004043	0.0007306	0.0002454
+Cellular Processes	-DNA Maintenance	0.1251	0.2986	0.5476	0.2962
+-Crystallins	-DNA Maintenance	0	0	0	0
+-Stress Response	-DNA Maintenance	0.0004223	0.002823	0.242	0.00456
+-Vesicular Transport	-DNA Maintenance	0	0	0	0
+-Cytoskeleton	-DNA Maintenance	0.06376	0.1008	0.1174	0.1113
+-Cell Motility	-DNA Maintenance	0.01274	0.01454	0.02364	0.007516
+-Cell Growth and Death	-DNA Maintenance	0.04242	0.1477	0.1204	0.1624
+-Cell Communication	-DNA Maintenance	0	0	0	0
+Metabolism	-DNA Maintenance	10.58	16.18	26.89	24.51
+-Membrane Transport	-DNA Maintenance	2.233	2.816	5.056	4.419
+-Central Carbon Metabolism	-DNA Maintenance	2.811	2.931	4.812	3.47
+-Energy Metabolism	-DNA Maintenance	0.8189	0.9922	1.21	1.059
+-Biosynthesis	-DNA Maintenance	3.042	4.807	9.651	10.19
+-Other Enzymes	-DNA Maintenance	3.597	4.562	7.076	5.626
+Organismal Systems	-DNA Maintenance	0.003474	0.002557	0.00852	0.00233
+-Immune System	-DNA Maintenance	0	0	0	0
+-Endocrine System	-DNA Maintenance	0.003211	0.002557	0.002794	0.00233
+-Circulatory System	-DNA Maintenance	0	0	0	0
+-Digestive System	-DNA Maintenance	0	0	0	0
+-Excretory System	-DNA Maintenance	0	0	0	0
+-Nervous System	-DNA Maintenance	0	0	0	0
+-Sensory System	-DNA Maintenance	0	0	0	0
+-Development	-DNA Maintenance	0	0	0	0
+-Environmental Adaptation	-DNA Maintenance	0	0	0	0
+Human Diseases	-DNA Maintenance	0.3395	0.453	0.5797	0.7607
+-Cancers	-DNA Maintenance	0	0	0	0
+-Immune System Diseases	-DNA Maintenance	0	0	0	0
+-Neurodegenerative Diseases	-DNA Maintenance	4.695e-05	7.479e-05	0.003772	6.161e-05
+-Cardiovascular Diseases	-DNA Maintenance	0	0	0	0
+-Metabolic Diseases	-DNA Maintenance	0	0	0	0
+-Infectious Diseases	-DNA Maintenance	0.04337	0.05883	0.2221	0.06013
+Not Mapped	-DNA Maintenance	3.46	11.42	17.3	11.89
+-Not Mapped	-DNA Maintenance	3.46	11.42	17.3	11.89
+TOTAL	-RNA Family	Inf	Inf	Inf	Inf
+MAPPED	-RNA Family	Inf	Inf	Inf	Inf
+Genetic Information Processing	-RNA Family	Inf	Inf	Inf	Inf
+-Transcription	-RNA Family	Inf	Inf	Inf	Inf
+-Translation	-RNA Family	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-RNA Family	Inf	Inf	Inf	Inf
+-DNA Maintenance	-RNA Family	Inf	Inf	Inf	Inf
+-RNA Family	-RNA Family	NaN	NaN	NaN	NaN
+Environmental Information Processing	-RNA Family	Inf	Inf	Inf	Inf
+-Signal Transduction	-RNA Family	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-RNA Family	Inf	Inf	Inf	Inf
+Cellular Processes	-RNA Family	Inf	Inf	Inf	Inf
+-Crystallins	-RNA Family	NaN	NaN	NaN	NaN
+-Stress Response	-RNA Family	Inf	Inf	Inf	Inf
+-Vesicular Transport	-RNA Family	NaN	NaN	NaN	NaN
+-Cytoskeleton	-RNA Family	Inf	Inf	Inf	Inf
+-Cell Motility	-RNA Family	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-RNA Family	Inf	Inf	Inf	Inf
+-Cell Communication	-RNA Family	NaN	NaN	NaN	NaN
+Metabolism	-RNA Family	Inf	Inf	Inf	Inf
+-Membrane Transport	-RNA Family	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-RNA Family	Inf	Inf	Inf	Inf
+-Energy Metabolism	-RNA Family	Inf	Inf	Inf	Inf
+-Biosynthesis	-RNA Family	Inf	Inf	Inf	Inf
+-Other Enzymes	-RNA Family	Inf	Inf	Inf	Inf
+Organismal Systems	-RNA Family	Inf	Inf	Inf	Inf
+-Immune System	-RNA Family	NaN	NaN	NaN	NaN
+-Endocrine System	-RNA Family	Inf	Inf	Inf	Inf
+-Circulatory System	-RNA Family	NaN	NaN	NaN	NaN
+-Digestive System	-RNA Family	NaN	NaN	NaN	NaN
+-Excretory System	-RNA Family	NaN	NaN	NaN	NaN
+-Nervous System	-RNA Family	NaN	NaN	NaN	NaN
+-Sensory System	-RNA Family	NaN	NaN	NaN	NaN
+-Development	-RNA Family	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-RNA Family	NaN	NaN	NaN	NaN
+Human Diseases	-RNA Family	Inf	Inf	Inf	Inf
+-Cancers	-RNA Family	NaN	NaN	NaN	NaN
+-Immune System Diseases	-RNA Family	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-RNA Family	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-RNA Family	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-RNA Family	NaN	NaN	NaN	NaN
+-Infectious Diseases	-RNA Family	Inf	Inf	Inf	Inf
+Not Mapped	-RNA Family	Inf	Inf	Inf	Inf
+-Not Mapped	-RNA Family	Inf	Inf	Inf	Inf
+TOTAL	Environmental Information Processing	350.5	300	240.4	329
+MAPPED	Environmental Information Processing	302.7	227	168.5	258.5
+Genetic Information Processing	Environmental Information Processing	148.4	120	50.28	106.7
+-Transcription	Environmental Information Processing	4.149	4.297	3.915	4.663
+-Translation	Environmental Information Processing	102.5	91.35	32.82	75.97
+-Folding, Sorting and Degradation	Environmental Information Processing	21.73	15.47	9.425	17.9
+-DNA Maintenance	Environmental Information Processing	10.02	5.729	3.671	5.096
+-RNA Family	Environmental Information Processing	0	0	0	0
+Environmental Information Processing	Environmental Information Processing	1	1	1	1
+-Signal Transduction	Environmental Information Processing	0.9961	0.9971	0.9968	0.9985
+-Signaling Molecules and Interaction	Environmental Information Processing	0.003725	0.002723	0.003039	0.001456
+Cellular Processes	Environmental Information Processing	1.43	1.784	2.105	1.521
+-Crystallins	Environmental Information Processing	0	0	0	0
+-Stress Response	Environmental Information Processing	0.005831	0.01804	1.006	0.02704
+-Vesicular Transport	Environmental Information Processing	0	0	0	0
+-Cytoskeleton	Environmental Information Processing	0.8804	0.6446	0.4878	0.6599
+-Cell Motility	Environmental Information Processing	0.1136	0.08044	0.08951	0.03664
+-Cell Growth and Death	Environmental Information Processing	0.4027	0.9379	0.4639	0.8092
+-Cell Communication	Environmental Information Processing	0	0	0	0
+Metabolism	Environmental Information Processing	145.1	103.5	111.8	145.2
+-Membrane Transport	Environmental Information Processing	30.83	19.5	20.84	26.07
+-Central Carbon Metabolism	Environmental Information Processing	32.65	17.55	17.42	17.9
+-Energy Metabolism	Environmental Information Processing	8.775	5.686	4.907	5.407
+-Biosynthesis	Environmental Information Processing	43.31	30.67	38.74	59
+-Other Enzymes	Environmental Information Processing	39.71	26.75	27.53	32.56
+Organismal Systems	Environmental Information Processing	0.0303	0.01482	0.03173	0.01045
+-Immune System	Environmental Information Processing	0	0	0	0
+-Endocrine System	Environmental Information Processing	0.0271	0.01367	0.0098	0.01045
+-Circulatory System	Environmental Information Processing	0	0	0	0
+-Digestive System	Environmental Information Processing	0	0	0	0
+-Excretory System	Environmental Information Processing	0	0	0	0
+-Nervous System	Environmental Information Processing	0	0	0	0
+-Sensory System	Environmental Information Processing	0	0	0	0
+-Development	Environmental Information Processing	0	0	0	0
+-Environmental Adaptation	Environmental Information Processing	0	0	0	0
+Human Diseases	Environmental Information Processing	3.188	2.705	2.092	3.683
+-Cancers	Environmental Information Processing	0	0	0	0
+-Immune System Diseases	Environmental Information Processing	0	0	0	0
+-Neurodegenerative Diseases	Environmental Information Processing	0.0003857	0.0003945	0.01419	0.0002812
+-Cardiovascular Diseases	Environmental Information Processing	0	0	0	0
+-Metabolic Diseases	Environmental Information Processing	0	0	0	0
+-Infectious Diseases	Environmental Information Processing	0.5195	0.3538	0.8205	0.2861
+Not Mapped	Environmental Information Processing	47.77	72.99	71.9	70.49
+-Not Mapped	Environmental Information Processing	47.77	72.99	71.9	70.49
+TOTAL	-Signal Transduction	351.7	300.8	241.1	329.5
+MAPPED	-Signal Transduction	303.7	227.6	169	258.9
+Genetic Information Processing	-Signal Transduction	148.9	120.3	50.44	106.8
+-Transcription	-Signal Transduction	4.167	4.307	3.927	4.669
+-Translation	-Signal Transduction	102.8	91.59	32.92	76.08
+-Folding, Sorting and Degradation	-Signal Transduction	21.86	15.51	9.591	17.92
+-DNA Maintenance	-Signal Transduction	10.07	5.741	3.682	5.103
+-RNA Family	-Signal Transduction	0	0	0	0
+Environmental Information Processing	-Signal Transduction	1.004	1.003	1.003	1.001
+-Signal Transduction	-Signal Transduction	1	1	1	1
+-Signaling Molecules and Interaction	-Signal Transduction	0.003739	0.002731	0.003049	0.001458
+Cellular Processes	-Signal Transduction	1.435	1.789	2.112	1.524
+-Crystallins	-Signal Transduction	0	0	0	0
+-Stress Response	-Signal Transduction	0.005851	0.01809	1.009	0.02708
+-Vesicular Transport	-Signal Transduction	0	0	0	0
+-Cytoskeleton	-Signal Transduction	0.8834	0.6463	0.4893	0.6609
+-Cell Motility	-Signal Transduction	0.1141	0.08069	0.08983	0.0367
+-Cell Growth and Death	-Signal Transduction	0.4043	0.9403	0.4654	0.8104
+-Cell Communication	-Signal Transduction	0	0	0	0
+Metabolism	-Signal Transduction	145.6	103.7	112.1	145.4
+-Membrane Transport	-Signal Transduction	30.94	19.55	20.9	26.11
+-Central Carbon Metabolism	-Signal Transduction	32.79	17.61	17.46	17.93
+-Energy Metabolism	-Signal Transduction	8.814	5.701	4.92	5.414
+-Biosynthesis	-Signal Transduction	43.48	30.76	38.86	59.09
+-Other Enzymes	-Signal Transduction	39.84	26.8	27.61	32.6
+Organismal Systems	-Signal Transduction	0.03041	0.01486	0.03182	0.01046
+-Immune System	-Signal Transduction	0	0	0	0
+-Endocrine System	-Signal Transduction	0.0272	0.0137	0.00983	0.01046
+-Circulatory System	-Signal Transduction	0	0	0	0
+-Digestive System	-Signal Transduction	0	0	0	0
+-Excretory System	-Signal Transduction	0	0	0	0
+-Nervous System	-Signal Transduction	0	0	0	0
+-Sensory System	-Signal Transduction	0	0	0	0
+-Development	-Signal Transduction	0	0	0	0
+-Environmental Adaptation	-Signal Transduction	0	0	0	0
+Human Diseases	-Signal Transduction	3.201	2.713	2.097	3.689
+-Cancers	-Signal Transduction	0	0	0	0
+-Immune System Diseases	-Signal Transduction	0	0	0	0
+-Neurodegenerative Diseases	-Signal Transduction	0.0003871	0.0003957	0.01424	0.0002817
+-Cardiovascular Diseases	-Signal Transduction	0	0	0	0
+-Metabolic Diseases	-Signal Transduction	0	0	0	0
+-Infectious Diseases	-Signal Transduction	0.5216	0.3548	0.823	0.2865
+Not Mapped	-Signal Transduction	47.94	73.18	72.12	70.59
+-Not Mapped	-Signal Transduction	47.94	73.18	72.12	70.59
+TOTAL	-Signaling Molecules and Interaction	101600	116100	79170	226100
+MAPPED	-Signaling Molecules and Interaction	87740	87840	55490	177700
+Genetic Information Processing	-Signaling Molecules and Interaction	42140	46040	16760	73330
+-Transcription	-Signaling Molecules and Interaction	937.9	1589	1241	2969
+-Translation	-Signaling Molecules and Interaction	29350	34920	10710	51910
+-Folding, Sorting and Degradation	-Signaling Molecules and Interaction	6189	6149	3226	12660
+-DNA Maintenance	-Signaling Molecules and Interaction	2266	2068	1154	3079
+-RNA Family	-Signaling Molecules and Interaction	0	0	0	0
+Environmental Information Processing	-Signaling Molecules and Interaction	258.5	345.9	313.9	672.9
+-Signal Transduction	-Signaling Molecules and Interaction	257.5	344.9	312.9	671.9
+-Signaling Molecules and Interaction	-Signaling Molecules and Interaction	1	1	1	1
+Cellular Processes	-Signaling Molecules and Interaction	379.5	626.9	660.4	1036
+-Crystallins	-Signaling Molecules and Interaction	0	0	0	0
+-Stress Response	-Signaling Molecules and Interaction	1.69	6.982	331.2	18.58
+-Vesicular Transport	-Signaling Molecules and Interaction	0	0	0	0
+-Cytoskeleton	-Signaling Molecules and Interaction	255.2	249.4	160.7	453.6
+-Cell Motility	-Signaling Molecules and Interaction	28.46	29.12	26.9	24.21
+-Cell Growth and Death	-Signaling Molecules and Interaction	93.85	341.9	140.9	538.7
+-Cell Communication	-Signaling Molecules and Interaction	0	0	0	0
+Metabolism	-Signaling Molecules and Interaction	44070	39790	36800	99930
+-Membrane Transport	-Signaling Molecules and Interaction	8937	7313	6863	17910
+-Central Carbon Metabolism	-Signaling Molecules and Interaction	8237	6536	5545	12080
+-Energy Metabolism	-Signaling Molecules and Interaction	2121	2135	1511	3716
+-Biosynthesis	-Signaling Molecules and Interaction	10530	11740	12380	41520
+-Other Enzymes	-Signaling Molecules and Interaction	11510	11280	9290	23170
+Organismal Systems	-Signaling Molecules and Interaction	7.275	5.288	10.45	7.174
+-Immune System	-Signaling Molecules and Interaction	0	0	0	0
+-Endocrine System	-Signaling Molecules and Interaction	7.275	5.288	3.225	7.174
+-Circulatory System	-Signaling Molecules and Interaction	0	0	0	0
+-Digestive System	-Signaling Molecules and Interaction	0	0	0	0
+-Excretory System	-Signaling Molecules and Interaction	0	0	0	0
+-Nervous System	-Signaling Molecules and Interaction	0	0	0	0
+-Sensory System	-Signaling Molecules and Interaction	0	0	0	0
+-Development	-Signaling Molecules and Interaction	0	0	0	0
+-Environmental Adaptation	-Signaling Molecules and Interaction	0	0	0	0
+Human Diseases	-Signaling Molecules and Interaction	791.5	923.4	596.1	2433
+-Cancers	-Signaling Molecules and Interaction	0	0	0	0
+-Immune System Diseases	-Signaling Molecules and Interaction	0	0	0	0
+-Neurodegenerative Diseases	-Signaling Molecules and Interaction	0.0997	0.1353	4.161	0.1725
+-Cardiovascular Diseases	-Signaling Molecules and Interaction	0	0	0	0
+-Metabolic Diseases	-Signaling Molecules and Interaction	0	0	0	0
+-Infectious Diseases	-Signaling Molecules and Interaction	129	122.4	281.8	212.1
+Not Mapped	-Signaling Molecules and Interaction	13850	28250	23680	48450
+-Not Mapped	-Signaling Molecules and Interaction	13850	28250	23680	48450
+TOTAL	Cellular Processes	228.4	164.7	111.7	209.2
+MAPPED	Cellular Processes	197.2	124.6	78.32	164.4
+Genetic Information Processing	Cellular Processes	93.8	65.87	23.87	69.63
+-Transcription	Cellular Processes	2.42	2.361	1.718	2.86
+-Translation	Cellular Processes	66.17	50.16	15.27	48.55
+-Folding, Sorting and Degradation	Cellular Processes	15.89	9.89	4.978	12.41
+-DNA Maintenance	Cellular Processes	5.769	3.325	1.748	3.214
+-RNA Family	Cellular Processes	0	0	0	0
+Environmental Information Processing	Cellular Processes	0.6681	0.5491	0.4699	0.6353
+-Signal Transduction	Cellular Processes	0.6654	0.5476	0.4685	0.6344
+-Signaling Molecules and Interaction	Cellular Processes	0.002412	0.001465	0.00145	0.0009602
+Cellular Processes	Cellular Processes	1	1	1	1
+-Crystallins	Cellular Processes	0	0	0	0
+-Stress Response	Cellular Processes	0.003799	0.009907	0.4675	0.01719
+-Vesicular Transport	Cellular Processes	0	0	0	0
+-Cytoskeleton	Cellular Processes	0.5736	0.3539	0.2268	0.4197
+-Cell Motility	Cellular Processes	0.07497	0.04527	0.04151	0.0224
+-Cell Growth and Death	Cellular Processes	0.2519	0.5457	0.2166	0.5279
+-Cell Communication	Cellular Processes	0	0	0	0
+Metabolism	Cellular Processes	101.4	56.81	52.36	92.65
+-Membrane Transport	Cellular Processes	20.19	10.7	9.949	17.16
+-Central Carbon Metabolism	Cellular Processes	18.78	9.4	8.475	11.18
+-Energy Metabolism	Cellular Processes	5.413	3.299	2.066	3.601
+-Biosynthesis	Cellular Processes	23.96	17.25	18.75	39.86
+-Other Enzymes	Cellular Processes	27.16	15.3	13.8	19.34
+Organismal Systems	Cellular Processes	0.01577	0.007547	0.01515	0.005987
+-Immune System	Cellular Processes	0	0	0	0
+-Endocrine System	Cellular Processes	0.0141	0.006958	0.00429	0.005986
+-Circulatory System	Cellular Processes	0	0	0	0
+-Digestive System	Cellular Processes	0	0	0	0
+-Excretory System	Cellular Processes	0	0	0	0
+-Nervous System	Cellular Processes	0	0	0	0
+-Sensory System	Cellular Processes	0	0	0	0
+-Development	Cellular Processes	0	0	0	0
+-Environmental Adaptation	Cellular Processes	0	0	0	0
+Human Diseases	Cellular Processes	2.283	1.704	1.202	2.376
+-Cancers	Cellular Processes	0	0	0	0
+-Immune System Diseases	Cellular Processes	0	0	0	0
+-Neurodegenerative Diseases	Cellular Processes	0.0002726	0.000221	0.006422	0.0001699
+-Cardiovascular Diseases	Cellular Processes	0	0	0	0
+-Metabolic Diseases	Cellular Processes	0	0	0	0
+-Infectious Diseases	Cellular Processes	0.3471	0.1983	0.3925	0.2037
+Not Mapped	Cellular Processes	31.13	40.08	33.42	44.82
+-Not Mapped	Cellular Processes	31.13	40.08	33.42	44.82
+TOTAL	-Crystallins	Inf	Inf	Inf	Inf
+MAPPED	-Crystallins	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Crystallins	Inf	Inf	Inf	Inf
+-Transcription	-Crystallins	Inf	Inf	Inf	Inf
+-Translation	-Crystallins	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Crystallins	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Crystallins	Inf	Inf	Inf	Inf
+-RNA Family	-Crystallins	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Crystallins	Inf	Inf	Inf	Inf
+-Signal Transduction	-Crystallins	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Crystallins	Inf	Inf	Inf	Inf
+Cellular Processes	-Crystallins	Inf	Inf	Inf	Inf
+-Crystallins	-Crystallins	NaN	NaN	NaN	NaN
+-Stress Response	-Crystallins	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Crystallins	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Crystallins	Inf	Inf	Inf	Inf
+-Cell Motility	-Crystallins	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Crystallins	Inf	Inf	Inf	Inf
+-Cell Communication	-Crystallins	NaN	NaN	NaN	NaN
+Metabolism	-Crystallins	Inf	Inf	Inf	Inf
+-Membrane Transport	-Crystallins	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Crystallins	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Crystallins	Inf	Inf	Inf	Inf
+-Biosynthesis	-Crystallins	Inf	Inf	Inf	Inf
+-Other Enzymes	-Crystallins	Inf	Inf	Inf	Inf
+Organismal Systems	-Crystallins	Inf	Inf	Inf	Inf
+-Immune System	-Crystallins	NaN	NaN	NaN	NaN
+-Endocrine System	-Crystallins	Inf	Inf	Inf	Inf
+-Circulatory System	-Crystallins	NaN	NaN	NaN	NaN
+-Digestive System	-Crystallins	NaN	NaN	NaN	NaN
+-Excretory System	-Crystallins	NaN	NaN	NaN	NaN
+-Nervous System	-Crystallins	NaN	NaN	NaN	NaN
+-Sensory System	-Crystallins	NaN	NaN	NaN	NaN
+-Development	-Crystallins	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Crystallins	NaN	NaN	NaN	NaN
+Human Diseases	-Crystallins	Inf	Inf	Inf	Inf
+-Cancers	-Crystallins	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Crystallins	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Crystallins	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Crystallins	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Crystallins	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Crystallins	Inf	Inf	Inf	Inf
+Not Mapped	-Crystallins	Inf	Inf	Inf	Inf
+-Not Mapped	-Crystallins	Inf	Inf	Inf	Inf
+TOTAL	-Stress Response	60100	16620	239	12170
+MAPPED	-Stress Response	51910	12580	167.5	9563
+Genetic Information Processing	-Stress Response	24930	6594	50.6	3948
+-Transcription	-Stress Response	554.9	227.6	3.747	159.8
+-Translation	-Stress Response	17360	5001	32.33	2793
+-Folding, Sorting and Degradation	-Stress Response	3946	897.1	9.924	695.7
+-DNA Maintenance	-Stress Response	1518	338.7	3.703	188
+-RNA Family	-Stress Response	0	0	0	0
+Environmental Information Processing	-Stress Response	158.8	52.59	0.9934	36.95
+-Signal Transduction	-Stress Response	158.2	52.45	0.9904	36.9
+-Signaling Molecules and Interaction	-Stress Response	0.5916	0.1432	0.003019	0.05382
+Cellular Processes	-Stress Response	245.3	97.76	2.083	56.05
+-Crystallins	-Stress Response	0	0	0	0
+-Stress Response	-Stress Response	1	1	1	1
+-Vesicular Transport	-Stress Response	0	0	0	0
+-Cytoskeleton	-Stress Response	151	35.72	0.4851	24.41
+-Cell Motility	-Stress Response	16.84	4.17	0.08277	1.303
+-Cell Growth and Death	-Stress Response	59.14	49.46	0.4328	29.3
+-Cell Communication	-Stress Response	0	0	0	0
+Metabolism	-Stress Response	26110	5702	111.1	5378
+-Membrane Transport	-Stress Response	5287	1047	20.72	963.9
+-Central Carbon Metabolism	-Stress Response	4873	936	17.61	652.4
+-Energy Metabolism	-Stress Response	1484	315.1	4.561	200
+-Biosynthesis	-Stress Response	6625	1687	39.38	2247
+-Other Enzymes	-Stress Response	6809	1616	28.05	1247
+Organismal Systems	-Stress Response	4.304	0.7573	0.03155	0.3861
+-Immune System	-Stress Response	0	0	0	0
+-Endocrine System	-Stress Response	4.304	0.7573	0.009735	0.3861
+-Circulatory System	-Stress Response	0	0	0	0
+-Digestive System	-Stress Response	0	0	0	0
+-Excretory System	-Stress Response	0	0	0	0
+-Nervous System	-Stress Response	0	0	0	0
+-Sensory System	-Stress Response	0	0	0	0
+-Development	-Stress Response	0	0	0	0
+-Environmental Adaptation	-Stress Response	0	0	0	0
+Human Diseases	-Stress Response	600.9	151.7	2.396	138.3
+-Cancers	-Stress Response	0	0	0	0
+-Immune System Diseases	-Stress Response	0	0	0	0
+-Neurodegenerative Diseases	-Stress Response	0.05899	0.01938	0.01256	0.009282
+-Cardiovascular Diseases	-Stress Response	0	0	0	0
+-Metabolic Diseases	-Stress Response	0	0	0	0
+-Infectious Diseases	-Stress Response	76.3	17.52	0.8509	11.42
+Not Mapped	-Stress Response	8193	4045	71.5	2607
+-Not Mapped	-Stress Response	8193	4045	71.5	2607
+TOTAL	-Vesicular Transport	Inf	Inf	Inf	Inf
+MAPPED	-Vesicular Transport	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Transcription	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Translation	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Vesicular Transport	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Vesicular Transport	Inf	Inf	Inf	Inf
+-RNA Family	-Vesicular Transport	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Signal Transduction	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Vesicular Transport	Inf	Inf	Inf	Inf
+Cellular Processes	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Crystallins	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Stress Response	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Cell Motility	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Cell Communication	-Vesicular Transport	NaN	NaN	NaN	NaN
+Metabolism	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Membrane Transport	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Biosynthesis	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Other Enzymes	-Vesicular Transport	Inf	Inf	Inf	Inf
+Organismal Systems	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Immune System	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Endocrine System	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Circulatory System	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Digestive System	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Excretory System	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Nervous System	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Sensory System	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Development	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Vesicular Transport	NaN	NaN	NaN	NaN
+Human Diseases	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Cancers	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Immune System Diseases	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Vesicular Transport	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Infectious Diseases	-Vesicular Transport	Inf	Inf	Inf	Inf
+Not Mapped	-Vesicular Transport	Inf	Inf	Inf	Inf
+-Not Mapped	-Vesicular Transport	Inf	Inf	Inf	Inf
+TOTAL	-Cytoskeleton	398.1	465.4	492.8	498.6
+MAPPED	-Cytoskeleton	343.8	352.2	345.4	391.8
+Genetic Information Processing	-Cytoskeleton	165.1	184.6	104.3	161.7
+-Transcription	-Cytoskeleton	3.675	6.37	7.724	6.545
+-Translation	-Cytoskeleton	115	140	66.65	114.4
+-Folding, Sorting and Degradation	-Cytoskeleton	26.14	25.11	20.46	28.5
+-DNA Maintenance	-Cytoskeleton	10.06	9.482	7.633	7.703
+-RNA Family	-Cytoskeleton	0	0	0	0
+Environmental Information Processing	-Cytoskeleton	1.052	1.472	2.048	1.514
+-Signal Transduction	-Cytoskeleton	1.048	1.468	2.042	1.512
+-Signaling Molecules and Interaction	-Cytoskeleton	0.003919	0.004009	0.006224	0.002205
+Cellular Processes	-Cytoskeleton	1.625	2.737	4.293	2.296
+-Crystallins	-Cytoskeleton	0	0	0	0
+-Stress Response	-Cytoskeleton	0.006624	0.02799	2.062	0.04097
+-Vesicular Transport	-Cytoskeleton	0	0	0	0
+-Cytoskeleton	-Cytoskeleton	1	1	1	1
+-Cell Motility	-Cytoskeleton	0.1115	0.1167	0.1706	0.05338
+-Cell Growth and Death	-Cytoskeleton	0.3917	1.384	0.8922	1.201
+-Cell Communication	-Cytoskeleton	0	0	0	0
+Metabolism	-Cytoskeleton	173	159.6	229.1	220.3
+-Membrane Transport	-Cytoskeleton	35.02	29.32	42.71	39.49
+-Central Carbon Metabolism	-Cytoskeleton	32.28	26.2	36.31	26.73
+-Energy Metabolism	-Cytoskeleton	9.827	8.821	9.402	8.193
+-Biosynthesis	-Cytoskeleton	43.88	47.24	81.18	92.06
+-Other Enzymes	-Cytoskeleton	45.1	45.24	57.82	51.08
+Organismal Systems	-Cytoskeleton	0.02851	0.0212	0.06504	0.01582
+-Immune System	-Cytoskeleton	0	0	0	0
+-Endocrine System	-Cytoskeleton	0.02851	0.0212	0.02007	0.01582
+-Circulatory System	-Cytoskeleton	0	0	0	0
+-Digestive System	-Cytoskeleton	0	0	0	0
+-Excretory System	-Cytoskeleton	0	0	0	0
+-Nervous System	-Cytoskeleton	0	0	0	0
+-Sensory System	-Cytoskeleton	0	0	0	0
+-Development	-Cytoskeleton	0	0	0	0
+-Environmental Adaptation	-Cytoskeleton	0	0	0	0
+Human Diseases	-Cytoskeleton	3.98	4.247	4.939	5.664
+-Cancers	-Cytoskeleton	0	0	0	0
+-Immune System Diseases	-Cytoskeleton	0	0	0	0
+-Neurodegenerative Diseases	-Cytoskeleton	0.0003907	0.0005426	0.0259	0.0003803
+-Cardiovascular Diseases	-Cytoskeleton	0	0	0	0
+-Metabolic Diseases	-Cytoskeleton	0	0	0	0
+-Infectious Diseases	-Cytoskeleton	0.5054	0.4906	1.754	0.4677
+Not Mapped	-Cytoskeleton	54.27	113.2	147.4	106.8
+-Not Mapped	-Cytoskeleton	54.27	113.2	147.4	106.8
+TOTAL	-Cell Motility	1572	1363	1383	9224
+MAPPED	-Cell Motility	1358	1031	969.5	7248
+Genetic Information Processing	-Cell Motility	656	545.6	296.9	2774
+-Transcription	-Cell Motility	40.74	30.13	26	121.1
+-Translation	-Cell Motility	459.7	413.7	188.1	2124
+-Folding, Sorting and Degradation	-Cell Motility	128	89.91	68.3	503.4
+-DNA Maintenance	-Cell Motility	66.07	30.8	24.85	121.6
+-RNA Family	-Cell Motility	0	0	0	0
+Environmental Information Processing	-Cell Motility	4.416	4.796	5.719	26.11
+-Signal Transduction	-Cell Motility	4.401	4.781	5.701	26.08
+-Signaling Molecules and Interaction	-Cell Motility	0.02393	0.01432	0.03648	0.04079
+Cellular Processes	-Cell Motility	8.267	9.056	13.25	43.17
+-Crystallins	-Cell Motility	0	0	0	0
+-Stress Response	-Cell Motility	0.02616	0.08198	5.787	0.7579
+-Vesicular Transport	-Cell Motility	0	0	0	0
+-Cytoskeleton	-Cell Motility	3.95	2.929	2.807	18.5
+-Cell Motility	-Cell Motility	1	1	1	1
+-Cell Growth and Death	-Cell Motility	3.298	5.045	3.657	22.41
+-Cell Communication	-Cell Motility	0	0	0	0
+Metabolism	-Cell Motility	716.9	469.8	648.4	4081
+-Membrane Transport	-Cell Motility	140.3	88.31	122.8	724.6
+-Central Carbon Metabolism	-Cell Motility	169.7	88.44	104.4	496.3
+-Energy Metabolism	-Cell Motility	51.05	34.72	33.41	155.5
+-Biosynthesis	-Cell Motility	239.9	167.5	253.2	1427
+-Other Enzymes	-Cell Motility	242.9	147.1	200.4	815.4
+Organismal Systems	-Cell Motility	0.1256	0.06697	0.1814	0.245
+-Immune System	-Cell Motility	0	0	0	0
+-Endocrine System	-Cell Motility	0.1123	0.06174	0.05603	0.245
+-Circulatory System	-Cell Motility	0	0	0	0
+-Digestive System	-Cell Motility	0	0	0	0
+-Excretory System	-Cell Motility	0	0	0	0
+-Nervous System	-Cell Motility	0	0	0	0
+-Sensory System	-Cell Motility	0	0	0	0
+-Development	-Cell Motility	0	0	0	0
+-Environmental Adaptation	-Cell Motility	0	0	0	0
+Human Diseases	-Cell Motility	29.93	30.86	25.14	88.37
+-Cancers	-Cell Motility	0	0	0	0
+-Immune System Diseases	-Cell Motility	0	0	0	0
+-Neurodegenerative Diseases	-Cell Motility	0.005961	0.008667	0.2645	0.02429
+-Cardiovascular Diseases	-Cell Motility	0	0	0	0
+-Metabolic Diseases	-Cell Motility	0	0	0	0
+-Infectious Diseases	-Cell Motility	4.17	4.046	9.036	8.115
+Not Mapped	-Cell Motility	214.3	331.6	413.7	1976
+-Not Mapped	-Cell Motility	214.3	331.6	413.7	1976
+TOTAL	-Cell Growth and Death	933.1	332.3	526.7	398.7
+MAPPED	-Cell Growth and Death	805.9	251.4	369.1	313.3
+Genetic Information Processing	-Cell Growth and Death	366.2	130.3	111.1	129.5
+-Transcription	-Cell Growth and Death	8.995	4.218	8.097	5.378
+-Translation	-Cell Growth and Death	267.8	99.95	71.24	91.42
+-Folding, Sorting and Degradation	-Cell Growth and Death	63.07	17.82	21.55	23.22
+-DNA Maintenance	-Cell Growth and Death	22.97	6.093	8.159	5.757
+-RNA Family	-Cell Growth and Death	0	0	0	0
+Environmental Information Processing	-Cell Growth and Death	2.48	1.061	2.068	1.175
+-Signal Transduction	-Cell Growth and Death	2.469	1.059	2.062	1.173
+-Signaling Molecules and Interaction	-Cell Growth and Death	0.01	0.002896	0.006976	0.001836
+Cellular Processes	-Cell Growth and Death	3.717	1.818	4.539	1.88
+-Crystallins	-Cell Growth and Death	0	0	0	0
+-Stress Response	-Cell Growth and Death	0.01553	0.01999	2.203	0.03276
+-Vesicular Transport	-Cell Growth and Death	0	0	0	0
+-Cytoskeleton	-Cell Growth and Death	2.344	0.714	1.069	0.7997
+-Cell Motility	-Cell Growth and Death	0.3022	0.08299	0.1945	0.04142
+-Cell Growth and Death	-Cell Growth and Death	1	1	1	1
+-Cell Communication	-Cell Growth and Death	0	0	0	0
+Metabolism	-Cell Growth and Death	423.2	113.7	242.2	175.7
+-Membrane Transport	-Cell Growth and Death	75.15	20.79	44.43	31.73
+-Central Carbon Metabolism	-Cell Growth and Death	58.23	18.67	37.75	21.37
+-Energy Metabolism	-Cell Growth and Death	20.77	6.063	9.509	6.85
+-Biosynthesis	-Cell Growth and Death	95.12	31.38	89.11	76.17
+-Other Enzymes	-Cell Growth and Death	89.22	27	56.4	35.27
+Organismal Systems	-Cell Growth and Death	0.04184	0.01372	0.06951	0.01022
+-Immune System	-Cell Growth and Death	0	0	0	0
+-Endocrine System	-Cell Growth and Death	0.03741	0.01265	0.01595	0.01022
+-Circulatory System	-Cell Growth and Death	0	0	0	0
+-Digestive System	-Cell Growth and Death	0	0	0	0
+-Excretory System	-Cell Growth and Death	0	0	0	0
+-Nervous System	-Cell Growth and Death	0	0	0	0
+-Sensory System	-Cell Growth and Death	0	0	0	0
+-Development	-Cell Growth and Death	0	0	0	0
+-Environmental Adaptation	-Cell Growth and Death	0	0	0	0
+Human Diseases	-Cell Growth and Death	7.918	3.122	5.631	4.468
+-Cancers	-Cell Growth and Death	0	0	0	0
+-Immune System Diseases	-Cell Growth and Death	0	0	0	0
+-Neurodegenerative Diseases	-Cell Growth and Death	0.001082	0.0003976	0.02965	0.0003219
+-Cardiovascular Diseases	-Cell Growth and Death	0	0	0	0
+-Metabolic Diseases	-Cell Growth and Death	0	0	0	0
+-Infectious Diseases	-Cell Growth and Death	1.26	0.3543	1.635	0.3938
+Not Mapped	-Cell Growth and Death	127.2	80.85	157.5	85.41
+-Not Mapped	-Cell Growth and Death	127.2	80.85	157.5	85.41
+TOTAL	-Cell Communication	Inf	Inf	Inf	Inf
+MAPPED	-Cell Communication	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Cell Communication	Inf	Inf	Inf	Inf
+-Transcription	-Cell Communication	Inf	Inf	Inf	Inf
+-Translation	-Cell Communication	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Cell Communication	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Cell Communication	Inf	Inf	Inf	Inf
+-RNA Family	-Cell Communication	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Cell Communication	Inf	Inf	Inf	Inf
+-Signal Transduction	-Cell Communication	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Cell Communication	Inf	Inf	Inf	Inf
+Cellular Processes	-Cell Communication	Inf	Inf	Inf	Inf
+-Crystallins	-Cell Communication	NaN	NaN	NaN	NaN
+-Stress Response	-Cell Communication	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Cell Communication	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Cell Communication	Inf	Inf	Inf	Inf
+-Cell Motility	-Cell Communication	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Cell Communication	Inf	Inf	Inf	Inf
+-Cell Communication	-Cell Communication	NaN	NaN	NaN	NaN
+Metabolism	-Cell Communication	Inf	Inf	Inf	Inf
+-Membrane Transport	-Cell Communication	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Cell Communication	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Cell Communication	Inf	Inf	Inf	Inf
+-Biosynthesis	-Cell Communication	Inf	Inf	Inf	Inf
+-Other Enzymes	-Cell Communication	Inf	Inf	Inf	Inf
+Organismal Systems	-Cell Communication	Inf	Inf	Inf	Inf
+-Immune System	-Cell Communication	NaN	NaN	NaN	NaN
+-Endocrine System	-Cell Communication	Inf	Inf	Inf	Inf
+-Circulatory System	-Cell Communication	NaN	NaN	NaN	NaN
+-Digestive System	-Cell Communication	NaN	NaN	NaN	NaN
+-Excretory System	-Cell Communication	NaN	NaN	NaN	NaN
+-Nervous System	-Cell Communication	NaN	NaN	NaN	NaN
+-Sensory System	-Cell Communication	NaN	NaN	NaN	NaN
+-Development	-Cell Communication	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Cell Communication	NaN	NaN	NaN	NaN
+Human Diseases	-Cell Communication	Inf	Inf	Inf	Inf
+-Cancers	-Cell Communication	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Cell Communication	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Cell Communication	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Cell Communication	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Cell Communication	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Cell Communication	Inf	Inf	Inf	Inf
+Not Mapped	-Cell Communication	Inf	Inf	Inf	Inf
+-Not Mapped	-Cell Communication	Inf	Inf	Inf	Inf
+TOTAL	Metabolism	2.283	2.901	2.141	2.263
+MAPPED	Metabolism	1.972	2.195	1.501	1.778
+Genetic Information Processing	Metabolism	0.949	1.157	0.4562	0.7374
+-Transcription	Metabolism	0.02037	0.03949	0.0336	0.02974
+-Translation	Metabolism	0.6604	0.877	0.2916	0.5194
+-Folding, Sorting and Degradation	Metabolism	0.1574	0.1585	0.08931	0.1301
+-DNA Maintenance	Metabolism	0.0557	0.0594	0.03368	0.03505
+-RNA Family	Metabolism	0	0	0	0
+Environmental Information Processing	Metabolism	0.006034	0.009484	0.008876	0.006857
+-Signal Transduction	Metabolism	0.006012	0.009458	0.008849	0.006847
+-Signaling Molecules and Interaction	Metabolism	2.266e-05	2.499e-05	2.704e-05	1.001e-05
+Cellular Processes	Metabolism	0.009656	0.01704	0.01904	0.01058
+-Crystallins	Metabolism	0	0	0	0
+-Stress Response	Metabolism	3.799e-05	0.0001745	0.008957	0.0001859
+-Vesicular Transport	Metabolism	0	0	0	0
+-Cytoskeleton	Metabolism	0.005736	0.006234	0.004345	0.004539
+-Cell Motility	Metabolism	0.0006727	0.0007181	0.0007449	0.0002439
+-Cell Growth and Death	Metabolism	0.002265	0.008775	0.003948	0.00553
+-Cell Communication	Metabolism	0	0	0	0
+Metabolism	Metabolism	1	1	1	1
+-Membrane Transport	Metabolism	0.1993	0.1842	0.186	0.1798
+-Central Carbon Metabolism	Metabolism	0.192	0.1643	0.1567	0.1216
+-Energy Metabolism	Metabolism	0.05443	0.05495	0.04071	0.0381
+-Biosynthesis	Metabolism	0.2475	0.2928	0.3465	0.4178
+-Other Enzymes	Metabolism	0.2589	0.282	0.2474	0.2305
+Organismal Systems	Metabolism	0.0001557	0.0001312	0.0002893	7.138e-05
+-Immune System	Metabolism	0	0	0	0
+-Endocrine System	Metabolism	0.0001557	0.0001312	8.699e-05	7.137e-05
+-Circulatory System	Metabolism	0	0	0	0
+-Digestive System	Metabolism	0	0	0	0
+-Excretory System	Metabolism	0	0	0	0
+-Nervous System	Metabolism	0	0	0	0
+-Sensory System	Metabolism	0	0	0	0
+-Development	Metabolism	0	0	0	0
+-Environmental Adaptation	Metabolism	0	0	0	0
+Human Diseases	Metabolism	0.02205	0.02629	0.02156	0.02571
+-Cancers	Metabolism	0	0	0	0
+-Immune System Diseases	Metabolism	0	0	0	0
+-Neurodegenerative Diseases	Metabolism	2.357e-06	3.425e-06	0.0001131	1.736e-06
+-Cardiovascular Diseases	Metabolism	0	0	0	0
+-Metabolic Diseases	Metabolism	0	0	0	0
+-Infectious Diseases	Metabolism	0.002922	0.003103	0.00747	0.002135
+Not Mapped	Metabolism	0.3113	0.7059	0.6404	0.4848
+-Not Mapped	Metabolism	0.3113	0.7059	0.6404	0.4848
+TOTAL	-Membrane Transport	11.36	15.85	11.53	12.62
+MAPPED	-Membrane Transport	9.812	11.99	8.083	9.916
+Genetic Information Processing	-Membrane Transport	4.711	6.276	2.428	4.069
+-Transcription	-Membrane Transport	0.1106	0.2232	0.1818	0.1671
+-Translation	-Membrane Transport	3.291	4.783	1.564	2.914
+-Folding, Sorting and Degradation	-Membrane Transport	0.7512	0.8544	0.475	0.7179
+-DNA Maintenance	-Membrane Transport	0.3137	0.3425	0.1882	0.2036
+-RNA Family	-Membrane Transport	0	0	0	0
+Environmental Information Processing	-Membrane Transport	0.02954	0.05026	0.04657	0.03757
+-Signal Transduction	-Membrane Transport	0.02943	0.05012	0.04642	0.03751
+-Signaling Molecules and Interaction	-Membrane Transport	0.0001118	0.0001365	0.0001457	5.58e-05
+Cellular Processes	-Membrane Transport	0.04639	0.0934	0.1002	0.05784
+-Crystallins	-Membrane Transport	0	0	0	0
+-Stress Response	-Membrane Transport	0.000189	0.0009534	0.04825	0.001037
+-Vesicular Transport	-Membrane Transport	0	0	0	0
+-Cytoskeleton	-Membrane Transport	0.02854	0.03406	0.0234	0.02531
+-Cell Motility	-Membrane Transport	0.003205	0.003982	0.003962	0.001334
+-Cell Growth and Death	-Membrane Transport	0.01118	0.04715	0.02088	0.0304
+-Cell Communication	-Membrane Transport	0	0	0	0
+Metabolism	-Membrane Transport	4.935	5.424	5.318	5.518
+-Membrane Transport	-Membrane Transport	1	1	1	1
+-Central Carbon Metabolism	-Membrane Transport	0.9864	0.9429	0.8496	0.6687
+-Energy Metabolism	-Membrane Transport	0.2966	0.2916	0.2254	0.2157
+-Biosynthesis	-Membrane Transport	1.275	1.646	1.907	2.306
+-Other Enzymes	-Membrane Transport	1.299	1.54	1.362	1.304
+Organismal Systems	-Membrane Transport	0.0008105	0.0007126	0.001603	0.0003868
+-Immune System	-Membrane Transport	0	0	0	0
+-Endocrine System	-Membrane Transport	0.0008006	0.0007008	0.0004562	0.0003868
+-Circulatory System	-Membrane Transport	0	0	0	0
+-Digestive System	-Membrane Transport	0	0	0	0
+-Excretory System	-Membrane Transport	0	0	0	0
+-Nervous System	-Membrane Transport	0	0	0	0
+-Sensory System	-Membrane Transport	0	0	0	0
+-Development	-Membrane Transport	0	0	0	0
+-Environmental Adaptation	-Membrane Transport	0	0	0	0
+Human Diseases	-Membrane Transport	0.1241	0.1428	0.1147	0.143
+-Cancers	-Membrane Transport	0	0	0	0
+-Immune System Diseases	-Membrane Transport	0	0	0	0
+-Neurodegenerative Diseases	-Membrane Transport	1.135e-05	1.874e-05	0.0006102	9.735e-06
+-Cardiovascular Diseases	-Membrane Transport	0	0	0	0
+-Metabolic Diseases	-Membrane Transport	0	0	0	0
+-Infectious Diseases	-Membrane Transport	0.01442	0.01706	0.04133	0.01224
+Not Mapped	-Membrane Transport	1.549	3.857	3.449	2.704
+-Not Mapped	-Membrane Transport	1.549	3.857	3.449	2.704
+TOTAL	-Central Carbon Metabolism	11.19	16.59	13.24	18.61
+MAPPED	-Central Carbon Metabolism	9.663	12.55	9.279	14.62
+Genetic Information Processing	-Central Carbon Metabolism	4.371	6.508	2.816	6.06
+-Transcription	-Central Carbon Metabolism	0.1358	0.2415	0.1959	0.2662
+-Translation	-Central Carbon Metabolism	3.194	4.979	1.802	4.268
+-Folding, Sorting and Degradation	-Central Carbon Metabolism	0.7053	0.9169	0.5699	1.054
+-DNA Maintenance	-Central Carbon Metabolism	0.318	0.3199	0.2072	0.2681
+-RNA Family	-Central Carbon Metabolism	0	0	0	0
+Environmental Information Processing	-Central Carbon Metabolism	0.03021	0.05297	0.05661	0.05347
+-Signal Transduction	-Central Carbon Metabolism	0.03012	0.05285	0.05643	0.05339
+-Signaling Molecules and Interaction	-Central Carbon Metabolism	0.0001101	0.0001429	0.0001714	8.228e-05
+Cellular Processes	-Central Carbon Metabolism	0.0444	0.0937	0.1176	0.08776
+-Crystallins	-Central Carbon Metabolism	0	0	0	0
+-Stress Response	-Central Carbon Metabolism	0.0001862	0.0009979	0.05539	0.001529
+-Vesicular Transport	-Central Carbon Metabolism	0	0	0	0
+-Cytoskeleton	-Central Carbon Metabolism	0.0281	0.03565	0.02687	0.03732
+-Cell Motility	-Central Carbon Metabolism	0.002828	0.003707	0.00433	0.002004
+-Cell Growth and Death	-Central Carbon Metabolism	0.01349	0.05208	0.02645	0.04661
+-Cell Communication	-Central Carbon Metabolism	0	0	0	0
+Metabolism	-Central Carbon Metabolism	5.147	5.758	6.173	8.223
+-Membrane Transport	-Central Carbon Metabolism	0.9885	1.02	1.174	1.422
+-Central Carbon Metabolism	-Central Carbon Metabolism	1	1	1	1
+-Energy Metabolism	-Central Carbon Metabolism	0.2913	0.3438	0.2742	0.3241
+-Biosynthesis	-Central Carbon Metabolism	1.111	1.64	2.236	3.439
+-Other Enzymes	-Central Carbon Metabolism	1.204	1.533	1.634	1.842
+Organismal Systems	-Central Carbon Metabolism	0.0008012	0.0007557	0.00197	0.0005903
+-Immune System	-Central Carbon Metabolism	0	0	0	0
+-Endocrine System	-Central Carbon Metabolism	0.0008012	0.0007557	0.000537	0.0005903
+-Circulatory System	-Central Carbon Metabolism	0	0	0	0
+-Digestive System	-Central Carbon Metabolism	0	0	0	0
+-Excretory System	-Central Carbon Metabolism	0	0	0	0
+-Nervous System	-Central Carbon Metabolism	0	0	0	0
+-Sensory System	-Central Carbon Metabolism	0	0	0	0
+-Development	-Central Carbon Metabolism	0	0	0	0
+-Environmental Adaptation	-Central Carbon Metabolism	0	0	0	0
+Human Diseases	-Central Carbon Metabolism	0.1259	0.1353	0.1201	0.2091
+-Cancers	-Central Carbon Metabolism	0	0	0	0
+-Immune System Diseases	-Central Carbon Metabolism	0	0	0	0
+-Neurodegenerative Diseases	-Central Carbon Metabolism	1.392e-05	2.145e-05	0.0007992	1.491e-05
+-Cardiovascular Diseases	-Central Carbon Metabolism	0	0	0	0
+-Metabolic Diseases	-Central Carbon Metabolism	0	0	0	0
+-Infectious Diseases	-Central Carbon Metabolism	0.0146	0.0198	0.04537	0.01733
+Not Mapped	-Central Carbon Metabolism	1.525	4.037	3.96	3.987
+-Not Mapped	-Central Carbon Metabolism	1.525	4.037	3.96	3.987
+TOTAL	-Energy Metabolism	38.99	48.96	48.29	57.41
+MAPPED	-Energy Metabolism	33.68	37.05	33.84	45.11
+Genetic Information Processing	-Energy Metabolism	15.9	19.6	10.1	18.73
+-Transcription	-Energy Metabolism	0.447	0.6193	0.6918	0.781
+-Translation	-Energy Metabolism	11.17	14.71	6.531	13.17
+-Folding, Sorting and Degradation	-Energy Metabolism	2.741	2.831	2.169	3.239
+-DNA Maintenance	-Energy Metabolism	1.056	0.9589	0.8017	0.8068
+-RNA Family	-Energy Metabolism	0	0	0	0
+Environmental Information Processing	-Energy Metabolism	0.1014	0.1572	0.1941	0.1793
+-Signal Transduction	-Energy Metabolism	0.1011	0.1567	0.1934	0.179
+-Signaling Molecules and Interaction	-Energy Metabolism	0.0003838	0.0004545	0.00061	0.0002539
+Cellular Processes	-Energy Metabolism	0.1774	0.2868	0.4026	0.2631
+-Crystallins	-Energy Metabolism	0	0	0	0
+-Stress Response	-Energy Metabolism	0.0006488	0.002945	0.202	0.004717
+-Vesicular Transport	-Energy Metabolism	0	0	0	0
+-Cytoskeleton	-Energy Metabolism	0.09795	0.1052	0.098	0.1152
+-Cell Motility	-Energy Metabolism	0.01294	0.01264	0.01533	0.005452
+-Cell Growth and Death	-Energy Metabolism	0.04596	0.1594	0.1023	0.1442
+-Cell Communication	-Energy Metabolism	0	0	0	0
+Metabolism	-Energy Metabolism	16.92	16.88	22.44	25.37
+-Membrane Transport	-Energy Metabolism	3.263	3.046	4.283	4.614
+-Central Carbon Metabolism	-Energy Metabolism	3.358	2.868	3.549	2.886
+-Energy Metabolism	-Energy Metabolism	1	1	1	1
+-Biosynthesis	-Energy Metabolism	4.298	5.014	7.55	10.18
+-Other Enzymes	-Energy Metabolism	4.379	4.397	5.846	5.544
+Organismal Systems	-Energy Metabolism	0.002467	0.001929	0.007112	0.001493
+-Immune System	-Energy Metabolism	0	0	0	0
+-Endocrine System	-Energy Metabolism	0.002206	0.001778	0.001677	0.001492
+-Circulatory System	-Energy Metabolism	0	0	0	0
+-Digestive System	-Energy Metabolism	0	0	0	0
+-Excretory System	-Energy Metabolism	0	0	0	0
+-Nervous System	-Energy Metabolism	0	0	0	0
+-Sensory System	-Energy Metabolism	0	0	0	0
+-Development	-Energy Metabolism	0	0	0	0
+-Environmental Adaptation	-Energy Metabolism	0	0	0	0
+Human Diseases	-Energy Metabolism	0.3935	0.414	0.4263	0.5945
+-Cancers	-Energy Metabolism	0	0	0	0
+-Immune System Diseases	-Energy Metabolism	0	0	0	0
+-Neurodegenerative Diseases	-Energy Metabolism	5.212e-05	6.339e-05	0.003185	5.042e-05
+-Cardiovascular Diseases	-Energy Metabolism	0	0	0	0
+-Metabolic Diseases	-Energy Metabolism	0	0	0	0
+-Infectious Diseases	-Energy Metabolism	0.05012	0.05757	0.1614	0.05678
+Not Mapped	-Energy Metabolism	5.316	11.91	14.44	12.3
+-Not Mapped	-Energy Metabolism	5.316	11.91	14.44	12.3
+TOTAL	-Biosynthesis	8.86	9.765	6.056	5.411
+MAPPED	-Biosynthesis	7.652	7.389	4.245	4.252
+Genetic Information Processing	-Biosynthesis	3.322	3.723	1.272	1.74
+-Transcription	-Biosynthesis	0.08361	0.1349	0.09003	0.07751
+-Translation	-Biosynthesis	2.564	2.933	0.8205	1.237
+-Folding, Sorting and Degradation	-Biosynthesis	0.5876	0.5317	0.25	0.3114
+-DNA Maintenance	-Biosynthesis	0.2062	0.1706	0.09324	0.07366
+-RNA Family	-Biosynthesis	0	0	0	0
+Environmental Information Processing	-Biosynthesis	0.01972	0.02886	0.02535	0.0156
+-Signal Transduction	-Biosynthesis	0.01963	0.02877	0.02527	0.01558
+-Signaling Molecules and Interaction	-Biosynthesis	8.93e-05	8.487e-05	7.667e-05	2.395e-05
+Cellular Processes	-Biosynthesis	0.04169	0.0556	0.05117	0.02487
+-Crystallins	-Biosynthesis	0	0	0	0
+-Stress Response	-Biosynthesis	0.0001474	0.0005873	0.02534	0.0004446
+-Vesicular Transport	-Biosynthesis	0	0	0	0
+-Cytoskeleton	-Biosynthesis	0.02226	0.02098	0.01229	0.01085
+-Cell Motility	-Biosynthesis	0.003126	0.002517	0.002075	0.0006071
+-Cell Growth and Death	-Biosynthesis	0.01031	0.03033	0.01092	0.01298
+-Cell Communication	-Biosynthesis	0	0	0	0
+Metabolism	-Biosynthesis	3.936	3.366	2.855	2.391
+-Membrane Transport	-Biosynthesis	0.7396	0.6042	0.5239	0.4243
+-Central Carbon Metabolism	-Biosynthesis	0.6437	0.5646	0.4387	0.2834
+-Energy Metabolism	-Biosynthesis	0.2183	0.1674	0.1257	0.09438
+-Biosynthesis	-Biosynthesis	1	1	1	1
+-Other Enzymes	-Biosynthesis	1.019	0.9221	0.7106	0.5444
+Organismal Systems	-Biosynthesis	0.0004963	0.0004009	0.0008641	0.0001533
+-Immune System	-Biosynthesis	0	0	0	0
+-Endocrine System	-Biosynthesis	0.0004681	0.0003696	0.0002214	0.0001533
+-Circulatory System	-Biosynthesis	0	0	0	0
+-Digestive System	-Biosynthesis	0	0	0	0
+-Excretory System	-Biosynthesis	0	0	0	0
+-Nervous System	-Biosynthesis	0	0	0	0
+-Sensory System	-Biosynthesis	0	0	0	0
+-Development	-Biosynthesis	0	0	0	0
+-Environmental Adaptation	-Biosynthesis	0	0	0	0
+Human Diseases	-Biosynthesis	0.0624	0.08548	0.06007	0.05684
+-Cancers	-Biosynthesis	0	0	0	0
+-Immune System Diseases	-Biosynthesis	0	0	0	0
+-Neurodegenerative Diseases	-Biosynthesis	1.138e-05	1.281e-05	0.0003461	6.872e-06
+-Cardiovascular Diseases	-Biosynthesis	0	0	0	0
+-Metabolic Diseases	-Biosynthesis	0	0	0	0
+-Infectious Diseases	-Biosynthesis	0.01017	0.01004	0.02156	0.00511
+Not Mapped	-Biosynthesis	1.208	2.376	1.812	1.159
+-Not Mapped	-Biosynthesis	1.208	2.376	1.812	1.159
+TOTAL	-Other Enzymes	8.442	10.22	8.101	9.549
+MAPPED	-Other Enzymes	7.291	7.737	5.678	7.504
+Genetic Information Processing	-Other Enzymes	3.298	4.065	1.694	3.09
+-Transcription	-Other Enzymes	0.08577	0.1344	0.1382	0.1357
+-Translation	-Other Enzymes	2.41	3.09	1.096	2.205
+-Folding, Sorting and Degradation	-Other Enzymes	0.5198	0.5695	0.3473	0.5572
+-DNA Maintenance	-Other Enzymes	0.2642	0.2142	0.1369	0.1455
+-RNA Family	-Other Enzymes	0	0	0	0
+Environmental Information Processing	-Other Enzymes	0.02374	0.03234	0.03441	0.02902
+-Signal Transduction	-Other Enzymes	0.02368	0.03225	0.0343	0.02898
+-Signaling Molecules and Interaction	-Other Enzymes	8.31e-05	8.808e-05	0.0001023	4.223e-05
+Cellular Processes	-Other Enzymes	0.03603	0.06034	0.07236	0.04357
+-Crystallins	-Other Enzymes	0	0	0	0
+-Stress Response	-Other Enzymes	0.0001405	0.000615	0.03389	0.0007847
+-Vesicular Transport	-Other Enzymes	0	0	0	0
+-Cytoskeleton	-Other Enzymes	0.02121	0.02197	0.01644	0.01915
+-Cell Motility	-Other Enzymes	0.003068	0.003103	0.003341	0.001058
+-Cell Growth and Death	-Other Enzymes	0.01012	0.03318	0.01718	0.02263
+-Cell Communication	-Other Enzymes	0	0	0	0
+Metabolism	-Other Enzymes	3.654	3.526	3.765	4.186
+-Membrane Transport	-Other Enzymes	0.7459	0.6435	0.7186	0.7612
+-Central Carbon Metabolism	-Other Enzymes	0.7545	0.6425	0.5967	0.5091
+-Energy Metabolism	-Other Enzymes	0.2102	0.2101	0.1708	0.165
+-Biosynthesis	-Other Enzymes	0.8642	1.054	1.277	1.751
+-Other Enzymes	-Other Enzymes	1	1	1	1
+Organismal Systems	-Other Enzymes	0.0005184	0.0004554	0.001232	0.0003005
+-Immune System	-Other Enzymes	0	0	0	0
+-Endocrine System	-Other Enzymes	0.0004636	0.0004198	0.0003105	0.0003005
+-Circulatory System	-Other Enzymes	0	0	0	0
+-Digestive System	-Other Enzymes	0	0	0	0
+-Excretory System	-Other Enzymes	0	0	0	0
+-Nervous System	-Other Enzymes	0	0	0	0
+-Sensory System	-Other Enzymes	0	0	0	0
+-Development	-Other Enzymes	0	0	0	0
+-Environmental Adaptation	-Other Enzymes	0	0	0	0
+Human Diseases	-Other Enzymes	0.0849	0.0895	0.09671	0.1005
+-Cancers	-Other Enzymes	0	0	0	0
+-Immune System Diseases	-Other Enzymes	0	0	0	0
+-Neurodegenerative Diseases	-Other Enzymes	1.075e-05	1.48e-05	0.0005166	9.077e-06
+-Cardiovascular Diseases	-Other Enzymes	0	0	0	0
+-Metabolic Diseases	-Other Enzymes	0	0	0	0
+-Infectious Diseases	-Other Enzymes	0.01146	0.01203	0.03034	0.01021
+Not Mapped	-Other Enzymes	1.151	2.488	2.423	2.046
+-Not Mapped	-Other Enzymes	1.151	2.488	2.423	2.046
+TOTAL	Organismal Systems	12490	20240	5790	31520
+MAPPED	Organismal Systems	10790	15310	4058	24770
+Genetic Information Processing	Organismal Systems	5190	8093	1237	10290
+-Transcription	Organismal Systems	169.5	319.6	94.2	451.6
+-Translation	Organismal Systems	3661	6163	791.4	7257
+-Folding, Sorting and Degradation	Organismal Systems	943.5	1250	270.4	2176
+-DNA Maintenance	Organismal Systems	278.5	321.6	84.26	415.4
+-RNA Family	Organismal Systems	0	0	0	0
+Environmental Information Processing	Organismal Systems	31.07	60.97	24.06	86.83
+-Signal Transduction	Organismal Systems	30.94	60.78	23.99	86.69
+-Signaling Molecules and Interaction	Organismal Systems	0.1229	0.1743	0.07313	0.1394
+Cellular Processes	Organismal Systems	55.33	122.9	54.97	150.6
+-Crystallins	Organismal Systems	0	0	0	0
+-Stress Response	Organismal Systems	0.2078	1.217	24.22	2.59
+-Vesicular Transport	Organismal Systems	0.006772	0.005853	0.002998	1.606e-05
+-Cytoskeleton	Organismal Systems	31.37	43.49	11.75	63.22
+-Cell Motility	Organismal Systems	7.942	14.9	4.209	3.417
+-Cell Growth and Death	Organismal Systems	15.79	64.17	13.43	81.46
+-Cell Communication	Organismal Systems	0	0	0	0
+Metabolism	Organismal Systems	5694	7015	2711	13960
+-Membrane Transport	Organismal Systems	1117	1316	516.9	2533
+-Central Carbon Metabolism	Organismal Systems	907.2	1100	439.1	1684
+-Energy Metabolism	Organismal Systems	354	388	140.6	549.1
+-Biosynthesis	Organismal Systems	1910	2344	1065	6079
+-Other Enzymes	Organismal Systems	1654	2161	759.6	3230
+Organismal Systems	Organismal Systems	1	1	1	1
+-Immune System	Organismal Systems	0	0	0	0
+-Endocrine System	Organismal Systems	0.8943	0.9219	0.9356	0.9999
+-Circulatory System	Organismal Systems	0	0	0	0
+-Digestive System	Organismal Systems	0.1057	0.0781	0.7642	0.0001031
+-Excretory System	Organismal Systems	0	0	0	0
+-Nervous System	Organismal Systems	0	0	0	0
+-Sensory System	Organismal Systems	0	0	0	0
+-Development	Organismal Systems	0	0	0	0
+-Environmental Adaptation	Organismal Systems	0	0	0	0
+Human Diseases	Organismal Systems	97.72	200.3	120.6	326.4
+-Cancers	Organismal Systems	0	0	0	0
+-Immune System Diseases	Organismal Systems	0	0	0	0
+-Neurodegenerative Diseases	Organismal Systems	80.88	170.7	71.51	304.4
+-Cardiovascular Diseases	Organismal Systems	0	0	0	0
+-Metabolic Diseases	Organismal Systems	0	0	0	0
+-Infectious Diseases	Organismal Systems	27.68	42.01	19.74	65.14
+Not Mapped	Organismal Systems	1702	4924	1732	6753
+-Not Mapped	Organismal Systems	1702	4924	1732	6753
+TOTAL	-Immune System	Inf	Inf	Inf	Inf
+MAPPED	-Immune System	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Immune System	Inf	Inf	Inf	Inf
+-Transcription	-Immune System	Inf	Inf	Inf	Inf
+-Translation	-Immune System	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Immune System	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Immune System	Inf	Inf	Inf	Inf
+-RNA Family	-Immune System	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Immune System	Inf	Inf	Inf	Inf
+-Signal Transduction	-Immune System	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Immune System	Inf	Inf	Inf	Inf
+Cellular Processes	-Immune System	Inf	Inf	Inf	Inf
+-Crystallins	-Immune System	NaN	NaN	NaN	NaN
+-Stress Response	-Immune System	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Immune System	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Immune System	Inf	Inf	Inf	Inf
+-Cell Motility	-Immune System	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Immune System	Inf	Inf	Inf	Inf
+-Cell Communication	-Immune System	NaN	NaN	NaN	NaN
+Metabolism	-Immune System	Inf	Inf	Inf	Inf
+-Membrane Transport	-Immune System	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Immune System	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Immune System	Inf	Inf	Inf	Inf
+-Biosynthesis	-Immune System	Inf	Inf	Inf	Inf
+-Other Enzymes	-Immune System	Inf	Inf	Inf	Inf
+Organismal Systems	-Immune System	Inf	Inf	Inf	Inf
+-Immune System	-Immune System	NaN	NaN	NaN	NaN
+-Endocrine System	-Immune System	Inf	Inf	Inf	Inf
+-Circulatory System	-Immune System	NaN	NaN	NaN	NaN
+-Digestive System	-Immune System	NaN	NaN	NaN	NaN
+-Excretory System	-Immune System	NaN	NaN	NaN	NaN
+-Nervous System	-Immune System	NaN	NaN	NaN	NaN
+-Sensory System	-Immune System	NaN	NaN	NaN	NaN
+-Development	-Immune System	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Immune System	NaN	NaN	NaN	NaN
+Human Diseases	-Immune System	Inf	Inf	Inf	Inf
+-Cancers	-Immune System	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Immune System	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Immune System	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Immune System	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Immune System	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Immune System	Inf	Inf	Inf	Inf
+Not Mapped	-Immune System	Inf	Inf	Inf	Inf
+-Not Mapped	-Immune System	Inf	Inf	Inf	Inf
+TOTAL	-Endocrine System	13960	21950	24550	31520
+MAPPED	-Endocrine System	12060	16610	17210	24770
+Genetic Information Processing	-Endocrine System	5455	8612	5133	10290
+-Transcription	-Endocrine System	169.5	319.6	385.3	451.6
+-Translation	-Endocrine System	4041	6645	3344	7258
+-Folding, Sorting and Degradation	-Endocrine System	1011	1313	1103	2176
+-DNA Maintenance	-Endocrine System	291.9	348.9	357.3	415.4
+-RNA Family	-Endocrine System	0	0	0	0
+Environmental Information Processing	-Endocrine System	31.07	62.13	97.34	86.84
+-Signal Transduction	-Endocrine System	30.94	61.95	97.03	86.7
+-Signaling Molecules and Interaction	-Endocrine System	0.1375	0.1891	0.3101	0.1394
+Cellular Processes	-Endocrine System	61.87	133.3	219.7	150.7
+-Crystallins	-Endocrine System	0	0	0	0
+-Stress Response	-Endocrine System	0.2323	1.32	102.7	2.59
+-Vesicular Transport	-Endocrine System	0.007855	0.007353	0.003204	1.902e-05
+-Cytoskeleton	-Endocrine System	35.08	47.17	49.83	63.23
+-Cell Motility	-Endocrine System	8.881	16.16	17.84	3.417
+-Cell Growth and Death	-Endocrine System	17.66	68.63	49.34	81.47
+-Cell Communication	-Endocrine System	0	0	0	0
+Metabolism	-Endocrine System	6367	7609	11470	13960
+-Membrane Transport	-Endocrine System	1234	1403	2178	2533
+-Central Carbon Metabolism	-Endocrine System	1014	1193	1854	1684
+-Energy Metabolism	-Endocrine System	395.9	416.1	508.4	549.1
+-Biosynthesis	-Endocrine System	2015	2344	3840	6080
+-Other Enzymes	-Endocrine System	1654	2161	3031	3230
+Organismal Systems	-Endocrine System	1.118	1.085	4.241	1
+-Immune System	-Endocrine System	0	0	0	0
+-Endocrine System	-Endocrine System	1	1	1	1
+-Circulatory System	-Endocrine System	0	0	0	0
+-Digestive System	-Endocrine System	0.1182	0.08471	3.241	0.0001031
+-Excretory System	-Endocrine System	0	0	0	0
+-Nervous System	-Endocrine System	0	0	0	0
+-Sensory System	-Endocrine System	0	0	0	0
+-Development	-Endocrine System	0	0	0	0
+-Environmental Adaptation	-Endocrine System	0	0	0	0
+Human Diseases	-Endocrine System	97.72	200.3	372.4	326.4
+-Cancers	-Endocrine System	0	0	0	0
+-Immune System Diseases	-Endocrine System	0.114	0.3267	0.09996	0.3901
+-Neurodegenerative Diseases	-Endocrine System	90.43	185.1	302	304.4
+-Cardiovascular Diseases	-Endocrine System	0	0	0	0
+-Metabolic Diseases	-Endocrine System	31.17	39.18	10.44	46.05
+-Infectious Diseases	-Endocrine System	27.68	42.01	83.73	65.14
+Not Mapped	-Endocrine System	1904	5341	7344	6753
+-Not Mapped	-Endocrine System	1904	5341	7344	6753
+TOTAL	-Circulatory System	Inf	Inf	Inf	Inf
+MAPPED	-Circulatory System	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Circulatory System	Inf	Inf	Inf	Inf
+-Transcription	-Circulatory System	Inf	Inf	Inf	Inf
+-Translation	-Circulatory System	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Circulatory System	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Circulatory System	Inf	Inf	Inf	Inf
+-RNA Family	-Circulatory System	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Circulatory System	Inf	Inf	Inf	Inf
+-Signal Transduction	-Circulatory System	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Circulatory System	Inf	Inf	Inf	Inf
+Cellular Processes	-Circulatory System	Inf	Inf	Inf	Inf
+-Crystallins	-Circulatory System	NaN	NaN	NaN	NaN
+-Stress Response	-Circulatory System	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Circulatory System	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Circulatory System	Inf	Inf	Inf	Inf
+-Cell Motility	-Circulatory System	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Circulatory System	Inf	Inf	Inf	Inf
+-Cell Communication	-Circulatory System	NaN	NaN	NaN	NaN
+Metabolism	-Circulatory System	Inf	Inf	Inf	Inf
+-Membrane Transport	-Circulatory System	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Circulatory System	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Circulatory System	Inf	Inf	Inf	Inf
+-Biosynthesis	-Circulatory System	Inf	Inf	Inf	Inf
+-Other Enzymes	-Circulatory System	Inf	Inf	Inf	Inf
+Organismal Systems	-Circulatory System	Inf	Inf	Inf	Inf
+-Immune System	-Circulatory System	NaN	NaN	NaN	NaN
+-Endocrine System	-Circulatory System	Inf	Inf	Inf	Inf
+-Circulatory System	-Circulatory System	NaN	NaN	NaN	NaN
+-Digestive System	-Circulatory System	NaN	NaN	NaN	NaN
+-Excretory System	-Circulatory System	NaN	NaN	NaN	NaN
+-Nervous System	-Circulatory System	NaN	NaN	NaN	NaN
+-Sensory System	-Circulatory System	NaN	NaN	NaN	NaN
+-Development	-Circulatory System	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Circulatory System	NaN	NaN	NaN	NaN
+Human Diseases	-Circulatory System	Inf	Inf	Inf	Inf
+-Cancers	-Circulatory System	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Circulatory System	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Circulatory System	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Circulatory System	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Circulatory System	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Circulatory System	Inf	Inf	Inf	Inf
+Not Mapped	-Circulatory System	Inf	Inf	Inf	Inf
+-Not Mapped	-Circulatory System	Inf	Inf	Inf	Inf
+TOTAL	-Digestive System	Inf	Inf	Inf	Inf
+MAPPED	-Digestive System	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Digestive System	Inf	Inf	Inf	Inf
+-Transcription	-Digestive System	Inf	Inf	Inf	Inf
+-Translation	-Digestive System	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Digestive System	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Digestive System	Inf	Inf	Inf	Inf
+-RNA Family	-Digestive System	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Digestive System	Inf	Inf	Inf	Inf
+-Signal Transduction	-Digestive System	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Digestive System	Inf	Inf	Inf	Inf
+Cellular Processes	-Digestive System	Inf	Inf	Inf	Inf
+-Crystallins	-Digestive System	NaN	NaN	NaN	NaN
+-Stress Response	-Digestive System	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Digestive System	Inf	Inf	Inf	Inf
+-Cytoskeleton	-Digestive System	Inf	Inf	Inf	Inf
+-Cell Motility	-Digestive System	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Digestive System	Inf	Inf	Inf	Inf
+-Cell Communication	-Digestive System	NaN	NaN	NaN	NaN
+Metabolism	-Digestive System	Inf	Inf	Inf	Inf
+-Membrane Transport	-Digestive System	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Digestive System	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Digestive System	Inf	Inf	Inf	Inf
+-Biosynthesis	-Digestive System	Inf	Inf	Inf	Inf
+-Other Enzymes	-Digestive System	Inf	Inf	Inf	Inf
+Organismal Systems	-Digestive System	Inf	Inf	Inf	Inf
+-Immune System	-Digestive System	NaN	NaN	NaN	NaN
+-Endocrine System	-Digestive System	Inf	Inf	Inf	Inf
+-Circulatory System	-Digestive System	NaN	NaN	NaN	NaN
+-Digestive System	-Digestive System	NaN	NaN	NaN	NaN
+-Excretory System	-Digestive System	NaN	NaN	NaN	NaN
+-Nervous System	-Digestive System	NaN	NaN	NaN	NaN
+-Sensory System	-Digestive System	NaN	NaN	NaN	NaN
+-Development	-Digestive System	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Digestive System	Inf	Inf	Inf	Inf
+Human Diseases	-Digestive System	Inf	Inf	Inf	Inf
+-Cancers	-Digestive System	Inf	Inf	Inf	Inf
+-Immune System Diseases	-Digestive System	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Digestive System	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Digestive System	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Digestive System	Inf	Inf	Inf	Inf
+-Infectious Diseases	-Digestive System	Inf	Inf	Inf	Inf
+Not Mapped	-Digestive System	Inf	Inf	Inf	Inf
+-Not Mapped	-Digestive System	Inf	Inf	Inf	Inf
+TOTAL	-Excretory System	Inf	Inf	Inf	Inf
+MAPPED	-Excretory System	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Excretory System	Inf	Inf	Inf	Inf
+-Transcription	-Excretory System	Inf	Inf	Inf	Inf
+-Translation	-Excretory System	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Excretory System	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Excretory System	Inf	Inf	Inf	Inf
+-RNA Family	-Excretory System	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Excretory System	Inf	Inf	Inf	Inf
+-Signal Transduction	-Excretory System	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Excretory System	Inf	Inf	Inf	Inf
+Cellular Processes	-Excretory System	Inf	Inf	Inf	Inf
+-Crystallins	-Excretory System	NaN	NaN	NaN	NaN
+-Stress Response	-Excretory System	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Excretory System	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Excretory System	Inf	Inf	Inf	Inf
+-Cell Motility	-Excretory System	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Excretory System	Inf	Inf	Inf	Inf
+-Cell Communication	-Excretory System	NaN	NaN	NaN	NaN
+Metabolism	-Excretory System	Inf	Inf	Inf	Inf
+-Membrane Transport	-Excretory System	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Excretory System	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Excretory System	Inf	Inf	Inf	Inf
+-Biosynthesis	-Excretory System	Inf	Inf	Inf	Inf
+-Other Enzymes	-Excretory System	Inf	Inf	Inf	Inf
+Organismal Systems	-Excretory System	Inf	Inf	Inf	Inf
+-Immune System	-Excretory System	NaN	NaN	NaN	NaN
+-Endocrine System	-Excretory System	Inf	Inf	Inf	Inf
+-Circulatory System	-Excretory System	NaN	NaN	NaN	NaN
+-Digestive System	-Excretory System	NaN	NaN	NaN	NaN
+-Excretory System	-Excretory System	NaN	NaN	NaN	NaN
+-Nervous System	-Excretory System	NaN	NaN	NaN	NaN
+-Sensory System	-Excretory System	NaN	NaN	NaN	NaN
+-Development	-Excretory System	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Excretory System	NaN	NaN	NaN	NaN
+Human Diseases	-Excretory System	Inf	Inf	Inf	Inf
+-Cancers	-Excretory System	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Excretory System	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Excretory System	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Excretory System	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Excretory System	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Excretory System	Inf	Inf	Inf	Inf
+Not Mapped	-Excretory System	Inf	Inf	Inf	Inf
+-Not Mapped	-Excretory System	Inf	Inf	Inf	Inf
+TOTAL	-Nervous System	Inf	Inf	Inf	Inf
+MAPPED	-Nervous System	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Nervous System	Inf	Inf	Inf	Inf
+-Transcription	-Nervous System	Inf	Inf	Inf	Inf
+-Translation	-Nervous System	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Nervous System	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Nervous System	Inf	Inf	Inf	Inf
+-RNA Family	-Nervous System	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Nervous System	Inf	Inf	Inf	Inf
+-Signal Transduction	-Nervous System	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Nervous System	Inf	Inf	Inf	Inf
+Cellular Processes	-Nervous System	Inf	Inf	Inf	Inf
+-Crystallins	-Nervous System	NaN	NaN	NaN	NaN
+-Stress Response	-Nervous System	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Nervous System	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Nervous System	Inf	Inf	Inf	Inf
+-Cell Motility	-Nervous System	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Nervous System	Inf	Inf	Inf	Inf
+-Cell Communication	-Nervous System	NaN	NaN	NaN	NaN
+Metabolism	-Nervous System	Inf	Inf	Inf	Inf
+-Membrane Transport	-Nervous System	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Nervous System	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Nervous System	Inf	Inf	Inf	Inf
+-Biosynthesis	-Nervous System	Inf	Inf	Inf	Inf
+-Other Enzymes	-Nervous System	Inf	Inf	Inf	Inf
+Organismal Systems	-Nervous System	Inf	Inf	Inf	Inf
+-Immune System	-Nervous System	NaN	NaN	NaN	NaN
+-Endocrine System	-Nervous System	Inf	Inf	Inf	Inf
+-Circulatory System	-Nervous System	NaN	NaN	NaN	NaN
+-Digestive System	-Nervous System	NaN	NaN	NaN	NaN
+-Excretory System	-Nervous System	NaN	NaN	NaN	NaN
+-Nervous System	-Nervous System	NaN	NaN	NaN	NaN
+-Sensory System	-Nervous System	NaN	NaN	NaN	NaN
+-Development	-Nervous System	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Nervous System	NaN	NaN	NaN	NaN
+Human Diseases	-Nervous System	Inf	Inf	Inf	Inf
+-Cancers	-Nervous System	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Nervous System	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Nervous System	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Nervous System	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Nervous System	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Nervous System	Inf	Inf	Inf	Inf
+Not Mapped	-Nervous System	Inf	Inf	Inf	Inf
+-Not Mapped	-Nervous System	Inf	Inf	Inf	Inf
+TOTAL	-Sensory System	Inf	Inf	Inf	Inf
+MAPPED	-Sensory System	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Sensory System	Inf	Inf	Inf	Inf
+-Transcription	-Sensory System	Inf	Inf	Inf	Inf
+-Translation	-Sensory System	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Sensory System	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Sensory System	Inf	Inf	Inf	Inf
+-RNA Family	-Sensory System	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Sensory System	Inf	Inf	Inf	Inf
+-Signal Transduction	-Sensory System	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Sensory System	Inf	Inf	Inf	Inf
+Cellular Processes	-Sensory System	Inf	Inf	Inf	Inf
+-Crystallins	-Sensory System	NaN	NaN	NaN	NaN
+-Stress Response	-Sensory System	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Sensory System	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Sensory System	Inf	Inf	Inf	Inf
+-Cell Motility	-Sensory System	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Sensory System	Inf	Inf	Inf	Inf
+-Cell Communication	-Sensory System	NaN	NaN	NaN	NaN
+Metabolism	-Sensory System	Inf	Inf	Inf	Inf
+-Membrane Transport	-Sensory System	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Sensory System	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Sensory System	Inf	Inf	Inf	Inf
+-Biosynthesis	-Sensory System	Inf	Inf	Inf	Inf
+-Other Enzymes	-Sensory System	Inf	Inf	Inf	Inf
+Organismal Systems	-Sensory System	Inf	Inf	Inf	Inf
+-Immune System	-Sensory System	NaN	NaN	NaN	NaN
+-Endocrine System	-Sensory System	Inf	Inf	Inf	Inf
+-Circulatory System	-Sensory System	NaN	NaN	NaN	NaN
+-Digestive System	-Sensory System	NaN	NaN	NaN	NaN
+-Excretory System	-Sensory System	NaN	NaN	NaN	NaN
+-Nervous System	-Sensory System	NaN	NaN	NaN	NaN
+-Sensory System	-Sensory System	NaN	NaN	NaN	NaN
+-Development	-Sensory System	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Sensory System	NaN	NaN	NaN	NaN
+Human Diseases	-Sensory System	Inf	Inf	Inf	Inf
+-Cancers	-Sensory System	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Sensory System	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Sensory System	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Sensory System	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Sensory System	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Sensory System	Inf	Inf	Inf	Inf
+Not Mapped	-Sensory System	Inf	Inf	Inf	Inf
+-Not Mapped	-Sensory System	Inf	Inf	Inf	Inf
+TOTAL	-Development	Inf	Inf	Inf	Inf
+MAPPED	-Development	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Development	Inf	Inf	Inf	Inf
+-Transcription	-Development	Inf	Inf	Inf	Inf
+-Translation	-Development	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Development	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Development	Inf	Inf	Inf	Inf
+-RNA Family	-Development	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Development	Inf	Inf	Inf	Inf
+-Signal Transduction	-Development	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Development	Inf	Inf	Inf	Inf
+Cellular Processes	-Development	Inf	Inf	Inf	Inf
+-Crystallins	-Development	NaN	NaN	NaN	NaN
+-Stress Response	-Development	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Development	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Development	Inf	Inf	Inf	Inf
+-Cell Motility	-Development	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Development	Inf	Inf	Inf	Inf
+-Cell Communication	-Development	NaN	NaN	NaN	NaN
+Metabolism	-Development	Inf	Inf	Inf	Inf
+-Membrane Transport	-Development	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Development	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Development	Inf	Inf	Inf	Inf
+-Biosynthesis	-Development	Inf	Inf	Inf	Inf
+-Other Enzymes	-Development	Inf	Inf	Inf	Inf
+Organismal Systems	-Development	Inf	Inf	Inf	Inf
+-Immune System	-Development	NaN	NaN	NaN	NaN
+-Endocrine System	-Development	Inf	Inf	Inf	Inf
+-Circulatory System	-Development	NaN	NaN	NaN	NaN
+-Digestive System	-Development	NaN	NaN	NaN	NaN
+-Excretory System	-Development	NaN	NaN	NaN	NaN
+-Nervous System	-Development	NaN	NaN	NaN	NaN
+-Sensory System	-Development	NaN	NaN	NaN	NaN
+-Development	-Development	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Development	NaN	NaN	NaN	NaN
+Human Diseases	-Development	Inf	Inf	Inf	Inf
+-Cancers	-Development	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Development	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Development	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Development	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Development	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Development	Inf	Inf	Inf	Inf
+Not Mapped	-Development	Inf	Inf	Inf	Inf
+-Not Mapped	-Development	Inf	Inf	Inf	Inf
+TOTAL	-Environmental Adaptation	Inf	Inf	Inf	Inf
+MAPPED	-Environmental Adaptation	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Transcription	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Translation	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-RNA Family	-Environmental Adaptation	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Signal Transduction	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Environmental Adaptation	Inf	Inf	Inf	Inf
+Cellular Processes	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Crystallins	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Stress Response	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Cell Motility	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Cell Communication	-Environmental Adaptation	NaN	NaN	NaN	NaN
+Metabolism	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Membrane Transport	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Biosynthesis	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Other Enzymes	-Environmental Adaptation	Inf	Inf	Inf	Inf
+Organismal Systems	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Immune System	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Endocrine System	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Circulatory System	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Digestive System	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Excretory System	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Nervous System	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Sensory System	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Development	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Environmental Adaptation	NaN	NaN	NaN	NaN
+Human Diseases	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Cancers	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Environmental Adaptation	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Environmental Adaptation	Inf	Inf	Inf	Inf
+Not Mapped	-Environmental Adaptation	Inf	Inf	Inf	Inf
+-Not Mapped	-Environmental Adaptation	Inf	Inf	Inf	Inf
+TOTAL	Human Diseases	79.52	104.7	71.78	83.01
+MAPPED	Human Diseases	68.68	79.26	50.31	65.22
+Genetic Information Processing	Human Diseases	33.5	41.79	15.48	26.96
+-Transcription	Human Diseases	1.622	1.507	1.125	1.173
+-Translation	Human Diseases	22.97	31.61	9.73	19.03
+-Folding, Sorting and Degradation	Human Diseases	4.828	6.363	3.25	4.744
+-DNA Maintenance	Human Diseases	2.61	2.169	1.374	1.282
+-RNA Family	Human Diseases	0	0	0	0
+Environmental Information Processing	Human Diseases	0.2797	0.3642	0.2996	0.2516
+-Signal Transduction	Human Diseases	0.2789	0.3633	0.2907	0.2513
+-Signaling Molecules and Interaction	Human Diseases	0.0007828	0.000944	0.00126	0.0003892
+Cellular Processes	Human Diseases	0.3765	0.5567	0.5898	0.399
+-Crystallins	Human Diseases	0	0	0	0
+-Stress Response	Human Diseases	0.001323	0.006301	0.3003	0.00682
+-Vesicular Transport	Human Diseases	0	0	0	0
+-Cytoskeleton	Human Diseases	0.1998	0.2251	0.1457	0.1665
+-Cell Motility	Human Diseases	0.02157	0.03153	0.03642	0.009634
+-Cell Growth and Death	Human Diseases	0.1072	0.3116	0.13	0.2085
+-Cell Communication	Human Diseases	0	0	0	0
+Metabolism	Human Diseases	37.01	35.58	32.91	36.59
+-Membrane Transport	Human Diseases	7.056	6.609	6.224	6.299
+-Central Carbon Metabolism	Human Diseases	7.353	6.605	4.98	4.502
+-Energy Metabolism	Human Diseases	2.469	1.937	1.365	1.56
+-Biosynthesis	Human Diseases	8.216	11.56	12.5	15.88
+-Other Enzymes	Human Diseases	10.22	10.79	8.142	8.082
+Organismal Systems	Human Diseases	0.002649	0.002171	0.008229	0.0009769
+-Immune System	Human Diseases	0	0	0	0
+-Endocrine System	Human Diseases	0.002369	0.002001	0.001955	0.0009768
+-Circulatory System	Human Diseases	0	0	0	0
+-Digestive System	Human Diseases	0	0	0	0
+-Excretory System	Human Diseases	0	0	0	0
+-Nervous System	Human Diseases	0	0	0	0
+-Sensory System	Human Diseases	0	0	0	0
+-Development	Human Diseases	0	0	0	0
+-Environmental Adaptation	Human Diseases	0	0	0	0
+Human Diseases	Human Diseases	1	1	1	1
+-Cancers	Human Diseases	0	0	0	0
+-Immune System Diseases	Human Diseases	0	0	0	0
+-Neurodegenerative Diseases	Human Diseases	0.0003441	0.000558	0.01256	0.0004141
+-Cardiovascular Diseases	Human Diseases	0	0	0	0
+-Metabolic Diseases	Human Diseases	0	0	0	0
+-Infectious Diseases	Human Diseases	0.1629	0.1469	0.3817	0.09661
+Not Mapped	Human Diseases	10.84	25.49	21.47	17.78
+-Not Mapped	Human Diseases	10.84	25.49	21.47	17.78
+TOTAL	-Cancers	Inf	Inf	Inf	Inf
+MAPPED	-Cancers	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Cancers	Inf	Inf	Inf	Inf
+-Transcription	-Cancers	Inf	Inf	Inf	Inf
+-Translation	-Cancers	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Cancers	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Cancers	Inf	Inf	Inf	Inf
+-RNA Family	-Cancers	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Cancers	Inf	Inf	Inf	Inf
+-Signal Transduction	-Cancers	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Cancers	Inf	Inf	Inf	Inf
+Cellular Processes	-Cancers	Inf	Inf	Inf	Inf
+-Crystallins	-Cancers	NaN	NaN	NaN	NaN
+-Stress Response	-Cancers	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Cancers	Inf	Inf	Inf	Inf
+-Cytoskeleton	-Cancers	Inf	Inf	Inf	Inf
+-Cell Motility	-Cancers	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Cancers	Inf	Inf	Inf	Inf
+-Cell Communication	-Cancers	NaN	NaN	NaN	NaN
+Metabolism	-Cancers	Inf	Inf	Inf	Inf
+-Membrane Transport	-Cancers	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Cancers	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Cancers	Inf	Inf	Inf	Inf
+-Biosynthesis	-Cancers	Inf	Inf	Inf	Inf
+-Other Enzymes	-Cancers	Inf	Inf	Inf	Inf
+Organismal Systems	-Cancers	Inf	Inf	Inf	Inf
+-Immune System	-Cancers	NaN	NaN	NaN	NaN
+-Endocrine System	-Cancers	Inf	Inf	Inf	Inf
+-Circulatory System	-Cancers	NaN	NaN	NaN	NaN
+-Digestive System	-Cancers	Inf	Inf	Inf	Inf
+-Excretory System	-Cancers	NaN	NaN	NaN	NaN
+-Nervous System	-Cancers	NaN	NaN	NaN	NaN
+-Sensory System	-Cancers	NaN	NaN	NaN	NaN
+-Development	-Cancers	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Cancers	NaN	NaN	NaN	NaN
+Human Diseases	-Cancers	Inf	Inf	Inf	Inf
+-Cancers	-Cancers	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Cancers	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Cancers	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Cancers	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Cancers	Inf	Inf	Inf	Inf
+-Infectious Diseases	-Cancers	Inf	Inf	Inf	Inf
+Not Mapped	-Cancers	Inf	Inf	Inf	Inf
+-Not Mapped	-Cancers	Inf	Inf	Inf	Inf
+TOTAL	-Immune System Diseases	22100	17230	18020	16550
+MAPPED	-Immune System Diseases	19080	13040	12630	13010
+Genetic Information Processing	-Immune System Diseases	9165	6841	3816	5494
+-Transcription	-Immune System Diseases	665.6	367.1	366.1	310.9
+-Translation	-Immune System Diseases	6403	5217	2454	3809
+-Folding, Sorting and Degradation	-Immune System Diseases	1660	1042	734.3	1141
+-DNA Maintenance	-Immune System Diseases	907.1	420.2	344.5	329.8
+-RNA Family	-Immune System Diseases	0	0	0	0
+Environmental Information Processing	-Immune System Diseases	68.89	73.35	89.71	51.8
+-Signal Transduction	-Immune System Diseases	68.7	73.2	89.49	51.74
+-Signaling Molecules and Interaction	-Immune System Diseases	0.2175	0.1484	0.2276	0.0732
+Cellular Processes	-Immune System Diseases	99.48	112.8	171.1	79.04
+-Crystallins	-Immune System Diseases	0	0	0	0
+-Stress Response	-Immune System Diseases	0.3676	1.037	75.38	1.36
+-Vesicular Transport	-Immune System Diseases	0.07769	0.0224	0.02999	5.413e-05
+-Cytoskeleton	-Immune System Diseases	55.51	37.03	36.56	33.2
+-Cell Motility	-Immune System Diseases	12.46	12.71	13.1	2.099
+-Cell Growth and Death	-Immune System Diseases	38.18	62.46	46.01	46.28
+-Cell Communication	-Immune System Diseases	0	0	0	0
+Metabolism	-Immune System Diseases	9601	6153	8585	7208
+-Membrane Transport	-Immune System Diseases	1946	1089	1557	1311
+-Central Carbon Metabolism	-Immune System Diseases	2192	1251	1414	970
+-Energy Metabolism	-Immune System Diseases	652.9	469.8	530.8	385
+-Biosynthesis	-Immune System Diseases	2759	1893	2975	3157
+-Other Enzymes	-Immune System Diseases	3192	1962	2364	1832
+Organismal Systems	-Immune System Diseases	11.47	3.827	10.66	3.37
+-Immune System	-Immune System Diseases	0	0	0	0
+-Endocrine System	-Immune System Diseases	11.47	3.827	10.66	3.37
+-Circulatory System	-Immune System Diseases	0	0	0	0
+-Digestive System	-Immune System Diseases	0.1658	0.0665	2.378	4.877e-05
+-Excretory System	-Immune System Diseases	0	0	0	0
+-Nervous System	-Immune System Diseases	0	0	0	0
+-Sensory System	-Immune System Diseases	0	0	0	0
+-Development	-Immune System Diseases	0	0	0	0
+-Environmental Adaptation	-Immune System Diseases	0	0	0	0
+Human Diseases	-Immune System Diseases	592.1	392.3	375.4	484.4
+-Cancers	-Immune System Diseases	2.61	1.602	3.452	1.442
+-Immune System Diseases	-Immune System Diseases	1	1	1	1
+-Neurodegenerative Diseases	-Immune System Diseases	143.1	145.3	222.5	159.9
+-Cardiovascular Diseases	-Immune System Diseases	0	0	0	0
+-Metabolic Diseases	-Immune System Diseases	225.8	118.6	69.58	173.9
+-Infectious Diseases	-Immune System Diseases	464.3	245.9	151.8	339.3
+Not Mapped	-Immune System Diseases	3012	4193	5389	3546
+-Not Mapped	-Immune System Diseases	3012	4193	5389	3546
+TOTAL	-Neurodegenerative Diseases	154.4	118.6	81.31	103.6
+MAPPED	-Neurodegenerative Diseases	133.4	89.72	56.99	81.37
+Genetic Information Processing	-Neurodegenerative Diseases	65.37	47.3	17.46	34.36
+-Transcription	-Neurodegenerative Diseases	5.304	2.641	1.531	2.223
+-Translation	-Neurodegenerative Diseases	45.15	36	11.05	23.91
+-Folding, Sorting and Degradation	-Neurodegenerative Diseases	11.6	7.202	3.667	7.148
+-DNA Maintenance	-Neurodegenerative Diseases	6.338	2.83	1.549	2.063
+-RNA Family	-Neurodegenerative Diseases	0	0	0	0
+Environmental Information Processing	-Neurodegenerative Diseases	0.5118	0.4908	0.3891	0.3387
+-Signal Transduction	-Neurodegenerative Diseases	0.5089	0.4894	0.3775	0.3382
+-Signaling Molecules and Interaction	-Neurodegenerative Diseases	0.002865	0.001466	0.0116	0.0005896
+Cellular Processes	-Neurodegenerative Diseases	0.7841	0.7762	0.7687	0.5487
+-Crystallins	-Neurodegenerative Diseases	0	0	0	0
+-Stress Response	-Neurodegenerative Diseases	0.002569	0.007132	0.3402	0.008509
+-Vesicular Transport	-Neurodegenerative Diseases	0	0	0	0
+-Cytoskeleton	-Neurodegenerative Diseases	0.3879	0.2548	0.165	0.2077
+-Cell Motility	-Neurodegenerative Diseases	0.1197	0.1024	0.07028	0.02185
+-Cell Growth and Death	-Neurodegenerative Diseases	0.2955	0.4269	0.2068	0.3213
+-Cell Communication	-Neurodegenerative Diseases	0	0	0	0
+Metabolism	-Neurodegenerative Diseases	71.04	41.16	37.81	46.02
+-Membrane Transport	-Neurodegenerative Diseases	13.64	7.58	7.212	8.322
+-Central Carbon Metabolism	-Neurodegenerative Diseases	16.92	7.752	6.186	5.885
+-Energy Metabolism	-Neurodegenerative Diseases	5.013	3.037	1.966	2.201
+-Biosynthesis	-Neurodegenerative Diseases	26.75	15.05	14.21	21.95
+-Other Enzymes	-Neurodegenerative Diseases	23.85	12.87	10.62	11.46
+Organismal Systems	-Neurodegenerative Diseases	0.01106	0.005402	0.01069	0.003285
+-Immune System	-Neurodegenerative Diseases	0	0	0	0
+-Endocrine System	-Neurodegenerative Diseases	0.01106	0.005401	0.003298	0.003285
+-Circulatory System	-Neurodegenerative Diseases	0	0	0	0
+-Digestive System	-Neurodegenerative Diseases	0	0	0	0
+-Excretory System	-Neurodegenerative Diseases	0	0	0	0
+-Nervous System	-Neurodegenerative Diseases	0	0	0	0
+-Sensory System	-Neurodegenerative Diseases	0	0	0	0
+-Development	-Neurodegenerative Diseases	0	0	0	0
+-Environmental Adaptation	-Neurodegenerative Diseases	0	0	0	0
+Human Diseases	-Neurodegenerative Diseases	4.667	2.699	1.687	3.363
+-Cancers	-Neurodegenerative Diseases	0	0	0	0
+-Immune System Diseases	-Neurodegenerative Diseases	0	0	0	0
+-Neurodegenerative Diseases	-Neurodegenerative Diseases	1	1	1	1
+-Cardiovascular Diseases	-Neurodegenerative Diseases	0	0	0	0
+-Metabolic Diseases	-Neurodegenerative Diseases	0	0	0	0
+-Infectious Diseases	-Neurodegenerative Diseases	3.659	1.692	0.6822	2.356
+Not Mapped	-Neurodegenerative Diseases	21.05	28.85	24.32	22.18
+-Not Mapped	-Neurodegenerative Diseases	21.05	28.85	24.32	22.18
+TOTAL	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+MAPPED	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Transcription	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Translation	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-RNA Family	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Signal Transduction	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+Cellular Processes	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Crystallins	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Stress Response	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Cytoskeleton	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Cell Motility	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Cell Communication	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+Metabolism	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Membrane Transport	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Biosynthesis	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Other Enzymes	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+Organismal Systems	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Immune System	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Endocrine System	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Circulatory System	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Digestive System	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Excretory System	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Nervous System	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Sensory System	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Development	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+Human Diseases	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Cancers	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Immune System Diseases	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Cardiovascular Diseases	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+Not Mapped	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+-Not Mapped	-Cardiovascular Diseases	Inf	Inf	Inf	Inf
+TOTAL	-Metabolic Diseases	Inf	Inf	Inf	Inf
+MAPPED	-Metabolic Diseases	Inf	Inf	Inf	Inf
+Genetic Information Processing	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Transcription	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Translation	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Folding, Sorting and Degradation	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-DNA Maintenance	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-RNA Family	-Metabolic Diseases	NaN	NaN	NaN	NaN
+Environmental Information Processing	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Signal Transduction	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Signaling Molecules and Interaction	-Metabolic Diseases	Inf	Inf	Inf	Inf
+Cellular Processes	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Crystallins	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Stress Response	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Vesicular Transport	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Cytoskeleton	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Cell Motility	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Cell Growth and Death	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Cell Communication	-Metabolic Diseases	NaN	NaN	NaN	NaN
+Metabolism	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Membrane Transport	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Central Carbon Metabolism	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Energy Metabolism	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Biosynthesis	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Other Enzymes	-Metabolic Diseases	Inf	Inf	Inf	Inf
+Organismal Systems	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Immune System	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Endocrine System	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Circulatory System	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Digestive System	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Excretory System	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Nervous System	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Sensory System	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Development	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Environmental Adaptation	-Metabolic Diseases	NaN	NaN	NaN	NaN
+Human Diseases	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Cancers	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Immune System Diseases	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Neurodegenerative Diseases	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Cardiovascular Diseases	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Metabolic Diseases	-Metabolic Diseases	NaN	NaN	NaN	NaN
+-Infectious Diseases	-Metabolic Diseases	Inf	Inf	Inf	Inf
+Not Mapped	-Metabolic Diseases	Inf	Inf	Inf	Inf
+-Not Mapped	-Metabolic Diseases	Inf	Inf	Inf	Inf
+TOTAL	-Infectious Diseases	597.4	669.8	263.5	962.2
+MAPPED	-Infectious Diseases	516	506.9	184.7	756.1
+Genetic Information Processing	-Infectious Diseases	253.4	265.8	55.93	319.3
+-Transcription	-Infectious Diseases	6.972	10.65	4.205	12.46
+-Translation	-Infectious Diseases	174.7	204	36.23	221.4
+-Folding, Sorting and Degradation	-Infectious Diseases	39.22	36.15	11.45	60.94
+-DNA Maintenance	-Infectious Diseases	20.55	15.02	4.086	14.25
+-RNA Family	-Infectious Diseases	0	0	0	0
+Environmental Information Processing	-Infectious Diseases	1.884	2.478	1.197	2.863
+-Signal Transduction	-Infectious Diseases	1.878	2.472	1.194	2.859
+-Signaling Molecules and Interaction	-Infectious Diseases	0.00588	0.00577	0.003329	0.004255
+Cellular Processes	-Infectious Diseases	2.232	3.617	2.465	4.356
+-Crystallins	-Infectious Diseases	0	0	0	0
+-Stress Response	-Infectious Diseases	0.00994	0.04029	1.103	0.07906
+-Vesicular Transport	-Infectious Diseases	0	0	0	0
+-Cytoskeleton	-Infectious Diseases	1.501	1.439	0.5348	1.93
+-Cell Motility	-Infectious Diseases	0.1673	0.1638	0.09544	0.05995
+-Cell Growth and Death	-Infectious Diseases	0.7751	1.973	0.5893	2.317
+-Cell Communication	-Infectious Diseases	0	0	0	0
+Metabolism	-Infectious Diseases	248.7	228	122.5	419
+-Membrane Transport	-Infectious Diseases	52.21	42.31	23.04	76.21
+-Central Carbon Metabolism	-Infectious Diseases	45.13	41.18	21.99	38.89
+-Energy Metabolism	-Infectious Diseases	15.6	15.32	5.096	13.88
+-Biosynthesis	-Infectious Diseases	53.53	65.06	43.97	183.5
+-Other Enzymes	-Infectious Diseases	54.55	52.78	29.83	89.57
+Organismal Systems	-Infectious Diseases	0.007728	0.003947	0.0205	0.001395
+-Immune System	-Infectious Diseases	0	0	0	0
+-Endocrine System	-Infectious Diseases	0.003021	0.003192	0.004834	0.001394
+-Circulatory System	-Infectious Diseases	0	0	0	0
+-Digestive System	-Infectious Diseases	0	0	0	0
+-Excretory System	-Infectious Diseases	0	0	0	0
+-Nervous System	-Infectious Diseases	0	0	0	0
+-Sensory System	-Infectious Diseases	0	0	0	0
+-Development	-Infectious Diseases	0	0	0	0
+-Environmental Adaptation	-Infectious Diseases	0	0	0	0
+Human Diseases	-Infectious Diseases	5.748	3.87	2.472	2.682
+-Cancers	-Infectious Diseases	0	0	0	0
+-Immune System Diseases	-Infectious Diseases	0	0	0	0
+-Neurodegenerative Diseases	-Infectious Diseases	0.001921	0.001874	0.01541	0.00107
+-Cardiovascular Diseases	-Infectious Diseases	0	0	0	0
+-Metabolic Diseases	-Infectious Diseases	0	0	0	0
+-Infectious Diseases	-Infectious Diseases	1	1	1	1
+Not Mapped	-Infectious Diseases	81.43	163	78.83	206.1
+-Not Mapped	-Infectious Diseases	81.43	163	78.83	206.1
+TOTAL	Not Mapped	7.336	4.11	3.343	4.668
+MAPPED	Not Mapped	6.336	3.11	2.343	3.668
+Genetic Information Processing	Not Mapped	3.043	1.63	0.7078	1.514
+-Transcription	Not Mapped	0.06773	0.05625	0.05241	0.06128
+-Translation	Not Mapped	2.119	1.236	0.4522	1.071
+-Folding, Sorting and Degradation	Not Mapped	0.4817	0.2218	0.1388	0.2668
+-DNA Maintenance	Not Mapped	0.1853	0.08374	0.05179	0.07211
+-RNA Family	Not Mapped	0	0	0	0
+Environmental Information Processing	Not Mapped	0.01939	0.013	0.01389	0.01417
+-Signal Transduction	Not Mapped	0.01931	0.01296	0.01385	0.01415
+-Signaling Molecules and Interaction	Not Mapped	7.221e-05	3.54e-05	4.223e-05	2.064e-05
+Cellular Processes	Not Mapped	0.02994	0.02417	0.02913	0.0215
+-Crystallins	Not Mapped	0	0	0	0
+-Stress Response	Not Mapped	0.0001221	0.0002472	0.01399	0.0003835
+-Vesicular Transport	Not Mapped	0	0	0	0
+-Cytoskeleton	Not Mapped	0.01843	0.008831	0.006785	0.009362
+-Cell Motility	Not Mapped	0.002055	0.001031	0.001158	0.0004997
+-Cell Growth and Death	Not Mapped	0.007218	0.01223	0.006053	0.01124
+-Cell Communication	Not Mapped	0	0	0	0
+Metabolism	Not Mapped	3.187	1.41	1.554	2.063
+-Membrane Transport	Not Mapped	0.6454	0.2589	0.2898	0.3697
+-Central Carbon Metabolism	Not Mapped	0.5948	0.2314	0.2463	0.2502
+-Energy Metabolism	Not Mapped	0.1811	0.0779	0.06379	0.0767
+-Biosynthesis	Not Mapped	0.8086	0.4171	0.5508	0.8619
+-Other Enzymes	Not Mapped	0.8311	0.3995	0.3923	0.4783
+Organismal Systems	Not Mapped	0.0005253	0.0001872	0.0004413	0.0001481
+-Immune System	Not Mapped	0	0	0	0
+-Endocrine System	Not Mapped	0.0005253	0.0001872	0.0001362	0.0001481
+-Circulatory System	Not Mapped	0	0	0	0
+-Digestive System	Not Mapped	0	0	0	0
+-Excretory System	Not Mapped	0	0	0	0
+-Nervous System	Not Mapped	0	0	0	0
+-Sensory System	Not Mapped	0	0	0	0
+-Development	Not Mapped	0	0	0	0
+-Environmental Adaptation	Not Mapped	0	0	0	0
+Human Diseases	Not Mapped	0.07334	0.0375	0.03351	0.05303
+-Cancers	Not Mapped	0	0	0	0
+-Immune System Diseases	Not Mapped	0	0	0	0
+-Neurodegenerative Diseases	Not Mapped	7.2e-06	4.792e-06	0.0001757	3.56e-06
+-Cardiovascular Diseases	Not Mapped	0	0	0	0
+-Metabolic Diseases	Not Mapped	0	0	0	0
+-Infectious Diseases	Not Mapped	0.009313	0.004332	0.0119	0.004379
+Not Mapped	Not Mapped	1	1	1	1
+-Not Mapped	Not Mapped	1	1	1	1
+TOTAL	-Not Mapped	7.336	4.11	3.343	4.668
+MAPPED	-Not Mapped	6.336	3.11	2.343	3.668
+Genetic Information Processing	-Not Mapped	3.043	1.63	0.7078	1.514
+-Transcription	-Not Mapped	0.06773	0.05625	0.05241	0.06128
+-Translation	-Not Mapped	2.119	1.236	0.4522	1.071
+-Folding, Sorting and Degradation	-Not Mapped	0.4817	0.2218	0.1388	0.2668
+-DNA Maintenance	-Not Mapped	0.1853	0.08374	0.05179	0.07211
+-RNA Family	-Not Mapped	0	0	0	0
+Environmental Information Processing	-Not Mapped	0.01939	0.013	0.01389	0.01417
+-Signal Transduction	-Not Mapped	0.01931	0.01296	0.01385	0.01415
+-Signaling Molecules and Interaction	-Not Mapped	7.221e-05	3.54e-05	4.223e-05	2.064e-05
+Cellular Processes	-Not Mapped	0.02994	0.02417	0.02913	0.0215
+-Crystallins	-Not Mapped	0	0	0	0
+-Stress Response	-Not Mapped	0.0001221	0.0002472	0.01399	0.0003835
+-Vesicular Transport	-Not Mapped	0	0	0	0
+-Cytoskeleton	-Not Mapped	0.01843	0.008831	0.006785	0.009362
+-Cell Motility	-Not Mapped	0.002055	0.001031	0.001158	0.0004997
+-Cell Growth and Death	-Not Mapped	0.007218	0.01223	0.006053	0.01124
+-Cell Communication	-Not Mapped	0	0	0	0
+Metabolism	-Not Mapped	3.187	1.41	1.554	2.063
+-Membrane Transport	-Not Mapped	0.6454	0.2589	0.2898	0.3697
+-Central Carbon Metabolism	-Not Mapped	0.5948	0.2314	0.2463	0.2502
+-Energy Metabolism	-Not Mapped	0.1811	0.0779	0.06379	0.0767
+-Biosynthesis	-Not Mapped	0.8086	0.4171	0.5508	0.8619
+-Other Enzymes	-Not Mapped	0.8311	0.3995	0.3923	0.4783
+Organismal Systems	-Not Mapped	0.0005253	0.0001872	0.0004413	0.0001481
+-Immune System	-Not Mapped	0	0	0	0
+-Endocrine System	-Not Mapped	0.0005253	0.0001872	0.0001362	0.0001481
+-Circulatory System	-Not Mapped	0	0	0	0
+-Digestive System	-Not Mapped	0	0	0	0
+-Excretory System	-Not Mapped	0	0	0	0
+-Nervous System	-Not Mapped	0	0	0	0
+-Sensory System	-Not Mapped	0	0	0	0
+-Development	-Not Mapped	0	0	0	0
+-Environmental Adaptation	-Not Mapped	0	0	0	0
+Human Diseases	-Not Mapped	0.07334	0.0375	0.03351	0.05303
+-Cancers	-Not Mapped	0	0	0	0
+-Immune System Diseases	-Not Mapped	0	0	0	0
+-Neurodegenerative Diseases	-Not Mapped	7.2e-06	4.792e-06	0.0001757	3.56e-06
+-Cardiovascular Diseases	-Not Mapped	0	0	0	0
+-Metabolic Diseases	-Not Mapped	0	0	0	0
+-Infectious Diseases	-Not Mapped	0.009313	0.004332	0.0119	0.004379
+Not Mapped	-Not Mapped	1	1	1	1
+-Not Mapped	-Not Mapped	1	1	1	1

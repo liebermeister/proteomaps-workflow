@@ -4,6 +4,10 @@ import subprocess
 import argparse
 import re
 import csv
+from proteomaps_PATHNAMES import proteomaps_PATHNAMES
+
+a = proteomaps_PATHNAMES()
+MATLAB_PATH   = a.MATLAB_PATH
 
 # ----------------------------------------------------------------
 # Command line arguments

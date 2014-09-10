@@ -56,30 +56,33 @@ for data_file_triple in data_files:
   name_list = []
   igot      = fi.readlines()
   for line in igot:
-    q    = re.split('\t', line.strip())
-    name = q[0]
-    chop_names = re.split(';',name)
-    name = chop_names[0]
-    if name in name_list:
-      print 'Warning (data set ' + filenames['data_set'] + ': gene ' + name + ' has appeared before.'
-    name_list.append(name)
-    
-    if len(q)>1:
-      try:
-        value = float(q[1])
-        value_string = '%(value).8g' % {'value': value}
-        fo0.write(name + "\t" + value_string + "\n")
-        if name in systematic_to_gene[my_organism].keys():
-          my_ko = systematic_to_ko[my_organism][name]
-          fo1.write(name + "\t" + my_ko + "\t" + "\t" + value_string + "\n")
-          if not(name in systematic_in_hierarchy[my_organism]):
-            fo2.write(name + "\t" + name + "\t" + my_ko + "\t" + value_string + "\n")        
-        else:
-          fo1.write(name + "\tNotMapped\t" + "\t" + value_string + "\n")
-          if not(name in systematic_in_hierarchy[my_organism]):
-            fo2.write(name + "\t" + name + "\tNotMapped\t" + value_string + "\n")        
-      except ValueError, TypeError:
-        print "Non-numeric value " + q[1] + ". Line ignored."
+    if line[0]=="\t":
+      print 'Warning (data set ' + filenames['data_set'] + ': Gene name missing'
+    else:
+      q    = re.split('\t', line.strip())
+      name = q[0]
+      chop_names = re.split(';',name)
+      name = chop_names[0]
+      if name in name_list:
+        print 'Warning (data set ' + filenames['data_set'] + ': gene ' + name + ' has appeared before.'
+      name_list.append(name)
+      
+      if len(q)>1:
+        try:
+          value = float(q[1])
+          value_string = '%(value).8g' % {'value': value}
+          fo0.write(name + "\t" + value_string + "\n")
+          if name in systematic_to_gene[my_organism].keys():
+            my_ko = systematic_to_ko[my_organism][name]
+            fo1.write(name + "\t" + my_ko + "\t" + "\t" + value_string + "\n")
+            if not(name in systematic_in_hierarchy[my_organism]):
+              fo2.write(name + "\t" + name + "\t" + my_ko + "\t" + value_string + "\n")        
+          else:
+            fo1.write(name + "\tNotMapped\t" + "\t" + value_string + "\n")
+            if not(name in systematic_in_hierarchy[my_organism]):
+              fo2.write(name + "\t" + name + "\tNotMapped\t" + value_string + "\n")        
+        except ValueError, TypeError:
+          print "Non-numeric value " + q[1] + ". Line ignored."
 
   fo0.close()
   fo1.close()

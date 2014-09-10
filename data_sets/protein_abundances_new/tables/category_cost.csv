@@ -1,0 +1,199 @@
+Category	eco WeiLi old	eco WeiLi complete	eco WeiLi minimal	eco WeiLi without methionine
+TOTAL	1	1	1	1
+MAPPED	0.8636822	0.75667857	0.70088412	0.78576678
+Genetic Information Processing	0.47472606	0.43303644	0.23829186	0.36098899
+-Transcription	0.052697421	0.029636832	0.025468918	0.027882306
+--RNA polymerase	0.046032663	0.017839797	0.012439728	0.015928312
+--Basal transcription factors	0	0	0	0
+--Transcription factors	0.0066647579	0.011797035	0.01302919	0.011953994
+--Spliceosome	0	0	0	0
+-Translation	0.29722419	0.30732141	0.13828683	0.23352935
+--Ribosome	0.13437106	0.24170008	0.10035581	0.17703228
+--Translation factors	0.10103385	0.030774629	0.018655129	0.028388764
+--tRNA loading	0.054146621	0.029351693	0.016776382	0.024468385
+--RNA transport	8.3394993e-05	5.9942603e-05	6.0963955e-05	6.3015163e-05
+--mRNA surveillance pathway	0	0	0	0
+--Ribosome biogenesis in eukaryotes	0	0	0	0
+--Ribosome biogenesis	0.0075892698	0.0054350656	0.002438545	0.0035769055
+-Folding, Sorting and Degradation	0.098061384	0.077757683	0.059085038	0.085014892
+--Chaperones and folding catalysts	0.052058845	0.045812411	0.031217381	0.053574301
+--Protein export	0.0086811576	0.0062438722	0.003504866	0.0046774633
+--Protein processing in endoplasmic reticulum	0	0	0	0
+--SNARE interactions in vesicular transport	0	0	0	0
+--SNAREs	0	0	0	0
+--Ubiquitin mediated proteolysis	0	0	0	0
+--Ubiquitin labeling	2.0130705e-05	1.947853e-05	1.6757241e-05	1.8936623e-05
+--Sulfur relay system	0.0025613373	0.0023407575	0.0022134962	0.003189393
+--Proteasome	0	0	0	0
+--Peptidases	0.02428734	0.016296344	0.016742297	0.016477246
+--RNA degradation	0.010452574	0.0070448197	0.0053902409	0.0070775519
+-DNA Maintenance	0.026743061	0.018320516	0.01545107	0.014562446
+--DNA replication	0.00042762502	0.00017084783	0.00011909258	0.00019468243
+--DNA replication complex	0.0023789533	0.0016318336	0.00092965046	0.0012967529
+--DNA replication control	0.0085755005	0.004499706	0.0034992155	0.0036534701
+--Chromosome-related	0.0072289339	0.0068530328	0.0072564163	0.0052935136
+--Base excision repair	0.00057074112	0.0005892233	0.00051752849	0.00056212778
+--Nucleotide excision repair	0.0012983549	0.00049790516	0.00057696849	0.00053111526
+--Mismatch repair	0.00076174085	0.00040908283	0.00029888496	0.00037663353
+--Homologous recombination	0.0015735471	0.0012258616	0.0009346387	0.0010072881
+--Non-homologous end-joining	0	0	0	0
+--DNA repair and recombination proteins	0.0039276645	0.0024430226	0.0013186746	0.0016468623
+Environmental Information Processing	0.0038427635	0.0041181277	0.0049737916	0.0033118525
+-Signal Transduction	0.0038329198	0.0041095131	0.0049611603	0.0033074306
+--Two-component system	0.003076519	0.0032565174	0.0046103313	0.0030570879
+--MAPK signaling pathway	0	0	0	0
+--ErbB signaling pathway	0	0	0	0
+--Wnt signaling pathway	0	0	0	0
+--Notch signaling pathway	0	0	0	0
+--Hedgehog signaling pathway	0	0	0	0
+--TGF-beta signaling pathway	0	0	0	0
+--VEGF signaling pathway	0	0	0	0
+--Jak-STAT signaling pathway	0	0	0	0
+--Calcium signaling pathway	0	0	0	0
+--Phosphatidylinositol signaling system	0.00075640081	0.00085299569	0.00035082907	0.00025034272
+--mTOR signaling pathway	0	0	0	0
+--Plant hormone signal transduction	0	0	0	0
+-Signaling Molecules and Interaction	9.8436281e-06	8.614601e-06	1.2631298e-05	4.4219253e-06
+--G protein-coupled receptors	0	0	0	0
+--Enzyme-linked receptors	0	0	0	0
+--Cytokine receptors	0	0	0	0
+--Ion channels	6.9670253e-06	5.5319747e-06	5.0461039e-06	9.5890004e-07
+--Neuroactive ligand-receptor interaction	0	0	0	0
+--Cytokine-cytokine receptor interaction	0	0	0	0
+--Cytokines	0	0	0	0
+--ECM-receptor interaction	0	0	0	0
+--Cell adhesion molecules (CAMs)	0	0	0	0
+--CAM ligands	0	0	0	0
+--Cellular antigens	0	0	0	0
+--GTP-binding signaling proteins	0	0	0	0
+--Glycan binding proteins	0	0	0	0
+--Bacterial toxins	2.8766028e-06	3.0826263e-06	7.5851942e-06	3.4630253e-06
+Cellular Processes	0.0041248056	0.0059339983	0.008840211	0.0046175784
+-Stress Response	1.6638702e-05	6.0150567e-05	0.0041836497	8.2167814e-05
+--Stress response	1.6638702e-05	6.0150567e-05	0.0041836497	8.2167814e-05
+-Vesicular Transport	4.4976581e-06	2.4722148e-06	5.4451128e-05	7.6598111e-07
+--Endocytosis	0	0	0	0
+--Phagosome	0	0	0	0
+--Lysosome	3.5162168e-06	1.306271e-06	1.8962986e-06	3.2698124e-09
+--Peroxisome	9.8144128e-07	1.1659438e-06	5.255483e-05	7.627113e-07
+--Regulation of autophagy	0	0	0	0
+-Cytoskeleton	0.0025120146	0.0021487282	0.0020293854	0.0020056644
+--Regulation of actin cytoskeleton	0	0	0	0
+--Cytoskeleton proteins	0.0025120146	0.0021487282	0.0020293854	0.0020056644
+-Cell Motility	0.00077145303	0.00084173842	0.00085633868	0.00020282106
+--Bacterial chemotaxis	0.00013824147	0.0001299529	0.00015330772	0.00011109452
+--Bacterial motility proteins	0.00063321156	0.00071178551	0.00070303096	9.1726541e-05
+-Cell Growth and Death	0.00082020153	0.0028809089	0.0017163861	0.0023261592
+--Cell cycle	0.00082020153	0.0028809089	0.0017163861	0.0023261592
+--Meiosis	0	0	0	0
+--Oocyte meiosis	0	0	0	0
+--Apoptosis	0	0	0	0
+--p53 signaling pathway	0	0	0	0
+-Cell Communication	0	0	0	0
+--Focal adhesion	0	0	0	0
+--Adherens junction	0	0	0	0
+--Tight junction	0	0	0	0
+--Gap junction	0	0	0	0
+Metabolism	0.38098857	0.31359	0.44877826	0.41684836
+-Membrane Transport	0.08345237	0.06014343	0.086744716	0.07709707
+--Transport	0.081904918	0.058984362	0.085593926	0.076116378
+--Bacterial secretion system	0.0013683996	0.00104774	0.00098420638	0.00085956204
+--Secretion system	0.00017905281	0.00011132753	0.00016658357	0.00012112947
+-Central Carbon Metabolism	0.14586144	0.096989465	0.12351523	0.092491323
+--Glycolysis	0.097122135	0.063135534	0.055676045	0.055537282
+--TCA cycle and anaplerotic enzymes	0.018932664	0.01154673	0.036561124	0.012663204
+--Pentose phosphate metabolism	0.014019452	0.010214667	0.010330404	0.0087736502
+--Carbohydrate metabolism	0.0050599459	0.0038594449	0.0084946695	0.0043728443
+--Pyruvate metabolism	0.00039369569	0.00020634798	0.00010291335	0.0002607351
+--Butanoate metabolism	3.4439296e-06	3.1731289e-06	8.1527001e-05	4.7727504e-06
+--Other central metabolism enzymes	0.010330098	0.0080235678	0.012268544	0.010878835
+-Energy Metabolism	0.029541686	0.024814939	0.016562324	0.019177528
+--Oxidative phosphorylation	0.029192619	0.024586365	0.016470019	0.019062804
+--Photosynthesis	0	0	0	0
+--Photosynthesis - antenna proteins	0	0	0	0
+--Carbon fixation in photosynthetic organisms	0	0	0	0
+--Methane metabolism	0.000349067	0.00022857408	9.230477e-05	0.00011472449
+-Biosynthesis	0.10175843	0.1088647	0.19203231	0.20611684
+--Lipid and steroid metabolism	0.026686308	0.04692162	0.027710559	0.041206897
+--Purine metabolism	0.014605609	0.01279909	0.014900001	0.015117673
+--Pyrimidine metabolism	0.0069329589	0.0058548638	0.018249447	0.0035507578
+--Amino acid metabolism	0.034042174	0.026288487	0.11264283	0.12980343
+--Glycan metabolism	0.0078461705	0.006013767	0.0045067356	0.0048039026
+--Cofactor biosynthesis	0.011641526	0.010984154	0.014019291	0.011633118
+--Biosynthesis of other secondary metabolites	3.6789173e-06	2.7126726e-06	3.4428983e-06	1.0647097e-06
+-Other Enzymes	0.020374651	0.022777474	0.029923689	0.021965594
+--Other enzymes	0.020374651	0.022777474	0.029923689	0.021965594
+Organismal Systems	0	0	0	0
+-Immune System	0	0	0	0
+--Complement and coagulation cascades	0	0	0	0
+--Toll-like receptor signaling pathway	0	0	0	0
+--NOD-like receptor signaling pathway	0	0	0	0
+--RIG-I-like receptor signaling pathway	0	0	0	0
+--Cytosolic DNA-sensing pathway	0	0	0	0
+--Antigen processing and presentation	0	0	0	0
+--T cell receptor signaling pathway	0	0	0	0
+--B cell receptor signaling pathway	0	0	0	0
+--Fc gamma R-mediated phagocytosis	0	0	0	0
+--Leukocyte transendothelial migration	0	0	0	0
+--Intestinal immune network for IgA production	0	0	0	0
+--Chemokine signaling pathway	0	0	0	0
+-Endocrine System	0	0	0	0
+--Insulin signaling pathway	0	0	0	0
+--Adipocytokine signaling pathway	0	0	0	0
+--PPAR signaling pathway	0	0	0	0
+--Renin-angiotensin system	0	0	0	0
+-Circulatory System	0	0	0	0
+--Hemoglobin	0	0	0	0
+--Cardiac muscle contraction	0	0	0	0
+--Vascular smooth muscle contraction	0	0	0	0
+-Digestive System	0	0	0	0
+--Salivary secretion	0	0	0	0
+--Pancreatic secretion	0	0	0	0
+--Bile secretion	0	0	0	0
+--Protein digestion and absorption	0	0	0	0
+--Fat digestion and absorption	0	0	0	0
+--Vitamin digestion and absorption	0	0	0	0
+--Mineral absorption	0	0	0	0
+-Excretory System	0	0	0	0
+--Vasopressin-regulated water reabsorption	0	0	0	0
+--Aldosterone-regulated sodium reabsorption	0	0	0	0
+--Endocrine and other factor-regulated calcium reabsorption	0	0	0	0
+--Proximal tubule bicarbonate reclamation	0	0	0	0
+--Collecting duct acid secretion	0	0	0	0
+-Nervous System	0	0	0	0
+--Glutamatergic synapse	0	0	0	0
+--Long-term potentiation	0	0	0	0
+--Neurotrophin signaling pathway	0	0	0	0
+-Sensory System	0	0	0	0
+--Phototransduction	0	0	0	0
+--Olfactory transduction	0	0	0	0
+-Development	0	0	0	0
+--Axon guidance	0	0	0	0
+--Osteoclast differentiation	0	0	0	0
+-Environmental Adaptation	0	0	0	0
+--Plant-pathogen interaction	0	0	0	0
+Human Diseases	0	0	0	0
+-Cancers	0	0	0	0
+--Pathways in cancer	0	0	0	0
+-Immune System Diseases	0	0	0	0
+--Systemic lupus erythematosus	0	0	0	0
+-Neurodegenerative Diseases	0	0	0	0
+--Alzheimer's disease	0	0	0	0
+--Parkinson's disease	0	0	0	0
+--Amyotrophic lateral sclerosis (ALS)	0	0	0	0
+--Huntington's disease	0	0	0	0
+-Cardiovascular Diseases	0	0	0	0
+--Hypertrophic cardiomyopathy (HCM)	0	0	0	0
+--Arrhythmogenic right ventricular cardiomyopathy (ARVC)	0	0	0	0
+-Infectious Diseases	0	0	0	0
+--Vibrio cholerae infection	0	0	0	0
+--Tuberculosis	0	0	0	0
+--Bacterial invasion of epithelial cells	0	0	0	0
+--Measles	0	0	0	0
+--Influenza A	0	0	0	0
+--Hepatitis C	0	0	0	0
+--Amoebiasis	0	0	0	0
+--Malaria	0	0	0	0
+Not Mapped	0.1363178	0.24332143	0.29911588	0.21423322
+-Not Mapped	0.1363178	0.24332143	0.29911588	0.21423322
+--Not mapped	0.1363178	0.24332143	0.29911588	0.21423322

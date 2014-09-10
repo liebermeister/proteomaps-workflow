@@ -5,6 +5,7 @@ class proteomaps_PATHNAMES:
   def __init__(self):
 
     # Predefined directory names
+    self.BASE_DIR              = "/home/wolfram/Proteomaps/"
     self.PROTEIN_HIERARCHY_DIR = "/home/wolfram/Proteomaps/genomic_data/KO_gene_hierarchy/"
     self.PROTEIN_LENGTH_DIR    = "/home/wolfram/Proteomaps/genomic_data/protein_length_data/"
     self.TMP_DIR               = "/home/wolfram/tmp/matlab_protein_abundance";

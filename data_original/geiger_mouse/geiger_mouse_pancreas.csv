@@ -1,4 +1,5 @@
-Gene names	Intensity L Pancreas
+!!SBtab TableType='Proteomaps' Condition='Intensity L Pancreas'
+!ProteinIdentifier	!Abundance
 17196	187428.571429
 69187	4885714.28571
 12954	338775.510204

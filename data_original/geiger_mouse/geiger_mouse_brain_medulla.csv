@@ -1,4 +1,5 @@
-Gene names	Intensity L Brain medulla
+!!SBtab TableType='Proteomaps' Condition='Intensity L Brain medulla'
+!ProteinIdentifier	!Abundance
 17196	67142857.1429
 69187	22665.1428571
 12954	678571.428571

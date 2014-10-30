@@ -1,4 +1,5 @@
-Gene names	Intensity L Kidney medulla
+!!SBtab TableType='Proteomaps' Condition='Intensity L Kidney medulla'
+!ProteinIdentifier	!Abundance
 17196	55714.2857143
 69187	5300.28571429
 12954	709183.673469

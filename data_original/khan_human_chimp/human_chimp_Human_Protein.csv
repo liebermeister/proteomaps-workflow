@@ -1,4 +1,5 @@
-UniProt	Protein ibaq.human
+!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/' Condition='Protein ibaq.human'
+!ProteinIdentifier	!Abundance
 P04406	193393368.895932
 P07737	108516422.334777
 P62937	95624120.013457

@@ -1,4 +1,5 @@
-Gene names	Intensity L Midbrain
+!!SBtab TableType='Proteomaps' Condition='Intensity L Midbrain'
+!ProteinIdentifier	!Abundance
 17196	12657142.8571
 69187	1934.71428571
 12954	435714.285714

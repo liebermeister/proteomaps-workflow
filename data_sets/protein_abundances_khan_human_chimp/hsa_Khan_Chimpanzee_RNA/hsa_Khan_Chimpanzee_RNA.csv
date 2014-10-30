@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='hsa' ProteinIdentifier='http://identifiers.org/uniprot/'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 P04406	1639.29	13609.8198233	549162.15	10315.986929	335.0	GapDh	K00134	Glycolysis
 P07737	1454.05	12071.9082737	203567.0	3823.99717674	140.0	Pfn1	K05759	Regulation of actin cytoskeleton
 P62937	188.302	1563.33308467	31069.83	583.645395382	165.0	PpiA	K03767	Chaperones and folding catalysts

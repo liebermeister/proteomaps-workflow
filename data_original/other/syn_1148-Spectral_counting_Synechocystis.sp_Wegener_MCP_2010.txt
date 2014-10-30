@@ -1,3 +1,5 @@
+!!SBtab TableType='Proteomaps'
+!ProteinIdentifier	!Abundance
 slr0161	823.274
 sll1767	436.268
 sll1418	508.095

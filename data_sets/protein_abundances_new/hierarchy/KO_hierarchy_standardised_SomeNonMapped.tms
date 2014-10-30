@@ -1222,7 +1222,6 @@ KO
 				K02083
 				K14677
 				K01409
-				K01265
 				K01271
 				K01262
 				K14208
@@ -2050,6 +2049,7 @@ KO
 				K06265
 				K06266
 			Cell adhesion molecules (CAMs)
+				K11934
 				K06449
 				K06752
 				K06454
@@ -2198,6 +2198,10 @@ KO
 				K01186
 				K01197
 	Cellular Processes (6,9)
+		Cell structure
+			Cell envelope
+				K06078
+				K03640
 		Stress Response
 			Stress response
 				eco_b3510
@@ -2940,7 +2944,6 @@ KO
 				K00845
 				K01810
 				K00850
-				K02446
 				K04041
 				K01623
 				K01624
@@ -3100,7 +3103,6 @@ KO
 				K00011
 				K03331
 				K00848
-				K01629
 				K00078
 				K05352
 				K00847
@@ -3155,8 +3157,6 @@ KO
 				K00103
 				K00064
 				K03476
-				K03078
-				K03079
 				K03077
 				K08232
 				K00423
@@ -3177,7 +3177,6 @@ KO
 				K01198
 				K11809
 				K00975
-				K00703
 				K00700
 				K00688
 				K00690
@@ -3650,9 +3649,6 @@ KO
 				K00087
 				K13479
 				K13480
-				K11177
-				K11178
-				K13483
 				K01518
 				K00364
 				K01487
@@ -3778,7 +3774,6 @@ KO
 				K00261
 				K00262
 				K00294
-				K13821
 				K01425
 				K00928
 				K12524
@@ -4007,7 +4002,6 @@ KO
 				K00833
 				K01845
 				K02805
-				K01579
 				K01918
 				K01594
 				K10712
@@ -4264,7 +4258,6 @@ KO
 				K03472
 				K03473
 				K00097
-				K03474
 				K06215
 				K08681
 				K03517
@@ -4632,7 +4625,6 @@ KO
 				K04087
 				K04088
 				K11066
-				K01462
 				K11991
 				K12968
 				K01506
@@ -4668,7 +4660,6 @@ KO
 				K06041
 				K01854
 				K03177
-				K06173
 				K06175
 				K06176
 				K02082
@@ -4929,7 +4920,6 @@ KO
 				eco_B0168
 				eco_B0425
 				eco_B1014
-				eco_B1412
 				eco_B1740
 				eco_B2318
 				eco_B2502
@@ -4939,13 +4929,13 @@ KO
 				eco_B3429
 				eco_B3639
 				eco_B3925
-				eco_alaA
-				eco_alaC
-				eco_azuC
+				eco_B4196
 				eco_b0001
 				eco_b0005
 				eco_b0006
 				eco_b0010
+				eco_b0016
+				eco_b0022
 				eco_b0046
 				eco_b0047
 				eco_b0050
@@ -4993,7 +4983,8 @@ KO
 				eco_b0241
 				eco_b0250
 				eco_b0251
-				eco_b0253
+				eco_b0256
+				eco_b0259
 				eco_b0260
 				eco_b0272
 				eco_b0280
@@ -5001,17 +4992,20 @@ KO
 				eco_b0287
 				eco_b0288
 				eco_b0293
+				eco_b0298
 				eco_b0303
 				eco_b0304
 				eco_b0307
 				eco_b0308
 				eco_b0314
+				eco_b0318
 				eco_b0324
 				eco_b0329
 				eco_b0336
 				eco_b0345
 				eco_b0354
 				eco_b0357
+				eco_b0360
 				eco_b0376
 				eco_b0377
 				eco_b0378
@@ -5039,7 +5033,6 @@ KO
 				eco_b0453
 				eco_b0454
 				eco_b0456
-				eco_b0457
 				eco_b0458
 				eco_b0460
 				eco_b0461
@@ -5064,6 +5057,7 @@ KO
 				eco_b0545
 				eco_b0546
 				eco_b0557
+				eco_b0559
 				eco_b0567
 				eco_b0568
 				eco_b0576
@@ -5072,6 +5066,7 @@ KO
 				eco_b0580
 				eco_b0581
 				eco_b0584
+				eco_b0597
 				eco_b0598
 				eco_b0601
 				eco_b0606
@@ -5104,7 +5099,6 @@ KO
 				eco_b0738
 				eco_b0739
 				eco_b0740
-				eco_b0741
 				eco_b0742
 				eco_b0751
 				eco_b0752
@@ -5124,8 +5118,8 @@ KO
 				eco_b0803
 				eco_b0805
 				eco_b0806
+				eco_b0808
 				eco_b0813
-				eco_b0814
 				eco_b0815
 				eco_b0818
 				eco_b0819
@@ -5141,6 +5135,7 @@ KO
 				eco_b0845
 				eco_b0846
 				eco_b0847
+				eco_b0848
 				eco_b0850
 				eco_b0852
 				eco_b0853
@@ -5157,11 +5152,13 @@ KO
 				eco_b0891
 				eco_b0892
 				eco_b0897
+				eco_b0900
 				eco_b0901
 				eco_b0904
 				eco_b0905
 				eco_b0906
 				eco_b0917
+				eco_b0919
 				eco_b0920
 				eco_b0921
 				eco_b0925
@@ -5175,24 +5172,27 @@ KO
 				eco_b0951
 				eco_b0952
 				eco_b0956
+				eco_b0959
 				eco_b0960
 				eco_b0961
+				eco_b0964
 				eco_b0965
 				eco_b0966
 				eco_b0970
 				eco_b0981
 				eco_b0983
 				eco_b0987
-				eco_b0991
 				eco_b0999
 				eco_b1003
 				eco_b1015
 				eco_b1018
 				eco_b1019
 				eco_b1020
+				eco_b1021
 				eco_b1034
 				eco_b1035
 				eco_b1036
+				eco_b1044
 				eco_b1045
 				eco_b1046
 				eco_b1047
@@ -5210,7 +5210,6 @@ KO
 				eco_b1088
 				eco_b1097
 				eco_b1100
-				eco_b1102
 				eco_b1103
 				eco_b1104
 				eco_b1105
@@ -5222,6 +5221,7 @@ KO
 				eco_b1128
 				eco_b1132
 				eco_b1137
+				eco_b1138
 				eco_b1139
 				eco_b1143
 				eco_b1144
@@ -5233,6 +5233,7 @@ KO
 				eco_b1164
 				eco_b1165
 				eco_b1166
+				eco_b1167
 				eco_b1171
 				eco_b1172
 				eco_b1177
@@ -5247,9 +5248,11 @@ KO
 				eco_b1205
 				eco_b1206
 				eco_b1209
+				eco_b1213
 				eco_b1214
 				eco_b1216
 				eco_b1217
+				eco_b1218
 				eco_b1219
 				eco_b1220
 				eco_b1233
@@ -5296,9 +5299,12 @@ KO
 				eco_b1341
 				eco_b1342
 				eco_b1344
-				eco_b1350
+				eco_b1355
 				eco_b1356
+				eco_b1358
 				eco_b1363
+				eco_b1374
+				eco_b1375
 				eco_b1376
 				eco_b1379
 				eco_b1381
@@ -5338,7 +5344,6 @@ KO
 				eco_b1481
 				eco_b1491
 				eco_b1492
-				eco_b1495
 				eco_b1498
 				eco_b1507
 				eco_b1508
@@ -5362,13 +5367,14 @@ KO
 				eco_b1569
 				eco_b1570
 				eco_b1571
+				eco_b1572
+				eco_b1573
 				eco_b1582
 				eco_b1583
 				eco_b1585
 				eco_b1586
 				eco_b1589
 				eco_b1591
-				eco_b1592
 				eco_b1594
 				eco_b1595
 				eco_b1597
@@ -5394,7 +5400,6 @@ KO
 				eco_b1641
 				eco_b1643
 				eco_b1644
-				eco_b1645
 				eco_b1647
 				eco_b1648
 				eco_b1649
@@ -5407,7 +5412,6 @@ KO
 				eco_b1667
 				eco_b1668
 				eco_b1675
-				eco_b1677
 				eco_b1678
 				eco_b1679
 				eco_b1681
@@ -5422,7 +5426,6 @@ KO
 				eco_b1703
 				eco_b1705
 				eco_b1706
-				eco_b1707
 				eco_b1715
 				eco_b1722
 				eco_b1724
@@ -5433,6 +5436,7 @@ KO
 				eco_b1731
 				eco_b1733
 				eco_b1743
+				eco_b1751
 				eco_b1753
 				eco_b1758
 				eco_b1760
@@ -5445,6 +5449,7 @@ KO
 				eco_b1784
 				eco_b1786
 				eco_b1787
+				eco_b1788
 				eco_b1789
 				eco_b1790
 				eco_b1792
@@ -5509,10 +5514,10 @@ KO
 				eco_b1963
 				eco_b1969
 				eco_b1971
+				eco_b1972
 				eco_b1973
 				eco_b1974
 				eco_b1976
-				eco_b1978
 				eco_b1983
 				eco_b1988
 				eco_b1990
@@ -5580,7 +5585,6 @@ KO
 				eco_b2266
 				eco_b2267
 				eco_b2289
-				eco_b2292
 				eco_b2294
 				eco_b2295
 				eco_b2299
@@ -5606,11 +5610,12 @@ KO
 				eco_b2349
 				eco_b2350
 				eco_b2351
-				eco_b2352
+				eco_b2354
 				eco_b2360
 				eco_b2375
 				eco_b2377
 				eco_b2381
+				eco_b2389
 				eco_b2390
 				eco_b2392
 				eco_b2393
@@ -5620,9 +5625,9 @@ KO
 				eco_b2409
 				eco_b2410
 				eco_b2413
+				eco_b2419
 				eco_b2426
 				eco_b2427
-				eco_b2430
 				eco_b2431
 				eco_b2432
 				eco_b2433
@@ -5679,6 +5684,7 @@ KO
 				eco_b2597
 				eco_b2598
 				eco_b2602
+				eco_b2603
 				eco_b2604
 				eco_b2605
 				eco_b2608
@@ -5693,8 +5699,10 @@ KO
 				eco_b2628
 				eco_b2630
 				eco_b2631
+				eco_b2636
 				eco_b2642
 				eco_b2659
+				eco_b2660
 				eco_b2663
 				eco_b2664
 				eco_b2665
@@ -5705,22 +5713,27 @@ KO
 				eco_b2671
 				eco_b2672
 				eco_b2673
+				eco_b2674
 				eco_b2682
 				eco_b2683
 				eco_b2685
+				eco_b2689
 				eco_b2690
 				eco_b2698
 				eco_b2700
 				eco_b2708
-				eco_b2712
 				eco_b2727
+				eco_b2728
 				eco_b2729
-				eco_b2730
 				eco_b2731
 				eco_b2732
 				eco_b2735
+				eco_b2739
 				eco_b2742
 				eco_b2749
+				eco_b2756
+				eco_b2758
+				eco_b2759
 				eco_b2782
 				eco_b2783
 				eco_b2790
@@ -5741,7 +5754,7 @@ KO
 				eco_b2840
 				eco_b2845
 				eco_b2865
-				eco_b2872
+				eco_b2877
 				eco_b2895
 				eco_b2896
 				eco_b2897
@@ -5767,9 +5780,9 @@ KO
 				eco_b2966
 				eco_b2971
 				eco_b2977
-				eco_b2987
 				eco_b2989
 				eco_b2990
+				eco_b2991
 				eco_b2992
 				eco_b2995
 				eco_b2996
@@ -5805,6 +5818,7 @@ KO
 				eco_b3087
 				eco_b3088
 				eco_b3089
+				eco_b3090
 				eco_b3094
 				eco_b3095
 				eco_b3096
@@ -5818,7 +5832,6 @@ KO
 				eco_b3105
 				eco_b3106
 				eco_b3107
-				eco_b3110
 				eco_b3113
 				eco_b3116
 				eco_b3129
@@ -5831,6 +5844,7 @@ KO
 				eco_b3151
 				eco_b3152
 				eco_b3154
+				eco_b3155
 				eco_b3157
 				eco_b3160
 				eco_b3161
@@ -5894,6 +5908,7 @@ KO
 				eco_b3362
 				eco_b3367
 				eco_b3369
+				eco_b3382
 				eco_b3383
 				eco_b3388
 				eco_b3398
@@ -5919,8 +5934,10 @@ KO
 				eco_b3471
 				eco_b3472
 				eco_b3473
+				eco_b3474
 				eco_b3486
 				eco_b3487
+				eco_b3491
 				eco_b3492
 				eco_b3493
 				eco_b3494
@@ -5930,6 +5947,7 @@ KO
 				eco_b3502
 				eco_b3506
 				eco_b3507
+				eco_b3508
 				eco_b3511
 				eco_b3512
 				eco_b3513
@@ -5943,7 +5961,6 @@ KO
 				eco_b3524
 				eco_b3527
 				eco_b3529
-				eco_b3530
 				eco_b3532
 				eco_b3535
 				eco_b3536
@@ -5953,11 +5970,10 @@ KO
 				eco_b3548
 				eco_b3552
 				eco_b3554
-				eco_b3558
-				eco_b3561
+				eco_b3557
 				eco_b3570
 				eco_b3574
-				eco_b3584
+				eco_b3585
 				eco_b3590
 				eco_b3592
 				eco_b3594
@@ -5966,6 +5982,7 @@ KO
 				eco_b3611
 				eco_b3613
 				eco_b3614
+				eco_b3615
 				eco_b3618
 				eco_b3644
 				eco_b3645
@@ -5973,11 +5990,11 @@ KO
 				eco_b3653
 				eco_b3654
 				eco_b3655
-				eco_b3656
 				eco_b3660
 				eco_b3663
 				eco_b3672
 				eco_b3676
+				eco_b3677
 				eco_b3685
 				eco_b3688
 				eco_b3689
@@ -6030,7 +6047,7 @@ KO
 				eco_b3871
 				eco_b3872
 				eco_b3873
-				eco_b3874
+				eco_b3880
 				eco_b3884
 				eco_b3885
 				eco_b3886
@@ -6046,7 +6063,7 @@ KO
 				eco_b3922
 				eco_b3923
 				eco_b3929
-				eco_b3943
+				eco_b3937
 				eco_b3954
 				eco_b3955
 				eco_b3963
@@ -6069,6 +6086,7 @@ KO
 				eco_b4056
 				eco_b4057
 				eco_b4060
+				eco_b4061
 				eco_b4065
 				eco_b4067
 				eco_b4068
@@ -6107,7 +6125,6 @@ KO
 				eco_b4206
 				eco_b4208
 				eco_b4209
-				eco_b4210
 				eco_b4211
 				eco_b4212
 				eco_b4216
@@ -6124,11 +6141,10 @@ KO
 				eco_b4249
 				eco_b4251
 				eco_b4252
+				eco_b4253
 				eco_b4263
 				eco_b4278
-				eco_b4279
 				eco_b4280
-				eco_b4284
 				eco_b4291
 				eco_b4292
 				eco_b4295
@@ -6141,7 +6157,6 @@ KO
 				eco_b4321
 				eco_b4326
 				eco_b4327
-				eco_b4333
 				eco_b4336
 				eco_b4340
 				eco_b4345
@@ -6152,11 +6167,11 @@ KO
 				eco_b4353
 				eco_b4354
 				eco_b4360
+				eco_b4364
 				eco_b4367
 				eco_b4376
 				eco_b4377
 				eco_b4378
-				eco_b4380
 				eco_b4385
 				eco_b4387
 				eco_b4391
@@ -6171,12 +6186,13 @@ KO
 				eco_b4469
 				eco_b4470
 				eco_b4472
-				eco_b4476
 				eco_b4479
 				eco_b4480
 				eco_b4483
 				eco_b4484
+				eco_b4487
 				eco_b4501
+				eco_b4511
 				eco_b4512
 				eco_b4515
 				eco_b4517
@@ -6190,7 +6206,6 @@ KO
 				eco_b4537
 				eco_b4539
 				eco_b4542
-				eco_b4543
 				eco_b4546
 				eco_b4547
 				eco_b4550
@@ -6200,6 +6215,7 @@ KO
 				eco_b4555
 				eco_b4557
 				eco_b4558
+				eco_b4567
 				eco_b4568
 				eco_b4592
 				eco_b4595
@@ -6208,9 +6224,12 @@ KO
 				eco_b4599
 				eco_b4602
 				eco_b4606
+				eco_b4613
 				eco_b4637
 				eco_b4663
 				eco_b4669
+				eco_b4670
+				eco_b4671
 				eco_b4675
 				eco_b4676
 				eco_b4678
@@ -6218,74 +6237,5 @@ KO
 				eco_b4680
 				eco_b4685
 				eco_b4686
-				eco_bamE
-				eco_cohE
-				eco_dmlA
-				eco_dmlR
-				eco_dnaX
-				eco_dsbD
-				eco_dtpA
-				eco_gadA
-				eco_gcp
-				eco_gpr
-				eco_gss
-				eco_gtrA
-				eco_gtrB
-				eco_gtrS
-				eco_hiuH
-				eco_ilvX
-				eco_insA
-				eco_insC
-				eco_insE
-				eco_insH
-				eco_insI
-				eco_insL
-				eco_insQ
-				eco_mazE
-				eco_mazF
-				eco_mdfA
-				eco_mgtL
-				eco_mscM
-				eco_opgB
-				eco_opgC
-				eco_opgD
-				eco_opgG
-				eco_opgH
-				eco_patA
-				eco_pliG
-				eco_plsY
-				eco_prr
-				eco_purP
-				eco_qorA
-				eco_qorB
-				eco_rapA
-				eco_rhmA
-				eco_rlmA
-				eco_rsmA
-				eco_rumA
-				eco_rumB
-				eco_selU
-				eco_skp
-				eco_tgt 
-				eco_thiB
-				eco_trmL
-				eco_ybaZ
-				eco_yciV
-				eco_yciX
-				eco_ydfC
-				eco_ygiM
-				eco_yibB
-				eco_yjbD
-				eco_yjeA
-				eco_yjeV
-				eco_ylbA
-				eco_ymiA
-				eco_ynaE
-				eco_yoaJ
-				eco_yoaK
-				eco_yoeI
-				eco_yohP
-				eco_ypaA
-				eco_ypdK
-				eco_yrbN
-				eco_yshB
+				eco_b4687
+				eco_b4702

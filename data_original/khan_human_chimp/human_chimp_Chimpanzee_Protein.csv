@@ -1,4 +1,5 @@
-UniProt	Protein ibaq.chimp
+!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/' Condition='Protein ibaq.chimp'
+!ProteinIdentifier	!Abundance
 P04406	170152128.850337
 P07737	125208223.803911
 P62937	76677231.6273953

@@ -10,7 +10,6 @@ Environmental Information Processing	TOTAL	0.09164	0.08698	0.03589	0.03393
 -Signal Transduction	TOTAL	0.03467	0.03131	0.01736	0.01796
 -Signaling Molecules and Interaction	TOTAL	0.05697	0.05567	0.01853	0.01598
 Cellular Processes	TOTAL	0.113	0.1067	0.12	0.1109
--Hemoglobin	TOTAL	0	0	0	0
 -Vesicular Transport	TOTAL	0.04123	0.04672	0.02861	0.0316
 -Cytoskeleton	TOTAL	0.05802	0.04891	0.0732	0.06158
 -Cell Motility	TOTAL	0	0	0	0
@@ -51,7 +50,6 @@ Environmental Information Processing	MAPPED	0.1175	0.1132	0.04338	0.04077
 -Signal Transduction	MAPPED	0.04447	0.04074	0.02098	0.02157
 -Signaling Molecules and Interaction	MAPPED	0.07308	0.07244	0.0224	0.0192
 Cellular Processes	MAPPED	0.145	0.1389	0.1451	0.1332
--Hemoglobin	MAPPED	0	0	0	0
 -Vesicular Transport	MAPPED	0.05288	0.06079	0.03458	0.03796
 -Cytoskeleton	MAPPED	0.07443	0.06365	0.0885	0.07398
 -Cell Motility	MAPPED	0	0	0	0
@@ -92,7 +90,6 @@ Environmental Information Processing	Genetic Information Processing	0.2181	0.211
 -Signal Transduction	Genetic Information Processing	0.08251	0.07596	0.04044	0.042
 -Signaling Molecules and Interaction	Genetic Information Processing	0.1356	0.1351	0.04316	0.03738
 Cellular Processes	Genetic Information Processing	0.269	0.2589	0.2796	0.2594
--Hemoglobin	Genetic Information Processing	0	0	0	0
 -Vesicular Transport	Genetic Information Processing	0.09812	0.1133	0.06664	0.07391
 -Cytoskeleton	Genetic Information Processing	0.1381	0.1187	0.1705	0.1441
 -Cell Motility	Genetic Information Processing	0	0	0	0
@@ -133,7 +130,6 @@ Environmental Information Processing	-Transcription	1.511	1.49	0.6447	0.6166
 -Signal Transduction	-Transcription	0.5717	0.5365	0.3118	0.3262
 -Signaling Molecules and Interaction	-Transcription	0.9394	0.9539	0.3329	0.2903
 Cellular Processes	-Transcription	1.864	1.829	2.157	2.015
--Hemoglobin	-Transcription	0	0	0	0
 -Vesicular Transport	-Transcription	0.6798	0.8004	0.514	0.5741
 -Cytoskeleton	-Transcription	0.9568	0.8381	1.315	1.119
 -Cell Motility	-Transcription	0	0	0	0
@@ -174,7 +170,6 @@ Environmental Information Processing	-Translation	0.7385	0.5934	0.3071	0.2963
 -Signal Transduction	-Translation	0.2794	0.2136	0.1485	0.1568
 -Signaling Molecules and Interaction	-Translation	0.4591	0.3798	0.1586	0.1395
 Cellular Processes	-Translation	0.9109	0.728	1.027	0.9682
--Hemoglobin	-Translation	0	0	0	0
 -Vesicular Transport	-Translation	0.3322	0.3187	0.2448	0.2758
 -Cytoskeleton	-Translation	0.4676	0.3337	0.6264	0.5376
 -Cell Motility	-Translation	0	0	0	0
@@ -215,7 +210,6 @@ Environmental Information Processing	-Folding, Sorting and Degradation	0.5854	0.
 -Signal Transduction	-Folding, Sorting and Degradation	0.2215	0.2268	0.08927	0.09276
 -Signaling Molecules and Interaction	-Folding, Sorting and Degradation	0.3639	0.4032	0.09529	0.08256
 Cellular Processes	-Folding, Sorting and Degradation	0.7221	0.7729	0.6174	0.5729
--Hemoglobin	-Folding, Sorting and Degradation	0	0	0	0
 -Vesicular Transport	-Folding, Sorting and Degradation	0.2634	0.3383	0.1471	0.1632
 -Cytoskeleton	-Folding, Sorting and Degradation	0.3706	0.3542	0.3765	0.3182
 -Cell Motility	-Folding, Sorting and Degradation	0	0	0	0
@@ -256,7 +250,6 @@ Environmental Information Processing	-DNA Maintenance	1.162	1.257	0.576	0.5272
 -Signal Transduction	-DNA Maintenance	0.4394	0.4526	0.2786	0.279
 -Signaling Molecules and Interaction	-DNA Maintenance	0.7221	0.8048	0.2974	0.2483
 Cellular Processes	-DNA Maintenance	1.433	1.543	1.927	1.723
--Hemoglobin	-DNA Maintenance	0	0	0	0
 -Vesicular Transport	-DNA Maintenance	0.5226	0.6753	0.4592	0.4909
 -Cytoskeleton	-DNA Maintenance	0.7354	0.707	1.175	0.9568
 -Cell Motility	-DNA Maintenance	0	0	0	0
@@ -297,7 +290,6 @@ Environmental Information Processing	Environmental Information Processing	1	1	1	
 -Signal Transduction	Environmental Information Processing	0.3783	0.36	0.4837	0.5291
 -Signaling Molecules and Interaction	Environmental Information Processing	0.6217	0.64	0.5163	0.4709
 Cellular Processes	Environmental Information Processing	1.234	1.227	3.345	3.268
--Hemoglobin	Environmental Information Processing	0	0	0	0
 -Vesicular Transport	Environmental Information Processing	0.4499	0.5371	0.7972	0.9311
 -Cytoskeleton	Environmental Information Processing	0.6332	0.5623	2.04	1.815
 -Cell Motility	Environmental Information Processing	0	0	0	0
@@ -338,7 +330,6 @@ Environmental Information Processing	-Signal Transduction	2.643	2.778	2.067	1.89
 -Signal Transduction	-Signal Transduction	1	1	1	1
 -Signaling Molecules and Interaction	-Signal Transduction	1.643	1.778	1.067	0.89
 Cellular Processes	-Signal Transduction	3.261	3.408	6.916	6.177
--Hemoglobin	-Signal Transduction	0	0	0	0
 -Vesicular Transport	-Signal Transduction	1.189	1.492	1.648	1.76
 -Cytoskeleton	-Signal Transduction	1.674	1.562	4.217	3.43
 -Cell Motility	-Signal Transduction	0	0	0	0
@@ -379,7 +370,6 @@ Environmental Information Processing	-Signaling Molecules and Interaction	1.609	
 -Signal Transduction	-Signaling Molecules and Interaction	0.6085	0.5624	0.9368	1.124
 -Signaling Molecules and Interaction	-Signaling Molecules and Interaction	1	1	1	1
 Cellular Processes	-Signaling Molecules and Interaction	1.984	1.917	6.478	6.94
--Hemoglobin	-Signaling Molecules and Interaction	0	0	0	0
 -Vesicular Transport	-Signaling Molecules and Interaction	0.7237	0.8391	1.544	1.977
 -Cytoskeleton	-Signaling Molecules and Interaction	1.018	0.8786	3.951	3.854
 -Cell Motility	-Signaling Molecules and Interaction	0	0	0	0
@@ -420,7 +410,6 @@ Environmental Information Processing	Cellular Processes	0.8107	0.8151	0.299	0.30
 -Signal Transduction	Cellular Processes	0.3067	0.2934	0.1446	0.1619
 -Signaling Molecules and Interaction	Cellular Processes	0.504	0.5217	0.1544	0.1441
 Cellular Processes	Cellular Processes	1	1	1	1
--Hemoglobin	Cellular Processes	0	0	0	0
 -Vesicular Transport	Cellular Processes	0.3647	0.4377	0.2383	0.2849
 -Cytoskeleton	Cellular Processes	0.5133	0.4583	0.6098	0.5553
 -Cell Motility	Cellular Processes	0	0	0	0
@@ -450,47 +439,6 @@ Human Diseases	Cellular Processes	0.0462	0.04814	0.04381	0.04955
 -Infectious Diseases	Cellular Processes	0.01391	0.0166	0.01125	0.01314
 Not Mapped	Cellular Processes	1.95	2.169	1.44	1.511
 -Not Mapped	Cellular Processes	1.95	2.169	1.44	1.511
-TOTAL	-Hemoglobin	Inf	Inf	Inf	Inf
-MAPPED	-Hemoglobin	Inf	Inf	Inf	Inf
-Genetic Information Processing	-Hemoglobin	Inf	Inf	Inf	Inf
--Transcription	-Hemoglobin	Inf	Inf	Inf	Inf
--Translation	-Hemoglobin	Inf	Inf	Inf	Inf
--Folding, Sorting and Degradation	-Hemoglobin	Inf	Inf	Inf	Inf
--DNA Maintenance	-Hemoglobin	Inf	Inf	Inf	Inf
-Environmental Information Processing	-Hemoglobin	Inf	Inf	Inf	Inf
--Signal Transduction	-Hemoglobin	Inf	Inf	Inf	Inf
--Signaling Molecules and Interaction	-Hemoglobin	Inf	Inf	Inf	Inf
-Cellular Processes	-Hemoglobin	Inf	Inf	Inf	Inf
--Hemoglobin	-Hemoglobin	NaN	NaN	NaN	NaN
--Vesicular Transport	-Hemoglobin	Inf	Inf	Inf	Inf
--Cytoskeleton	-Hemoglobin	Inf	Inf	Inf	Inf
--Cell Motility	-Hemoglobin	NaN	NaN	NaN	NaN
--Cell Growth and Death	-Hemoglobin	Inf	Inf	Inf	Inf
--Cell Communication	-Hemoglobin	Inf	Inf	Inf	Inf
-Metabolism	-Hemoglobin	Inf	Inf	Inf	Inf
--Membrane Transport	-Hemoglobin	Inf	Inf	Inf	Inf
--Central Carbon Metabolism	-Hemoglobin	Inf	Inf	Inf	Inf
--Energy Metabolism	-Hemoglobin	Inf	Inf	Inf	Inf
--Biosynthesis	-Hemoglobin	Inf	Inf	Inf	Inf
--Other Enzymes	-Hemoglobin	Inf	Inf	Inf	Inf
-Organismal Systems	-Hemoglobin	Inf	Inf	Inf	Inf
--Immune System	-Hemoglobin	Inf	Inf	Inf	Inf
--Endocrine System	-Hemoglobin	Inf	Inf	Inf	Inf
--Circulatory System	-Hemoglobin	Inf	Inf	Inf	Inf
--Digestive System	-Hemoglobin	Inf	Inf	Inf	Inf
--Excretory System	-Hemoglobin	Inf	Inf	Inf	Inf
--Nervous System	-Hemoglobin	Inf	Inf	Inf	Inf
--Sensory System	-Hemoglobin	NaN	NaN	NaN	NaN
--Development	-Hemoglobin	Inf	Inf	Inf	Inf
--Environmental Adaptation	-Hemoglobin	NaN	NaN	NaN	NaN
-Human Diseases	-Hemoglobin	Inf	Inf	Inf	Inf
--Cancers	-Hemoglobin	Inf	Inf	Inf	Inf
--Immune System Diseases	-Hemoglobin	Inf	Inf	Inf	Inf
--Neurodegenerative Diseases	-Hemoglobin	Inf	Inf	Inf	Inf
--Cardiovascular Diseases	-Hemoglobin	Inf	Inf	Inf	Inf
--Infectious Diseases	-Hemoglobin	Inf	Inf	Inf	Inf
-Not Mapped	-Hemoglobin	Inf	Inf	Inf	Inf
--Not Mapped	-Hemoglobin	Inf	Inf	Inf	Inf
 TOTAL	-Vesicular Transport	24.26	21.41	34.96	31.65
 MAPPED	-Vesicular Transport	18.91	16.45	28.92	26.35
 Genetic Information Processing	-Vesicular Transport	10.19	8.824	15.01	13.53
@@ -502,7 +450,6 @@ Environmental Information Processing	-Vesicular Transport	2.223	1.862	1.254	1.07
 -Signal Transduction	-Vesicular Transport	0.8409	0.6702	0.6068	0.5683
 -Signaling Molecules and Interaction	-Vesicular Transport	1.382	1.192	0.6477	0.5057
 Cellular Processes	-Vesicular Transport	2.742	2.284	4.196	3.51
--Hemoglobin	-Vesicular Transport	0	0	0	0
 -Vesicular Transport	-Vesicular Transport	1	1	1	1
 -Cytoskeleton	-Vesicular Transport	1.407	1.047	2.559	1.949
 -Cell Motility	-Vesicular Transport	0	0	0	0
@@ -543,7 +490,6 @@ Environmental Information Processing	-Cytoskeleton	1.579	1.778	0.4902	0.551
 -Signal Transduction	-Cytoskeleton	0.5975	0.6401	0.2371	0.2916
 -Signaling Molecules and Interaction	-Cytoskeleton	0.9819	1.138	0.2531	0.2595
 Cellular Processes	-Cytoskeleton	1.948	2.182	1.64	1.801
--Hemoglobin	-Cytoskeleton	0	0	0	0
 -Vesicular Transport	-Cytoskeleton	0.7105	0.9551	0.3908	0.5131
 -Cytoskeleton	-Cytoskeleton	1	1	1	1
 -Cell Motility	-Cytoskeleton	0	0	0	0
@@ -584,7 +530,6 @@ Environmental Information Processing	-Cell Motility	Inf	Inf	Inf	Inf
 -Signal Transduction	-Cell Motility	Inf	Inf	Inf	Inf
 -Signaling Molecules and Interaction	-Cell Motility	Inf	Inf	Inf	Inf
 Cellular Processes	-Cell Motility	Inf	Inf	Inf	Inf
--Hemoglobin	-Cell Motility	NaN	NaN	NaN	NaN
 -Vesicular Transport	-Cell Motility	Inf	Inf	Inf	Inf
 -Cytoskeleton	-Cell Motility	Inf	Inf	Inf	Inf
 -Cell Motility	-Cell Motility	NaN	NaN	NaN	NaN
@@ -625,7 +570,6 @@ Environmental Information Processing	-Cell Growth and Death	19.56	24.08	4.267	4.
 -Signal Transduction	-Cell Growth and Death	7.401	8.669	2.064	2.388
 -Signaling Molecules and Interaction	-Cell Growth and Death	12.16	15.41	2.203	2.126
 Cellular Processes	-Cell Growth and Death	24.13	29.55	14.27	14.75
--Hemoglobin	-Cell Growth and Death	0	0	0	0
 -Vesicular Transport	-Cell Growth and Death	8.8	12.93	3.402	4.203
 -Cytoskeleton	-Cell Growth and Death	12.39	13.54	8.705	8.192
 -Cell Motility	-Cell Growth and Death	0	0	0	0
@@ -666,7 +610,6 @@ Environmental Information Processing	-Cell Communication	10.06	11.63	3.656	3.326
 -Signal Transduction	-Cell Communication	3.806	4.186	1.768	1.76
 -Signaling Molecules and Interaction	-Cell Communication	6.254	7.444	1.888	1.566
 Cellular Processes	-Cell Communication	12.41	14.27	12.23	10.87
--Hemoglobin	-Cell Communication	0	0	0	0
 -Vesicular Transport	-Cell Communication	4.526	6.246	2.914	3.097
 -Cytoskeleton	-Cell Communication	6.369	6.54	7.458	6.036
 -Cell Motility	-Cell Communication	0	0	0	0
@@ -707,7 +650,6 @@ Environmental Information Processing	Metabolism	0.694	0.6389	0.1618	0.1408
 -Signal Transduction	Metabolism	0.2626	0.23	0.07824	0.07449
 -Signaling Molecules and Interaction	Metabolism	0.4315	0.4089	0.08352	0.06629
 Cellular Processes	Metabolism	0.8561	0.7838	0.5411	0.4601
--Hemoglobin	Metabolism	0	0	0	0
 -Vesicular Transport	Metabolism	0.3122	0.3431	0.1289	0.1311
 -Cytoskeleton	Metabolism	0.4394	0.3592	0.33	0.2555
 -Cell Motility	Metabolism	0	0	0	0
@@ -748,7 +690,6 @@ Environmental Information Processing	-Membrane Transport	43.93	53.76	168.3	104.6
 -Signal Transduction	-Membrane Transport	16.62	19.35	81.41	55.35
 -Signaling Molecules and Interaction	-Membrane Transport	27.31	34.41	86.91	49.26
 Cellular Processes	-Membrane Transport	54.2	65.96	563	341.9
--Hemoglobin	-Membrane Transport	0	0	0	0
 -Vesicular Transport	-Membrane Transport	19.76	28.87	134.2	97.41
 -Cytoskeleton	-Membrane Transport	27.82	30.23	343.3	189.9
 -Cell Motility	-Membrane Transport	0	0	0	0
@@ -789,7 +730,6 @@ Environmental Information Processing	-Central Carbon Metabolism	1.866	1.576	0.29
 -Signal Transduction	-Central Carbon Metabolism	0.706	0.5674	0.1419	0.1277
 -Signaling Molecules and Interaction	-Central Carbon Metabolism	1.16	1.009	0.1514	0.1137
 Cellular Processes	-Central Carbon Metabolism	2.302	1.934	0.981	0.7889
--Hemoglobin	-Central Carbon Metabolism	0	0	0	0
 -Vesicular Transport	-Central Carbon Metabolism	0.8395	0.8465	0.2338	0.2248
 -Cytoskeleton	-Central Carbon Metabolism	1.182	0.8863	0.5983	0.4381
 -Cell Motility	-Central Carbon Metabolism	0	0	0	0
@@ -830,7 +770,6 @@ Environmental Information Processing	-Energy Metabolism	6.917	6.811	1.046	1.08
 -Signal Transduction	-Energy Metabolism	2.617	2.452	0.506	0.5715
 -Signaling Molecules and Interaction	-Energy Metabolism	4.3	4.359	0.5401	0.5086
 Cellular Processes	-Energy Metabolism	8.533	8.356	3.499	3.53
--Hemoglobin	-Energy Metabolism	0	0	0	0
 -Vesicular Transport	-Energy Metabolism	3.112	3.658	0.834	1.006
 -Cytoskeleton	-Energy Metabolism	4.38	3.83	2.134	1.96
 -Cell Motility	-Energy Metabolism	0	0	0	0
@@ -871,7 +810,6 @@ Environmental Information Processing	-Biosynthesis	2.66	2.698	0.803	0.7101
 -Signal Transduction	-Biosynthesis	1.006	0.971	0.3884	0.3757
 -Signaling Molecules and Interaction	-Biosynthesis	1.654	1.727	0.4146	0.3344
 Cellular Processes	-Biosynthesis	3.281	3.31	2.686	2.321
--Hemoglobin	-Biosynthesis	0	0	0	0
 -Vesicular Transport	-Biosynthesis	1.197	1.449	0.6401	0.6612
 -Cytoskeleton	-Biosynthesis	1.684	1.517	1.638	1.289
 -Cell Motility	-Biosynthesis	0	0	0	0
@@ -912,7 +850,6 @@ Environmental Information Processing	-Other Enzymes	2.765	2.533	1.769	1.62
 -Signal Transduction	-Other Enzymes	1.046	0.9119	0.8555	0.8573
 -Signaling Molecules and Interaction	-Other Enzymes	1.719	1.622	0.9132	0.763
 Cellular Processes	-Other Enzymes	3.411	3.108	5.916	5.295
--Hemoglobin	-Other Enzymes	0	0	0	0
 -Vesicular Transport	-Other Enzymes	1.244	1.361	1.41	1.509
 -Cytoskeleton	-Other Enzymes	1.751	1.425	3.608	2.94
 -Cell Motility	-Other Enzymes	0	0	0	0
@@ -953,7 +890,6 @@ Environmental Information Processing	Organismal Systems	5.246	4.083	2.408	2.505
 -Signal Transduction	Organismal Systems	1.985	1.47	1.165	1.325
 -Signaling Molecules and Interaction	Organismal Systems	3.261	2.613	1.243	1.18
 Cellular Processes	Organismal Systems	6.472	5.009	8.055	8.187
--Hemoglobin	Organismal Systems	0	0	0	0
 -Vesicular Transport	Organismal Systems	2.36	2.193	1.92	2.332
 -Cytoskeleton	Organismal Systems	3.322	2.296	4.912	4.546
 -Cell Motility	Organismal Systems	0	0	0	0
@@ -994,7 +930,6 @@ Environmental Information Processing	-Immune System	7.594	5.341	5.39	4.274
 -Signal Transduction	-Immune System	2.873	1.923	2.607	2.261
 -Signaling Molecules and Interaction	-Immune System	4.721	3.419	2.783	2.012
 Cellular Processes	-Immune System	9.368	6.553	18.03	13.97
--Hemoglobin	-Immune System	0	0	0	0
 -Vesicular Transport	-Immune System	3.416	2.869	4.297	3.979
 -Cytoskeleton	-Immune System	4.808	3.004	11	7.756
 -Cell Motility	-Immune System	0	0	0	0
@@ -1035,7 +970,6 @@ Environmental Information Processing	-Endocrine System	69.65	64.81	9.101	22.49
 -Signal Transduction	-Endocrine System	26.35	23.33	4.402	11.9
 -Signaling Molecules and Interaction	-Endocrine System	43.3	41.48	4.699	10.59
 Cellular Processes	-Endocrine System	85.92	79.51	30.44	73.48
--Hemoglobin	-Endocrine System	0	0	0	0
 -Vesicular Transport	-Endocrine System	31.33	34.81	7.255	20.94
 -Cytoskeleton	-Endocrine System	44.1	36.44	18.56	40.81
 -Cell Motility	-Endocrine System	0	0	0	0
@@ -1076,7 +1010,6 @@ Environmental Information Processing	-Circulatory System	952.1	1416	30.45	33.55
 -Signal Transduction	-Circulatory System	360.2	509.8	14.73	17.75
 -Signaling Molecules and Interaction	-Circulatory System	591.9	906.5	15.72	15.8
 Cellular Processes	-Circulatory System	1174	1738	101.9	109.7
--Hemoglobin	-Circulatory System	0	0	0	0
 -Vesicular Transport	-Circulatory System	428.3	760.6	24.28	31.24
 -Cytoskeleton	-Circulatory System	602.8	796.4	62.12	60.89
 -Cell Motility	-Circulatory System	0	0	0	0
@@ -1117,7 +1050,6 @@ Environmental Information Processing	-Digestive System	162.9	151.3	339.2	380.9
 -Signal Transduction	-Digestive System	61.65	54.46	164.1	201.5
 -Signaling Molecules and Interaction	-Digestive System	101.3	96.83	175.2	179.3
 Cellular Processes	-Digestive System	201	185.6	1135	1245
--Hemoglobin	-Digestive System	0	0	0	0
 -Vesicular Transport	-Digestive System	73.31	81.25	270.4	354.6
 -Cytoskeleton	-Digestive System	103.2	85.07	692	691.2
 -Cell Motility	-Digestive System	0	0	0	0
@@ -1158,7 +1090,6 @@ Environmental Information Processing	-Excretory System	43.86	43.28	15.2	14.72
 -Signal Transduction	-Excretory System	16.59	15.58	7.352	7.788
 -Signaling Molecules and Interaction	-Excretory System	27.27	27.7	7.848	6.931
 Cellular Processes	-Excretory System	54.1	53.1	50.84	48.1
--Hemoglobin	-Excretory System	0	0	0	0
 -Vesicular Transport	-Excretory System	19.73	23.24	12.12	13.71
 -Cytoskeleton	-Excretory System	27.77	24.34	31.01	26.71
 -Cell Motility	-Excretory System	0	0	0	0
@@ -1199,7 +1130,6 @@ Environmental Information Processing	-Nervous System	152.7	175.7	179.7	139.4
 -Signal Transduction	-Nervous System	57.78	63.25	86.91	73.73
 -Signaling Molecules and Interaction	-Nervous System	94.95	112.5	92.77	65.62
 Cellular Processes	-Nervous System	188.4	215.6	601	455.4
--Hemoglobin	-Nervous System	0	0	0	0
 -Vesicular Transport	-Nervous System	68.71	94.37	143.2	129.8
 -Cytoskeleton	-Nervous System	96.7	98.81	366.5	252.9
 -Cell Motility	-Nervous System	0	0	0	0
@@ -1240,7 +1170,6 @@ Environmental Information Processing	-Sensory System	Inf	Inf	Inf	Inf
 -Signal Transduction	-Sensory System	Inf	Inf	Inf	Inf
 -Signaling Molecules and Interaction	-Sensory System	Inf	Inf	Inf	Inf
 Cellular Processes	-Sensory System	Inf	Inf	Inf	Inf
--Hemoglobin	-Sensory System	NaN	NaN	NaN	NaN
 -Vesicular Transport	-Sensory System	Inf	Inf	Inf	Inf
 -Cytoskeleton	-Sensory System	Inf	Inf	Inf	Inf
 -Cell Motility	-Sensory System	NaN	NaN	NaN	NaN
@@ -1281,7 +1210,6 @@ Environmental Information Processing	-Development	124.3	162.1	78.69	75.89
 -Signal Transduction	-Development	47.04	58.35	38.06	40.15
 -Signaling Molecules and Interaction	-Development	77.3	103.8	40.63	35.73
 Cellular Processes	-Development	153.4	198.9	263.2	248
--Hemoglobin	-Development	0	0	0	0
 -Vesicular Transport	-Development	55.94	87.06	62.73	70.66
 -Cytoskeleton	-Development	78.73	91.16	160.5	137.7
 -Cell Motility	-Development	0	0	0	0
@@ -1322,7 +1250,6 @@ Environmental Information Processing	-Environmental Adaptation	Inf	Inf	Inf	Inf
 -Signal Transduction	-Environmental Adaptation	Inf	Inf	Inf	Inf
 -Signaling Molecules and Interaction	-Environmental Adaptation	Inf	Inf	Inf	Inf
 Cellular Processes	-Environmental Adaptation	Inf	Inf	Inf	Inf
--Hemoglobin	-Environmental Adaptation	NaN	NaN	NaN	NaN
 -Vesicular Transport	-Environmental Adaptation	Inf	Inf	Inf	Inf
 -Cytoskeleton	-Environmental Adaptation	Inf	Inf	Inf	Inf
 -Cell Motility	-Environmental Adaptation	NaN	NaN	NaN	NaN
@@ -1363,7 +1290,6 @@ Environmental Information Processing	Human Diseases	17.55	16.93	6.824	6.175
 -Signal Transduction	Human Diseases	6.639	6.095	3.301	3.267
 -Signaling Molecules and Interaction	Human Diseases	10.91	10.84	3.523	2.908
 Cellular Processes	Human Diseases	21.65	20.77	22.83	20.18
--Hemoglobin	Human Diseases	0	0	0	0
 -Vesicular Transport	Human Diseases	7.894	9.094	5.44	5.749
 -Cytoskeleton	Human Diseases	11.11	9.521	13.92	11.21
 -Cell Motility	Human Diseases	0	0	0	0
@@ -1404,7 +1330,6 @@ Environmental Information Processing	-Cancers	43	50.12	33.11	30.86
 -Signal Transduction	-Cancers	16.27	18.04	16.02	16.33
 -Signaling Molecules and Interaction	-Cancers	26.73	32.08	17.1	14.53
 Cellular Processes	-Cancers	53.04	61.49	110.8	100.9
--Hemoglobin	-Cancers	0	0	0	0
 -Vesicular Transport	-Cancers	19.34	26.92	26.4	28.73
 -Cytoskeleton	-Cancers	27.23	28.18	67.55	56.01
 -Cell Motility	-Cancers	0	0	0	0
@@ -1445,7 +1370,6 @@ Environmental Information Processing	-Immune System Diseases	276.8	354.5	22.72	2
 -Signal Transduction	-Immune System Diseases	104.7	127.6	10.99	13.88
 -Signaling Molecules and Interaction	-Immune System Diseases	172.1	226.9	11.73	12.35
 Cellular Processes	-Immune System Diseases	341.4	434.9	76.01	85.71
--Hemoglobin	-Immune System Diseases	0	0	0	0
 -Vesicular Transport	-Immune System Diseases	124.5	190.4	18.12	24.42
 -Cytoskeleton	-Immune System Diseases	175.2	199.3	46.36	47.6
 -Cell Motility	-Immune System Diseases	0	0	0	0
@@ -1486,7 +1410,6 @@ Environmental Information Processing	-Neurodegenerative Diseases	89.25	70.36	32.
 -Signal Transduction	-Neurodegenerative Diseases	33.76	25.33	15.86	11.86
 -Signaling Molecules and Interaction	-Neurodegenerative Diseases	55.48	45.03	16.93	10.55
 Cellular Processes	-Neurodegenerative Diseases	110.1	86.32	109.7	73.25
--Hemoglobin	-Neurodegenerative Diseases	0	0	0	0
 -Vesicular Transport	-Neurodegenerative Diseases	40.15	37.79	26.14	20.87
 -Cytoskeleton	-Neurodegenerative Diseases	56.51	39.56	66.89	40.68
 -Cell Motility	-Neurodegenerative Diseases	0	0	0	0
@@ -1527,7 +1450,6 @@ Environmental Information Processing	-Cardiovascular Diseases	568	587.1	237	258.
 -Signal Transduction	-Cardiovascular Diseases	214.9	211.3	114.6	137
 -Signaling Molecules and Interaction	-Cardiovascular Diseases	353.1	375.7	122.4	121.9
 Cellular Processes	-Cardiovascular Diseases	700.7	720.2	792.7	846.1
--Hemoglobin	-Cardiovascular Diseases	0	0	0	0
 -Vesicular Transport	-Cardiovascular Diseases	255.5	315.3	188.9	241
 -Cytoskeleton	-Cardiovascular Diseases	359.6	330.1	483.4	469.8
 -Cell Motility	-Cardiovascular Diseases	0	0	0	0
@@ -1568,7 +1490,6 @@ Environmental Information Processing	-Infectious Diseases	58.3	49.1	26.58	23.29
 -Signal Transduction	-Infectious Diseases	22.06	17.67	12.86	12.32
 -Signaling Molecules and Interaction	-Infectious Diseases	36.24	31.43	13.72	10.97
 Cellular Processes	-Infectious Diseases	71.91	60.24	88.91	76.11
--Hemoglobin	-Infectious Diseases	0	0	0	0
 -Vesicular Transport	-Infectious Diseases	26.23	26.37	21.19	21.68
 -Cytoskeleton	-Infectious Diseases	36.91	27.61	54.22	42.27
 -Cell Motility	-Infectious Diseases	0	0	0	0
@@ -1609,7 +1530,6 @@ Environmental Information Processing	Not Mapped	0.4158	0.3758	0.2077	0.2025
 -Signal Transduction	Not Mapped	0.1573	0.1353	0.1004	0.1071
 -Signaling Molecules and Interaction	Not Mapped	0.2585	0.2405	0.1072	0.09536
 Cellular Processes	Not Mapped	0.5129	0.461	0.6946	0.6618
--Hemoglobin	Not Mapped	0	0	0	0
 -Vesicular Transport	Not Mapped	0.187	0.2018	0.1655	0.1885
 -Cytoskeleton	Not Mapped	0.2632	0.2113	0.4236	0.3675
 -Cell Motility	Not Mapped	0	0	0	0
@@ -1650,7 +1570,6 @@ Environmental Information Processing	-Not Mapped	0.4158	0.3758	0.2077	0.2025
 -Signal Transduction	-Not Mapped	0.1573	0.1353	0.1004	0.1071
 -Signaling Molecules and Interaction	-Not Mapped	0.2585	0.2405	0.1072	0.09536
 Cellular Processes	-Not Mapped	0.5129	0.461	0.6946	0.6618
--Hemoglobin	-Not Mapped	0	0	0	0
 -Vesicular Transport	-Not Mapped	0.187	0.2018	0.1655	0.1885
 -Cytoskeleton	-Not Mapped	0.2632	0.2113	0.4236	0.3675
 -Cell Motility	-Not Mapped	0	0	0	0

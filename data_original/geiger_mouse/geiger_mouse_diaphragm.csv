@@ -1,4 +1,5 @@
-Gene names	Intensity L Diaphragm
+!!SBtab TableType='Proteomaps' Condition='Intensity L Diaphragm'
+!ProteinIdentifier	!Abundance
 17196	150285.714286
 69187	10669.4285714
 12954	1561224.4898

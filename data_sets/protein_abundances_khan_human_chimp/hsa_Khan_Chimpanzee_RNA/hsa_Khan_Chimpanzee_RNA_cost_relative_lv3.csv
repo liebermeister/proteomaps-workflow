@@ -11,6 +11,7 @@ Axon guidance	0.00025206328
 B cell receptor signaling pathway	0.0012239987
 Bacterial chemotaxis	0
 Bacterial invasion of epithelial cells	0.00058961871
+Bacterial motility proteins	0
 Bacterial toxins	0
 Basal transcription factors	0.0019729511
 Base excision repair	0.00086709583
@@ -165,7 +166,7 @@ Toll-like receptor signaling pathway	5.0801488e-05
 Transcription factors	0.018320237
 Transcriptional misregulation in cancer	0.00039290228
 Translation factors	0.037455557
-Transporters	0.0019202773
+Transport	0.0019202773
 Tuberculosis	0
 Two-component system	0.00085545015
 Ubiquitin labeling	0.025092383

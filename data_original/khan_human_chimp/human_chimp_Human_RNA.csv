@@ -1,4 +1,5 @@
-UniProt	RNA rpkm.human
+!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/' Condition='RNA rpkm.human'
+!ProteinIdentifier	!Abundance
 P04406	2865.85
 P07737	1599.13
 P62937	170.944

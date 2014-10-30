@@ -8,6 +8,18 @@
 
 from proteomaps_html import make_proteomaps_html 
 
+# --------------------------------------------------------------
+# data sets directory "new"
+
+data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_new/'
+paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_new/html/'
+output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
+resolution_1     = 2512
+resolution_2     = 800
+
+make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+
+
 # # --------------------------------------------------------------
 # # data sets for paper 
 # 
@@ -55,13 +67,13 @@ from proteomaps_html import make_proteomaps_html
 # --------------------------------------------------------------
 # Geiger's mouse tissue data
  
-data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_geiger_mouse/'
-paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_geiger_mouse/html/'
-output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
-resolution_1     = 2512
-resolution_2     = 800
-
-make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+# data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_geiger_mouse/'
+# paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_geiger_mouse/html/'
+# output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
+# resolution_1     = 2512
+# resolution_2     = 800
+# 
+# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
  
 # --------------------------------------------------------------
 # Krizhanovski fibroblast data

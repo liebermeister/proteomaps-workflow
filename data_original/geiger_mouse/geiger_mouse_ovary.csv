@@ -1,4 +1,5 @@
-Gene names	Intensity L Ovary
+!!SBtab TableType='Proteomaps' Condition='Intensity L Ovary'
+!ProteinIdentifier	!Abundance
 17196	12337.7142857
 69187	2702.97142857
 12954	230102.040816

@@ -1,4 +1,5 @@
-Gene names	Intensity L Uterus
+!!SBtab TableType='Proteomaps' Condition='Intensity L Uterus'
+!ProteinIdentifier	!Abundance
 17196	35714.2857143
 69187	5212.28571429
 12954	525510.204082

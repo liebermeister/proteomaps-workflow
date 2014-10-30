@@ -1,3 +1,5 @@
+!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/'
+!ProteinIdentifier	!Abundance
 P60709	387118048.494315
 P68363	225406243.238494
 P62805	834937746.075239

@@ -1,4 +1,5 @@
-Gene names	Intensity L White fat
+!!SBtab TableType='Proteomaps' Condition='Intensity L White fat'
+!ProteinIdentifier	!Abundance
 17196	45142.8571429
 69187	9238.28571429
 12954	1392857.14286

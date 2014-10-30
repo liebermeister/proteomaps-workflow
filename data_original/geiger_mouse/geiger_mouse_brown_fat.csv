@@ -1,4 +1,5 @@
-Gene names	Intensity L Brown fat
+!!SBtab TableType='Proteomaps' Condition='Intensity L Brown fat'
+!ProteinIdentifier	!Abundance
 17196	368571.428571
 69187	18894.2857143
 12954	729591.836735

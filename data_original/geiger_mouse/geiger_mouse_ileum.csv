@@ -1,4 +1,5 @@
-Gene names	Intensity L Ileum
+!!SBtab TableType='Proteomaps' Condition='Intensity L Ileum'
+!ProteinIdentifier	!Abundance
 17196	117428.571429
 69187	3342857.14286
 12954	3596938.77551

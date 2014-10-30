@@ -1,4 +1,3 @@
-eco	/home/wolfram/projekte/protein_abundance/original_proteome_data/ribosome_profiling/processed_data/Ecoli_riboSum-SivanRM_mean.csv	eco_WeiLi_old	ECO WeiLi OLD	Escherichia coli - Wei-Li et al. - OLD FILE (2014)
-eco	/home/wolfram/projekte/protein_abundance/original_proteome_data/ribosome_profiling/processed_data/li_ribosome_profiling_complete.csv	eco_WeiLi_complete	ECO complete WeiLi	Escherichia coli - Wei-Li et al. - Complete (2014)
-eco	/home/wolfram/projekte/protein_abundance/original_proteome_data/ribosome_profiling/processed_data/li_ribosome_profiling_minimal.csv	eco_WeiLi_minimal	ECO minimal WeiLi	Escherichia coli - Wei-Li et al. - Minimal (2014)
-eco	/home/wolfram/projekte/protein_abundance/original_proteome_data/ribosome_profiling/processed_data/li_ribosome_profiling_without_methionine.csv	eco_WeiLi_without_methionine	ECO without_methionine WeiLi	Escherichia coli - Wei-Li et al. - without Methionine (2014)
+eco	/home/wolfram/Proteomaps/data_original/new/li_ribosome_profiling_complete.csv	eco_Li_complete	ECO complete Li	Escherichia coli - Li et al. (2014) (Ribosome profiling) - Complete 
+eco	/home/wolfram/Proteomaps/data_original/new/li_ribosome_profiling_minimal.csv	eco_Li_minimal	ECO minimal Li	Escherichia coli - Li et al. (2014) (Ribosome profiling) - Minimal
+eco	/home/wolfram/Proteomaps/data_original/new/li_ribosome_profiling_without_methionine.csv	eco_Li_without_methionine	ECO without_methionine Li	Escherichia coli - Li et al. (2014) (Ribosome profiling) - without Methionine

@@ -1221,7 +1221,6 @@ Genetic Information Processing
 			K02083
 			K14677
 			K01409
-			K01265
 			K01271
 			K01262
 			K14208
@@ -2049,6 +2048,7 @@ Environmental Information Processing
 			K06265
 			K06266
 		Cell adhesion molecules (CAMs)
+			K11934
 			K06449
 			K06752
 			K06454
@@ -2197,6 +2197,10 @@ Environmental Information Processing
 			K01186
 			K01197
 Cellular Processes
+	Cell structure
+		Cell envelope
+			K06078
+			K03640
 	Stress Response
 		Stress response
 			eco_b3510
@@ -2939,7 +2943,6 @@ Metabolism
 			K00845
 			K01810
 			K00850
-			K02446
 			K04041
 			K01623
 			K01624
@@ -3099,7 +3102,6 @@ Metabolism
 			K00011
 			K03331
 			K00848
-			K01629
 			K00078
 			K05352
 			K00847
@@ -3154,8 +3156,6 @@ Metabolism
 			K00103
 			K00064
 			K03476
-			K03078
-			K03079
 			K03077
 			K08232
 			K00423
@@ -3176,7 +3176,6 @@ Metabolism
 			K01198
 			K11809
 			K00975
-			K00703
 			K00700
 			K00688
 			K00690
@@ -3649,9 +3648,6 @@ Metabolism
 			K00087
 			K13479
 			K13480
-			K11177
-			K11178
-			K13483
 			K01518
 			K00364
 			K01487
@@ -3777,7 +3773,6 @@ Metabolism
 			K00261
 			K00262
 			K00294
-			K13821
 			K01425
 			K00928
 			K12524
@@ -4006,7 +4001,6 @@ Metabolism
 			K00833
 			K01845
 			K02805
-			K01579
 			K01918
 			K01594
 			K10712
@@ -4263,7 +4257,6 @@ Metabolism
 			K03472
 			K03473
 			K00097
-			K03474
 			K06215
 			K08681
 			K03517
@@ -4631,7 +4624,6 @@ Metabolism
 			K04087
 			K04088
 			K11066
-			K01462
 			K11991
 			K12968
 			K01506
@@ -4667,7 +4659,6 @@ Metabolism
 			K06041
 			K01854
 			K03177
-			K06173
 			K06175
 			K06176
 			K02082

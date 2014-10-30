@@ -1,4 +1,5 @@
-Gene names	Intensity L Thymus
+!!SBtab TableType='Proteomaps' Condition='Intensity L Thymus'
+!ProteinIdentifier	!Abundance
 17196	92000.0
 69187	87714.2857143
 12954	561224.489796

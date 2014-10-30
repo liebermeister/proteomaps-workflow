@@ -1,3 +1,5 @@
+!!SBtab TableType='Proteomaps'
+!ProteinIdentifier	!Abundance
 Dmel_CG11422	16.673
 Dmel_CG34375	0.771
 Dmel_CG10279	390.048

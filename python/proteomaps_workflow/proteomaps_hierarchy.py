@@ -393,14 +393,12 @@ class relevant_ko:
         collected_ko = collected_ko.union([ko])
     return collected_ko
 
-
   def write_relevant_ko(self,collected_ko,file_relevant_ko):
     # write prepared list of relevant ko numbers to file pp.FILE_RELEVANT_KO
     f = open(file_relevant_ko, 'w')
     for my_ko in list(collected_ko):
         f.write(my_ko+"\n")
     f.write("NotMapped\n")
-
 
   def read_relevant_ko(self,file_relevant_ko):
     # read prepared list of relevant ko numbers from file pp.FILE_RELEVANT_KO

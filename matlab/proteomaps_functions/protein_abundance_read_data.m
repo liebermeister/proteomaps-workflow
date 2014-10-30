@@ -37,6 +37,9 @@ end
 
 for it = 1:length(data_shortnames),
   data.(data_shortnames{it}) = load_any_table(data_filenames{it});
+  % remove lines starting with "!"
+  ok = find(cellfun('length',strfind( data.(data_shortnames{it})(:,1) ,'!'))==0)
+  data.(data_shortnames{it}) = data.(data_shortnames{it})(ok,:);
 end
 
 ko_tree = load_file_as_strings([data_directory '/hierarchy/KO_hierarchy_standardised.tms']);

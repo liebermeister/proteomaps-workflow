@@ -8304,7 +8304,10 @@ sce	YOR383C	Fit3		Cell wall	SGD: cell wall protein
 sce	YPL124W	Spc29		Cytoskeleton proteins	SGD
 sce	YPL130W	Spo19		Cell wall	SGD: cell wall protein
 sce	YPL255W	Bbp1		Cytoskeleton proteins	SGD
+eco	b0741	Pal	K03640	Cell envelope	peptidoglycan-associated outer membrane lipoprotein
+eco	b0814	OmpX	K11934	Cell adhesion molecules (CAMs)
 eco	b3751	RbsB	K10439	Transport    http://www.genome.jp/dbget-bin/www_bget?K10439
+eco	b1677	Lpp	K06078	Cell envelope	murein lipoprotein
 eco	b3495	UspA	K06149  Stress response	universal stress protein A
 eco	b3510	HdeA		Stress response	stress response protein acid-resistance protein
 eco	b1482	OsmC	K04063	Other enzymes	lipoyl-dependent Cys-based peroxidase, hydroperoxide resistance;

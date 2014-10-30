@@ -1,4 +1,5 @@
-Gene names	Intensity L Jejunum
+!!SBtab TableType='Proteomaps' Condition='Intensity L Jejunum'
+!ProteinIdentifier	!Abundance
 17196	145142.857143
 69187	22055.7142857
 12954	1959183.67347

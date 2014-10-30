@@ -66,6 +66,6 @@ def copy_files(data_set_collections):
 # Which data set collections should be copied to the website?
 # (You need to create the html files before by running make_proteomaps_html.py)
 
-data_set_collections = {'geiger_mouse'} #  'paper', 'other', 'geiger_cell_lines', 'valgepea_ecoli', 'khan_human_chimp', 'krizhanovsky', ,}
+data_set_collections = {'new'} #  'geiger_mouse' 'paper', 'other', 'geiger_cell_lines', 'valgepea_ecoli', 'khan_human_chimp', 'krizhanovsky', ,}
 
 copy_files(data_set_collections)

@@ -1,4 +1,5 @@
-Gene names	Intensity L Olfactory bulb
+!!SBtab TableType='Proteomaps' Condition='Intensity L Olfactory bulb'
+!ProteinIdentifier	!Abundance
 17196	87714285.7143
 69187	55714.2857143
 12954	2209183.67347

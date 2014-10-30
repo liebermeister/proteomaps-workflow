@@ -1,4 +1,5 @@
-Gene names	Intensity L Stomach
+!!SBtab TableType='Proteomaps' Condition='Intensity L Stomach'
+!ProteinIdentifier	!Abundance
 17196	52000.0
 69187	7092.28571429
 12954	3066326.53061

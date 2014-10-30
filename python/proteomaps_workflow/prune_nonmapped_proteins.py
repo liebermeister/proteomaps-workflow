@@ -19,7 +19,8 @@ import math
 
 from proteomaps_path_names import proteomaps_path_names
 from proteomaps_hierarchy import proteomaps_hierarchy
-from proteomaps_hierarchy import relevant_ko
+from relevant_ko import relevant_ko
+
 
 # which fraction of nonmapped proteins will be lumped to one polygon?
 fraction_nonmapped_lumped = 0.005
@@ -28,7 +29,7 @@ fraction_nonmapped_lumped = 0.005
 n_nonmapped_displayed = 500
 
 
-def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,nonmapped_dict):
+def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,nonmapped_dict,my_organism):
   
   # set of all gene names to be explicitly shown in the non-mapped region of some proteomap
   nonmapped_show = set()
@@ -160,123 +161,124 @@ def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy
 
 # end of function
 
-
-###############################################################
+# -------------------------------------------------------------
 # main program
 
-
-data_dir = sys.argv[1]
-
-pp = proteomaps_path_names(data_dir)
-hh = proteomaps_hierarchy(data_dir)
-rk = relevant_ko(data_dir)
-
-data_files    = pp.get_data_files()
-organism_list = pp.get_organism_list()
-
-nonmapped_show_KO = set()
-nonmapped_show    = {}
-all_nonmapped_dict= {}
-
-for my_organism in pp.organism_list:
-  nonmapped_show[my_organism] = set()
-  all_nonmapped_dict[my_organism] = set()
-
-for my_file in data_files:
-
-  filenames   = pp.get_filenames(my_file)
-  my_organism = filenames['organism']
-  mapping_filenames = pp.get_mapping_files(my_organism)
-  print "\n" + my_organism + ' // ' + filenames['data_set']
-
-  # for each organism: load list of nonmapped proteins 
-  print filenames['nonmapped']
-  fmappings = open(filenames['nonmapped'],"r")
-  igot = fmappings.readlines()
+def prune_nonmapped_proteins(data_dir):
+  
+  pp = proteomaps_path_names(data_dir)
+  hh = proteomaps_hierarchy(data_dir)
+  rk = relevant_ko(data_dir)
+  
+  data_files    = pp.get_data_files()
+  organism_list = pp.get_organism_list()
+  
+  nonmapped_show_KO = set()
+  nonmapped_show    = {}
+  all_nonmapped_dict= {}
+  
+  for my_organism in pp.organism_list:
+    nonmapped_show[my_organism] = set()
+    all_nonmapped_dict[my_organism] = set()
+  
+  for my_file in data_files:
+  
+    filenames   = pp.get_filenames(my_file)
+    my_organism = filenames['organism']
+    mapping_filenames = pp.get_mapping_files(my_organism)
+    print "\n" + my_organism + ' // ' + filenames['data_set']
+  
+    # for each organism: load list of nonmapped proteins 
+    print filenames['nonmapped']
+    fmappings = open(filenames['nonmapped'],"r")
+    igot = fmappings.readlines()
+    for line in igot:
+      tt = re.split("\t",line.strip())
+      #if tt[2] == 'NotMapped':
+      q = re.split(":",tt[1])
+      my_gene       = q[0]
+      all_nonmapped_dict[my_organism].add(my_gene)
+      #  #my_gene_names = re.split(';',my_gene)
+      #  #my_gene       = my_gene_names[0]
+      #  all_nonmapped_dict[my_organism].add(my_gene)
+  
+    print len(all_nonmapped_dict[my_organism])
+  
+    # -------------------------------------------------------------
+    # process data file with length-weighted abundances
+  
+    print " WEIGHTED ABUNDANCE"
+    fi1          = open(filenames['cost'],"r")
+    fo1          = open(filenames['cost_lumped'],"w")
+    fo1l         = open(filenames['cost_lumped_proteins'],"w")
+    fi_hierarchy = open(pp.OUTFILE_KO_HIERARCHY_FILE_2 ,'r')
+    fo_hierarchy = open(filenames['hierarchy_cost_lumped'],"w")
+    fo_hierarchy_pos = open(filenames['hierarchy_cost_lumped_pos'],"w")
+    #fo_mapping   = open(mapping_filenames['final'],"w")
+    #fol_mapping  = open(filenames['mapping_cost_lumped'],"w")
+  
+    [my_nonmapped_show, my_nonmapped_show_KO] = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism],my_organism)
+    nonmapped_show[my_organism] = nonmapped_show[my_organism].union(my_nonmapped_show)
+    nonmapped_show_KO = nonmapped_show_KO.union(my_nonmapped_show_KO)
+    
+    # -------------------------------------------------------------
+    # process data file with (non-weighted) abundances
+  
+    print " ABUNDANCE"
+    fi1          = open(filenames['abundance'],"r")
+    fo1          = open(filenames['abundance_lumped'],"w")
+    fo1l         = open(filenames['abundance_lumped_proteins'],"w")
+    fi_hierarchy = open(pp.OUTFILE_KO_HIERARCHY_FILE_2 ,'r')
+    fo_hierarchy = open(filenames['hierarchy_abundance_lumped'],"w")
+    fo_hierarchy_pos = open(filenames['hierarchy_abundance_lumped_pos'],"w")
+    #fo_mapping   = open(mapping_filenames['final'],"w")
+    #fol_mapping  = open(filenames['mapping_abundance_lumped'],"w")
+  
+    [my_nonmapped_show, my_nonmapped_show_KO]  = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism],my_organism)
+    nonmapped_show[my_organism] = nonmapped_show[my_organism].union(my_nonmapped_show)
+    nonmapped_show_KO = nonmapped_show_KO.union(my_nonmapped_show_KO)
+  
+  
+  # ----------------------------------------
+  # copy hierarchy file to hierarchy file with non-mapped genes for all datasets
+  
+  fi_hierarchy     = open(pp.OUTFILE_KO_HIERARCHY_FILE_2 ,'r')
+  fo_hierarchy_all = open(pp.OUTFILE_KO_HIERARCHY_FILE_3 ,'w')
+  
+  igot = fi_hierarchy.readlines()
   for line in igot:
-    tt = re.split("\t",line.strip())
-    #if tt[2] == 'NotMapped':
-    q = re.split(":",tt[1])
-    my_gene       = q[0]
-    all_nonmapped_dict[my_organism].add(my_gene)
-    #  #my_gene_names = re.split(';',my_gene)
-    #  #my_gene       = my_gene_names[0]
-    #  all_nonmapped_dict[my_organism].add(my_gene)
-
-  print len(all_nonmapped_dict[my_organism])
-
-  # -------------------------------------------------------------
-  # process data file with length-weighted abundances
-
-  print " WEIGHTED ABUNDANCE"
-  fi1          = open(filenames['cost'],"r")
-  fo1          = open(filenames['cost_lumped'],"w")
-  fo1l         = open(filenames['cost_lumped_proteins'],"w")
-  fi_hierarchy = open(pp.OUTFILE_KO_HIERARCHY_FILE_2 ,'r')
-  fo_hierarchy = open(filenames['hierarchy_cost_lumped'],"w")
-  fo_hierarchy_pos = open(filenames['hierarchy_cost_lumped_pos'],"w")
-  #fo_mapping   = open(mapping_filenames['final'],"w")
-  #fol_mapping  = open(filenames['mapping_cost_lumped'],"w")
-
-  [my_nonmapped_show, my_nonmapped_show_KO] = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism])
-  nonmapped_show[my_organism] = nonmapped_show[my_organism].union(my_nonmapped_show)
-  nonmapped_show_KO = nonmapped_show_KO.union(my_nonmapped_show_KO)
+    fo_hierarchy_all.write(line)  
   
-  # -------------------------------------------------------------
-  # process data file with (non-weighted) abundances
-
-  print " ABUNDANCE"
-  fi1          = open(filenames['abundance'],"r")
-  fo1          = open(filenames['abundance_lumped'],"w")
-  fo1l         = open(filenames['abundance_lumped_proteins'],"w")
-  fi_hierarchy = open(pp.OUTFILE_KO_HIERARCHY_FILE_2 ,'r')
-  fo_hierarchy = open(filenames['hierarchy_abundance_lumped'],"w")
-  fo_hierarchy_pos = open(filenames['hierarchy_abundance_lumped_pos'],"w")
-  #fo_mapping   = open(mapping_filenames['final'],"w")
-  #fol_mapping  = open(filenames['mapping_abundance_lumped'],"w")
-
-  [my_nonmapped_show, my_nonmapped_show_KO]  = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism])
-  nonmapped_show[my_organism] = nonmapped_show[my_organism].union(my_nonmapped_show)
-  nonmapped_show_KO = nonmapped_show_KO.union(my_nonmapped_show_KO)
-
-
-# ----------------------------------------
-# copy hierarchy file to hierarchy file with non-mapped genes for all datasets
-
-fi_hierarchy     = open(pp.OUTFILE_KO_HIERARCHY_FILE_2 ,'r')
-fo_hierarchy_all = open(pp.OUTFILE_KO_HIERARCHY_FILE_3 ,'w')
-
-igot = fi_hierarchy.readlines()
-for line in igot:
-  fo_hierarchy_all.write(line)  
-
-for line in sorted(nonmapped_show_KO):
-  fo_hierarchy_all.write("\t\t\t\t" + line + "\n")
-
-
-# ----------------------------------------
-# Write mapping files "final.." and "..final_lumped.."
-
-for my_organism in pp.organism_list:
-  mapping_filenames = pp.get_mapping_files(my_organism)
-  fo_mapping   = open(mapping_filenames['final'],"w")
-  fol_mapping  = open(mapping_filenames['final_some_unmapped'],"w")
-
-  my_added_ko           = rk.get_added_ko_dictionary()  
-  systematic_to_ko_gene = hh.get_mapping_systematic_to_ko_gene(my_organism,my_added_ko)
+  for line in sorted(nonmapped_show_KO):
+    fo_hierarchy_all.write("\t\t\t\t" + line + "\n")
   
-  # only mapped genes
-  for my_systematic in systematic_to_ko_gene:
-    my_ko   = systematic_to_ko_gene[my_systematic]["ko"]
-    my_gene = systematic_to_ko_gene[my_systematic]["gene"]
-    if not (my_systematic in all_nonmapped_dict[my_organism]):
-      fo_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
-      fol_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
-  fo_mapping.close()
+  
+  # ----------------------------------------
+  # Write mapping files "final.." and "..final_lumped.."
+  
+  for my_organism in pp.organism_list:
+    mapping_filenames = pp.get_mapping_files(my_organism)
+    fo_mapping   = open(mapping_filenames['final'],"w")
+    fol_mapping  = open(mapping_filenames['final_some_unmapped'],"w")
+  
+    my_added_ko           = rk.get_added_ko_dictionary()  
+    systematic_to_ko_gene = hh.get_mapping_systematic_to_ko_gene(my_organism,my_added_ko)
+    
+    # only mapped genes
+    for my_systematic in systematic_to_ko_gene:
+      my_ko   = systematic_to_ko_gene[my_systematic]["ko"]
+      my_gene = systematic_to_ko_gene[my_systematic]["gene"]
+      if not (my_systematic in all_nonmapped_dict[my_organism]):
+        fo_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
+        fol_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
+    fo_mapping.close()
+  
+    # additionally, nonmapped genes
+    fol_mapping.write("NotMapped\tOther unmapped:OtherNotMapped\n")  
+    for my_gene in all_nonmapped_dict[my_organism]:
+      if my_gene in nonmapped_show[my_organism]:
+        fol_mapping.write(my_organism + "_" + my_gene + "\t" + my_gene + ":" + my_gene + "\n")
+    fol_mapping.close()
 
-  # additionally, nonmapped genes
-  fol_mapping.write("NotMapped\tOther unmapped:OtherNotMapped\n")  
-  for my_gene in all_nonmapped_dict[my_organism]:
-    if my_gene in nonmapped_show[my_organism]:
-      fol_mapping.write(my_organism + "_" + my_gene + "\t" + my_gene + ":" + my_gene + "\n")
-  fol_mapping.close()
+if __name__ == "__main__":
+  prune_nonmapped_proteins(sys.argv[1])

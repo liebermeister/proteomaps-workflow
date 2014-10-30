@@ -1,4 +1,5 @@
-Gene names	Intensity L Salivary gland
+!!SBtab TableType='Proteomaps' Condition='Intensity L Salivary gland'
+!ProteinIdentifier	!Abundance
 17196	74000.0
 69187	3346.28571429
 12954	309183.673469

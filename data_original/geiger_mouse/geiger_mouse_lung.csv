@@ -1,4 +1,5 @@
-Gene names	Intensity L Lung
+!!SBtab TableType='Proteomaps' Condition='Intensity L Lung'
+!ProteinIdentifier	!Abundance
 17196	103142.857143
 69187	1464.71428571
 12954	6887755.10204

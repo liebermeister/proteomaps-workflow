@@ -1,4 +1,5 @@
-Gene names	Intensity L Eye
+!!SBtab TableType='Proteomaps' Condition='Intensity L Eye'
+!ProteinIdentifier	!Abundance
 17196	442857.142857
 69187	35714.2857143
 12954	327551020.408

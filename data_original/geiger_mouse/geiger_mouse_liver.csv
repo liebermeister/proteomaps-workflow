@@ -1,4 +1,5 @@
-Gene names	Intensity L Liver
+!!SBtab TableType='Proteomaps' Condition='Intensity L Liver'
+!ProteinIdentifier	!Abundance
 17196	204571.428571
 69187	3960.28571429
 12954	1479591.83673

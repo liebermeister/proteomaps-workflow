@@ -1,4 +1,5 @@
-Gene names	Intensity L Colon
+!!SBtab TableType='Proteomaps' Condition='Intensity L Colon'
+!ProteinIdentifier	!Abundance
 17196	118571.428571
 69187	11562.2857143
 12954	1295918.36735

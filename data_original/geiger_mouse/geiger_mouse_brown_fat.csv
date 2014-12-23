@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Brown fat'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Brown fat'
 !ProteinIdentifier	!Abundance
 17196	368571.428571
 69187	18894.2857143

@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='ath'
 !ProteinIdentifier	!Abundance
 AT3G59700	0.114
 AT1G62305	0.143

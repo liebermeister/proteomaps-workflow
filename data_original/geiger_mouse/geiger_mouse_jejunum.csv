@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Jejunum'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Jejunum'
 !ProteinIdentifier	!Abundance
 17196	145142.857143
 69187	22055.7142857

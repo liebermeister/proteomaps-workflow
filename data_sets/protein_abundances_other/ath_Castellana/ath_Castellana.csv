@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='ath'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 AT3G59700	0.114	0.114000006042	39.9	0.112395963536	350			
 AT1G62305	0.143	0.143000007579	50.05	0.140987919172	350			
 AT4G31730	1.409	1.40900007468	493.15	1.38917467212	350			

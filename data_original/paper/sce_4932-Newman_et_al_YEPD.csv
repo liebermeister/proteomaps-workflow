@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='sce' Condition='Rich medium'
 !ProteinIdentifier	!Abundance
 YAL005C	13425.597
 YAL007C	278.293

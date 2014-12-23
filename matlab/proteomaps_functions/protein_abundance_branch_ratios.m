@@ -31,7 +31,7 @@ load([PROTEOMAPS_MATLAB_DATA_DIR '/' infile]);
 % save table with all proteome data, aligned by KO
 
 my_numbers = protein_data.protein_numbers; 
-table([{'KO number'},protein_data.data_sets_short'; protein_data.ko_ids, num2cell(my_numbers)],0,filename_ko);
+mytable([{'KO number'},protein_data.data_sets_short'; protein_data.ko_ids, num2cell(my_numbers)],0,filename_ko);
 
 % --------------------------------------------------------
 % display cumulative values 
@@ -99,7 +99,7 @@ category_labels = [ repmat(categories,length(categories),1), ...
 
 protein_data.data_sets_short = column(protein_data.data_sets_short);
 
-table([[{'Numerator','Denominator'},protein_data.data_sets_short']; [category_labels, num2cell(ratios)]],0,[ filename '_ratios.csv']);
+mytable([[{'Numerator','Denominator'},protein_data.data_sets_short']; [category_labels, num2cell(ratios)]],0,[ filename '_ratios.csv']);
 
 
 % --------------------------------------------------------------
@@ -114,15 +114,15 @@ if size(ratio_matrix_10_percent,1) ==1;
   ratio_matrix_90_percent = ratio_matrix_90_percent';
 end
 
-table([{'Numerator','Denominator'},protein_data.data_sets_short'; category_labels, num2cell(ratio_matrix_10_percent)],0,[filename '_ratios_10.csv']);
+mytable([{'Numerator','Denominator'},protein_data.data_sets_short'; category_labels, num2cell(ratio_matrix_10_percent)],0,[filename '_ratios_10.csv']);
 
-table([{'Numerator','Denominator'},protein_data.data_sets_short'; category_labels, num2cell(ratio_matrix_50_percent)],0,[filename '_ratios_50.csv']);
+mytable([{'Numerator','Denominator'},protein_data.data_sets_short'; category_labels, num2cell(ratio_matrix_50_percent)],0,[filename '_ratios_50.csv']);
 
-table([{'Numerator','Denominator'},protein_data.data_sets_short'; category_labels,num2cell(ratio_matrix_90_percent)],0,[filename '_ratios_90.csv']);
+mytable([{'Numerator','Denominator'},protein_data.data_sets_short'; category_labels,num2cell(ratio_matrix_90_percent)],0,[filename '_ratios_90.csv']);
 
 ns = length(protein_data.data_sets_short);
 nc = size(ratio_matrix_10_percent,1);
-table([{'Numerator','Denominator'},reshape(repmat(protein_data.data_sets_short,3,1),3*ns,1)'; ...
+mytable([{'Numerator','Denominator'},reshape(repmat(protein_data.data_sets_short,3,1),3*ns,1)'; ...
        [{'',''},repmat({'10%','50%','90%'},1,ns)]; ...
        [category_labels, num2cell(reshape([ratio_matrix_10_percent; ratio_matrix_50_percent; ratio_matrix_90_percent],nc,3*ns))]],0,[filename '_ratios_quantiles.csv']);
 
@@ -130,9 +130,9 @@ table([{'Numerator','Denominator'},reshape(repmat(protein_data.data_sets_short,3
 % --------------------------------------------------------------
 % tables with 3rd level categories
 
-table([{'Category'},protein_data.data_sets_short'; categories3, num2cell(M3 * diag(1./M3(1,:)))],0,[filename '.csv']);
+mytable([{'Category'},protein_data.data_sets_short'; categories3, num2cell(M3 * diag(1./M3(1,:)))],0,[filename '.csv']);
 %absolute numbers
-%table([{'Category'},protein_data.data_sets_short'; categories3, num2cell(M3)],0,[filename '.csv'])
+%mytable([{'Category'},protein_data.data_sets_short'; categories3, num2cell(M3)],0,[filename '.csv'])
 
 
 % --------------------------------------------------------------
@@ -249,16 +249,16 @@ for it = 1:length(protein_data.data_sets_short)
       TT{itt,1} = unique_gene_names{itt};
       TT{itt,2} = 10^-6 * sum(all_values(ind{itt}));
     end
-    table(TT,0, [filename_for_html '_lv5.csv']);
+    mytable(TT,0, [filename_for_html '_lv5.csv']);
   else
     % otherwise simply write down data from input table
-    table([T(2:end,1), num2cell(10^-6 * all_values)],0, [filename_for_html '_lv5.csv']);
+    mytable([T(2:end,1), num2cell(10^-6 * all_values)],0, [filename_for_html '_lv5.csv']);
   end
 
   % Levels 1, 2, and 3
   
-  table([ko_level_1,num2cell(M1(:,it))],0,                             [filename_for_html '_lv1.csv']);
-  table([strrep(ko_level_2,sprintf('\t'),''),num2cell(M2(:,it))],0,    [filename_for_html '_lv2.csv']);
-  table([strrep(ko_level_3,sprintf('\t'),''),num2cell(M3(:,it))],0,    [filename_for_html '_lv3.csv']);
+  mytable([ko_level_1,num2cell(M1(:,it))],0,                             [filename_for_html '_lv1.csv']);
+  mytable([strrep(ko_level_2,sprintf('\t'),''),num2cell(M2(:,it))],0,    [filename_for_html '_lv2.csv']);
+  mytable([strrep(ko_level_3,sprintf('\t'),''),num2cell(M3(:,it))],0,    [filename_for_html '_lv3.csv']);
 
 end

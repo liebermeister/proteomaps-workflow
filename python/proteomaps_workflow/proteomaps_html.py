@@ -186,6 +186,9 @@ class proteomap_make_one_html_file:
 
     def get_header(self, picture_file, organism, mapping_file, article_name, level, data_set_name,flag_zoom):
 
+        preload_file = data_set_name + '_preloadImages.js'
+
+        picture_file_800 = picture_file[:-4] + "_800.png"
         header = []
         header.append('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">')
         header.append('<html>')
@@ -204,7 +207,10 @@ class proteomap_make_one_html_file:
         header.append("     ga('send', 'pageview');");
         header.append('    </script>');
         header.append("");
+        header.append('    <script src="' + preload_file + '"></script>');
+        header.append("");
         header.append('  </head>')
+        header.append("");
         header.append('  <body>')
         header.append('  <table><tr><td></td><td>')
 
@@ -223,68 +229,70 @@ class proteomap_make_one_html_file:
         header.append('&nbsp;&nbsp;')
 
         if level == 'lv1':
-            header.append('  Level: < | 1')
+            header.append('  < | 1')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv2.html">2</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">3</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv2.html">></a>')
-            header.append('&nbsp;&nbsp;&nbsp;')
-            header.append('  <a href="'   + data_set_name + '_' + self.data_type +'.html">Zoom</a>&nbsp;&nbsp;')
+            header.append('&nbsp;&nbsp;')
+            header.append('  <a href="'   + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
 
         if level == 'lv2':
-            header.append('  Level: ')
+            header.append('  ')
             header.append('  <a href="' + data_set_name + '_' + self.data_type +'_lv1.html"><</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv1.html">1</a>')
             header.append('  | 2')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">3</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">></a>')
-            header.append('&nbsp;&nbsp;&nbsp;')
-            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">Zoom</a>&nbsp;&nbsp;')
+            header.append('&nbsp;&nbsp;')
+            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
 
         if level == 'lv3':
-            header.append('  Level: ')
+            header.append('  ')
             header.append('  <a href="' + data_set_name + '_' + self.data_type +'_lv2.html"><</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv1.html">1</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv2.html">2</a>')
             header.append('  | 3')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">></a>')
-            header.append('&nbsp;&nbsp;&nbsp;')
-            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">Zoom</a>&nbsp;&nbsp;')
+            header.append('&nbsp;&nbsp;')
+            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
 
         if level == 'lv5':
             if flag_zoom == 1:
-                header.append('  Level: ')
+                header.append('  ')
                 header.append('  <')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv1.html">1</a>')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv2.html">2</a>')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">3</a>')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
                 header.append('  | > &nbsp;&nbsp;&nbsp;')
-                header.append('  Zoom&nbsp;&nbsp;')
+                header.append('  Zoom')
             else:
-                header.append('  Level: ')
+                header.append('  ')
                 header.append('  <a href="' + data_set_name + '_' + self.data_type +'_lv3.html"><</a>')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv1.html">1</a>')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv2.html">2</a>')
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">3</a>')
                 header.append('  | 4')
-                header.append('  | > &nbsp;&nbsp;&nbsp;')
-                header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">Zoom</a>&nbsp;&nbsp;')
+                header.append('  | > &nbsp;&nbsp;')
+                header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
 
-        header.append('  <a href="../../index.html">Home</a>&nbsp;&nbsp;')
-        header.append('  <a href="../../help.html" target="_blank">Help</a></p></td></tr>')
+        header.append('  </p></td></tr>')
         header.append('  <tr> ')
-        header.append('   <td style = "vertical-align: top;"><img class="wrap" width ="40" src="../../pictures/proteomaps_label.jpg"></td>')
+        header.append('    <td style = "vertical-align: top;"><img class="wrap" width ="40" src="../../pictures/proteomaps_label.jpg"></td>')
         
         if flag_zoom == 1:
-            header.append('  <td><div><img class="shiftzoom" onLoad="shiftzoom.add(this,{showcoords:false,relativecoords:true,wheelstep:40,millisec:1,wheelinvert:true});" src="./pictures/' +  picture_file + '" width="800"></div></td>')            
+            header.append('    <td><div><img class="shiftzoom" onLoad="shiftzoom.add(this,{showcoords:false,relativecoords:true,wheelstep:40,millisec:1,wheelinvert:true});" src="./pictures/' +  picture_file + '" width="800"></div></td>')            
         else:
-            header.append('  <td><div><img src="./pictures/' + picture_file + '" align="left" usemap="\#proteins" class="wrap" width="800"></div></td>')
+            header.append('  <td><div><img src="./pictures/' + picture_file_800 + '" align="left" usemap="\#proteins" class="wrap" width="800"></div></td>')
         
         header.append('  </tr>')
-        header.append('  <tr><td></td><td><p><a href="./pictures/' + picture_file + '"  download="' + picture_file + '">[Download image]</a></p>')
+        header.append('  <tr><td></td><td><p><a href="./pictures/' + picture_file + '"  download="' + picture_file + '">[Download image]</a>&nbsp;&nbsp;')
+        header.append('  <a href="../../index.html">[Home]</a>&nbsp;&nbsp;')
+        header.append('  <a href="../../help.html" target="_blank">[Help]</a></p></td></tr>')
+
         header.append('  </td></tr></table>')
         return header
 
@@ -422,6 +430,51 @@ class proteomap_process_html:
 
         pm_cost.write_file(output_file)
 
+        # make preload file
+
+        preload = []
+        preload.append('function preloader() {')
+        preload.append('  if (document.images) {')
+        preload.append('      var img1 = new Image();')
+        preload.append('      var img2 = new Image();')
+        preload.append('      var img3 = new Image();')
+        preload.append('      var img4 = new Image();')
+        preload.append('      var img5 = new Image();')
+        preload.append('      var img6 = new Image();')
+        preload.append('      var img7 = new Image();')
+        preload.append('      var img8 = new Image();')
+        preload.append('      img1.src = "./pictures/' + data_set_name + '_abundance_lv1_800.png";')
+        preload.append('      img2.src = "./pictures/' + data_set_name + '_abundance_lv2_800.png";')
+        preload.append('      img3.src = "./pictures/' + data_set_name + '_abundance_lv3_800.png";')
+        preload.append('      img4.src = "./pictures/' + data_set_name + '_abundance_lv5_800.png";')
+        preload.append('      img5.src = "./pictures/' + data_set_name + '_cost_lv1_800.png";')
+        preload.append('      img6.src = "./pictures/' + data_set_name + '_cost_lv2_800.png";')
+        preload.append('      img7.src = "./pictures/' + data_set_name + '_cost_lv3_800.png";')
+        preload.append('      img8.src = "./pictures/' + data_set_name + '_cost_lv5_800.png";')
+        preload.append("  }")
+        preload.append("}")
+        preload.append("function addLoadEvent(func) {")
+        preload.append("  var oldonload = window.onload;")
+        preload.append("  if (typeof window.onload != 'function') {")
+        preload.append("    window.onload = func;")
+        preload.append("  } else {")
+        preload.append("    window.onload = function() {")
+        preload.append("      if (oldonload) {")
+        preload.append("        oldonload();")
+        preload.append("      }")
+        preload.append("      func();")
+        preload.append("    }")
+        preload.append("  }")
+        preload.append("}")
+        preload.append("addLoadEvent(preloader);")
+
+        preload_file = html_dir + '/' + data_set_name + '_preloadImages.js'
+        fo = open(preload_file,'w')
+        for line in preload:
+            fo.write(line + "\n")
+        fo.close
+        print "Writing file " + preload_file
+        
 # ======================================================================================
 
 class make_proteomaps_html:
@@ -449,7 +502,7 @@ class make_proteomaps_html:
   
       for row in csv.reader(open(filenames_file, 'r'), delimiter='\t'):
           organism, data_file, data_set_name, data_set_name_matlab, article_name = row
-          print "\nData set " + data_set_name + ":\n Writing html files to directory " + html_dir
+          print "\nData set " + data_set_name + ":\nWriting html files to directory " + html_dir
 
           data_type = "cost"
           proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format)

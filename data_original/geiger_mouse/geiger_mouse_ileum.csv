@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Ileum'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Ileum'
 !ProteinIdentifier	!Abundance
 17196	117428.571429
 69187	3342857.14286

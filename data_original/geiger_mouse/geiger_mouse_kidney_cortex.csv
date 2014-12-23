@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Kidney cortex'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Kidney cortex'
 !ProteinIdentifier	!Abundance
 17196	196857.142857
 69187	28857.1428571

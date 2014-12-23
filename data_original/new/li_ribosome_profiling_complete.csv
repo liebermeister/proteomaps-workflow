@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='eco' Condition='Complete medium'
 !ProteinIdentifier	!Abundance
 b3241	62	
 b3240	16	

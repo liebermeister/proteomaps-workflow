@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Thymus'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Thymus'
 !ProteinIdentifier	!Abundance
 17196	92000.0
 69187	87714.2857143

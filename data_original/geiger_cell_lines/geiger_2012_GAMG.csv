@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/'
+!!SBtab TableType='Proteomaps' Organism='hsa' ProteinIdentifier='http://identifiers.org/uniprot/'
 !ProteinIdentifier	!Abundance
 P60709	2329267740.76795
 P68363	1251956204.68125

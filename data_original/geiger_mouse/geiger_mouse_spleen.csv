@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Spleen'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Spleen'
 !ProteinIdentifier	!Abundance
 17196	203142.857143
 69187	19136.8571429

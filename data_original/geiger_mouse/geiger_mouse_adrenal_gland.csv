@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Adrenal gland'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Adrenal gland'
 !ProteinIdentifier	!Abundance
 17196	272857.142857
 69187	368571.428571

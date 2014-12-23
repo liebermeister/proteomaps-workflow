@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='sce' Organism='sce'
 !ProteinIdentifier	!Abundance
 YGR192C	2618100000000
 YBR118W	2236500000000

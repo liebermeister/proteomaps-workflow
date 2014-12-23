@@ -10,14 +10,13 @@ class proteomaps_path_names:
 
     # Predefined directory names
     self.PROTEIN_HIERARCHY_DIR = a.PROTEIN_HIERARCHY_DIR
-    self.PROTEIN_LENGTH_DIR      = a.PROTEIN_LENGTH_DIR
-    self.TMP_DIR     = a.TMP_DIR
+    self.PROTEIN_LENGTH_DIR    = a.PROTEIN_LENGTH_DIR
+    self.TMP_DIR               = a.TMP_DIR
     
     # Files defining the functional hierarchy
     self.INFILE_KO_HIERARCHY_FILE    = a.INFILE_KO_HIERARCHY_FILE
     self.INFILE_ANNOTATION_CHANGES   = a.INFILE_ANNOTATION_CHANGES
     self.INDIR_ORGANISM_MAPPING      = a.INDIR_ORGANISM_MAPPING
-
 
     # Determined from predefined names and "data_dir"
     self.DATA_DIR                    = data_dir
@@ -80,6 +79,7 @@ class proteomaps_path_names:
     filenames['hierarchy_cost_lumped']      = path + '/' + my_data_set + "_hierarchy_cost_lumped.tms"
     filenames['hierarchy_abundance_lumped_pos'] = path + '/' + my_data_set + "_hierarchy_abundance_lumped_pos.tms"
     filenames['hierarchy_cost_lumped_pos']      = path + '/' + my_data_set + "_hierarchy_cost_lumped_pos.tms"
+    filenames['processed_data']                 = path + '/' + my_data_set + ".csv"
     return filenames
 
   def get_data_files(self):

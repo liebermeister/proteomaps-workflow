@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Uterus'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Uterus'
 !ProteinIdentifier	!Abundance
 17196	35714.2857143
 69187	5212.28571429

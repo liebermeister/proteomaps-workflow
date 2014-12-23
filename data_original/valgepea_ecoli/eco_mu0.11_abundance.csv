@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='eco' Condition='Growth rate 0.11 1/h'
 !ProteinIdentifier	!Abundance
 b0878	7
 b0948	12

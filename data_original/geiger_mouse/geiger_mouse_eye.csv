@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Eye'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Eye'
 !ProteinIdentifier	!Abundance
 17196	442857.142857
 69187	35714.2857143

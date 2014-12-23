@@ -169,4 +169,4 @@ V = colors(ind_level_4,:);
 V = [V; 0.34 0.36 0.38];
 ko_list = [ko_list; {'Not Mapped'}];
 
-table([ko_list,num2cell(V(:,1)),num2cell(V(:,2)),num2cell(V(:,3))],0,[ data_directory '/hierarchy/KO_color_table.csv']);
+mytable([ko_list,num2cell(V(:,1)),num2cell(V(:,2)),num2cell(V(:,3))],0,[ data_directory '/hierarchy/KO_color_table.csv']);

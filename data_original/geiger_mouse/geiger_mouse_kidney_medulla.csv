@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Kidney medulla'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Kidney medulla'
 !ProteinIdentifier	!Abundance
 17196	55714.2857143
 69187	5300.28571429

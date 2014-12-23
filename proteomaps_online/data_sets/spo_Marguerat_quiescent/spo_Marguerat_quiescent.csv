@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='spo'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 SPBC16H5.02	77207.0	2459.10124177	71956924.0	6336.50249764	932.0	Pfk1	K00850	Glycolysis
 SPAC4H3.10c	206022.0	6561.95624789	103835090.0	9143.68306138	504.0	Pyk1	K00873	Glycolysis
 SPAC1F8.07c	200256.0	6378.30479453	70089600.0	6172.06657498	350	SPAC1F8.07c	K01568	Glycolysis

@@ -48,6 +48,9 @@ for data_file_triple in data_file_triples:
   data_files.append({})
   data_files[-1]['in']  = filenames['hierarchy_abundance_lumped_pos']
   data_files[-1]['out'] = filenames['data_set'] + "_abundance_hierarchy.tms"
+  data_files.append({})
+  data_files[-1]['in']  = filenames['processed_data']
+  data_files[-1]['out'] = filenames['data_set'] + ".csv"
 
 # ---------------------------------------------------------------
 # copy files

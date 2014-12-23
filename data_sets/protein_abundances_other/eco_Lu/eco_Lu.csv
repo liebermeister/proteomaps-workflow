@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='eco'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 b3986	109420.2	44217.1675947	13239844.0	18489.3125369	121.0	RplL	K02935	Ribosome
 b3980	87672.53	35428.841772	34542977.0	48238.9292282	394.0	TufB	K02358	Translation factors
 b1094	75918.7	30679.0691433	26571545.0	37106.9024751	350	AcpP	K02078	Lipid and steroid metabolism

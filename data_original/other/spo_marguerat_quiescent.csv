@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='spo' Condition='Quiescent'
 !ProteinIdentifier	!Abundance
 SPBC16H5.02	77207
 SPAC4H3.10c	206022

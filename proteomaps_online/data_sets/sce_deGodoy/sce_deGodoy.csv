@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='sce' ProteinIdentifier='http://http://identifiers.org/sgd/'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 YJR086W	9.49	9.49000018031	1043.9	2.20720238505	110.0	Ste18	K07973	MAPK signaling pathway
 YDR103W	0.016	0.016000000304	14.672	0.0310221988633	917.0	Ste5	K11239	MAPK signaling pathway
 YLR452C	17.907	17.9070003402	6267.45	13.2517775536	350			

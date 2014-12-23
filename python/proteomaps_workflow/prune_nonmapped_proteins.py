@@ -198,9 +198,6 @@ def prune_nonmapped_proteins(data_dir):
       q = re.split(":",tt[1])
       my_gene       = q[0]
       all_nonmapped_dict[my_organism].add(my_gene)
-      #  #my_gene_names = re.split(';',my_gene)
-      #  #my_gene       = my_gene_names[0]
-      #  all_nonmapped_dict[my_organism].add(my_gene)
   
     print len(all_nonmapped_dict[my_organism])
   
@@ -269,7 +266,7 @@ def prune_nonmapped_proteins(data_dir):
       my_ko   = systematic_to_ko_gene[my_systematic]["ko"]
       my_gene = systematic_to_ko_gene[my_systematic]["gene"]
       if not (my_systematic in all_nonmapped_dict[my_organism]):
-        fo_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
+        fo_mapping.write( my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
         fol_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
     fo_mapping.close()
   

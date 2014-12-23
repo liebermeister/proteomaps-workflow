@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Stomach'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Stomach'
 !ProteinIdentifier	!Abundance
 17196	52000.0
 69187	7092.28571429

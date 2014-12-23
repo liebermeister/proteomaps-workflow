@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Brain cortex'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Brain cortex'
 !ProteinIdentifier	!Abundance
 17196	18771428.5714
 69187	21420.2857143

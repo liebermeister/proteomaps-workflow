@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='sce' ProteinIdentifier='http://http://identifiers.org/sgd/'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 YAL005C	14053.195	14053.1948735	9022151.2	21375.3829188	642.0	Ssa1	K03283	Chaperones and folding catalysts
 YAL007C	210.07	210.069998109	73524.5	174.195079042	350			
 YAL012W	630.722	630.721994324	248504.47	588.75960794	394.0	Cys3	K01758	Amino acid metabolism

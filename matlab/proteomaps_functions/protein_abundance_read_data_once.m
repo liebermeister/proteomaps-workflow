@@ -33,7 +33,7 @@ n_genes = length(ko_list);
 protein_numbers(protein_numbers==0) = 0.1*min(protein_numbers(protein_numbers~=0));
 
 % # proteins mapped for each per data set
-print_matrix(sum(isfinite(protein_numbers))',data_shortnames)
+print_matrix(sum(isfinite(protein_numbers))',data_shortnames, [])
 
 % how many ko numbers are found in no data set?  
 % -> in case of problems, maybe  extract_relevant_ko.py contained wrong filenames

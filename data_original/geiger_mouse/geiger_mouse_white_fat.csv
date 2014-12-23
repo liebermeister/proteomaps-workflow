@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L White fat'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='White fat'
 !ProteinIdentifier	!Abundance
 17196	45142.8571429
 69187	9238.28571429

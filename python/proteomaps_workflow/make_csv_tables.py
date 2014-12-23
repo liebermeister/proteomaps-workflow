@@ -6,13 +6,15 @@ import math
 
 from proteomaps_path_names import proteomaps_path_names
 from proteomaps_hierarchy import proteomaps_hierarchy
+from proteomaps_organisms import proteomaps_organisms
 
 # ----------------------------------------------
 
 def make_csv_tables(data_dir):
 
-  pp = proteomaps_path_names(data_dir)
+  po = proteomaps_organisms()
   hh = proteomaps_hierarchy(data_dir)
+  pp = proteomaps_path_names(data_dir)
   
   data_files    = pp.get_data_files()
   organism_list = pp.get_organism_list()
@@ -142,11 +144,12 @@ def make_csv_tables(data_dir):
       fo_abundance = open(outfile,"w")
       fo_abundance.write("!!SBtab TableType='Proteomaps'")
       fo_abundance.write(" Organism='" + my_organism + "'")
-      if my_organism == 'hsa':
-          fo_abundance.write(" ProteinIdentifier='http://identifiers.org/uniprot/'\n")
-      elif my_organism == 'sce':
-          fo_abundance.write(" ProteinIdentifier='http://http://identifiers.org/sgd/'\n")
-      fo_abundance.write("!ProteinIdentifier\t!Abundance[original])\t!Abundance[ppm]\t!SizeWeightedAbundance[original]\t!SizeWeightedAbundance[ppm]\t!ProteinSize\t!ProteinName\t!Identifiers:kegg.orthology\t!Pathway\n")
+      if not(my_organism in po.organisms):
+        error('Unknown organism')
+      else:
+        my_url = po.data[my_organism]['url']
+        fo_abundance.write(" ProteinURL='" + my_url + "'\n")
+      fo_abundance.write("!Protein:Identifier\t!Abundance:[original]\t!Abundance:[ppm]\t!SizeWeightedAbundance:[original]\t!SizeWeightedAbundance:[ppm]\t!Protein:Size\t!Protein:Name\t!Identifiers:kegg.orthology\t!Pathway\n")
   
       for systematic in all_systematic:
         

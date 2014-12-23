@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='mpn'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 MPN063	2664.269	2664.26897602	596796.26	1552.54265988	224.0	DeoC	K01619	Pentose phosphate metabolism
 MPN141	9921.543	9921.54291071	3472540.0	9033.68008393	350	Cytadhesin P1		Cytoskeleton proteins
 MPN004	1732.592	1732.59198441	1453644.7	3781.60112641	839.0	GyrA	K02469	DNA replication control

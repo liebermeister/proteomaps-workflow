@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Muscle'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Muscle'
 !ProteinIdentifier	!Abundance
 17196	591428.571429
 69187	11563.7142857

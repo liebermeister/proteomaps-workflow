@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='hsa' ProteinIdentifier='http://identifiers.org/uniprot/'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 P60709	635034290.0	9730.60614012	2.3813786e+11	9910.43103752	375.0	ActB		Cytoskeleton proteins
 P68363	338343450.0	5184.42374512	1.525929e+11	6350.36114066	451.0	TubA1b	K07374	Cytoskeleton proteins
 P62805	1675897300.0	25679.7102367	1.7261742e+11	7183.70878442	103.0	HisT2h4a	K11254	Chromosome-related

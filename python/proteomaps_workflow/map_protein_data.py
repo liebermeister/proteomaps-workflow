@@ -24,6 +24,12 @@ from relevant_ko import relevant_ko
 
 # ----------------------------------------------
 
+def replace_whitespaces(string):
+  new_string = string.replace(" ", "_")
+  return new_string
+
+# ----------------------------------------------
+
 def map_protein_data(data_dir):
 
   # Set default protein length of 350
@@ -36,9 +42,9 @@ def map_protein_data(data_dir):
   systematic_to_gene = hh.systematic_to_gene
   systematic_to_ko   = hh.systematic_to_ko
   systematic_in_hierarchy = hh.systematic_in_hierarchy
-  
+
   data_files         = pp.get_data_files()
-  
+
   # -------------------------------------------------------------
   # make directories (if they do not exist yet)
   
@@ -72,7 +78,7 @@ def map_protein_data(data_dir):
         print 'Warning (data set ' + filenames['data_set'] + ': Gene name missing'
       else:
         q    = re.split('\t', line.strip())
-        name = q[0]
+        name = replace_whitespaces(q[0])
         chop_names = re.split(';',name)
         name = chop_names[0]
         if name in name_list:
@@ -91,8 +97,9 @@ def map_protein_data(data_dir):
                 fo2.write(name + "\t" + name + "\t" + my_ko + "\t" + value_string + "\n")        
             else:
               fo1.write(name + "\tNotMapped\t" + "\t" + value_string + "\n")
-              if not(name in systematic_in_hierarchy[my_organism]):
-                fo2.write(name + "\t" + name + "\tNotMapped\t" + value_string + "\n")        
+              if not(name in systematic_to_gene[my_organism].values()):
+                if not(name in systematic_in_hierarchy[my_organism]):
+                  fo2.write(name + "\t" + name + "\tNotMapped\t" + value_string + "\n")        
           except ValueError, TypeError:
             print "Non-numeric value " + q[1] + ". Line ignored."
   
@@ -109,7 +116,6 @@ def map_protein_data(data_dir):
   
   # write relevant ko ids to file
   rk.write_relevant_ko(collected_ko,pp.FILE_RELEVANT_KO)
-  
   
   # -------------------------------------------------------------
   # make data files with cost (size-weighted abundance)
@@ -129,7 +135,7 @@ def map_protein_data(data_dir):
     igot = fi.readlines()
     for line in igot:
       tt    = re.split("\t",line.strip())
-      prot  = tt[0]
+      prot  = replace_whitespaces(tt[0])
       value = float(tt[1])
       if prot in protein_to_length:
         my_prot_length = protein_to_length[prot]

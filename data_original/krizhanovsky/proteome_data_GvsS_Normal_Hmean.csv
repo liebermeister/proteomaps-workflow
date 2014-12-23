@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/' Condition='Intensity H'
+!!SBtab TableType='Proteomaps' Organism='hsa' ProteinIdentifier='http://identifiers.org/uniprot/' ValueType='Intensity H'
 !ProteinIdentifier	!Abundance
 A0AV56;B7Z2F6;B7ZLP6;F5GZU3;K7ES42;Q15424;Q15424-2	33120335
 Q9H173	3513634.9

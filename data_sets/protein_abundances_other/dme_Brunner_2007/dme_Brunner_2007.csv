@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='dme'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 Dmel_CG11422	16.673	17.846068844	5835.55	17.5350333239	350			
 Dmel_CG34375	0.771	0.825245551412	269.85	0.810862513808	350			
 Dmel_CG10279	390.048	417.490761138	280444.51	842.697574068	719.0	Rm62	K12823	Spliceosome

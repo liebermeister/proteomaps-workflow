@@ -14,6 +14,7 @@ class proteomaps_PATHNAMES:
     self.INFILE_KO_HIERARCHY_FILE  = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy.tms"
     self.INFILE_ANNOTATION_CHANGES = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy_changes.csv"
     self.INDIR_ORGANISM_MAPPING    = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy_organism_mapping/"
+    self.ORGANISM_INFORMATION      = self.PROTEIN_HIERARCHY_DIR + "/organisms.csv"
 
     # Python directory
     self.WORKFLOW_PATH = '/home/wolfram/Proteomaps/python/proteomaps_workflow/'

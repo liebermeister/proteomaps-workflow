@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='eco'
 !ProteinIdentifier	!Abundance
 b3986	109420.2
 b3980	87672.53

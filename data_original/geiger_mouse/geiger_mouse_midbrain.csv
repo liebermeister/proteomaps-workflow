@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Midbrain'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Midbrain'
 !ProteinIdentifier	!Abundance
 17196	12657142.8571
 69187	1934.71428571

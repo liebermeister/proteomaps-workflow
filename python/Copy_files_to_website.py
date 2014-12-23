@@ -16,7 +16,7 @@ BASE_DIR = pn.BASE_DIR
 
 # ==========================================================
 
-def copy_files(data_set_collections):
+def copy_files(data_set_collections, resize_pictures):
 
   data_set_names = []
   data_set_to_collection = {}
@@ -27,6 +27,28 @@ def copy_files(data_set_collections):
   	organism, data_file_path, data_set_name, data_set_name_matlab, article_name = row
   	data_set_names.append(data_set_name)
   	data_set_to_collection[data_set_name] = data_set_collection
+
+  # -----------------------------------------------------------------------------------------------
+  # Resize pictures
+  # -----------------------------------------------------------------------------------------------
+
+  if resize_pictures:
+    for data_set_name in data_set_names:
+      print data_set_name
+      proteomaps_directory = data_set_to_collection[data_set_name]
+      proteomaps_directory_full = BASE_DIR + 'data_paver_output/proteomaps_' + proteomaps_directory
+
+      for f in glob.glob(proteomaps_directory_full + '/jpg/' + data_set_name + '*.jpg'):
+        if not(re.search("_800.",f)):
+          dum = re.split("/",f)
+          print 'Resizing picture: writing file ' + f[:-4] + "_800.png"
+          subprocess.call(['convert', '-quality','100', '-resize', '800x800', f, f[:-4] + "_800.png"])
+          
+      for f in glob.glob(proteomaps_directory_full + '/png/' + data_set_name + '*.png'):
+        if not(re.search("_800.",f)):
+          dum = re.split("/",f) 
+          print 'Resizing picture: writing file ' + f[:-4] + "_800.png"
+          subprocess.call(['convert', '-quality','100', '-resize', '800x800', f, f[:-4] + "_800.png"])
   
   # -----------------------------------------------------------------------------------------------
   # Copy the html files from intermediate directory proteomaps/html to website directory
@@ -34,9 +56,12 @@ def copy_files(data_set_collections):
   
   for data_set_name in data_set_names:
       for f in glob.glob(BASE_DIR + 'data_html/' + data_set_name + '_*.html'):
+          dum = re.split("/",f)
+          shutil.copyfile(f, BASE_DIR + 'proteomaps_online/data_sets/' + data_set_name + '/' + dum[-1])
+      for f in glob.glob(BASE_DIR + 'data_html/' + data_set_name + '_*.js'):
           dum = re.split("/",f) 
           shutil.copyfile(f, BASE_DIR + 'proteomaps_online/data_sets/' + data_set_name + '/' + dum[-1])
-  
+
   # -----------------------------------------------------------------------------------------------
   # copy jpg and png files to website directories
   # -----------------------------------------------------------------------------------------------
@@ -49,6 +74,7 @@ def copy_files(data_set_collections):
           shutil.copyfile(f, BASE_DIR + 'proteomaps_online/data_sets/' + data_set_name + '/pictures/' + dum[-1])
       for f in glob.glob(BASE_DIR + 'data_paver_output/proteomaps_' + proteomaps_directory + '/png/' + data_set_name + '*.png'):
           dum = re.split("/",f) 
+          f_resized = f[:-4] + "_resized.png"
           shutil.copyfile(f, BASE_DIR + 'proteomaps_online/data_sets/' + data_set_name + '/pictures/' + dum[-1])
           
   # -----------------------------------------------------------------------------------------------
@@ -66,6 +92,10 @@ def copy_files(data_set_collections):
 # Which data set collections should be copied to the website?
 # (You need to create the html files before by running make_proteomaps_html.py)
 
-data_set_collections = {'new'} #  'geiger_mouse' 'paper', 'other', 'geiger_cell_lines', 'valgepea_ecoli', 'khan_human_chimp', 'krizhanovsky', ,}
+data_set_collections = {'paper', 'other', 'geiger_cell_lines', 'geiger_mouse', 'valgepea_ecoli', 'new'} # 
+# {'khan_human_chimp', 'krizhanovsky'}
 
-copy_files(data_set_collections)
+# set resize_pictures to zero if the resizing has been done already
+resize_pictures = 0
+
+copy_files(data_set_collections, resize_pictures)

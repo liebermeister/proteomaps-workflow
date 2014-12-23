@@ -8304,6 +8304,18 @@ sce	YOR383C	Fit3		Cell wall	SGD: cell wall protein
 sce	YPL124W	Spc29		Cytoskeleton proteins	SGD
 sce	YPL130W	Spo19		Cell wall	SGD: cell wall protein
 sce	YPL255W	Bbp1		Cytoskeleton proteins	SGD
+mtu	Rv3290c	lat	K03918	Metabolic pathways	KEGG web services
+mtu	Rv0244c	fadE5	K00257	Geraniol degradation	KEGG web services
+mtu	Rv3570c	hsaA	K16047	Steroid degradation	KEGG web services
+mtu	Rv0127	mak	K16146	Starch and sucrose metabolism	KEGG web services
+mtu	Rv2182c	1-acylglycerol-3-phosphate O-acyltransferase	K00655	Glycerolipid metabolism	KEGG web services
+mtu	Rv3837c	phosphoglycerate mutase	K15634	Glycolysis and gluconeogenesis	KEGG web services
+mtu	Rv2789c	fadE21	K00257	Geraniol degradation	KEGG web services
+mtu	Rv3274c	fadE25	K00257	Geraniol degradation	KEGG web services
+mtu	Rv3600c	type III pantothenate kinase	K03525	Pantothenate and CoA biosynthesis	KEGG web services
+mtu	Rv1026	hypothetical protein	K01524	Purine metabolism	KEGG web services
+mtu	Rv1021	nucleoside triphosphate pyrophosphohydrolase	K02428	Purine metabolism	KEGG web services
+mtu	Rv2454c	2-oxoglutarate oxidoreductase subunit KorB	K00175	Citrate cycle	KEGG web services
 eco	b0741	Pal	K03640	Cell envelope	peptidoglycan-associated outer membrane lipoprotein
 eco	b0814	OmpX	K11934	Cell adhesion molecules (CAMs)
 eco	b3751	RbsB	K10439	Transport    http://www.genome.jp/dbget-bin/www_bget?K10439
@@ -8473,3 +8485,458 @@ eco	b1558	CspF	K03704	Chaperones and folding catalysts	Cold shock protein
 eco	b0990	CspG	K03704	Chaperones and folding catalysts	Cold shock protein
 eco	b0989	CspH	K03704	Chaperones and folding catalysts	Cold shock protein
 eco	b1552	CspI	K03704	Chaperones and folding catalysts	Cold shock protein
+syf	Synpcc7942_0846	hypothetical protein	K01792	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_0842	glutathione reductase (EC:1.8.1.7)	K00383	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_1953	6-pyruvoyl tetrahydrobiopterin synthase	K01737	Folate biosynthesis	KEGG web services
+syf	Synpcc7942_1956	acetyl-CoA carboxylase subunit beta (EC:6.4.1.2)	K01963	Fatty acid biosynthesis	KEGG web services
+syf	Synpcc7942_1959	prolyl-tRNA synthetase (EC:6.1.1.15)	K01881	tRNA loading	KEGG web services
+syf	Synpcc7942_1838	light-independent protochlorophyllide reductase subunit B	K04039	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0058	dTDP-4-dehydrorhamnose 3,5-epimerase (EC:5.1.3.13)	K01790	Streptomycin biosynthesis	KEGG web services
+syf	Synpcc7942_0239	cytochrome C6 soluble cytochrome f	K08906	Photosynthesis	KEGG web services
+syf	Synpcc7942_0542	lipoyl synthase	K03644	Lipoic acid metabolism	KEGG web services
+syf	Synpcc7942_1499	ferredoxin (2Fe-2S)	K02639	Photosynthesis	KEGG web services
+syf	Synpcc7942_1496	acetylglutamate kinase (EC:2.7.2.8)	K00930	Arginine and proline metabolism	KEGG web services
+syf	Synpcc7942_1490	nitrate transport ATP-binding subunits C and D	K11952	ABC transporters	KEGG web services
+syf	Synpcc7942_1125	CheA signal transduction histidine kinase	K02487	Two-component system	KEGG web services
+syf	Synpcc7942_0309	NAD(P)H-quinone oxidoreductase subunit F (EC:1.6.99.5)	K05577	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0301	single-stranded DNA-binding protein	K03111	DNA replication complex	KEGG web services
+syf	Synpcc7942_1300	hypothetical protein	K01934	One carbon pool by folate	KEGG web services
+syf	Synpcc7942_1301	ATP-dependent DNA helicase RecQ (EC:3.6.1.-)	K03654	RNA degradation	KEGG web services
+syf	Synpcc7942_1308	tryptophanyl-tRNA synthetase (EC:6.1.1.2)	K01867	tRNA loading	KEGG web services
+syf	Synpcc7942_1011	PAS/PAC sensor signal transduction histidine kinase (EC:2.7.3.-)	K07636	Two-component system	KEGG web services
+syf	Synpcc7942_1015	methyl-accepting chemotaxis sensory transducer	K02660	Two-component system	KEGG web services
+syf	Synpcc7942_2505	caffeoyl-CoA O-methyltransferase (EC:2.1.1.104)	K00588	Phenylalanine metabolism	KEGG web services
+syf	Synpcc7942_0517	exonuclease RecJ (EC:3.1.-.-)	K07462	Base excision repair	KEGG web services
+syf	Synpcc7942_B2624	gamma-glutamyltransferase 2	K00681	Taurine and hypotaurine metabolism	KEGG web services
+syf	Synpcc7942_2160	alanine-glyoxylate aminotransferase (EC:2.6.1.44)	K00830	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_2567	thiamine monophosphate kinase (EC:2.7.4.16)	K00946	Thiamine metabolism	KEGG web services
+syf	Synpcc7942_2561	delta-9 acyl-phospholipid desaturase (EC:1.14.19.-)	K00507	Biosynthesis of unsaturated fatty acids	KEGG web services
+syf	Synpcc7942_2569	orotidine 5'-phosphate decarboxylase (EC:4.1.1.23)	K01591	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_0947	ATPase	K10112	ABC transporters	KEGG web services
+syf	Synpcc7942_0946	UDP-galactopyranose mutase (EC:5.4.99.9)	K01854	Galactose metabolism	KEGG web services
+syf	Synpcc7942_0943	acetylornithine aminotransferase (EC:2.6.1.11)	K00818	Arginine and proline metabolism	KEGG web services
+syf	Synpcc7942_2303	dihydropteroate synthase (EC:2.5.1.15)	K00796	Folate biosynthesis	KEGG web services
+syf	Synpcc7942_1944	pyruvate dehydrogenase (lipoamide) (EC:1.2.4.1)	K00161	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_2417	transcriptional regulator, ABC transporter	K17244	ABC transporters	KEGG web services
+syf	Synpcc7942_2410	adenosine deaminase (EC:3.5.4.4)	K01488	Purine metabolism	KEGG web services
+syf	Synpcc7942_1805	HetI protein-like protein	K06133	Pantothenate and CoA biosynthesis	KEGG web services
+syf	Synpcc7942_1808	pantothenate kinase (EC:2.7.1.33)	K03525	Pantothenate and CoA biosynthesis	KEGG web services
+syf	Synpcc7942_0048	pilin polypeptide PilA-like protein	K02650	Two-component system	KEGG web services
+syf	Synpcc7942_0040	dihydroneopterin aldolase dihydroneopterin aldolase	K01633	Folate biosynthesis	KEGG web services
+syf	Synpcc7942_2209	DNA-directed RNA polymerase subunit alpha (EC:2.7.7.6)	K03040	Purine metabolism	KEGG web services
+syf	Synpcc7942_B2661	cysteine desulfurase (EC:2.8.1.7)	K11717	Selenocompound metabolism	KEGG web services
+syf	Synpcc7942_0552	UDP-N-acetylglucosamine 2-epimerase (EC:5.1.3.14)	K01791	Amino sugar and nucleotide sugar metabolism	KEGG web services
+syf	Synpcc7942_1151	bifunctional pantoate ligase/cytidylate kinase (EC:2.7.4.14 6.3.2.1)	K13799	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_0315	adenylosuccinate lyase (EC:4.3.2.2)	K01756	Purine metabolism	KEGG web services
+syf	Synpcc7942_0310	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC:2.7.1.148)	K00919	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_1372	methionine synthase (B12-dependent) (EC:2.1.1.13)	K00548	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_1378	hypothetical protein	K00748	Lipopolysaccharide biosynthesis	KEGG web services
+syf	Synpcc7942_1573	3-oxoacyl-ACP reductase	K00034	pentose phosphate metabolism	KEGG web services
+syf	Synpcc7942_2175	transport system substrate-binding protein	K02012	ABC transporters	KEGG web services
+syf	Synpcc7942_2177	integral membrane protein of the ABC-type Nat permease for neutral amino acids NatD	K11956	ABC transporters	KEGG web services
+syf	Synpcc7942_2577	murQ	K07106	Amino sugar and nucleotide sugar metabolism	KEGG web services
+syf	Synpcc7942_2570	tyrosyl-tRNA synthetase (EC:6.1.1.1)	K01866	tRNA loading	KEGG web services
+syf	Synpcc7942_0957	cob(I)yrinic acid a,c-diamide adenosyltransferase (EC:2.5.1.17)	K00798	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2312	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC:2.4.1.227)	K02563	Peptidoglycan biosynthesis	KEGG web services
+syf	Synpcc7942_R0012	tRNA-Arg	K14219	tRNA loading	KEGG web services
+syf	Synpcc7942_R0013	tRNA-His	K14226	tRNA loading	KEGG web services
+syf	Synpcc7942_R0016	tRNA-Ser	K14233	tRNA loading	KEGG web services
+syf	Synpcc7942_1977	NAD(P)H-quinone oxidoreductase subunit F (EC:1.6.99.5)	K05577	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1973	mannose-1-phosphate guanylyltransferase	K00966	Fructose and mannose metabolism	KEGG web services
+syf	Synpcc7942_2409	adenylosuccinate synthetase (EC:6.3.4.4)	K01939	Purine metabolism	KEGG web services
+syf	Synpcc7942_2406	FAD dependent oxidoreductase	K03153	Thiamine metabolism	KEGG web services
+syf	Synpcc7942_0031	aminotransferase (EC:2.6.1.-)	K00833	Biotin metabolism	KEGG web services
+syf	Synpcc7942_0030	dethiobiotin synthase (EC:6.3.3.3)	K01935	Biotin metabolism	KEGG web services
+syf	Synpcc7942_0788	glutathione S-transferase	K00799	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_0143	pyruvate/2-oxoglutarate dehydrogenase complex dehydrogenase (E1) component	K00162	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_1142	methionyl-tRNA synthetase (EC:6.1.1.10)	K01874	Selenocompound metabolism	KEGG web services
+syf	Synpcc7942_0369	flavin-containing monoamine oxidase	K00274	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_1366	1,4-dihydroxy-2-naphthoate octaprenyltransferase	K02548	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_1367	cytochrome P450	K00517	Bisphenol degradation	KEGG web services
+syf	Synpcc7942_1566	polyphosphate kinase (EC:2.7.4.1)	K00937	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0560	ATPase	K16787	ABC transporters	KEGG web services
+syf	Synpcc7942_1214	glutathione peroxidase (EC:1.11.1.9)	K00432	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_0244	glycogen/starch/alpha-glucan phosphorylase (EC:2.4.1.1)	K00688	Starch and sucrose metabolism	KEGG web services
+syf	Synpcc7942_0245	glyceraldehyde-3-phosphate dehydrogenase (EC:1.2.1.12)	K00134	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_0246	extracellular solute-binding protein	K09969	ABC transporters	KEGG web services
+syf	Synpcc7942_0717	dCTP deaminase (EC:3.5.4.13)	K01494	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_0715	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC:2.5.1.7)	K00790	Amino sugar and nucleotide sugar metabolism	KEGG web services
+syf	Synpcc7942_2140	cytidine deaminase (EC:3.5.4.5)	K01489	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_2143	tryptophan synthase subunit beta (EC:4.2.1.20)	K01696	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_0819	phosphoribosylformylglycinamidine synthase I (EC:6.3.5.3)	K01952	Purine metabolism	KEGG web services
+syf	Synpcc7942_0818	phosphoribosylformylglycinamidine synthase subunit PurS (EC:6.3.5.3)	K01952	Purine metabolism	KEGG web services
+syf	Synpcc7942_0815	ATPase	K11958	ABC transporters	KEGG web services
+syf	Synpcc7942_2092	proton-translocating NADH-quinone oxidoreductase subunit M (EC:1.6.99.5)	K05575	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2091	NAD(P)H-quinone oxidoreductase subunit F (EC:1.6.99.5)	K05577	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2090	homoserine dehydrogenase (EC:1.1.1.3)	K00003	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_2099	dTDP-4-dehydrorhamnose reductase (EC:1.1.1.133)	K00067	Streptomycin biosynthesis	KEGG web services
+syf	Synpcc7942_2098	dTDP-4-dehydrorhamnose 3,5-epimerase (EC:5.1.3.13)	K01790	Streptomycin biosynthesis	KEGG web services
+syf	Synpcc7942_0969	carboxymethylenebutenolidase (EC:3.1.1.45)	K01061	Chlorocyclohexane and chlorobenzene degradation	KEGG web services
+syf	Synpcc7942_2324	glutathione synthetase (EC:6.3.2.3)	K01920	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_0965	ammonium transporter	K01082	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_1962	photosystem II PsbY protein	K02723	Photosynthesis	KEGG web services
+syf	Synpcc7942_1967	undecaprenyl pyrophosphate phosphatase (EC:3.6.1.27)	K06153	Peptidoglycan biosynthesis	KEGG web services
+syf	Synpcc7942_1965	exopolyphosphatase	K01524	Purine metabolism	KEGG web services
+syf	Synpcc7942_2439	beta-carotene hydroxylase	K02294	Carotenoid biosynthesis	KEGG web services
+syf	Synpcc7942_0021	cbiJ, cobK	K05895	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0027	8-amino-7-oxononanoate synthase (EC:2.3.1.47)	K00652	Biotin metabolism	KEGG web services
+syf	Synpcc7942_0568	cytosine deaminase-like protein (EC:3.5.4.1)	K01485	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_0150	dolichyl-phosphate beta-D-mannosyltransferase (EC:2.4.1.83)	K00721	Metabolic pathways	KEGG web services
+syf	Synpcc7942_0158	hypothetical protein	K11996	Sulfur relay system	KEGG web services
+syf	Synpcc7942_1682	sulfate transport system permease 2	K02046	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_1680	sulfate transport system permease 1	K02045	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_1687	Sulfate ABC transporter permease CysT	K02046	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_1686	thiosulfate-binding protein	K02048	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_1685	sulfate transport system permease 2	K02047	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_0774	esterase	K08680	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_1689	rhodanese-like protein	K01011	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_1688	Sulfate ABC transporter permease CysW	K02047	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_0771	hypothetical protein	K00799	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_0486	dihydroorotase (EC:3.5.2.3)	K01465	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_0487	thylakoidal processing peptidase (EC:3.4.21.89)	K03100	Protein export	KEGG web services
+syf	Synpcc7942_0485	phosphoglycerate mutase	K15634	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_0482	peptidoglycan glycosyltransferase (EC:2.4.1.129)	K03587	beta-Lactam resistance	KEGG web services
+syf	Synpcc7942_0370	O-acetylhomoserine/O-acetylserine sulfhydrylase (EC:2.5.1.49)	K01740	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_0371	homoserine O-succinyltransferase (EC:2.3.1.46)	K00651	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_1198	dihydrolipoamide dehydrogenase (EC:1.8.1.4)	K00382	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_1190	leucyl aminopeptidase (EC:3.4.11.1)	K01255	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_1513	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC:1.1.1.267)	K00099	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_1512	zeta-carotene desaturase (EC:1.3.99.-)	K00514	Carotenoid biosynthesis	KEGG web services
+syf	Synpcc7942_0578	UDP-sulfoquinovose synthase (EC:3.13.1.1)	K06118	Amino sugar and nucleotide sugar metabolism	KEGG web services
+syf	Synpcc7942_1518	ATP-dependent helicase PcrA	K03657	Nucleotide excision repair	KEGG web services
+syf	Synpcc7942_1229	precorrin-4 C11-methyltransferase (EC:2.1.1.133)	K05936	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1225	phycocyanobilin:ferredoxin oxidoreductase (EC:1.3.7.5)	K05371	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1359	coenzyme F420 hydrogenase	K00441	Methane metabolism	KEGG web services
+syf	Synpcc7942_1428	phosphoribosylaminoimidazole carboxylase ATPase subunit (EC:4.1.1.21)	K01589	Purine metabolism	KEGG web services
+syf	Synpcc7942_1352	acetyl-CoA synthetase (EC:6.2.1.1)	K01895	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_2151	cellulose synthase (EC:2.4.1.12)	K00694	Starch and sucrose metabolism	KEGG web services
+syf	Synpcc7942_2156	L-glutamine synthetase (EC:6.3.1.2)	K01915	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_2158	allophycocyanin subunit beta	K02097	Photosynthesis	KEGG web services
+syf	Synpcc7942_0808	HAD family hydrolase (EC:2.4.1.14)	K00696	Starch and sucrose metabolism	KEGG web services
+syf	Synpcc7942_2558	cysteine desulfurase	K04487	Thiamine metabolism	KEGG web services
+syf	Synpcc7942_2557	bidirectional hydrogenase complex protein HoxU	K05588	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2084	bacteriochlorophyll/chlorophyll a synthase (EC:2.5.1.62)	K04040	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2087	imidazole glycerol phosphate synthase subunit HisF (EC:4.1.3.-)	K02500	Histidine metabolism	KEGG web services
+syf	Synpcc7942_1637	photosystem II D2 protein (photosystem q(a) protein)	K02706	Photosynthesis	KEGG web services
+syf	Synpcc7942_0977	phosphoribulokinase (EC:2.7.1.19)	K00855	Carbon fixation in photosynthetic organisms	KEGG web services
+syf	Synpcc7942_0973	UDP-glucose 6-dehydrogenase (EC:1.1.1.22)	K00012	Pentose and glucuronate interconversions	KEGG web services
+syf	Synpcc7942_2332	cytochrome b6-f complex subunit IV	K02637	Photosynthesis	KEGG web services
+syf	Synpcc7942_2331	cytochrome b6	K02635	Photosynthesis	KEGG web services
+syf	Synpcc7942_0978	ferredoxin-NADP oxidoreductase	K02641	Photosynthesis	KEGG web services
+syf	Synpcc7942_2335	fructose-1,6-bisphosphatase (EC:3.1.3.11)	K03841	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_1886	exonuclease RecJ (EC:3.1.-.-)	K07462	Base excision repair	KEGG web services
+syf	Synpcc7942_1995	bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase (EC:3.5.4.19 3.6.1.31)	K11755	Histidine metabolism	KEGG web services
+syf	Synpcc7942_1994	2,3-diketo-5-methylthio-1-phosphopentane phosphatase	K09880	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_1993	methylthioribulose-1-phosphate dehydratase (EC:4.2.1.109)	K08964	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_2420	serine O-acetyltransferase (EC:2.3.1.30)	K00640	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_0019	sulfite reductase subunit beta (EC:1.8.7.1)	K00392	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_0166	hypothetical protein	K01424	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_0169	glutamate-ammonia ligase, glutamine synthetase type III	K01915	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_1165	hypothetical protein	K00988	Purine metabolism	KEGG web services
+syf	Synpcc7942_0345	biotin--acetyl-CoA-carboxylase ligase	K03524	Biotin metabolism	KEGG web services
+syf	Synpcc7942_1767	cytochrome oxidase d subunit I	K00425	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1760	L-alanine dehydrogenase (EC:1.4.1.1)	K00259	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_2274	protoporphyrin IX magnesium-chelatase (EC:6.6.1.1)	K03404	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1186	riboflavin-specific deaminase	K00082	Riboflavin metabolism	KEGG web services
+syf	Synpcc7942_1180	NADH dehydrogenase subunit A (EC:1.6.5.3)	K05574	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1181	NADH dehydrogenase subunit B (EC:1.6.5.3)	K05582	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1501	D-3-phosphoglycerate dehydrogenase (EC:1.1.1.95)	K00058	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_0584	ribose-5-phosphate isomerase A (EC:5.3.1.6)	K01807	pentose phosphate metabolism	KEGG web services
+syf	Synpcc7942_0583	protoporphyrin IX magnesium-chelatase (EC:6.6.1.1)	K03405	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1505	3-isopropylmalate dehydrogenase (EC:1.1.1.85)	K00052	Valine, leucine and isoleucine biosynthesis	KEGG web services
+syf	Synpcc7942_0580	peptidoglycan glycosyltransferase (EC:2.4.1.129)	K05515	beta-Lactam resistance	KEGG web services
+syf	Synpcc7942_1236	nitrate transport ATP-binding subunits C and D	K15579	Nitrogen metabolism	KEGG web services
+syf	Synpcc7942_1237	nitrate transport ATP-binding subunits C and D	K15578	Nitrogen metabolism	KEGG web services
+syf	Synpcc7942_B2664	cysteine synthase (EC:2.5.1.47)	K01738	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_B2663	putative serine acetyltransferase	K00640	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_1238	nitrate transport permease	K15577	Nitrogen metabolism	KEGG web services
+syf	Synpcc7942_1439	NAD(P)H-quinone oxidoreductase subunit 4 (EC:1.6.99.5)	K05575	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1343	NADH dehydrogenase subunit H (EC:1.6.5.3)	K05572	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1346	NADH dehydrogenase subunit K (EC:1.6.5.3)	K05576	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1347	2-hydroxyacid dehydrogenase	K03778	Pyruvate metabolism	KEGG web services
+syf	Synpcc7942_1432	bifunctional 3,4-dihydroxy-2-butanone 4-phosphate synthase/GTP cyclohydrolase II/unknown domain fusion protein (EC:3.5.4.25 4.1.2.-)	K14652	Riboflavin metabolism	KEGG web services
+syf	Synpcc7942_R0038	tRNA-Val	K14237	tRNA loading	KEGG web services
+syf	Synpcc7942_R0039	tRNA-Leu	K14228	tRNA loading	KEGG web services
+syf	Synpcc7942_2522	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase (EC:1.1.1.94)	K00057	Glycerophospholipid metabolism	KEGG web services
+syf	Synpcc7942_R0033	tRNA-Ile	K14227	tRNA loading	KEGG web services
+syf	Synpcc7942_0903	bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase (EC:4.2.1.3)	K01682	Citrate cycle	KEGG web services
+syf	Synpcc7942_0901	haloalkane dehalogenase (EC:3.8.1.5)	K01563	Chlorocyclohexane and chlorobenzene degradation	KEGG web services
+syf	Synpcc7942_2188	isochorismate synthase	K02552	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_2183	RNase HI (EC:3.1.26.4)	K03469	DNA replication complex	KEGG web services
+syf	Synpcc7942_1984	phytoene synthase (EC:2.5.1.32)	K02291	Carotenoid biosynthesis	KEGG web services
+syf	Synpcc7942_1982	NADH dehydrogenase I subunit M	K05584	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2454	adenine phosphoribosyltransferase (EC:2.4.2.7)	K00759	Purine metabolism	KEGG web services
+syf	Synpcc7942_0003	phosphoribosylformylglycinamidine synthase II (EC:6.3.5.3)	K01952	Purine metabolism	KEGG web services
+syf	Synpcc7942_2542	cytochrome C6-2	K08906	Photosynthesis	KEGG web services
+syf	Synpcc7942_2016	photosystem II PsbX protein	K02722	Photosynthesis	KEGG web services
+syf	Synpcc7942_2545	aspartate aminotransferase (EC:2.6.1.1)	K00812	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_0171	cysteine synthase A	K01738	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_R0029	tRNA-Pro	K14232	tRNA loading	KEGG web services
+syf	Synpcc7942_0350	ATPase	K02065	ABC transporters	KEGG web services
+syf	Synpcc7942_0354	Beta-glucosidase-like glycosidase	K05349	Cyanoamino acid metabolism	KEGG web services
+syf	Synpcc7942_1466	cysteine synthase (EC:2.5.1.47)	K01738	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_R0026	tRNA-Cys	K14222	tRNA loading	KEGG web services
+syf	Synpcc7942_1531	molybdenum ABC transporter periplasmic molybdate-binding protein	K02020	ABC transporters	KEGG web services
+syf	Synpcc7942_R0025	tRNA-Asn	K14220	tRNA loading	KEGG web services
+syf	Synpcc7942_0592	6-phosphofructokinase (EC:2.7.1.11)	K00850	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_1246	carotene isomerase	K09835	Carotenoid biosynthesis	KEGG web services
+syf	Synpcc7942_1244	ATPase	K09691	ABC transporters	KEGG web services
+syf	Synpcc7942_1249	photosystem I reaction center subunit IX	K02697	Photosynthesis	KEGG web services
+syf	Synpcc7942_R0024	tRNA-Met	K14230	tRNA loading	KEGG web services
+syf	Synpcc7942_B2620	putative catalase	K03781	Tryptophan metabolism	KEGG web services
+syf	Synpcc7942_1404	two component transcriptional regulator	K11521	Two-component system	KEGG web services
+syf	Synpcc7942_1407	iron(III) ABC transporter permease	K02011	ABC transporters	KEGG web services
+syf	Synpcc7942_R0022	tRNA-Ile	K14227	tRNA loading	KEGG web services
+syf	Synpcc7942_R0020	tRNA-Asp	K14221	tRNA loading	KEGG web services
+syf	Synpcc7942_2322	aspartyl/glutamyl-tRNA amidotransferase subunit C (EC:6.3.5.-)	K02435	tRNA loading	KEGG web services
+syf	Synpcc7942_0912	DNA polymerase III, tau subunit (EC:2.7.7.7)	K02343	Purine metabolism	KEGG web services
+syf	Synpcc7942_0918	long-chain-fatty-acid CoA ligase	K01897	Fatty acid biosynthesis	KEGG web services
+syf	Synpcc7942_2195	adenylate/guanylate cyclase	K01768	Purine metabolism	KEGG web services
+syf	Synpcc7942_2199	DNA polymerase III subunit alpha (EC:2.7.7.7)	K02337	Purine metabolism	KEGG web services
+syf	Synpcc7942_2440	polynucleotide phosphorylase (EC:2.7.7.8)	K00962	Purine metabolism	KEGG web services
+syf	Synpcc7942_2442	phosphate ABC transporter permease	K02038	ABC transporters	KEGG web services
+syf	Synpcc7942_2443	phosphate ABC transporter permease	K02037	ABC transporters	KEGG web services
+syf	Synpcc7942_2444	phosphate binding protein	K02040	ABC transporters	KEGG web services
+syf	Synpcc7942_2445	phosphate binding protein	K02040	ABC transporters	KEGG web services
+syf	Synpcc7942_0292	bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase (EC:4.1.1.36 6.3.2.5)	K13038	Pantothenate and CoA biosynthesis	KEGG web services
+syf	Synpcc7942_0294	photosystem II manganese-stabilizing polypeptide	K02716	Photosynthesis	KEGG web services
+syf	Synpcc7942_0101	type 2 NADH dehydrogenase	K03885	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1744	hypothetical protein	K12073	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_0612	citrate synthase (EC:2.3.3.1)	K01647	Citrate cycle	KEGG web services
+syf	Synpcc7942_0611	recombination and DNA strand exchange inhibitor protein	K07456	Mismatch repair	KEGG web services
+syf	Synpcc7942_0618	S-adenosyl-L-homocysteine hydrolase (EC:3.3.1.1)	K01251	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_0439	Mg-protoporphyrin IX methyl transferase (EC:2.1.1.11)	K03428	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0432	D-alanyl-D-alanine dipeptidase-like protein	K08641	Two-component system	KEGG web services
+syf	Synpcc7942_0492	ribC, ribF	K11753	Riboflavin metabolism	KEGG web services
+syf	Synpcc7942_R0041	tRNA-Thr	K14234	tRNA loading	KEGG web services
+syf	Synpcc7942_R0040	tRNA-Leu	K14228	tRNA loading	KEGG web services
+syf	Synpcc7942_R0043	tRNA-Thr	K14234	tRNA loading	KEGG web services
+syf	Synpcc7942_R0042	tRNA-Tyr	K14236	tRNA loading	KEGG web services
+syf	Synpcc7942_R0045	tRNA-Pro	K14232	tRNA loading	KEGG web services
+syf	Synpcc7942_R0047	ffs	K01983	Protein export	KEGG web services
+syf	Synpcc7942_R0046	tRNA-Val	K14237	tRNA loading	KEGG web services
+syf	Synpcc7942_1250	photosystem I reaction center subunit III	K02694	Photosynthesis	KEGG web services
+syf	Synpcc7942_1256	glutathione S-transferase	K00799	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_1415	NAD(P)H-quinone oxidoreductase subunit 2 (EC:1.6.99.5)	K05573	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1410	2-isopropylmalate synthase (EC:2.3.3.13)	K01649	Valine, leucine and isoleucine biosynthesis	KEGG web services
+syf	Synpcc7942_1419	chlL	K04037	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2297	transaldolase/EF-hand domain-containing protein (EC:2.2.1.2)	K00616	pentose phosphate metabolism	KEGG web services
+syf	Synpcc7942_2296	L-glutamine synthetase (EC:6.3.1.2)	K01915	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_2057	membrane protein	K08591	Glycerolipid metabolism	KEGG web services
+syf	Synpcc7942_2506	phosphoadenosine phosphosulfate reductase (EC:1.8.4.8)	K00390	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_2503	protochlorophyllide oxidoreductase (EC:1.3.1.33 2.5.1.62)	K00218	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0498	mannose-1-phosphate guanylyltransferase	K16881	Fructose and mannose metabolism	KEGG web services
+syf	Synpcc7942_2508	type 2 NADH dehydrogenase NdbB	K03885	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0924	multi-sensor signal transduction histidine kinase (EC:2.7.3.-)	K07769	Two-component system	KEGG web services
+syf	Synpcc7942_0920	photosystem I reaction center	K02698	Photosynthesis	KEGG web services
+syf	Synpcc7942_2610	uroporphyrin-III C-methyltransferase (EC:2.1.1.107)	K02303	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2613	phosphoglycolate phosphatase (EC:3.1.3.18)	K01091	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_2612	threonine synthase (EC:4.2.3.1)	K01733	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_R0052	16S ribosomal RNA	K01977	Ribosome	KEGG web services
+syf	Synpcc7942_R0050	5S ribosomal RNA	K01985	Ribosome	KEGG web services
+syf	Synpcc7942_R0051	23S ribosomal RNA	K01980	Ribosome	KEGG web services
+syf	Synpcc7942_2478	photosystem II reaction center W protein	K08904	Photosynthesis	KEGG web services
+syf	Synpcc7942_2475	argininosuccinate lyase (EC:4.3.2.1)	K01755	Alanine, aspartate and glutamate metabolism	KEGG web services
+syf	Synpcc7942_2272	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC:2.7.6.3)	K00950	Folate biosynthesis	KEGG web services
+syf	Synpcc7942_2271	ADP-ribose pyrophosphatase	K01515	Purine metabolism	KEGG web services
+syf	Synpcc7942_0289	secA	K03070	Protein export	KEGG web services
+syf	Synpcc7942_0280	competence damage-inducible protein A	K03742	Nicotinate and nicotinamide metabolism	KEGG web services
+syf	Synpcc7942_0113	petL	K02642	Photosynthesis	KEGG web services
+syf	Synpcc7942_0116	fructokinase	K00847	Fructose and mannose metabolism	KEGG web services
+syf	Synpcc7942_1738	cysteine desulfurase (EC:2.8.1.7)	K11717	Selenocompound metabolism	KEGG web services
+syf	Synpcc7942_0604	ribulose-phosphate 3-epimerase (EC:5.1.3.1)	K01783	pentose phosphate metabolism	KEGG web services
+syf	Synpcc7942_0608	hypothetical protein	K08967	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_0609	proton-translocating NADH-quinone oxidoreductase subunit M (EC:1.6.99.5)	K05575	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0424	photosystem q(b) protein	K02703	Photosynthesis	KEGG web services
+syf	Synpcc7942_1085	glycogen branching enzyme (EC:2.4.1.18)	K00700	Starch and sucrose metabolism	KEGG web services
+syf	Synpcc7942_1088	plastocyanin	K02638	Photosynthesis	KEGG web services
+syf	Synpcc7942_R0034	tRNA-Ala	K14218	tRNA loading	KEGG web services
+syf	Synpcc7942_R0035	tRNA-Met	K14230	tRNA loading	KEGG web services
+syf	Synpcc7942_R0037	tRNA-Gln	K14223	tRNA loading	KEGG web services
+syf	Synpcc7942_R0030	tRNA-Ala	K14218	tRNA loading	KEGG web services
+syf	Synpcc7942_R0031	tRNA-Arg	K14219	tRNA loading	KEGG web services
+syf	Synpcc7942_1068	branched-chain alpha-keto acid dehydrogenase subunit E2	K00627	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_2285	glycerol dehydrogenase	K00005	Glycerolipid metabolism	KEGG web services
+syf	Synpcc7942_2289	2-dehydro-3-deoxyphosphooctonate aldolase (EC:2.5.1.55)	K01627	Lipopolysaccharide biosynthesis	KEGG web services
+syf	Synpcc7942_2046	glycine cleavage system protein H	K02437	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_2047	glycine dehydrogenase (EC:1.4.4.2)	K00281	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_2043	S-adenosylmethionine decarboxylase proenzyme (EC:4.1.1.50)	K01611	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_2607	exodeoxyribonuclease III (EC:3.1.11.2)	K01142	Base excision repair	KEGG web services
+syf	Synpcc7942_2604	cytochrome c oxidase subunit III	K02276	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2603	cytochrome-c oxidase (EC:1.9.3.1)	K02274	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2600	protoheme IX farnesyltransferase	K02301	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_R0005	23S ribosomal RNA	K01980	Ribosome	KEGG web services
+syf	Synpcc7942_R0004	16S ribosomal RNA	K01977	Ribosome	KEGG web services
+syf	Synpcc7942_R0006	5S ribosomal RNA	K01985	Ribosome	KEGG web services
+syf	Synpcc7942_R0001	tRNA-Gly	K14225	tRNA loading	KEGG web services
+syf	Synpcc7942_2464	N-acetylmannosamine-6-phosphate 2-epimerase (EC:5.1.3.9)	K01788	Amino sugar and nucleotide sugar metabolism	KEGG web services
+syf	Synpcc7942_0776	farnesyl-diphosphate synthase (EC:2.5.1.10)	K13789	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_0126	enoyl-ACP reductase (EC:1.3.1.9)	K00208	Fatty acid biosynthesis	KEGG web services
+syf	Synpcc7942_1729	potassium-transporting ATPase D chain	K07646	Two-component system	KEGG web services
+syf	Synpcc7942_1898	isopropylmalate isomerase large subunit (EC:4.2.1.33)	K01703	Valine, leucine and isoleucine biosynthesis	KEGG web services
+syf	Synpcc7942_0385	geranylgeranyl reductase	K10960	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1722	thiosulfate-binding protein	K02048	Sulfur metabolism	KEGG web services
+syf	Synpcc7942_1894	integral membrane protein of the ABC-type Nat permease for neutral amino acids	K11955	ABC transporters	KEGG web services
+syf	Synpcc7942_1727	BioY protein	K03523	ABC transporters	KEGG web services
+syf	Synpcc7942_0638	glyoxalase I (EC:4.4.1.5)	K01759	Pyruvate metabolism	KEGG web services
+syf	Synpcc7942_0419	biotin synthase (EC:2.8.1.6)	K01012	Biotin metabolism	KEGG web services
+syf	Synpcc7942_0707	arginine decarboxylase (EC:4.1.1.19)	K01582	Lysine degradation	KEGG web services
+syf	Synpcc7942_0706	precorrin-6B methylase	K00595	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0251	exonuclease	K02342	Purine metabolism	KEGG web services
+syf	Synpcc7942_1079	ATP-dependent DNA helicase RecG (EC:3.6.1.-)	K03655	Homologous recombination	KEGG web services
+syf	Synpcc7942_1072	cob(I)yrinic acid a,c-diamide adenosyltransferase (EC:2.5.1.17)	K00798	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1388	carbonate dehydratase (EC:4.2.1.1)	K01674	Nitrogen metabolism	KEGG web services
+syf	Synpcc7942_1389	photosystem q(b) protein	K02703	Photosynthesis	KEGG web services
+syf	Synpcc7942_1386	hypothetical protein	K00798	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1383	inorganic diphosphatase (EC:3.6.1.1)	K01507	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1051	phycocyanin linker protein 9K	K02287	Photosynthesis	KEGG web services
+syf	Synpcc7942_2382	coproporphyrinogen III oxidase (EC:1.3.99.22)	K02495	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2384	pyruvate:ferredoxin (flavodoxin) oxidoreductase	K03737	Metabolic pathways	KEGG web services
+syf	Synpcc7942_2496	branched-chain amino-acid ABC transport system periplasmic binding protein	K01999	ABC transporters	KEGG web services
+syf	Synpcc7942_2495	integral membrane protein of the ABC-type Nat permease for neutral amino acids NatD	K01997	ABC transporters	KEGG web services
+syf	Synpcc7942_2494	branched-chain amino acid ABC transporter permease	K01998	ABC transporters	KEGG web services
+syf	Synpcc7942_2493	ATPase	K01995	ABC transporters	KEGG web services
+syf	Synpcc7942_2492	ATPase	K01996	ABC transporters	KEGG web services
+syf	Synpcc7942_2252	phosphoenolpyruvate carboxylase (EC:4.1.1.31)	K01595	Pyruvate metabolism	KEGG web services
+syf	Synpcc7942_0135	ubiquinone/menaquinone biosynthesis methylase-like protein	K03183	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_0139	acetolactate synthase 3 catalytic subunit (EC:2.2.1.6)	K01652	Valine, leucine and isoleucine biosynthesis	KEGG web services
+syf	Synpcc7942_1717	glycolate oxidase subunit (Fe-S) protein	K11473	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_1861	periplasmic binding protein of ABC transporter for natural amino acids	K11954	ABC transporters	KEGG web services
+syf	Synpcc7942_0626	dihydroxy-acid dehydratase (EC:4.2.1.9)	K01687	Valine, leucine and isoleucine biosynthesis	KEGG web services
+syf	Synpcc7942_1719	isocitrate dehydrogenase (EC:1.1.1.42)	K00031	Citrate cycle	KEGG web services
+syf	Synpcc7942_1718	glycolate oxidase subunit GlcE	K11472	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_0407	photosystem I reaction center subunit X	K02698	Photosynthesis	KEGG web services
+syf	Synpcc7942_R0010	tRNA-Arg	K14219	tRNA loading	KEGG web services
+syf	Synpcc7942_0405	DNA polymerase III subunit delta (EC:2.7.7.7)	K02340	Purine metabolism	KEGG web services
+syf	Synpcc7942_R0014	tRNA-Phe	K14231	tRNA loading	KEGG web services
+syf	Synpcc7942_R0015	tRNA-Leu	K14228	tRNA loading	KEGG web services
+syf	Synpcc7942_R0018	tRNA-Ala	K14218	tRNA loading	KEGG web services
+syf	Synpcc7942_R0019	tRNA-Trp	K14235	tRNA loading	KEGG web services
+syf	Synpcc7942_0249	ATPase	K09972	ABC transporters	KEGG web services
+syf	Synpcc7942_0713	ispG	K03526	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_1049	phycobilisome rod linker polypeptide	K02286	Photosynthesis	KEGG web services
+syf	Synpcc7942_1047	phycocyanin subunit beta	K02285	Photosynthesis	KEGG web services
+syf	Synpcc7942_1448	quinolinate synthetase	K03517	Nicotinate and nicotinamide metabolism	KEGG web services
+syf	Synpcc7942_1440	homoserine kinase (EC:2.7.1.39)	K00872	Glycine, serine and threonine metabolism	KEGG web services
+syf	Synpcc7942_1443	fructose-1,6-bisphosphate aldolase (EC:4.1.2.13)	K01624	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_2588	3-octaprenyl-4-hydroxybenzoate carboxy-lyase (EC:4.1.1.-)	K03182	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_1669	potassium-transporting ATPase subunit B (EC:3.6.3.12)	K01547	Two-component system	KEGG web services
+syf	Synpcc7942_1668	potassium-transporting ATPase subunit A (EC:3.6.3.12)	K01546	Two-component system	KEGG web services
+syf	Synpcc7942_1283	molybdopterin synthase subunit MoaE	K03635	Folate biosynthesis	KEGG web services
+syf	Synpcc7942_2062	lycopene cyclase (CrtL-type)	K06443	Carotenoid biosynthesis	KEGG web services
+syf	Synpcc7942_1427	ribulose 1,5-bisphosphate carboxylase small subunit (EC:4.1.1.39)	K01602	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_0890	glutamate synthase (ferredoxin) (EC:1.4.7.1)	K00284	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_2247	DNA mismatch repair protein MutS	K03555	Mismatch repair	KEGG web services
+syf	Synpcc7942_2243	glutamate-5-semialdehyde dehydrogenase (EC:1.2.1.41)	K00147	Arginine and proline metabolism	KEGG web services
+syf	Synpcc7942_2249	S-adenosylmethionine decarboxylase proenzyme (EC:4.1.1.50)	K01611	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_R0053	tRNA-Val	K14237	tRNA loading	KEGG web services
+syf	Synpcc7942_1915	chorismate mutase (EC:5.4.99.5)	K06208	Phenylalanine, tyrosine and tryptophan biosynthesis	KEGG web services
+syf	Synpcc7942_1911	cold shock protein	K12573	RNA degradation	KEGG web services
+syf	Synpcc7942_1910	aromatic acid decarboxylase	K03186	Ubiquinone and other terpenoid-quinone biosynthesis	KEGG web services
+syf	Synpcc7942_1700	GDP-fucose synthetase NAD dependent epimerase/dehydratase	K02377	Fructose and mannose metabolism	KEGG web services
+syf	Synpcc7942_0652	hypothetical protein	K14606	Carotenoid biosynthesis	KEGG web services
+syf	Synpcc7942_0651	primosome assembly protein PriA	K04066	Homologous recombination	KEGG web services
+syf	Synpcc7942_0098	pyruvate kinase (EC:2.7.1.40)	K00873	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_0095	two component transcriptional regulator	K10697	Two-component system	KEGG web services
+syf	Synpcc7942_0473	NADH:flavin oxidoreductase	K10680	Nitrotoluene degradation	KEGG web services
+syf	Synpcc7942_0472	exodeoxyribonuclease VII small subunit (EC:3.1.11.6)	K03602	Mismatch repair	KEGG web services
+syf	Synpcc7942_R0007	tRNA-Glu	K14224	tRNA loading	KEGG web services
+syf	Synpcc7942_R0003	tRNA-Thr	K14234	tRNA loading	KEGG web services
+syf	Synpcc7942_R0002	tRNA-Ser	K14233	tRNA loading	KEGG web services
+syf	Synpcc7942_0272	uroporphyrinogen-III synthase (EC:4.2.1.75)	K01719	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0276	glycolate oxidase subunit GlcD	K00104	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_1057	thiamine-phosphate pyrophosphorylase (EC:2.5.1.3)	K00788	Thiamine metabolism	KEGG web services
+syf	Synpcc7942_1054	PBS lyase	K02288	Photosynthesis	KEGG web services
+syf	Synpcc7942_1052	phycocyanin subunit beta	K02285	Photosynthesis	KEGG web services
+syf	Synpcc7942_1058	hypothetical protein	K03154	Sulfur relay system	KEGG web services
+syf	Synpcc7942_1450	ATPase	K02036	ABC transporters	KEGG web services
+syf	Synpcc7942_1456	malonyl CoA-ACP transacylase	K00645	Fatty acid biosynthesis	KEGG web services
+syf	Synpcc7942_1457	1-acyl-sn-glycerol-3-phosphate acyltransferase	K00655	Glycerolipid metabolism	KEGG web services
+syf	Synpcc7942_1454	glycerol-3-phosphate acyltransferase PlsX	K03621	Glycerolipid metabolism	KEGG web services
+syf	Synpcc7942_1455	3-oxoacyl-ACP synthase (EC:2.3.1.41)	K00648	Fatty acid biosynthesis	KEGG web services
+syf	Synpcc7942_0893	photosystem q(b) protein	K02703	Photosynthesis	KEGG web services
+syf	Synpcc7942_R0028	tRNA-Met	K14230	tRNA loading	KEGG web services
+syf	Synpcc7942_R0023	tRNA-Ser	K14233	tRNA loading	KEGG web services
+syf	Synpcc7942_R0021	tRNA-Ala	K14218	tRNA loading	KEGG web services
+syf	Synpcc7942_1792	delta-aminolevulinic acid dehydratase (EC:4.2.1.24)	K01698	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2122	carbamoyl phosphate synthase small subunit (EC:6.3.5.5)	K01956	Pyrimidine metabolism	KEGG web services
+syf	Synpcc7942_0878	ribonuclease	K08300	RNA degradation	KEGG web services
+syf	Synpcc7942_2234	NADH dehydrogenase I subunit N	K05585	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_2342	photosystem I reaction center protein subunit XI	K02699	Photosynthesis	KEGG web services
+syf	Synpcc7942_1907	magnesium-protoporphyrin IX monomethyl ester cyclase (EC:1.14.13.81)	K04035	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1847	dihydrodipicolinate synthase (EC:4.2.1.52)	K01714	Lysine biosynthesis	KEGG web services
+syf	Synpcc7942_1846	hypothetical protein	K12574	RNA degradation	KEGG web services
+syf	Synpcc7942_0644	GAF sensor hybrid histidine kinase (EC:2.7.3.-)	K11356	Two-component system	KEGG web services
+syf	Synpcc7942_0645	glutamate-1-semialdehyde aminotransferase (EC:5.4.3.8)	K01845	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0089	carboxymethylenebutenolidase (EC:3.1.1.45)	K01061	Chlorocyclohexane and chlorobenzene degradation	KEGG web services
+syf	Synpcc7942_0086	isoamylase (EC:3.2.1.68)	K02438	Starch and sucrose metabolism	KEGG web services
+syf	Synpcc7942_0466	cellulose synthase (EC:2.4.1.12)	K00694	Starch and sucrose metabolism	KEGG web services
+syf	Synpcc7942_1591	RNA binding S1	K02945	Ribosome	KEGG web services
+syf	Synpcc7942_1595	acetyl-CoA carboxylase carboxyltransferase subunit alpha (EC:6.4.1.2)	K01962	Fatty acid biosynthesis	KEGG web services
+syf	Synpcc7942_1609	protein splicing (intein) site	K00524	Purine metabolism	KEGG web services
+syf	Synpcc7942_1608	mannose-1-phosphate guanylyltransferase (EC:2.7.7.22)	K16011	Fructose and mannose metabolism	KEGG web services
+syf	Synpcc7942_1603	beta-lactamase	K17836	beta-Lactam resistance	KEGG web services
+syf	Synpcc7942_0264	undecaprenyl pyrophosphate synthase (EC:2.5.1.31)	K00806	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_1029	branched-chain amino acid aminotransferase (EC:2.6.1.42)	K00826	Valine, leucine and isoleucine degradation	KEGG web services
+syf	Synpcc7942_0510	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase (EC:3.1.3.-)	K08966	Cysteine and methionine metabolism	KEGG web services
+syf	Synpcc7942_0512	hypothetical protein	K11720	ABC transporters	KEGG web services
+syf	Synpcc7942_0513	ATPase	K06861	ABC transporters	KEGG web services
+syf	Synpcc7942_1333	ExsB	K06920	Folate biosynthesis	KEGG web services
+syf	Synpcc7942_B2619	carbonic anhydrase, putative	K01673	Nitrogen metabolism	KEGG web services
+syf	Synpcc7942_0883	rpsJ	K02946	Ribosome	KEGG web services
+syf	Synpcc7942_0886	30S ribosomal protein S7	K02992	Ribosome	KEGG web services
+syf	Synpcc7942_2334	glucose-6-phosphate 1-dehydrogenase (EC:1.1.1.49)	K00036	pentose phosphate metabolism	KEGG web services
+syf	Synpcc7942_2000	penicillin-binding protein 1A (EC:2.4.1.129)	K05364	Peptidoglycan biosynthesis	KEGG web services
+syf	Synpcc7942_2136	dihydrodipicolinate reductase (EC:1.3.1.26)	K00215	Lysine biosynthesis	KEGG web services
+syf	Synpcc7942_2137	magnesium chelatase subunit H (EC:6.6.1.2)	K03403	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_2139	glutathione S-transferase	K00799	Glutathione metabolism	KEGG web services
+syf	Synpcc7942_2224	50S ribosomal protein L29	K02904	Ribosome	KEGG web services
+syf	Synpcc7942_1014	CheA signal transduction histidine kinase	K06596	Two-component system	KEGG web services
+syf	Synpcc7942_1771	signal recognition particle subunit FFH/SRP54 (srp54)	K03106	Protein export	KEGG web services
+syf	Synpcc7942_1939	glyceraldehyde-3-phosphate dehydrogenase (EC:1.2.1.12)	K00134	Glycolysis and gluconeogenesis	KEGG web services
+syf	Synpcc7942_1933	isopentenyl pyrophosphate isomerase (EC:5.3.3.2)	K01823	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_1934	D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine-endopeptidase	K07259	Peptidoglycan biosynthesis	KEGG web services
+syf	Synpcc7942_0185	gamma-glutamyltransferase (EC:2.3.2.2)	K00681	Taurine and hypotaurine metabolism	KEGG web services
+syf	Synpcc7942_1850	precorrin-6Y C5,15-methyltransferase (EC:2.1.1.132)	K00595	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0674	coproporphyrinogen III oxidase (EC:1.3.3.3)	K00228	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_0673	A/G-specific adenine glycosylase (EC:3.2.2.-)	K03575	Base excision repair	KEGG web services
+syf	Synpcc7942_0073	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC:1.17.1.2)	K03527	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_0697	photosystem II core light harvesting protein	K02704	Photosynthesis	KEGG web services
+syf	Synpcc7942_0694	30S ribosomal protein S1	K02945	Ribosome	KEGG web services
+syf	Synpcc7942_0693	hypothetical protein	K01091	Glyoxylate and dicarboxylate metabolism	KEGG web services
+syf	Synpcc7942_1586	periplasmic sensor signal transduction histidine kinase	K11520	Two-component system	KEGG web services
+syf	Synpcc7942_1612	pyridine nucleotide transhydrogenase subunit alpha	K00324	Nicotinate and nicotinamide metabolism	KEGG web services
+syf	Synpcc7942_1617	inner membrane protein translocase component YidC	K03217	Protein export	KEGG web services
+syf	Synpcc7942_0211	cobyric acid synthase (EC:6.3.5.10)	K02232	Porphyrin and chlorophyll metabolism	KEGG web services
+syf	Synpcc7942_1030	histidinol-phosphate aminotransferase (EC:2.6.1.9)	K00817	Histidine metabolism	KEGG web services
+syf	Synpcc7942_1037	arginine decarboxylase (EC:4.1.1.19)	K01585	Arginine and proline metabolism	KEGG web services
+syf	Synpcc7942_0526	ABC-type sugar transport systems permease components-like protein	K17245	ABC transporters	KEGG web services
+syf	Synpcc7942_0458	carboxylesterase (EC:3.1.1.1)	K01070	Methane metabolism	KEGG web services
+syf	Synpcc7942_1103	glucosamine-6-phosphate isomerase 2	K02564	Amino sugar and nucleotide sugar metabolism	KEGG web services
+syf	Synpcc7942_0326	allophycocyanin subunit beta	K02093	Photosynthesis	KEGG web services
+syf	Synpcc7942_0320	UDP-galactose 4-epimerase (EC:5.1.3.2)	K01784	Galactose metabolism	KEGG web services
+syf	Synpcc7942_1326	transcription-repair coupling factor	K03723	Nucleotide excision repair	KEGG web services
+syf	Synpcc7942_1323	formamidopyrimidine-DNA glycosylase (EC:3.2.2.23 4.2.99.18)	K10563	Base excision repair	KEGG web services
+syf	Synpcc7942_2030	phycobilisome rod-core linker polypeptide	K02290	Photosynthesis	KEGG web services
+syf	Synpcc7942_0983	deoxyribose-phosphate aldolase (EC:4.1.2.4)	K01619	pentose phosphate metabolism	KEGG web services
+syf	Synpcc7942_2100	dTDP-glucose 4,6-dehydratase (EC:4.2.1.46)	K01710	Streptomycin biosynthesis	KEGG web services
+syf	Synpcc7942_2106	nitrate transport permease	K15577	Nitrogen metabolism	KEGG web services
+syf	Synpcc7942_0338	ferredoxin (2Fe-2S)	K02639	Photosynthesis	KEGG web services
+syf	Synpcc7942_0334	ATP synthase F0F1 subunit B (EC:3.6.3.14)	K02109	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0335	ATP synthase F0F1 subunit delta (EC:3.6.3.14)	K02113	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0851	phosphoribosylaminoimidazole synthetase (EC:6.3.3.1)	K01933	Purine metabolism	KEGG web services
+syf	Synpcc7942_2210	30S ribosomal protein S11	K02948	Ribosome	KEGG web services
+syf	Synpcc7942_2589	2-phosphosulfolactate phosphatase (EC:3.1.3.71)	K05979	Methane metabolism	KEGG web services
+syf	Synpcc7942_2581	ferredoxin (2Fe-2S)	K02639	Photosynthesis	KEGG web services
+syf	Synpcc7942_2582	myo-inositol-1(or 4)-monophosphatase	K01092	Streptomycin biosynthesis	KEGG web services
+syf	Synpcc7942_2361	glutamate racemase (EC:5.1.1.3)	K01776	D-Glutamine and D-glutamate metabolism	KEGG web services
+syf	Synpcc7942_2362	trans-hexaprenyltranstransferase (EC:2.5.1.30)	K05356	Terpenoid backbone biosynthesis	KEGG web services
+syf	Synpcc7942_1926	hypothetical protein	K03666	RNA degradation	KEGG web services
+syf	Synpcc7942_1929	cysteine desulfurase	K04487	Thiamine metabolism	KEGG web services
+syf	Synpcc7942_0194	DNA polymerase I (EC:2.7.7.7)	K02335	Purine metabolism	KEGG web services
+syf	Synpcc7942_0198	type 2 NADH dehydrogenase	K03885	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_1829	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase (EC:5.3.1.16)	K01814	Histidine metabolism	KEGG web services
+syf	Synpcc7942_1825	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC:2.7.8.5)	K00995	Glycerophospholipid metabolism	KEGG web services
+syf	Synpcc7942_0660	arogenate dehydrogenase (EC:1.3.1.78)	K15226	Phenylalanine, tyrosine and tryptophan biosynthesis	KEGG web services
+syf	Synpcc7942_0331	ATP synthase F0F1 subunit A (EC:3.6.3.14)	K02108	Oxidative phosphorylation	KEGG web services
+syf	Synpcc7942_0332	ATP synthase F0F1 subunit C (EC:3.6.3.14)	K02110	Oxidative phosphorylation	KEGG web services

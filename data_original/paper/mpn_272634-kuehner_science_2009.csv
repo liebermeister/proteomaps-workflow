@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='mpn'
 !ProteinIdentifier	!Abundance
 MPN063	2664.269
 MPN141	9921.543

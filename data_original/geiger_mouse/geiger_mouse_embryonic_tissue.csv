@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Embryonic tissue'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Embryonic tissue'
 !ProteinIdentifier	!Abundance
 17196	48857.1428571
 69187	964.6

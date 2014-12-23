@@ -6,6 +6,14 @@
 import re
 from proteomaps_path_names import proteomaps_path_names
 
+# ----------------------------------------------
+
+def replace_whitespaces(string):
+  new_string = string.replace(" ", "_")
+  return new_string
+
+# ----------------------------------------------
+
 class proteomaps_hierarchy:
 
   def __init__(self,data_dir):
@@ -44,7 +52,7 @@ class proteomaps_hierarchy:
       igot = f.readlines()        
       for line in igot:
         q          = re.split('\t', line)
-        systematic = q[0]
+        systematic = replace_whitespaces(q[0])
         if len(q)>1:
           gene       = q[1]
           ko         = q[2].strip()
@@ -66,7 +74,7 @@ class proteomaps_hierarchy:
     for line in igot:
       q = re.split("\t",line.strip())
       my_organism   = q[0]
-      my_systematic = q[1]
+      my_systematic = replace_whitespaces(q[1])
       my_gene       = q[2]
       my_gene       = re.split(', ',my_gene)
       my_gene       = my_gene[0]
@@ -133,7 +141,7 @@ class proteomaps_hierarchy:
       q = re.split('\t', line.strip())
       my_ko         = q[2]
       my_gene       = q[1]
-      my_systematic = q[0]
+      my_systematic = replace_whitespaces(q[0])
       systematic_to_ko_gene[my_systematic] = {"ko": my_ko, "gene": my_gene}
     fi.close()
     
@@ -168,20 +176,20 @@ class proteomaps_hierarchy:
     # Returns  dictionaries for the mapping between ko numbers and gene names
     # (each of them contains dictionaries for all organisms)
     #   ko_to_genes
-    #   ko_to_orfs
+    #   ko_to_systematic
     #   genes_to_ko
     #   systematic_to_ko
     #   ko_to_genes_completed
-    #   ko_to_orfs_completed
+    #   ko_to_systematic_completed
 
     ko_to_genes      = {}
-    ko_to_orfs       = {}
+    ko_to_systematic       = {}
     genes_to_ko      = {}
     systematic_to_ko = {}
 
     for organism_name in organism_list:
       my_ko_to_genes = {}
-      my_ko_to_orfs  = {}
+      my_ko_to_systematic  = {}
       my_genes_to_ko = {}
       my_systematic_to_ko  = {}
       mapping_files = self.pp.get_mapping_files(organism_name)
@@ -193,15 +201,15 @@ class proteomaps_hierarchy:
           ko   = q[2]
           if ko in relevant_ko:
             gene = q[1]
-            orf  = q[0]
+            systematic  = replace_whitespaces(q[0])
             if not ko in my_ko_to_genes:
               my_ko_to_genes[ko] = [gene]
             else:
               my_ko_to_genes[ko].append(gene)
-            if not ko in my_ko_to_orfs:
-              my_ko_to_orfs[ko] = [orf]
+            if not ko in my_ko_to_systematic:
+              my_ko_to_systematic[ko] = [systematic]
             else:
-              my_ko_to_orfs[ko].append(orf)
+              my_ko_to_systematic[ko].append(systematic)
       fh.close()
     
       my_systematic_to_ko = {}
@@ -212,13 +220,13 @@ class proteomaps_hierarchy:
         for my_gene in my_ko_to_genes[my_ko]:
           my_genes_to_ko[my_gene] = my_ko
               
-      for my_ko in my_ko_to_orfs:
-        my_ko_to_orfs[my_ko] = list(set(my_ko_to_orfs[my_ko]))
-        for my_orf in my_ko_to_orfs[my_ko]:
-          my_systematic_to_ko[my_orf] = my_ko
+      for my_ko in my_ko_to_systematic:
+        my_ko_to_systematic[my_ko] = list(set(my_ko_to_systematic[my_ko]))
+        for my_systematic in my_ko_to_systematic[my_ko]:
+          my_systematic_to_ko[my_systematic] = my_ko
 
       ko_to_genes[organism_name]      = my_ko_to_genes
-      ko_to_orfs[organism_name]       = my_ko_to_orfs
+      ko_to_systematic[organism_name]       = my_ko_to_systematic
       genes_to_ko[organism_name]      = my_genes_to_ko
       systematic_to_ko[organism_name] = my_systematic_to_ko
 
@@ -227,7 +235,7 @@ class proteomaps_hierarchy:
     for line in igot:
       q = re.split("\t",line.strip())
       my_organism   = q[0]
-      my_systematic = q[1]
+      my_systematic = replace_whitespaces(q[1])
       my_gene       = q[2]
       my_gene       = re.split(', ',my_gene)
       my_gene       = my_gene[0]
@@ -239,25 +247,25 @@ class proteomaps_hierarchy:
           ko_remove = genes_to_ko[my_organism][my_gene]
           while my_gene in ko_to_genes[my_organism][ko_remove]:
             ko_to_genes[my_organism][ko_remove].remove(my_gene)
-          while my_systematic in ko_to_orfs[my_organism][ko_remove]:
-            ko_to_orfs[my_organism][ko_remove].remove(my_systematic)
+          while my_systematic in ko_to_systematic[my_organism][ko_remove]:
+            ko_to_systematic[my_organism][ko_remove].remove(my_systematic)
         if my_ko in ko_to_genes[my_organism]:
           ko_to_genes[my_organism][my_ko].append(my_gene)
-          ko_to_orfs[my_organism][my_ko].append(my_systematic)
+          ko_to_systematic[my_organism][my_ko].append(my_systematic)
         else:
           ko_to_genes[my_organism][my_ko] = [my_gene]
-          ko_to_orfs[my_organism][my_ko]  = [my_systematic]
+          ko_to_systematic[my_organism][my_ko]  = [my_systematic]
     
     f.close()
 
     ## make ko to gene lists, complete names of missing genes by "" 
     
     ko_to_genes_completed = {};
-    ko_to_orfs_completed  = {};
+    ko_to_systematic_completed  = {};
     
     for organism_name in organism_list:
       ko_to_genes_completed[organism_name] = {}
-      ko_to_orfs_completed[organism_name] = {}
+      ko_to_systematic_completed[organism_name] = {}
       for my_ko in relevant_ko:
         if my_ko in ko_to_genes[organism_name]:
           gene_string = ''
@@ -265,16 +273,16 @@ class proteomaps_hierarchy:
             gene_string = gene_string + " " + lll
           gene_string = gene_string.strip()
           ko_to_genes_completed[organism_name][my_ko] = gene_string
-          orf_string = ''
-          for lll in list(set(ko_to_orfs[organism_name][my_ko])):
-            orf_string = orf_string + " " + lll
-          orf_string = orf_string.strip()
-          ko_to_orfs_completed[organism_name][my_ko] = orf_string
+          systematic_string = ''
+          for lll in list(set(ko_to_systematic[organism_name][my_ko])):
+            systematic_string = systematic_string + " " + lll
+          systematic_string = systematic_string.strip()
+          ko_to_systematic_completed[organism_name][my_ko] = systematic_string
         else:
           ko_to_genes_completed[organism_name][my_ko] = "-"
-          ko_to_orfs_completed[organism_name][my_ko] = "-"
+          ko_to_systematic_completed[organism_name][my_ko] = "-"
 
-    return ko_to_genes, ko_to_orfs, genes_to_ko, systematic_to_ko, ko_to_genes_completed, ko_to_orfs_completed
+    return ko_to_genes, ko_to_systematic, genes_to_ko, systematic_to_ko, ko_to_genes_completed, ko_to_systematic_completed
 
 
   def get_ko_to_category(self,organism_list):
@@ -293,119 +301,3 @@ class proteomaps_hierarchy:
             if line[2] == '\t':
               my_category = line.strip()
     return ko_to_category
-
-
-#########################################################################
-
-
-class relevant_ko:
-
-  def __init__(self,data_dir):
-    self.pp = proteomaps_path_names(data_dir)
-    self.INFILE_ANNOTATION_CHANGES = self.pp.INFILE_ANNOTATION_CHANGES  
-
-
-  def get_added_ko(self):    
-    # list of additional ko numbers (from annotation changes file)
-    # if no ko number is given, invent one from organism name and systematic gene name
-    
-    f = open(self.INFILE_ANNOTATION_CHANGES, 'r')
-    igot = f.readlines()
-    my_added_ko = []
-    for line in igot:
-      q = re.split("\t",line.strip())
-      my_organism   = q[0]
-      my_systematic = q[1]
-      my_ko         = q[3]
-      if len(my_ko) == 0:
-          my_ko = my_organism + "_" + my_systematic
-      if not(my_ko in my_added_ko):
-        my_added_ko.append(my_ko)
-    f.close()
-    return my_added_ko
-
-
-  def get_added_ko_dictionary(self):
-    # list of additional ko numbers (from annotation changes file)
-    # each entry is a dictionary with entries 'organism'; 'systematic'; 'gene'; 'ko';
-    # if no ko number is given, invent one from organism name and systematic gene name
-    f = open(self.INFILE_ANNOTATION_CHANGES, 'r')
-    igot = f.readlines()    
-    my_added_ko = []
-    for line in igot:
-        q = re.split("\t",line.strip())
-        my_organism = q[0]
-        my_systematic = q[1]
-        my_gene = q[2]
-        my_gene = re.split(', ',my_gene)
-        my_gene = my_gene[0]
-        my_ko = q[3]
-        if my_ko == "":
-          my_ko = my_organism + "_" + my_systematic
-        my_added_ko.append({"organism": my_organism, "systematic": my_systematic, "gene": my_gene,"ko": my_ko})
-    f.close()
-    return my_added_ko
-
-
-  def get_added_ko_2(self,pathways_in_hierarchy):
-    # more elaborate version of get_added_ko, needed for some purposes
-    added_ko_2_pathway  = {}
-    
-    f    = open(self.pp.INFILE_ANNOTATION_CHANGES, 'r')
-    igot = f.readlines()
-    for line in igot:
-        q = re.split("\t",line.strip())
-        my_organism   = q[0]
-        my_systematic = q[1]
-        my_ko         = q[3]
-        if len(my_ko) == 0:
-            my_ko = my_organism + "_" + my_systematic
-        my_pathway  = q[4]
-        if my_organism in self.pp.get_organism_list():
-            if my_pathway in pathways_in_hierarchy:
-                added_ko_2_pathway[my_ko] = my_pathway
-    f.close()
-    
-    all_added_ko = added_ko_2_pathway.keys()
-    
-    my_added_ko  = {}
-    
-    for my_ko in added_ko_2_pathway:
-        my_pathway = added_ko_2_pathway[my_ko]
-        if my_pathway in my_added_ko:
-            my_added_ko[my_pathway].append(my_ko)
-        else:
-            my_added_ko[my_pathway] = [my_ko]
-    return my_added_ko, all_added_ko
-
-
-  def all_relevant_ko(self):
-    # (set of) all ko numbers that appear in annotation changes file or data files
-    collected_ko     = set(self.get_added_ko())
-    data_files_ko    = self.pp.get_data_files_2()
-    for data_file_triple in data_files_ko:
-      fh   = open(data_file_triple[0],"r")
-      igot = fh.readlines()
-      for line in igot:
-        q    = re.split('\t', line.strip())
-        gene = q[0]
-        ko   = q[1]
-        collected_ko = collected_ko.union([ko])
-    return collected_ko
-
-  def write_relevant_ko(self,collected_ko,file_relevant_ko):
-    # write prepared list of relevant ko numbers to file pp.FILE_RELEVANT_KO
-    f = open(file_relevant_ko, 'w')
-    for my_ko in list(collected_ko):
-        f.write(my_ko+"\n")
-    f.write("NotMapped\n")
-
-  def read_relevant_ko(self,file_relevant_ko):
-    # read prepared list of relevant ko numbers from file pp.FILE_RELEVANT_KO
-    relevant_ko = []
-    f = open(file_relevant_ko, 'r')
-    igot = f.readlines()
-    for line in igot:
-        q = line.strip()
-        relevant_ko.append(q)
-    return relevant_ko

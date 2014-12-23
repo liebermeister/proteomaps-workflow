@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='sce' ProteinIdentifier='http://http://identifiers.org/sgd/'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 YKL060C	2252097.0	45041.945405	808502820.0	45274.5482946	359.0	Fba1	K01624	Glycolysis
 YGR192C	2144175.0	42883.505146	711866100.0	39863.0843659	332.0	Tdh3	K00134	Glycolysis
 YHR174W	2119164.0	42383.285086	926074670.0	51858.3378242	437.0	Eno2	K01689	Glycolysis

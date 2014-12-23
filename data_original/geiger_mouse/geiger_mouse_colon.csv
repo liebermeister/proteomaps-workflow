@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Colon'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Colon'
 !ProteinIdentifier	!Abundance
 17196	118571.428571
 69187	11562.2857143

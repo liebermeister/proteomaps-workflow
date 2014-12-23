@@ -1,4 +1,5 @@
-!!SBtab TableType='Proteomaps' Organism='eco'!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
+!!SBtab TableType='Proteomaps' Organism='eco'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 b3241	5.0	0.888583058346	1750.0	1.05595483427	350			
 b3240	2.0	0.355433223339	700.0	0.422381933708	350			
 b3243	79.0	14.0396123219	27650.0	16.6840863815	350			

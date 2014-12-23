@@ -17,26 +17,12 @@
 
   <body>
 
-
     <h1>How are proteomaps generated?</h1>
 
+    <img class="wrap" width="256" src="pictures/eco_Valgepea_2013_48_cost_small.png" usemap="\#proteins">
+    <p>Back to  <a href="index.html">main page</a> </p>
 
-    <table>
-<tr>
-	  <td>
-	    <div> <a href="index.html">
-		<img class="wrap"  src="pictures/eco_Valgepea_2013_48_cost_small.png" width="256"></a> 
-	    </div>  
-	  <td width="10"/>    
-</tr>
-</table>
-
-    <ol type="circle">
-      <li> Back to <a href="index.html">Proteomaps home</a><br></li>
-      <li> See <a href="./diagrams/index.html">comparison to pie or bar plots</a></li>
-      <li> See <a href="./go/index.html">proteomap based on Gene Ontology</a></li>
-      <li> Read  <a href="./help.html">further help</a></li>
-    </ol>
+  <a name="methods"/>
 
 <h3>Proteome tree maps visualization</h3>
 
@@ -78,6 +64,8 @@ differentiate among detailed functional categories within the same
 broad functional category, e.g. shades of blue within "Genetic
 Information Processing".</p>
 
+<p> See <a href="./diagrams/index.html">comparison to pie or bar plots</a></p>
+
 <h3>Protein abundance data sources and gene mapping</h3>
 
 <p style="width:700">Protein data were taken from the original
@@ -112,7 +100,7 @@ functional categories, in which, for instance, assignments to
 default choice can be overridden by manual assignments. Moreover, we
 found that for consistency with the literature some functional
 categories had to be added, renamed, or restructured. The customized
-version of the KEGG hierarchy can be downloaded below.</p>
+version of the KEGG hierarchy can be downloaded <a href="download.html">here</a>.</p>
 
 <p style="width:700">Since each KO ID appears, on average, in about
 two pathway categories, our priority order can create a bias towards
@@ -136,92 +124,131 @@ distances from the root; for some genes, GO contains more than 10
 hierarchy levels. We found that proteomaps with a compact 3-level
 hierarchy are useful for visual comprehension. Thus, adapting GO
 requires adaptation beyond the scope of this study.</p>
-</br>
 
-<table style="background-color:#faf2ca">
-<tr><td style="width:750">
-<h3>Downloads</h3>
+<p> See <a href="./go/index.html">proteomap based on Gene Ontology</a></p>
 
-<p style="width:550">
-<ol>
 
-<li><strong>Protein functional hierarchy</strong><br>
+<h3>References</h3>
 
-The functional hierarchy is based on KEGG's functional hierarchy, but
-has been manually adapted. In the downloadable file, the same KEGG
-Orthology ID may still appear in several functional categories.
-<br><a href="data/KO_hierarchy.tms">[Download hierarchy tree]</a>
-<br><a href="data/KO_organism_mapping.zip">[Download ID mapping files]</a>
-<p/>
-</li>
+<p>
+<ol type="circle">
+<li>Kanehisa, M., Goto, S., Kawashima, S., Okuno, Y.,
+and Hattori, M. (2004).<br> The KEGG resource for deciphering the genome.
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/14681412"><br>
+Nucleic Acids Research 32, D277-280</a>.</li><br>
 
- <li><strong>Abundance values for protein categories</strong><br>
+<li>Otto, A., Bernhardt, J., Meyer, H., Schaffer, M.,
+Herbst, F.-A., Siebourg, J., M&auml;der, U., Lalk, M., Hecker, M., and
+Becher, D. (2010).<br> Systems-wide temporal proteomic profiling in
+glucose-starved Bacillus subtilis.<br>
+<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105300/">
+Nature Communications 1, 137</a>.</li><br>
 
-Abundance values for single proteins can be downloaded from the proteomaps home page. 
-Here you can download abundance values for protein categories for a selection of data sets. 
-In the files, protein abundances (possibly , weighted by protein chain lengths) are
-normalised by their total value. Sub-categories (first column) are 
-marked by "-" (2nd level categories) and "--" (3rd level categories).
-<br><a href="data/category_abundance.csv">[Download protein abundances]</a>
-<br><a href="data/category_cost.csv">[Download protein abundances (length-weighted)]</a>
-<p/>
-</li>
-
-<li><strong>Protein abundance ratios between functional categories</strong><br>
-Protein abundances are weighted by protein chain lengths.
-<br><a href="data/category_cost_ratios.csv">[Download abundance ratios ]</a>
-<br><a href="data/category_cost_ratios.csv">[Download abundance ratios (length-weighted)]</a>
-<p/>
-</li>
-
-<li><strong>Protein abundance ratios (ranges obtained from permutation test)</strong><br> 
-
-Instead of choosing, for each protein, the primary functional
-annotation, one of the possible annotations for this protein was
-chosen randomly. From 1000 such subsampled KEGG Orthology trees, we
-can estimate how different choices of the primary annotations would
-affect the weighted abundances of functional categories. The files
-contain, for each abundance value, the 10% quantile, the median, and
-the 90% quantile for a selection of data sets.
-
-<br>  <a href="data/category_abundance_ratios_quantiles.csv"> [Download abundance quantiles]</a>
-<br>  <a href="data/category_cost_ratios_quantiles.csv"> [Download abundance quantiles (length-weighted)]</a>
+<li>
+Bernhardt J, Funke S, Hecker M, Siebourg J (2009)<br>
+ in Sixth International Symposium on
+Voronoi Diagrams, pp 233-241.</li>
+</ol>
 </p>
 
-</li>
-</ol>
-
-</td></tr>
-</table>
-
+<a name="reference"/>
 <h3>Citing proteomaps</h3>
 
-<p>To cite proteomaps in scientific publications, please refer to:</p>
+<p>To cite proteomaps in publications, please refer to:</p>
 
 <p>
 <a href="http://www.pnas.org/cgi/doi/10.1073/pnas.1314810111" target ="_blank">
  Visual account of protein investment in cellular functions</a><br>
 Liebermeister W., Noor  E.,  Flamholz A., Davidi D., Bernhardt J., and
- Milo R. (2014), PNAS Early edition
+ Milo R. (2014), PNAS 111 (23), 8488-8493.
 </p>
 
-<h3>References</h3>
+<a name="contact"/>
+<h3>Contact</h3>
 
-<p style="width:700">Kanehisa, M., Goto, S., Kawashima, S., Okuno, Y.,
-and Hattori, M. (2004). The KEGG resource for deciphering the genome.
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/14681412">
-Nucleic Acids Research 32, D277-280</a>.</p>
+<p>
+<ol type="circle">
+  <li>  <a href="http://www.weizmann.ac.il/plants/Milo/" target="_blank">Ron Milo</a>, Weizmann Institute of Science </li>
+  <li>  <a href="http://jaguar.biologie.hu-berlin.de/~wolfram/" target="_blank">Wolfram Liebermeister</a>,
+      Charit&eacute; - Universit&auml;tsmedizin Berlin</li>
+  <li>  <a href="http://www.mikrobiologie.uni-greifswald.de/index.php?id=21">J&ouml;rg Bernhardt</a>, Universit&auml;t Greifswald</li>
+</ol>
+</p>
 
-<p style="width:700">Otto, A., Bernhardt, J., Meyer, H., Schaffer, M.,
-Herbst, F.-A., Siebourg, J., M&auml;der, U., Lalk, M., Hecker, M., and
-Becher, D. (2010). Systems-wide temporal proteomic profiling in
-glucose-starved Bacillus subtilis.
-<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105300/">
-Nature Communications 1, 137</a>.</p>
+<br> 
+<hr>
+<p style="font-size:11pt; width:450;">
+  <a href="./index.html">Main</a> |
+  <a href="./help.html">Help</a> |
+  Method | 
+  <a href="./download.html">Data</a> |
+  <a href="./methods.html#reference">Reference</a> |
+  <a href="./methods.html#contact">Contact</a>
+</p>
 
-<p style="width:700">
-Bernhardt J, Funke S, Hecker M, Siebourg J (2009) in Sixth International Symposium on
-Voronoi Diagrams, pp 233-241.</p>
+    <map name="proteins">
+       <area shape="poly" coords="54,0,180,0,178,16,63,16," alt="Transcription" title="Transcription
+Estimated copy number: ~ 1.0 * 10^5
+Fraction by copy number:3.4 percent
+Fraction by mass:3.1 percent">
+       <area shape="poly" coords="204,52,196,111,28,110,63,16,178,16," alt="Translation" title="Translation
+Estimated copy number: ~ 1.1 * 10^6
+Fraction by copy number:37 percent
+Fraction by mass:23 percent">
+       <area shape="poly" coords="54,0,63,16,28,110,0,109,0,0," alt="Folding, Sorting and Degradation" title="Folding, Sorting and Degradation
+Estimated copy number: ~ 2.5 * 10^5
+Fraction by copy number:8.3 percent
+Fraction by mass:8.3 percent">
+       <area shape="poly" coords="180,0,211,0,204,52,178,16," alt="DNA Maintenance" title="DNA Maintenance
+Estimated copy number: ~ 60000
+Fraction by copy number:2.0 percent
+Fraction by mass:1.5 percent">
+       <area shape="poly" coords="255,166,255,208,246,207,245,168," alt="Signal Transduction" title="Signal Transduction
+Estimated copy number: ~ 22000
+Fraction by copy number:0.73 percent
+Fraction by mass:0.55 percent">
+       <area shape="poly" coords="255,232,255,236,252,235," alt="Vesicular Transport" title="Vesicular Transport
+Estimated copy number: ~ 490
+Fraction by copy number:0.016 percent
+Fraction by mass:0.010 percent">
+       <area shape="poly" coords="255,236,255,255,244,255,242,238,252,235," alt="Cytoskeleton" title="Cytoskeleton
+Estimated copy number: ~ 9400
+Fraction by copy number:0.31 percent
+Fraction by mass:0.33 percent">
+       <area shape="poly" coords="255,232,252,235,242,238,238,237,246,207,255,208," alt="Cell Motility" title="Cell Motility
+Estimated copy number: ~ 17000
+Fraction by copy number:0.55 percent
+Fraction by mass:0.53 percent">
+       <area shape="poly" coords="244,255,233,255,238,237,242,238," alt="Cell Growth and Death" title="Cell Growth and Death
+Estimated copy number: ~ 4900
+Fraction by copy number:0.16 percent
+Fraction by mass:0.20 percent">
+       <area shape="poly" coords="245,177,246,207,233,255,140,255," alt="Membrane Transport" title="Membrane Transport
+Estimated copy number: ~ 1.7 * 10^5
+Fraction by copy number:5.5 percent
+Fraction by mass:6.1 percent">
+       <area shape="poly" coords="143,111,196,111,245,168,245,177,140,255,139,255,110,211," alt="Central Carbon Metabolism" title="Central Carbon Metabolism
+Estimated copy number: ~ 3.6 * 10^5
+Fraction by copy number:12 percent
+Fraction by mass:19 percent">
+       <area shape="poly" coords="139,255,81,255,78,229,110,211," alt="Energy Metabolism" title="Energy Metabolism
+Estimated copy number: ~ 60000
+Fraction by copy number:2.0 percent
+Fraction by mass:2.5 percent">
+       <area shape="poly" coords="143,111,110,211,78,229,0,222,0,109," alt="Biosynthesis" title="Biosynthesis
+Estimated copy number: ~ 5.2 * 10^5
+Fraction by copy number:17 percent
+Fraction by mass:23 percent">
+       <area shape="poly" coords="0,222,78,229,81,255,0,255," alt="Other Enzymes" title="Other Enzymes
+Estimated copy number: ~ 1.2 * 10^5
+Fraction by copy number:3.9 percent
+Fraction by mass:3.6 percent">
+       <area shape="poly" coords="211,0,255,0,255,166,245,168,196,111," alt="Not Mapped" title="Not Mapped
+Estimated copy number: ~ 2.2 * 10^5
+Fraction by copy number:7.5 percent
+Fraction by mass:9.2 percent">
+     </map>
+
 
   </body>
 </html>

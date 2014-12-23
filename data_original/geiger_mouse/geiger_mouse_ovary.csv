@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Ovary'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Ovary'
 !ProteinIdentifier	!Abundance
 17196	12337.7142857
 69187	2702.97142857

@@ -1,0 +1,14 @@
+!!SBtab SBtabVersion='0.1' TableType='Organism' TableName='Proteomaps organism file'
+!Organism	!Organism:KEGG	!ProteinIdentifierType	!EnolaseExample	!ProteinIdentifierURL
+Mycoplasma pneumoniae	mpn	Locus tag	MPN606	www.ncbi.nlm.nih.gov/gene/?term=
+Mycobacterium tuberculosis	mtu	Locus tag	Rv1023	www.genome.jp/dbget-bin/www_bget?mtu:
+Escherichia coli	eco	Locus tag	b2779	www.genome.jp/dbget-bin/www_bget?eco:
+Synechococcus elongatus sp. PCC7942	syf	CyanoBase	Synpcc7942_0639	genome.microbedb.jp/cyanobase/SYNPCC7942/genes/
+Synechocystis sp. 6803	syn	CyanoBase	slr0752	genome.microbedb.jp/cyanobase/Synechocystis/genes/
+Saccharomyces cerevisiae	sce	Locus tag	YHR174W	identifiers.org/sgd/
+Schizosaccharomyces pombe	spo	PomBase	SPBC1815.01	www.pombase.org/spombe/result/
+Arabidopsis thaliana	ath	Tair	AT1G74030.1	www.arabidopsis.org/servlets/TairObject?type=locus&name=
+Drosophila melanogaster	dme	FlyBase	CG17654	www.genome.jp/dbget-bin/www_bget?dme:
+Mus musculus	mmu	NCBI Gene Id	13806	www.ncbi.nlm.nih.gov/gene/
+Pan troglodytes	hsa	UniProt	P06733	identifiers.org/uniprot/
+Homo sapiens	hsa	UniProt	P06733	identifiers.org/uniprot/

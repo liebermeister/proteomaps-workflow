@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='eco'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 b1511	13.0	3.9175683352	4550.0	4.58283818495	350	LsrK	K11216	Other enzymes
 b3933	15.0	4.520271156	4785.0	4.81953422307	319.0	FtsN	K03591	Chromosome-related
 b4170	18.0	5.4243253872	11070.0	11.1498942214	615.0	MutL	K03572	Mismatch repair

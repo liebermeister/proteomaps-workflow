@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Duodenum'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Duodenum'
 !ProteinIdentifier	!Abundance
 17196	248571.428571
 69187	3914285.71429

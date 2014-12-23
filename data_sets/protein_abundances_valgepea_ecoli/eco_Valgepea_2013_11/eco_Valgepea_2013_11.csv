@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='eco'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 b0878	7.0	3.27685594099	2450.0	3.72300939566	350			
 b0948	12.0	5.61746732741	8424.0	12.8010739384	702.0	RlmL	K12297	Ribosome biogenesis
 b3933	12.0	5.61746732741	3828.0	5.81701223126	319.0	FtsN	K03591	Chromosome-related

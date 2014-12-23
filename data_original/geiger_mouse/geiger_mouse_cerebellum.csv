@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Cerebellum'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Cerebellum'
 !ProteinIdentifier	!Abundance
 17196	52285714.2857
 69187	50571.4285714

@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='syn'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 slr0161	823.274	823.274024698	352361.27	1259.93156006	428.0	PilT	K02669	Bacterial motility proteins
 sll1767	436.268	436.268013088	49298.284	176.274946076	113.0	Rps6	K02990	Ribosome
 sll1418	508.095	508.095015243	177833.25	635.875004377	350	sll1418	K02717	Photosynthesis

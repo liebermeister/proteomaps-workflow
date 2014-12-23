@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' Condition='Intensity L Lung'
+!!SBtab TableType='Proteomaps' Organism='mmu' ValueType='Intensity L' Tissue='Lung'
 !ProteinIdentifier	!Abundance
 17196	103142.857143
 69187	1464.71428571

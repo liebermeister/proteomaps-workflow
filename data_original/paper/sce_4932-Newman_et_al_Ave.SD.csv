@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps'
+!!SBtab TableType='Proteomaps' Organism='sce' Condition='Minimal medium'
 !ProteinIdentifier	!Abundance
 YAL005C	14053.195
 YAL007C	210.07

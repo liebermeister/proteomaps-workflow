@@ -1,4 +1,5 @@
-Systematic name	Abundance (data value)	Abundance [ppm]	Size-weighted abundance	Size-weighted abundance [ppm]	Size	Gene name	KO number	KO category
+!!SBtab TableType='Proteomaps' Organism='mmu'
+!ProteinIdentifier	!Abundance[original])	!Abundance[ppm]	!SizeWeightedAbundance[original]	!SizeWeightedAbundance[ppm]	!ProteinSize	!ProteinName	!Identifiers:kegg.orthology	!Pathway
 17196	67142857.0	20654.9998005	23500000000.0	20246.4690529	350	Mbp		Myelin
 69187	22665.143	6.9724248425	7932800.0	6.83451871078	350			
 12954	678571.43	208.747339293	133000000.0	114.586399321	196.0	Cryaa	K09541	Crystallins

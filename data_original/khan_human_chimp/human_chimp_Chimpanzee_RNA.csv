@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/' Condition='RNA rpkm.chimp'
+!!SBtab TableType='Proteomaps' Organism='hsa' ProteinIdentifier='http://identifiers.org/uniprot/' ValueType='RNA rpkm.chimp'
 !ProteinIdentifier	!Abundance
 P04406	1639.29
 P07737	1454.05

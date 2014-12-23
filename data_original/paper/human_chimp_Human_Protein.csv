@@ -1,4 +1,4 @@
-!!SBtab TableType='Proteomaps' ProteinIdentifier='http://identifiers.org/uniprot/' Condition='Protein ibaq.human'
+!!SBtab TableType='Proteomaps' Organism='hsa' ProteinIdentifier='http://identifiers.org/uniprot/' ValueType='Protein ibaq.human'
 !ProteinIdentifier	!Abundance
 P04406	193393368.895932
 P07737	108516422.334777

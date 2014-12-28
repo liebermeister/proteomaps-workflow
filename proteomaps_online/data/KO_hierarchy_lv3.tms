@@ -1,0 +1,294 @@
+Genetic Information Processing
+	Transcription
+		RNA polymerase
+		Basal transcription factors
+		Transcription factors
+		Spliceosome
+	Translation
+		Ribosome
+		Translation factors
+		tRNA loading
+		RNA transport
+		mRNA surveillance pathway
+		Ribosome biogenesis in eukaryotes
+		Ribosome biogenesis
+	Folding, Sorting and Degradation
+		Protease inhibitors
+		Proteases
+		Chaperones and folding catalysts
+		Protein export
+		Protein processing in endoplasmic reticulum
+		SNARE interactions in vesicular transport
+		SNAREs
+		Ubiquitin mediated proteolysis
+		Ubiquitin labeling
+		Sulfur relay system
+		Proteasome
+		Peptidases
+		RNA degradation
+	DNA Maintenance
+		DNA replication
+		DNA replication complex
+		DNA replication control
+		Chromosome-related
+		Base excision repair
+		Nucleotide excision repair
+		Mismatch repair
+		Homologous recombination
+		Non-homologous end-joining
+		DNA repair and recombination proteins
+	RNA Family
+		Non-coding RNAs
+Environmental Information Processing
+	Signal Transduction
+		Ras signaling pathway
+		Rap1 signaling pathway
+		Hippo signaling pathway
+		NF-kappa B signaling pathway
+		TNF signaling pathway
+		HIF-1 signaling pathway
+		PI3K-Akt signaling pathway
+		FoxO signaling pathway
+		Other signaling pathways
+		Two-component system
+		MAPK signaling pathway
+		ErbB signaling pathway
+		Wnt signaling pathway
+		Notch signaling pathway
+		Hedgehog signaling pathway
+		TGF-beta signaling pathway
+		VEGF signaling pathway
+		Jak-STAT signaling pathway
+		Calcium signaling pathway
+		Phosphatidylinositol signaling system
+		mTOR signaling pathway
+		Plant hormone signal transduction
+	Signaling Molecules and Interaction
+		Signaling molecules
+		Insulin secretion
+		Steroid hormone biosynthesis
+		G protein-coupled receptors
+		Enzyme-linked receptors
+		Cytokine receptors
+		Nuclear receptors
+		Ion channels
+		Neuroactive ligand-receptor interaction
+		Cytokine-cytokine receptor interaction
+		Cytokines
+		ECM-receptor interaction
+		Cell adhesion molecules (CAMs)
+		CAM ligands
+		Cellular antigens
+		GTP-binding signaling proteins
+		Glycan binding proteins
+		Bacterial toxins
+Cellular Processes
+	Crystallins
+		Crystallins
+	Stress Response
+		Stress response
+	Vesicular Transport
+		Motor proteins
+		Endocytosis
+		Phagosome
+		Lysosome
+		Peroxisome
+		Regulation of autophagy
+	Cytoskeleton
+		Regulation of actin cytoskeleton
+		Cytoskeleton proteins
+	Cell Motility
+		Bacterial chemotaxis
+		Bacterial motility proteins
+		Flagellar assembly
+	Cell Growth and Death
+		Nuclear membrane
+		Cell cycle
+		Cell cycle - Caulobacter
+		Cytokinesis
+		Meiosis
+		Oocyte meiosis
+		Apoptosis
+		p53 signaling pathway
+		Cell wall
+	Cell Communication
+		Focal adhesion
+		Adherens junction
+		Tight junction
+		Gap junction
+Metabolism
+	Membrane Transport
+		Transport
+		Phosphotransferase system (PTS)
+		Bacterial secretion system
+		Secretion system
+	Central Carbon Metabolism
+		Glycolysis
+		TCA cycle and anaplerotic enzymes
+		Pentose phosphate metabolism
+		Carbohydrate metabolism
+		Pyruvate metabolism
+		Butanoate metabolism
+		C5-Branched dibasic acid metabolism
+		Other central metabolism enzymes
+	Energy Metabolism
+		Oxidative phosphorylation
+		Photosynthesis
+		Photosynthesis - antenna proteins
+		Carbon fixation in photosynthetic organisms
+		Carbon fixation pathways in prokaryotes
+		Methane metabolism
+	Biosynthesis
+		Lipid and steroid metabolism
+		Purine metabolism
+		Pyrimidine metabolism
+		Amino acid metabolism
+		Glycan metabolism
+		Cofactor biosynthesis
+		Biosynthesis of other secondary metabolites
+	Other Enzymes
+		Other enzymes
+		Protein kinases
+		Cytochrome P450
+Organismal Systems
+	Immune System
+		Immunoglobulins
+		Response to viral infection
+		Hematopoietic cell lineage
+		Complement and coagulation cascades
+		Toll-like receptor signaling pathway
+		NOD-like receptor signaling pathway
+		RIG-I-like receptor signaling pathway
+		Cytosolic DNA-sensing pathway
+		Natural killer cell mediated cytotoxicity
+		Antigen processing and presentation
+		T cell receptor signaling pathway
+		B cell receptor signaling pathway
+		Fc epsilon RI signaling pathway
+		Fc gamma R-mediated phagocytosis
+		Leukocyte transendothelial migration
+		Intestinal immune network for IgA production
+		Chemokine signaling pathway
+	Endocrine System
+		Insulin signaling pathway
+		Adipocytokine signaling pathway
+		PPAR signaling pathway
+		GnRH signaling pathway
+		Progesterone-mediated oocyte maturation
+		Melanogenesis
+		Renin-angiotensin system
+	Circulatory System
+		Blood proteins
+		Hemoglobin
+		Cardiac muscle contraction
+		Vascular smooth muscle contraction
+	Digestive System
+		Salivary secretion
+		Gastric acid secretion
+		Pancreatic secretion
+		Bile secretion
+		Carbohydrate digestion and absorption
+		Protein digestion and absorption
+		Fat digestion and absorption
+		Vitamin digestion and absorption
+		Mineral absorption
+	Excretory System
+		Vasopressin-regulated water reabsorption
+		Aldosterone-regulated sodium reabsorption
+		Endocrine and other factor-regulated calcium reabsorption
+		Proximal tubule bicarbonate reclamation
+		Collecting duct acid secretion
+	Nervous System
+		Myelin
+		Synaptic vesicle cycle
+		GABAergic synapse
+		Serotonergic synapse
+		Dopaminergic synapse
+		Glutamatergic synapse
+		Cholinergic synapse
+		Long-term potentiation
+		Long-term depression
+		Neurotrophin signaling pathway
+	Sensory System
+		Phototransduction
+		Phototransduction - fly
+		Olfactory transduction
+		Taste transduction
+	Development
+		Dorso-ventral axis formation
+		Axon guidance
+		Osteoclast differentiation
+	Environmental Adaptation
+		Circadian rhythm
+		Circadian rhythm - mammal
+		Circadian rhythm - fly
+		Circadian rhythm - plant
+		Plant-pathogen interaction
+Human Diseases
+	Cancers
+		Proteoglycans in cancer
+		MicroRNAs in cancer
+		Transcriptional misregulation in cancer
+		Viral carcinogenesis
+		Pathways in cancer
+		Colorectal cancer
+		Pancreatic cancer
+		Glioma
+		Thyroid cancer
+		Acute myeloid leukemia
+		Chronic myeloid leukemia
+		Basal cell carcinoma
+		Melanoma
+		Renal cell carcinoma
+		Bladder cancer
+		Prostate cancer
+		Endometrial cancer
+		Small cell lung cancer
+		Non-small cell lung cancer
+	Immune System Diseases
+		Asthma
+		Systemic lupus erythematosus
+		Rheumatoid arthritis
+		Autoimmune thyroid disease
+		Allograft rejection
+		Graft-versus-host disease
+		Primary immunodeficiency
+	Neurodegenerative Diseases
+		Alzheimer's disease
+		Parkinson's disease
+		Amyotrophic lateral sclerosis (ALS)
+		Huntington's disease
+		Prion diseases
+	Cardiovascular Diseases
+		Hypertrophic cardiomyopathy (HCM)
+		Arrhythmogenic right ventricular cardiomyopathy (ARVC)
+		Dilated cardiomyopathy (DCM)
+		Viral myocarditis
+	Metabolic Diseases
+		Type I diabetes mellitus
+		Type II diabetes mellitus
+		Maturity onset diabetes of the young
+	Infectious Diseases
+		HTLV-I infection
+		Epstein-Barr virus infection
+		Legionellosis
+		Herpes simplex infection
+		Salmonella infection
+		Vibrio cholerae infection
+		Vibrio cholerae pathogenic cycle
+		Epithelial cell signaling in Helicobacter pylori infection
+		Pathogenic Escherichia coli infection
+		Shigellosis
+		Pertussis
+		Staphylococcus aureus infection
+		Tuberculosis
+		Bacterial invasion of epithelial cells
+		Measles
+		Influenza A
+		Hepatitis C
+		Amoebiasis
+		Malaria
+		Toxoplasmosis
+		Leishmaniasis
+		Chagas disease (American trypanosomiasis)
+		African trypanosomiasis

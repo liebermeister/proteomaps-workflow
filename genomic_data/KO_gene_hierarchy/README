@@ -5,7 +5,6 @@ Please do not change!
 Original versions are still maintained by Wolf
 ------------------------------------------
 
-
 Directory KO_gene_hierarchy: Data about the KEGG Pathways Hierarchy
 
   o File KO_gene_hierarchy/KO_gene_hierarchy_general.tms    Original KEGG tree in tms (proteomaps) format

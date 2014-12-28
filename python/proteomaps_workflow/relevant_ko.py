@@ -2,14 +2,13 @@ import re
 import os
 from proteomaps_path_names import proteomaps_path_names
 
-#########################################################################
+# -----------------------------------------------------
 
 class relevant_ko:
 
   def __init__(self,data_dir):
     self.pp = proteomaps_path_names(data_dir)
     self.INFILE_ANNOTATION_CHANGES = self.pp.INFILE_ANNOTATION_CHANGES  
-
 
   def get_added_ko(self):    
     # list of additional ko numbers (from annotation changes file)
@@ -29,7 +28,6 @@ class relevant_ko:
         my_added_ko.append(my_ko)
     f.close()
     return my_added_ko
-
 
   def get_added_ko_dictionary(self):
     # list of additional ko numbers (from annotation changes file)
@@ -52,9 +50,10 @@ class relevant_ko:
     f.close()
     return my_added_ko
 
-
   def get_added_ko_2(self,pathways_in_hierarchy):
     # more elaborate version of get_added_ko, needed for some purposes
+    # list of additional ko numbers (from annotation changes file)
+
     added_ko_2_pathway  = {}
     
     f    = open(self.pp.INFILE_ANNOTATION_CHANGES, 'r')
@@ -64,10 +63,17 @@ class relevant_ko:
         my_organism   = q[0]
         my_systematic = q[1]
         my_ko         = q[3]
+        my_pathway    = q[4]
+        if len(q)>5:
+          my_comment    = q[5]
+        else:
+          my_comment    = ""
         if len(my_ko) == 0:
             my_ko = my_organism + "_" + my_systematic
-        my_pathway  = q[4]
         if my_organism in self.pp.get_organism_list():
+            if my_pathway in pathways_in_hierarchy:
+                added_ko_2_pathway[my_ko] = my_pathway
+        elif not(my_comment[0:16]=="KEGG web services"):
             if my_pathway in pathways_in_hierarchy:
                 added_ko_2_pathway[my_ko] = my_pathway
     f.close()
@@ -83,7 +89,6 @@ class relevant_ko:
         else:
             my_added_ko[my_pathway] = [my_ko]
     return my_added_ko, all_added_ko
-
 
   def all_relevant_ko(self):
     # (set of) all ko numbers that appear in annotation changes file or data files

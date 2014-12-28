@@ -16,7 +16,7 @@ def organism_standardised_hierarchy(data_dir):
   
   organism_list  = pp.get_organism_list()
   my_relevant_ko = rk.all_relevant_ko()
-  ko_to_genes   = hh.get_ko_mapping_one(organism_list,my_relevant_ko)
+  ko_to_genes    = hh.get_ko_mapping_one(organism_list,my_relevant_ko)
   
   # -------------------------------------------------------------
   

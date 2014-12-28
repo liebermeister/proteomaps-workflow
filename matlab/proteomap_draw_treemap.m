@@ -15,7 +15,7 @@ function proteomap_draw_treemap(ko_tree,cumulative_values,data_sets_short,option
 % options.split_direction    = 'flexible'; % overridden by fixed arrangement
 % options.color_file         = [data_directory '/hierarchy/KO_color_table.csv'];
 % options.output_directory   = directory for picture files
-% options.show_level         = 2; level for categorie labels
+% options.show_level         = 2; level for category labels
 
 % ------------------------------------------------
 % further options
@@ -67,8 +67,8 @@ for itt = 1:length(data_sets_short),
  
   if length(options.output_directory),
     cd(options.output_directory);
-    exportfig(itt,['proteomap_' strrep(data_set_short,' ','_') '.eps'],'Color','rgb')
-    display(['Writing graphics to file ', options.output_directory, '/proteomap_' strrep(data_set_short,' ','_') '.eps']);
+    exportfig(itt,['proteomap_' strrep(data_set_short,' ','_') '_lv' num2str(options.show_level) '.eps'],'Color','rgb')
+    display(['Writing graphics to file ', options.output_directory, '/proteomap_' strrep(data_set_short,' ','_') '_lv' num2str(options.show_level) '.eps']);
   end
   
   title(data_set_short)

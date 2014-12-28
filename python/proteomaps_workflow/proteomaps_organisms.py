@@ -19,7 +19,7 @@ class proteomaps_organisms:
     fi = open(self.organism_information_file, 'r')
     igot = fi.readlines()
     for line in igot[2:]:
-      [name,shortname,id_type,example_enolase,url] = re.split('\t',line.strip())
+      [name,shortname,id_type,example_enolase,url,protsize] = re.split('\t',line.strip())
       #print name + " " + shortname + " " + id_type + " " + example_enolase + " " + url
       self.organisms.append(shortname)
       self.data[shortname] = {}
@@ -27,6 +27,7 @@ class proteomaps_organisms:
       self.data[shortname]['id_type'] = id_type
       self.data[shortname]['url'] = url
       self.data[shortname]['example_enolase'] = example_enolase
+      self.data[shortname]['protsize'] = int(protsize)
       
 #a = proteomaps_organisms()
 #print a.organisms

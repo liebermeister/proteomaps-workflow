@@ -144,6 +144,7 @@ def make_csv_tables(data_dir):
       fo_abundance = open(outfile,"w")
       fo_abundance.write("!!SBtab TableType='Proteomaps'")
       fo_abundance.write(" Organism='" + my_organism + "'")
+      fo_abundance.write(" DefaultProteinLength='350'")
       if not(my_organism in po.organisms):
         error('Unknown organism')
       else:
@@ -156,7 +157,7 @@ def make_csv_tables(data_dir):
         if systematic in systematic_to_length:
           length = systematic_to_length[systematic]
         else:
-          length = '350'
+          length = '' # '350'
   
         # extra information (right columns)
         wline_end = str(length)

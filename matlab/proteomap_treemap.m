@@ -25,6 +25,9 @@ options.fixed_arrangement = 1;
 options.split_direction   = 'flexible'; % overridden by fixed arrangement
 options.color_file        = [data_directory '/hierarchy/KO_color_table.csv'];
 options.output_directory  =  '~/projekte/protein_abundance/ps-files/rectangular_proteomaps';
-options.show_level        = 3;
 
+options.show_level        = 2;
+proteomap_draw_treemap(ko_tree, cumulative_value, protein_data.data_sets_short, options);
+
+options.show_level        = 3;
 proteomap_draw_treemap(ko_tree, cumulative_value, protein_data.data_sets_short, options);

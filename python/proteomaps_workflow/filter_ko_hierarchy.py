@@ -22,15 +22,24 @@ def filter_ko_hierarchy(data_dir):
   hh = proteomaps_hierarchy(data_dir)
   rk = relevant_ko(data_dir)
 
-  my_relevant_ko        = rk.read_relevant_ko(pp.FILE_RELEVANT_KO)
-  pathways_in_hierarchy = hh.get_pathways_in_original_hierarchy()
+  INFILE_KO_HIERARCHY_FILE    = pp.INFILE_KO_HIERARCHY_FILE
+  OUTFILE_KO_HIERARCHY_FILE_1 = pp.OUTFILE_KO_HIERARCHY_FILE_1
+  OUTFILE_KO_HIERARCHY_FILE_2 = pp.OUTFILE_KO_HIERARCHY_FILE_2
+  FILE_RELEVANT_KO            = pp.FILE_RELEVANT_KO
   
-  # -----------------------------------------------------------
+  pathways_in_hierarchy = hh.get_pathways_in_original_hierarchy()
+  my_relevant_ko        = rk.read_relevant_ko(FILE_RELEVANT_KO)
+  
   # read file KO_gene_hierarchy_changes.csv containing genes to be added to the hierarchy
   # (overriding possibly existing entries)
-  
+
   [my_added_ko, all_added_ko] = rk.get_added_ko_2(pathways_in_hierarchy)
-  
+
+  filter_ko_hierarchy_from_files(INFILE_KO_HIERARCHY_FILE,OUTFILE_KO_HIERARCHY_FILE_1,OUTFILE_KO_HIERARCHY_FILE_2,my_relevant_ko,my_added_ko,all_added_ko)
+
+def filter_ko_hierarchy_from_files(INFILE_KO_HIERARCHY_FILE,OUTFILE_KO_HIERARCHY_FILE_1,OUTFILE_KO_HIERARCHY_FILE_2,my_relevant_ko,my_added_ko,all_added_ko):
+  # Argument my_relevant_ko can be empty list -> then all KO numbers are accepted 
+
   # -----------------------------------------------------------
   # go through hierarchy and write all lines that are
   #  - either no KO numbers
@@ -40,8 +49,17 @@ def filter_ko_hierarchy(data_dir):
   ko_appeared_already = []
   outlines            = []
   levels              = []
-  
-  fi = open(pp.INFILE_KO_HIERARCHY_FILE, 'r')
+
+  # if list 'my_relevant_ko' is empty: accept any KO numbers:
+  if len(my_relevant_ko)==0:
+    my_relevant_ko = all_added_ko
+    my_relevant_ko = []
+    fi = open(INFILE_KO_HIERARCHY_FILE, 'r')
+    igot = fi.readlines()
+    for line in igot:
+      my_relevant_ko.append(line.strip())
+
+  fi = open(INFILE_KO_HIERARCHY_FILE, 'r')
   igot = fi.readlines()
   
   for line in igot:
@@ -74,12 +92,11 @@ def filter_ko_hierarchy(data_dir):
   levels.append(0)
   levels.append(0)
   
-  
   # --------------------------------------------------------
   # write out result
   
-  fo  = open(pp.OUTFILE_KO_HIERARCHY_FILE_1, 'w')
-  fop = open(pp.OUTFILE_KO_HIERARCHY_FILE_2, 'w')
+  fo  = open(OUTFILE_KO_HIERARCHY_FILE_1, 'w')
+  fop = open(OUTFILE_KO_HIERARCHY_FILE_2, 'w')
   
   is_ok    = len(outlines) * [0]
   ok_level = 0

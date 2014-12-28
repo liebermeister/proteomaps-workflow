@@ -492,7 +492,6 @@ Genetic Information Processing
 			K03402
 			K02565
 			K02562
-			K03704
 			K03764
 			K03705
 			K03721
@@ -648,6 +647,7 @@ Genetic Information Processing
 			K02950
 			K02902
 			K02959
+			sce_YMR116C
 			K02992
 			K02991
 			K02990
@@ -1106,6 +1106,7 @@ Genetic Information Processing
 			K04079
 			K03283
 			sce_YKL117W
+			K03704
 			K09485
 			K09486
 			K03694
@@ -3368,7 +3369,6 @@ Environmental Information Processing
 			K00921
 			K00923
 			K10572
-			K00981
 			K00999
 			K01092
 			K01099
@@ -3653,7 +3653,6 @@ Environmental Information Processing
 			K06266
 			K06267
 		Cell adhesion molecules (CAMs)
-			mpn_MPN453
 			K06088
 			K06492
 			K06449
@@ -4279,6 +4278,7 @@ Cellular Processes
 			sce_YKL052C
 			hsa_Q9C0K3
 			hsa_P63313
+			sce_YPL124W
 			hsa_Q562T3
 			hsa_Q96FU6
 			hsa_Q562T0
@@ -4438,7 +4438,6 @@ Cellular Processes
 			hsa_Q562R3
 			hsa_B2RDG9
 			hsa_Q562R8
-			sce_YPL124W
 			sce_YGL075C
 			sce_YGR113W
 			sce_YKR037C
@@ -4591,6 +4590,7 @@ Cellular Processes
 			K10436
 	Cell Motility
 		Bacterial chemotaxis
+			K02424
 			K10439
 			K03414
 			K02410
@@ -4598,6 +4598,7 @@ Cellular Processes
 			K02417
 			K02557
 		Bacterial motility proteins
+			mpn_MPN453
 			K02406
 			K02411
 			K02412
@@ -4630,7 +4631,6 @@ Cellular Processes
 			K02413
 			K02422
 			K02423
-			K02424
 			K02425
 			K02669
 			K07345
@@ -4692,7 +4692,6 @@ Cellular Processes
 			K06665
 			K06666
 		Meiosis
-			K08139
 			K12761
 			K01768
 			K12763
@@ -4846,13 +4845,16 @@ Cellular Processes
 			K07376
 Metabolism
 	Membrane Transport
-		Transporters
+		Transport
 			K01104
 			K09476
 			K10108
 			eco_b0957
 			K12368
 			K15040
+			K01535
+			K01537
+			K08139
 			K09475
 			K10540
 			K05641
@@ -5721,7 +5723,6 @@ Metabolism
 			K02142
 			K02143
 			K02140
-			K01535
 			K01542
 			K01543
 			K01544
@@ -5756,6 +5757,7 @@ Metabolism
 		Lipid and steroid metabolism
 			K17728
 			K00507
+			K00981
 			K00864
 			K15717
 			K14675
@@ -6154,7 +6156,6 @@ Metabolism
 			K01649
 			sce_YIL051C
 			sce_YAL044C
-			K00547
 			K02613
 			K00831
 			K01653
@@ -6165,6 +6166,7 @@ Metabolism
 			K00618
 			K00058
 			K00680
+			K00547
 			K02618
 			K02614
 			K09699
@@ -6726,8 +6728,8 @@ Metabolism
 			K06920
 			K02201
 			K00799
-			K14655
 			K01598
+			K14655
 			K00432
 			K00763
 			K11121
@@ -7345,7 +7347,6 @@ Metabolism
 			K01534
 			K01533
 			K01536
-			K01537
 			K01539
 			K12646
 			K12649

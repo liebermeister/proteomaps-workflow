@@ -8313,9 +8313,76 @@ mtu	Rv3837c	phosphoglycerate mutase	K15634	Glycolysis and gluconeogenesis	KEGG w
 mtu	Rv2789c	fadE21	K00257	Geraniol degradation	KEGG web services
 mtu	Rv3274c	fadE25	K00257	Geraniol degradation	KEGG web services
 mtu	Rv3600c	type III pantothenate kinase	K03525	Pantothenate and CoA biosynthesis	KEGG web services
-mtu	Rv1026	hypothetical protein	K01524	Purine metabolism	KEGG web services
 mtu	Rv1021	nucleoside triphosphate pyrophosphohydrolase	K02428	Purine metabolism	KEGG web services
-mtu	Rv2454c	2-oxoglutarate oxidoreductase subunit KorB	K00175	Citrate cycle	KEGG web services
+mtu	Rv2454c	KorB	K00175	Citrate cycle	2-oxoglutarate oxidoreductase subunit  KEGG web services
+mtu	Rv3921c	YidC	K03217	Protein export	membrane protein insertase  KEGG web services
+mtu	Rv2244	acpM	K02078	Lipid and steroid metabolism	
+mtu	Rv2145c	wag31		Biosynthesis of other secondary metabolites	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv2145c
+mtu	Rv1636	TB15.3		Stress response	
+mtu	Rv3028c	fixB	K03522	Other enzymes	
+mtu	Rv3224	Rv3224		Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3224
+mtu	Rv3273	Rv3273	K01673	Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3273
+mtu	Rv0251c	hsp		Chaperones and folding catalysts	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0251c
+mtu	Rv0020c	fhaA		Other signaling pathways	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0020c
+mtu	Rv0186A	mymT		Stress response	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv0186A&submit=Search
+mtu	Rv1479	moxR1	K03924	Transcription factors	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv1479&submit=Search
+mtu	Rv3029c	fixA		Oxidative phosphorylation	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv3029c&submit=Search
+mtu	Rv1826	gcvH	K02437	Amino acid metabolism	
+mtu	Rv2476c	gdh	K15371	Amino acid metabolism	
+mtu	Rv1080c	greA	K03624	Basal transcription factors	
+mtu	Rv2145c	wag31		Biosynthesis of other secondary metabolites	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv2145c
+mtu	Rv0008c	CwsA		Biosynthesis of other secondary metabolites	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0008c
+mtu	Rv0475	hbhA	K16645	CAM ligands	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0475
+mtu	Rv1771		K00103	Carbohydrate metabolism	
+mtu	Rv0017c	rodA		Cell cycle	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0017c
+mtu	Rv0011c	CrgA		Cell cycle	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0011c
+mtu	Rv0251c	hsp		Chaperones and folding catalysts	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0251c
+mtu	Rv2462c	tig		Chaperones and folding catalysts	
+mtu	Rv1388	mihF		Chromosome-related	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv1388
+mtu	Rv3213c	Rv3213c	K03496	Chromosome-related	
+mtu	Rv0984	moaB2		Cofactor biosynthesis	
+mtu	Rv2244	acpM	K02078	Lipid and steroid metabolism	
+mtu	Rv0636	hadB		Lipid and steroid metabolism	
+mtu	Rv1869c	Rv1869c	K00529	Lipid and steroid metabolism	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv1869c
+mtu	Rv3389c	htdY		Lipid and steroid metabolism	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3389c
+mtu	Rv1912c	fadB5		Lipid and steroid metabolism	
+mtu	Rv1543	Rv1543	K00540	Lipid and steroid metabolism	
+mtu	Rv3274c	fadE25	K00257	Lipid and steroid metabolism	
+mtu	Rv3804c	fbpA		Lipid and steroid metabolism	
+mtu	Rv2928	tesA		Lipid and steroid metabolism	
+mtu	Rv0873	fadE10	K00257	Lipid and steroid metabolism	
+mtu	Rv0859	fadA	K00626	Lipid and steroid metabolism	
+mtu	Rv1679	fadE16	K00257	Lipid and steroid metabolism	
+mtu	Rv0129c	fbpC		Lipid and steroid metabolism	
+mtu	Rv3028c	fixB	K03522	Other enzyme	
+mtu	Rv3224	Rv3224		Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3224
+mtu	Rv3273	Rv3273	K01673	Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3273
+mtu	Rv3161c	Rv3161c		Other enzymes	
+mtu	Rv2971	Rv2971		Other enzymes	
+mtu	Rv0216	Rv0216		Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0216
+mtu	Rv0148	Rv0148		Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0148
+mtu	Rv0088	Rv0088		Other enzymes	
+mtu	Rv0044c	Rv0044c		Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0044c
+mtu	Rv2453c	mobA	K03752	Other enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv2453c
+mtu	Rv0045c	Rv0045c	K01567	Other enzymes	
+mtu	Rv0020c	fhaA		Other signaling pathways	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0020c
+mtu	Rv0019c	fhaB		Other signaling pathways	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0019c
+mtu	Rv3029c	fixA		Oxidative phosphorylation	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv3029c&submit=Search
+mtu	Rv2535c	pepQ		Peptidases	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv2535c
+mtu	Rv0125	pepA	K01362	Proteases	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0125
+mtu	Rv1636	TB15.3		Stress response	
+mtu	Rv0186A	mymT		Stress response	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv0186A&submit=Search
+mtu	Rv2429	ahpD	K04756	Stress response	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv2429
+mtu	Rv0248c	Rv0248c	K00239	TCA cycle and anaplerotic enzymes	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0248c
+mtu	Rv1479	moxR1	K03924	Transcription factors	http://tuberculist.epfl.ch/quicksearch.php?gene+name=Rv1479&submit=Search
+mtu	Rv0238	Rv0238		Transcription factors	
+mtu	Rv1423	whiA	K09762	Transcription factors	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv1423
+mtu	Rv0023	Rv0023		Transcription factors	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0023
+mtu	Rv0379	secE2	K09165	Transport	
+mtu	Rv1463	Rv1463	K09013	Transport	
+mtu	Rv3270	ctpC	K12950	Transport	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3270
+mtu	Rv0676c	mmpL5	K06994	Transport	http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0676c
+mtu	Rv0757	phoP	K02483	Two-component system	
 eco	b0741	Pal	K03640	Cell envelope	peptidoglycan-associated outer membrane lipoprotein
 eco	b0814	OmpX	K11934	Cell adhesion molecules (CAMs)
 eco	b3751	RbsB	K10439	Transport    http://www.genome.jp/dbget-bin/www_bget?K10439

@@ -10,7 +10,7 @@ import math
 
 from HTMLParser import HTMLParser
 from proteomaps_PATHNAMES import proteomaps_PATHNAMES
-
+from proteomaps_organisms import proteomaps_organisms
 
 # ======================================================================================
 
@@ -311,9 +311,12 @@ class proteomap_make_one_html_file:
     def scale_to_total_protein_molecule_number(self, organism, amount_fraction):
 
         # see Ron's numbers (email 25/09/13)
-        total_protein_numbers = {'mpn': 50000, 'eco': 3000000, 'syn': 3000000, 'sce': 100000000, 'spo': 300000000, 'ath': 10000000000, 'dme': 10000000000, 'mmu': 10000000000, 'hsa': 10000000000}
+        # total_protein_numbers = {'mpn': 50000, 'eco': 3000000, 'syn': 3000000, 'sce': 100000000, 'spo': 300000000, 'ath': 10000000000, 'dme': 10000000000, 'mmu': 10000000000, 'hsa': 10000000000}
+        #protein_number = total_protein_numbers[organism] * amount_fraction
 
-        protein_number = total_protein_numbers[organism] * amount_fraction
+        po = proteomaps_organisms()
+        protein_number = po.data[organism]['protsize'] * amount_fraction
+
         if protein_number >= 100000:
             protein_number = '%s' % int(round(float('%.2g' % protein_number)))
             exponent_num  = int(math.floor(math.log10(float(protein_number))))

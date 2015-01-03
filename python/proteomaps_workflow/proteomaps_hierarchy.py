@@ -16,7 +16,7 @@ def replace_whitespaces(string):
 
 class proteomaps_hierarchy:
 
-  def __init__(self,data_dir):
+  def __init__(self,data_dir,pp):
 
     # gene name mapping information (combined information from organism mapping and annotation changes file)
     # stored in two dictionaries:
@@ -24,7 +24,7 @@ class proteomaps_hierarchy:
     #  systematic names -> ko numbers
     # make them now:
 
-    pp = proteomaps_path_names(data_dir)
+    #pp = proteomaps_path_names(data_dir)
     self.pp = pp
 
     # get all KO numbers in original hierarchy file

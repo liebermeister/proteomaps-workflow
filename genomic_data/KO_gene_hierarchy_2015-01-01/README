@@ -1,0 +1,19 @@
+------------------------------------------
+General input data for creating proteomaps
+
+Please do not change! 
+Original versions are still maintained by Wolf
+------------------------------------------
+
+Directory KO_gene_hierarchy: Data about the KEGG Pathways Hierarchy
+
+  o File KO_gene_hierarchy/KO_gene_hierarchy.tms            Original KEGG tree in tms (proteomaps) format
+  o File KO_gene_hierarchy/KO_gene_hierarchy_changes.csv    Table with our own gene reannotations
+  o File KO_gene_hierarchy/KO_gene_hierarchy_colors.csv     Table with colors for 2nd-level categories
+
+Directory KO_gene_hierarchy/KO_gene_hierarchy_organism_mapping
+
+  o File [ORGANISM]_mapping.csv contains organism-specific ID mapping 
+    [Systematic name] // [Gene name] // [KO number]
+
+File for L interrogans was contributed by Dan (email 2014-02-13)

@@ -30,14 +30,14 @@ def replace_whitespaces(string):
 
 # ----------------------------------------------
 
-def map_protein_data(data_dir):
+def map_protein_data(data_dir,pp):
 
   # Set default protein length of 350
   standard_length = 350
   
-  pp = proteomaps_path_names(data_dir)
-  rk = relevant_ko(data_dir)
-  hh = proteomaps_hierarchy(data_dir)
+  #pp = proteomaps_path_names(data_dir)
+  rk = relevant_ko(data_dir,pp)
+  hh = proteomaps_hierarchy(data_dir,pp)
   
   systematic_to_gene = hh.systematic_to_gene
   systematic_to_ko   = hh.systematic_to_ko
@@ -145,4 +145,4 @@ def map_protein_data(data_dir):
       fo.write(prot + "\t" + value_string + "\n")
 
 if __name__ == "__main__":
-  map_protein_data(sys.argv[1])
+  map_protein_data(sys.argv[1],sys.argv[2])

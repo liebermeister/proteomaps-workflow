@@ -16,8 +16,9 @@ from proteomaps_html import make_proteomaps_html
 #output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
 #resolution_1     = 2512
 #resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
 #
 ## --------------------------------------------------------------
 ## data set other 
@@ -27,8 +28,9 @@ from proteomaps_html import make_proteomaps_html
 #output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
 #resolution_1     = 2512
 #resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
 #
 ## --------------------------------------------------------------
 ## Geiger's cell line data
@@ -38,8 +40,9 @@ from proteomaps_html import make_proteomaps_html
 #output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
 #resolution_1     = 2512
 #resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
 #  
 ## --------------------------------------------------------------
 ## Geiger's mouse tissue data
@@ -49,8 +52,9 @@ from proteomaps_html import make_proteomaps_html
 #output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
 #resolution_1     = 2512
 #resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png') 
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version) 
 #
 ## --------------------------------------------------------------
 ## Valgepea E coli data
@@ -60,52 +64,45 @@ from proteomaps_html import make_proteomaps_html
 #output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
 #resolution_1     = 2512
 #resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
-
-# --------------------------------------------------------------
-# data sets directory "new"
-
-data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_new/'
-paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_new/html/'
-output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
-resolution_1     = 2512
-resolution_2     = 800
-
-make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
-
-# --------------------------------------------------------------
-# synchechocystis 
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#
+## --------------------------------------------------------------
+## data sets directory "new"
+#
+#data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_new/'
+#paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_new/html/'
+#output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
+#resolution_1     = 2512
+#resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
+#
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#
+## --------------------------------------------------------------
+## synchechocystis 
 #  
-# data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_synechocystis/'
-# paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_synechocystis/html/'
-# output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
-# resolution_1     = 2512
-# resolution_2     = 800
-# 
-# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
-
-# --------------------------------------------------------------
-# Krizhanovski fibroblast data
-# 
-# data_dir       = '/home/wolfram/Proteomaps/data_sets/protein_abundances_krizhanovsky/'
-# paver_html_dir = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_krizhanovsky/html/'
-# output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
-# resolution_1     = 2512
-# resolution_2     = 800
-# 
-# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
-
-# --------------------------------------------------------------
-# Khan Human / Chimpanzee data
-# 
-# data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_khan_human_chimp/'
-# paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_khan_human_chimp/html/'
-# output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
-# resolution_1     = 2512
-# resolution_2     = 800
-# 
-# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+#data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_synechocystis/'
+#paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_synechocystis/html/'
+#output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
+#resolution_1     = 2512
+#resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
+#
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#
+## --------------------------------------------------------------
+## Khan Human / Chimpanzee data
+#
+#data_dir         = '/home/wolfram/Proteomaps/data_sets/protein_abundances_khan_human_chimp/'
+#paver_html_dir   = '/home/wolfram/Proteomaps/data_paver_output/proteomaps_khan_human_chimp/html/'
+#output_html_dir  = '/home/wolfram/Proteomaps/data_html/'
+#resolution_1     = 2512
+#resolution_2     = 800
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
+#
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
  
 # --------------------------------------------------------------
 # Small picture on main website
@@ -115,5 +112,6 @@ make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, re
 # output_html_dir = '/home/wolfram/projekte/protein_abundance/html/MAKE_proteomaps_online/html_icon/'
 # resolution_1    = 2512
 # resolution_2    = 256
+#hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 # 
-# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png')
+# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)

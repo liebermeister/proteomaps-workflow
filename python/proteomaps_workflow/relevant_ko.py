@@ -6,8 +6,9 @@ from proteomaps_path_names import proteomaps_path_names
 
 class relevant_ko:
 
-  def __init__(self,data_dir):
-    self.pp = proteomaps_path_names(data_dir)
+  def __init__(self,data_dir,pp):
+    self.pp = pp
+    #self.pp = proteomaps_path_names(data_dir)
     self.INFILE_ANNOTATION_CHANGES = self.pp.INFILE_ANNOTATION_CHANGES  
 
   def get_added_ko(self):    

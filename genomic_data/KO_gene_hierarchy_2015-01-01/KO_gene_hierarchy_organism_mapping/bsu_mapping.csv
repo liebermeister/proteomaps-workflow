@@ -1,0 +1,1940 @@
+BSU07560	pel	K01728	pectate lyase 
+BSU23270	ribE	K00793	riboflavin synthase 
+BSU37710	bacD	K13037	alanine-anticapsin ligase BacD 
+BSU36370	fabZ	K02372	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ 
+BSU39360	hutU	K01712	urocanate hydratase 
+BSU10110	pbpF	K12555	penicillin-binding protein 1F
+BSU36170	ywqL	K05982	endonuclease V 
+BSU22870	fni	K01823	isopentenyl-diphosphate delta-isomerase 
+BSU02400	ybgF	K16235	amino acid permease YbgF
+BSU22700	aroB	K01735	3-dehydroquinate synthase 
+BSU07690	yflG	K01265	methionine aminopeptidase 2 
+BSU23870	yqjH	K02346	DNA polymerase IV 1 
+BSU40500	rplI	K02939	50S ribosomal protein L9
+BSU09320	yhcY	K02480	sensor histidine kinase
+BSU25730	yqeC	K00033	6-phosphogluconate dehydrogenase YqeC
+BSU32610	frlB	K10708	fructosamine deglycase FrlB 
+BSU06560	yerA	K01486	adenine deaminase YerA 
+BSU08320	yfiM	K01992	transport permease YfiM
+BSU10050	ecsB	K01992	ABC transporter permease EcsB
+BSU27990	minD	K03609	septum site-determining protein MinD
+BSU28510	xsa	K01209	alpha-L-arabinofuranosidase 
+BSU37620	rsfA	K06314	prespore-specific transcriptional regulator RsfA
+BSU37150	pyrG	K01937	CTP synthase 
+BSU32290	yutF	K01101	hydrolase YutF 
+BSU37390	albC	K01990	ABC transporter ATP-binding protein
+BSU01500	rpsI	K02996	30S ribosomal protein S9
+BSU12910	proG	K00286	pyrroline-5-carboxylate reductase 3 
+BSU32050	yuiE	K01255	cytosol aminopeptidase 
+BSU06360	guaA	K01951	GMP synthase 
+BSU32500	pucB	K00087	purine catabolism protein PucB
+BSU38580	licC	K02761	PTS system lichenan transporter subunit IIC
+BSU22670	trpD	K00766	anthranilate phosphoribosyltransferase 
+BSU01320	rplR	K02881	50S ribosomal protein L18
+BSU33900	eno	K01689	enolase 
+BSU25020	sodA	K04564	superoxide dismutase 
+BSU39980	qodI	K07155	quercetin 2,3-dioxygenase 
+BSU22050	bcsA	K16167	chalcone synthase 
+BSU08250	yfiF	K02099	AraC family transcriptional regulator
+BSU23500	drm	K01839	phosphopentomutase 
+BSU16580	polC	K03763	DNA polymerase III PolC-type 
+BSU14560	def	K01462	peptide deformylase 
+BSU04580	cshA	K05592	ATP-dependent RNA helicase 
+BSU05050	lrpA	K03719	AsnC family transcriptional regulator
+BSU33270	yvrO	K02003	ABC transporter ATP-binding protein
+BSU01210	rplV	K02890	50S ribosomal protein L22
+BSU13560	mtnK	K00899	methylthioribose kinase 
+BSU22450	cca	K00974	CCA-adding enzyme
+BSU18240	yngH	K01961	biotin carboxylase 2 
+BSU33010	cssR	K07770	transcriptional regulatory protein CssR
+BSU01030	rplA	K02863	50S ribosomal protein L1
+BSU17940	yneI	K03413	plasmid maintenance protein CcdB
+BSU24460	yqhT	K01262	peptidase YqhT 
+BSU08070	acoB	K00162	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta 
+BSU15760	prpC	K01090	protein phosphatase PrpC 
+BSU25440	yqeU	K09761	ribosomal RNA small subunit methyltransferase E
+BSU14360	yknY	K02003	ABC transporter ATP-binding protein
+BSU17890	tkt	K00615	transketolase 
+BSU34610	mdxE	K15770	maltodextrin-binding protein MdxE
+BSU_misc_RNA_35	rnpB	K01978	RNA component of ribonuclease P (RNase P) (catalytic subunit, ribozyme)
+BSU33470	bdbC	K03611	disulfide bond formation protein C
+BSU25590	comEA	K02237	ComE operon protein 1
+BSU32470	pucE	K00087	xanthine dehydrogenase subunit E 
+BSU06980	yesP	K02025	ABC transporter permease
+BSU34120	ganB	K01224	arabinogalactan endo-1,4-beta-galactosidase 
+BSU13860	ykvY	K01271	dipeptidase YkvY 
+BSU33700	opuBD	K05846	choline transport system permease protein OpuBD
+BSU38360	ywbD	K06969	ribosomal RNA large subunit methyltransferase YwbD
+BSU18800	penP	K17836	beta-lactamase 
+BSU33490	copB	K01534	copper(I)-transporting ATPase
+BSU00100	dacA	K07258	D-alanyl-D-alanine carboxypeptidase DacA 
+BSU25810	arsR	K03892	arsenical resistance operon repressor
+BSU25200	sigA	K03086	RNA polymerase sigma factor RpoD
+BSU23970	artQ	K02029	arginine transport system permease protein ArtQ
+BSU15160	pbpB	K08724	penicillin-binding protein 2B
+BSU34720	yvcP	K02483	transcriptional regulator
+BSU18480	proH	K00286	pyrroline-5-carboxylate reductase 1 
+BSU14700	nprE	K01400	bacillolysin 
+BSU30000	ythQ	K01992	transporter
+BSU03800	yclN	K02015	ABC transporter permease
+BSU19620	yodJ	K07260	carboxypeptidase YodJ 
+BSU31750	yueK	K00763	nicotinate phosphoribosyltransferase 
+BSU05990	tatCY	K03118	Sec-independent protein translocase protein TatCy
+BSU34540	clpP	K01358	ATP-dependent Clp protease proteolytic subunit 
+BSU24530	yqhM	K03800	octanoyltransferase LipM
+BSU24080	bcd	K00263	leucine dehydrogenase 
+BSU11390	appB	K02033	oligopeptide transport system permease protein AppB
+BSU00740	pabB	K01665	para-aminobenzoate synthase component 1 
+BSU24240	recN	K03631	DNA repair protein RecN
+BSU15540	pyrD	K17828	dihydroorotate dehydrogenase B
+BSU05860	gmuE	K00847	fructokinase 
+BSU40960	parB	K03497	stage 0 sporulation protein J
+BSU14010	cheV	K03415	chemotaxis protein CheV
+BSU30170	ytcP	K17320	ABC transporter permease
+BSU13530	kinE	K13533	sporulation kinase E
+BSU11620	yjbO	K06180	RNA pseudouridine synthase YjbO 
+BSU35340	fliD	K02407	flagellar hook-associated protein 2
+BSU15940	smc	K03529	chromosome partition protein Smc
+BSU30750	mntC	K11708	manganese transport system membrane protein MntC
+BSU16930	cinA	K03742	competence-damage inducible protein
+BSU21690	msrA	K07304	peptide methionine sulfoxide reductase MsrA 
+BSU04450	dctS	K11691	C4-dicarboxylate sensor kinase
+BSU03450	hxlB	K08094	3-hexulose-6-phosphate isomerase
+BSU16440	cheW	K03408	chemotaxis protein CheW
+BSU06960	yesN	K07720	transcriptional regulator
+BSU11710	yjbV	K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase 
+BSU20340	yorL	K02337	DNA polymerase YorL
+BSU27340	yrrO	K08303	protease YrrO
+BSU31400	alaT	K10907	aminotransferase YugH
+BSU32590	frlN	K10118	ABC transporter permease
+BSU13400	ligD	K01971	ATP-dependent DNA ligase YkoU 
+BSU35410	flgK	K02396	flagellar hook-associated protein 1
+BSU15140	mraW	K03438	ribosomal RNA small subunit methyltransferase H
+BSU39740	iolC	K03338	5-dehydro-2-deoxygluconokinase 
+BSU27740	ruvA	K03550	holliday junction ATP-dependent DNA helicase RuvA
+BSU28030	mreB	K03569	rod shape-determining protein MreB
+BSU04140	pbpC	K18149	penicillin-binding protein 3
+BSU03210	ycgN	K00294	1-pyrroline-5-carboxylate dehydrogenase 2 
+BSU20500	ligB	K01971	DNA ligase-like protein LigB 
+BSU31530	yufM	K11615	transcriptional regulatory protein MalR
+BSU00920	gltX	K09698	glutamate--tRNA ligase 
+BSU37810	spsL	K01790	spore coat polysaccharide biosynthesis protein SpsL 
+BSU29740	ccpA	K02529	catabolite control protein A
+BSU16150	clpQ	K01419	ATP-dependent protease subunit ClpQ
+BSU36810	atpD	K02112	ATP synthase subunit beta 
+BSU10300	aprE	K01342	subtilisin E 
+BSU23080	aroD	K03785	3-dehydroquinate dehydratase 
+BSU37560	thrZ	K01868	threonine--tRNA ligase 2 
+BSU31240	mcpA	K03406	methyl-accepting chemotaxis protein McpA
+BSU38570	licA	K02759	PTS system lichenan transporter subunit IIA
+BSU28290	ilvC	K00053	ketol-acid reductoisomerase 
+BSU35700	tagH	K09693	teichoic acids export ATP-binding protein TagH
+BSU07590	citT	K11638	transcriptional regulatory protein CitT
+BSU28720	abfA	K01209	alpha-L-arabinofuranosidase 
+BSU_misc_RNA_2	scr	K01983	small cytoplasmic RNA (scRNA, 4.5S RNA), signal recognition particle-like (SRP) component
+BSU07350	yfmT	K00128	aldehyde dehydrogenase YfmT 
+BSU29100	phoR	K07636	alkaline phosphatase synthesis sensor protein PhoR
+BSU37960	ywdH	K00128	aldehyde dehydrogenase YwdH 
+BSU23260	ribA	K14652	riboflavin biosynthesis protein RibBA 
+BSU02090	ybxI	K17838	beta-lactamase YbxI 
+BSU36420	spoIIID	K06283	stage III sporulation protein D
+BSU36380	rapD	K06362	response regulator aspartate phosphatase D
+BSU39350	hutH	K01745	histidine ammonia-lyase 
+BSU37490	speB	K01480	agmatinase 
+BSU38970	yxjF	K00019	oxidoreductase 
+BSU40770	tetB	K08168	tetracycline resistance protein
+BSU13660	kinD	K13532	sporulation kinase D
+BSU06170	ydjE	K00847	sugar kinase YdjE 
+BSU_tRNA_85	trnSL-Arg1	K14219	tRNA-Arg
+BSU_tRNA_86	trnSL-Ala1	K14218	tRNA-Ala
+BSU26830	yrpE	K09815	zinc-binding protein
+BSU_tRNA_80	trnE-Gly	K14225	tRNA-Gly
+BSU_tRNA_81	trnQ-Arg	K14219	tRNA-Arg
+BSU22840	engA	K03977	GTPase Der
+BSU02410	mmuM	K00547	homocysteine S-methyltransferase YbgG 
+BSU27520	cymR	K17472	Rrf2 family transcriptional regulator
+BSU23860	yqjI	K00033	6-phosphogluconate dehydrogenase 
+BSU28610	yshA	K09888	cell division protein ZapA
+BSU09330	yhcZ	K02479	transcriptional regulator
+BSU22110	kdgK	K00874	2-dehydro-3-deoxygluconokinase 
+BSU08310	yfiL	K01990	ABC transporter ATP-binding protein
+BSU17390	nrdF	K00526	ribonucleoside-diphosphate reductase subunit beta 
+BSU23460	spoIIAB	K06379	anti-sigma F factor 
+BSU37630	ywfM	K03298	transporter
+BSU01680	ybbF	K02809	PTS system EIIBC component YbbF
+BSU12430	rapA	K06359	response regulator aspartate phosphatase A
+BSU12920	dppA	K16203	D-aminopeptidase
+BSU08860	ssuD	K04091	alkanesulfonate monooxygenase 
+BSU25900	cwlA	K01447	N-acetylmuramoyl-L-alanine amidase CwlA 
+BSU06310	gabP	K11735	GABA permease
+BSU32510	pucA	K00087	xanthine dehydrogenase subunit A
+BSU38590	licB	K02760	PTS system lichenan transporter subunit IIB 
+BSU22600	aroE	K00800	3-phosphoshikimate 1-carboxyvinyltransferase 
+BSU33390	yvgM	K02018	molybdenum transport system permease protein YvgM
+BSU07820	treR	K03486	trehalose operon transcriptional repressor
+BSU01330	rpsE	K02988	30S ribosomal protein S5
+BSU32260	hom	K00003	homoserine dehydrogenase 
+BSU06420	purE	K01588	N5-carboxyaminoimidazole ribonucleotide mutase 
+BSU05680	ydgK	K07552	MFS transporter
+BSU11820	yjcD	K03657	ATP-dependent DNA helicase
+BSU23510	xerD	K04763	tyrosine recombinase XerD
+BSU13250	ykoG	K02483	transcriptional regulator
+BSU37030	racA	K11686	chromosome-anchoring protein RacA
+BSU33240	oxdC	K01569	oxalate decarboxylase OxdC 
+BSU13090	ykkC	K11741	multidrug resistance protein
+BSU01200	rpsS	K02965	30S ribosomal protein S19
+BSU17710	tatAC	K03116	Sec-independent protein translocase protein TatAc
+BSU32600	frlO	K10117	ABC transporter extracellular-binding protein YurO
+BSU06550	yecA	K16263	amino acid permease
+BSU22930	sleB	K01449	spore cortex-lytic enzyme
+BSU15290	ftsZ	K03531	cell division protein FtsZ
+BSU18230	yngG	K01640	hydroxymethylglutaryl-CoA lyase YngG 
+BSU24470	yqhS	K03786	3-dehydroquinate dehydratase 
+BSU01020	rplK	K02867	50S ribosomal protein L11
+BSU33800	opuCD	K05846	glycine betaine/carnitine/choline transport system permease protein OpuCD
+BSU18090	parE	K02622	DNA topoisomerase 4 subunit B
+BSU15710	priA	K04066	primosomal protein N'
+BSU25470	dnaK	K04043	chaperone protein DnaK
+BSU24630	sipW	K13280	signal peptidase I W 
+BSU13890	ptsG	K02763	PTS system glucose-specific EIICBA component 
+BSU26650	czcD	K16264	cadmium, cobalt and zinc/H
+BSU34600	mdxF	K15771	maltodextrin transport system permease protein MdxF
+BSU32460	pucM	K07127	5-hydroxyisourate hydrolase
+BSU05430	ydfJ	K11625	membrane protein
+BSU19520	yojA	K03299	permease YojA
+BSU10380	hemAT	K06595	heme-based aerotactic transducer HemAT
+BSU18340	ppsA	K15664	plipastatin synthase subunit A
+BSU18830	pps	K01007	phosphoenolpyruvate synthase 
+BSU14390	fruK	K00882	phosphofructokinase 
+BSU33730	opuBA	K05847	choline transport ATP-binding protein OpuBA
+BSU38370	ywbC	K01759	hypothetical protein
+BSU00130	serS	K01875	serine--tRNA ligase 
+BSU38290	thiE	K00788	thiamine-phosphate synthase 
+BSU24890	yqgN	K01934	hypothetical protein
+BSU15620	sirB	K03794	sirohydrochlorin ferrochelatase 
+BSU40350	rocR	K06714	arginine utilization regulatory protein RocR
+BSU00500	glmU	K04042	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase 
+BSU25270	glyQ	K01878	glycine--tRNA ligase alpha subunit 
+BSU08440	yfiY	K02016	siderophore-binding lipoprotein YfiY
+BSU10270	yhfL	K01897	long-chain-fatty-acid--CoA ligase 
+BSU34730	yvcN	K00675	acetyltransferase YvcN 
+BSU40230	yydA	K00783	ribosomal RNA large subunit methyltransferase H
+BSU33020	cssS	K07650	sensor histidine kinase
+BSU19630	deoD	K03784	purine nucleoside phosphorylase DeoD-type 
+BSU30610	ytlC	K02049	ABC transporter ATP-binding protein
+BSU10490	sipV	K03100	signal peptidase I V 
+BSU34550	pgcM	K01838	beta-phosphoglucomutase 
+BSU24090	ptb	K00634	phosphate butyryltransferase 
+BSU24250	ahrC	K03402	arginine repressor
+BSU25300	cdd	K01489	cytidine deaminase 
+BSU30290	amyC	K10119	ABC transporter permease
+BSU11010	yitJ	K00547	bifunctional homocysteine S-methyltransferase/5,10-methylenetetrahydrofolate reductase 
+BSU35950	rbsC	K10440	ribose transport system permease RbsC
+BSU15530	pyrK	K02823	dihydroorotate dehydrogenase B 
+BSU15020	coaD	K00954	phosphopantetheine adenylyltransferase 
+BSU34130	ganA	K12308	arabinogalactan type I oligomer exo-hydrolase 
+BSU14000	patA	K00841	N-acetyl-LL-diaminopimelate aminotransferase
+BSU35550	tuaG	K16698	teichuronic acid biosynthesis glycosyltransferase TuaG 
+BSU00790	folK	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase 
+BSU39420	deoC	K01619	deoxyribose-phosphate aldolase 
+BSU21680	yppQ	K07305	peptide methionine sulfoxide reductase MsrB 
+BSU30720	ythB	K00426	cytochrome bd menaquinol oxidase subunit II
+BSU16940	recA	K03553	recombinase RecA
+BSU03440	tlpC	K03406	methyl-accepting chemotaxis protein TlpC
+BSU00310	holB	K02341	DNA polymerase III subunit delta' 
+BSU00640	spoIIE	K06382	stage II sporulation protein E 
+BSU06950	yesM	K07718	sensor histidine kinase
+BSU11700	thiF	K03148	sulfur carrier protein ThiS adenylyltransferase
+BSU40480	yycB	K03449	transporter
+BSU10120	hemE	K01599	uroporphyrinogen decarboxylase 
+BSU00480	yabJ	K09022	enamine/imine deaminase
+BSU21750	scuA	K07152	SCO1 protein homolog
+BSU31640	mrpE	K05569	Na(+)/H(+) antiporter subunit E
+BSU00860	clpC	K03696	negative regulator of genetic competence ClpC/MecB
+BSU_rRNA_30	rrnE-16S	K01977	ribosomal RNA-16S
+BSU13410	ykoV	K10979	DNA repair protein YkoV
+BSU02640	tatCD	K03118	Sec-independent protein translocase protein TatCd
+BSU21970	ypeP	K03469	hypothetical protein
+BSU30430	ytrD	K16919	ABC transporter permease
+BSU36100	ywrD	K00681	gamma-glutamyltransferase YwrD
+BSU35170	uvrB	K03702	UvrABC system protein B
+BSU16380	flhB	K02401	flagellar biosynthetic protein FlhB
+BSU39730	iolD	K03336	3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase 
+BSU03200	ycgM	K00318	proline dehydrogenase 2 
+BSU38600	licR	K03491	licABCH operon regulator
+BSU29020	gapB	K00134	glyceraldehyde-3-phosphate dehydrogenase 2 
+BSU12380	uxaB	K00041	altronate oxidoreductase 
+BSU16540	cdsA	K00981	phosphatidate cytidylyltransferase 
+BSU31520	yufL	K11614	sensor histidine kinase 
+BSU23070	serA	K00058	D-3-phosphoglycerate dehydrogenase 
+BSU37820	spsK	K00067	spore coat polysaccharide biosynthesis protein SpsK 
+BSU29750	aroA	K13853	5-enolpyruvylshikimate-3-phosphate synthetase AroA 
+BSU16360	fliQ	K02420	flagellar biosynthetic protein FliQ
+BSU36800	atpC	K02114	ATP synthase epsilon chain 
+BSU10870	yisU	K06895	amino acid transporter YisU
+BSU31250	tlpA	K03406	methyl-accepting chemotaxis protein TlpA
+BSU23980	artP	K02030	arginine-binding extracellular protein ArtP
+BSU13700	clpE	K03697	ATP-dependent Clp protease ATP-binding subunit ClpE
+BSU38740	cydC	K16013	ATP-binding/permease protein CydC
+BSU39640	yxdL	K11635	ABC transporter ATP-binding protein
+BSU28750	araN	K17234	arabinose-binding protein
+BSU29110	phoP	K07658	alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+BSU16760	dapG	K00928	aspartokinase 1 
+BSU16090	sucC	K01903	succinyl-CoA ligase [ADP-forming] subunit beta 
+BSU27350	yrrN	K08303	protease YrrN
+BSU27220	yrhE	K00123	formate dehydrogenase YrhE 
+BSU23210	spcB	K06024	segregation and condensation protein B
+BSU12300	uxaC	K01812	uronate isomerase 
+BSU36390	flhP	K02392	flagellar hook-basal body complex protein FlhP
+BSU39340	hutP	K09683	anti-terminator HutP
+BSU32560	frlR	K10711	DNA-binding transcriptional regulator FrlR
+BSU13670	mhqR	K15973	MarR family transcriptional regulator
+BSU35600	tuaB	K16694	teichuronic acid biosynthesis protein TuaB
+BSU02420	glnT	K11626	sodium/glutamine symporter GlnT
+BSU09650	yhdZ	K12410	NAD-dependent protein deacetylase
+BSU09300	glpD	K00111	aerobic glycerol-3-phosphate dehydrogenase 
+BSU06160	gutP	K16248	glucitol transport protein GutA
+BSU26800	yrpB	K00459	nitronate monooxygenase 
+BSU16160	hslU	K03667	ATP-dependent protease ATPase subunit ClpY
+BSU28370	rph	K00989	ribonuclease PH 
+BSU22100	kdgA	K01625	KHG/KDPG aldolase 
+BSU08300	yfiK	K02479	transcriptional regulator
+BSU24030	bkdB	K09699	lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex 
+BSU23450	sigF	K03091	RNA polymerase sigma-F factor
+BSU17380	nrdE	K00525	ribonucleoside-diphosphate reductase subunit alpha 
+BSU01830	ndhF	K05577	NADH-quinone oxidoreductase subunit 5 
+BSU17140	pksF	K00646	polyketide biosynthesis malonyl-ACP decarboxylase PksF
+BSU17410	cwlC	K01448	sporulation-specific N-acetylmuramoyl-L-alanine amidase 
+BSU22610	tyrA	K04517	prephenate dehydrogenase 
+BSU06430	purK	K01589	N5-carboxyaminoimidazole ribonucleotide synthase 
+BSU28430	sdhB	K00240	succinate dehydrogenase iron-sulfur subunit 
+BSU32250	thrC	K01733	threonine synthase 
+BSU29930	amyX	K01200	pullulanase 
+BSU26790	aadK	K05593	aminoglycoside 6-adenylyltransferase 
+BSU00650	yabS	K07114	hypothetical protein
+BSU23520	fur	K03711	ferric uptake regulation protein
+BSU01780	glmS	K00820	glutamine--fructose-6-phosphate aminotransferase 
+BSU18000	citB	K01681	aconitate hydratase 
+BSU01230	rplP	K02878	50S ribosomal protein L16
+BSU40150	yydI	K16917	peptide export ATP-binding protein YydI
+BSU09270	glpP	K02443	glycerol uptake operon antiterminator regulatory protein
+BSU06230	iolT	K06609	major myo-inositol transporter IolT
+BSU04640	alrA	K01775	alanine racemase 1 
+BSU28990	dnaB	K03346	replication initiation and membrane attachment protein
+BSU13880	glcT	K03480	BglG family transcription antiterminator
+BSU01010	nusG	K02601	transcription termination/antitermination protein NusG
+BSU33810	opuCC	K05845	glycine betaine/carnitine/choline-binding protein OpuCC
+BSU25460	dnaJ	K03686	chaperone protein DnaJ
+BSU32810	yusI	K00537	hypothetical protein
+BSU22320	ponA	K05366	penicillin-binding protein 1A/1B 
+BSU15700	coaBC	K13038	coenzyme A biosynthesis bifunctional protein CoaBC 
+BSU04490	ydbJ	K01990	ABC transporter ATP-binding protein
+BSU15450	lspA	K03101	lipoprotein signal peptidase 
+BSU_tRNA_54	trnB-Lys	K14229	tRNA-Lys
+BSU32490	pucC	K00087	xanthine dehydrogenase subunit C 
+BSU18130	eglS	K01179	endoglucanase 
+BSU14490	kinC	K07698	sporulation kinase C 
+BSU01300	rpsH	K02994	30S ribosomal protein S8
+BSU33720	opuBB	K05846	choline transport system permease protein OpuBB
+BSU18350	dacC	K07259	D-alanyl-D-alanine carboxypeptidase DacC 
+BSU24310	folD	K01491	bifunctional protein FolD 
+BSU08690	ygaD	K11085	ABC transporter ATP-binding protein
+BSU00120	yaaE	K08681	glutamine amidotransferase subunit PdxT
+BSU31460	kapB	K06347	kinase-associated lipoprotein B
+BSU08450	yfiZ	K02015	siderophore transport system permease protein YfiZ
+BSU19190	desK	K07778	sensor histidine kinase
+BSU15630	sirC	K02304	precorrin-2 dehydrogenase 
+BSU40340	rocD	K00819	ornithine aminotransferase 
+BSU25260	glyS	K01879	glycine--tRNA ligase beta subunit 
+BSU09900	natB	K01992	hypothetical protein
+BSU00870	radA	K04485	DNA repair protein RadA
+BSU34700	yvcR	K02003	ABC transporter ATP-binding protein
+BSU15400	ylmG	K02221	membrane protein
+BSU_rRNA_28	rrnG-5S	K01985	ribosomal RNA-5S
+BSU34560	malL	K01182	oligo-1,6-glucosidase 1 
+BSU39500	yxeM	K16961	amino acid-binding protein YxeM
+BSU18910	rapK	K06369	response regulator aspartate phosphatase K 
+BSU04000	ycsA	K07246	tartrate dehydrogenase/decarboxylase 
+BSU14920	ctaF	K02277	cytochrome c oxidase subunit 4B 
+BSU00010	dnaA	K02313	chromosomal replication initiator protein DnaA
+BSU34090	yvfR	K01990	ABC transporter ATP-binding protein
+BSU24220	spo0A	K07699	stage 0 sporulation protein A
+BSU05840	gmuD	K01223	6-phospho-beta-glucosidase GmuD 
+BSU25310	dgkA	K00901	undecaprenol kinase 
+BSU30280	amyD	K10118	ABC transporter permease
+BSU35940	rbsA	K10441	ribose import ATP-binding protein RbsA
+BSU15520	carB	K01955	carbamoyl-phosphate synthase pyrimidine-specific large chain 
+BSU34140	ganQ	K15772	arabinogalactan oligomer transport system permease protein GanQ
+BSU38730	cydD	K16012	ATP-binding/permease protein CydD
+BSU00780	folB	K01633	dihydroneopterin aldolase 
+BSU35540	tuaH	K16699	teichuronic acid biosynthesis glycosyltransferase TuaH 
+BSU39430	deoR	K05346	deoxyribonucleoside regulator
+BSU34890	hisH	K02501	imidazole glycerol phosphate synthase subunit HisH 
+BSU35380	yviF	K13626	flagellar assembly factor FliW
+BSU24130	prpD	K01720	2-methylcitrate dehydratase 
+BSU29230	dnaE	K02337	DNA polymerase III subunit alpha 
+BSU16420	cheB	K03412	chemotaxis response regulator protein-glutamate methylesterase 
+BSU14380	fruR	K03436	DeoR family transcriptional regulator
+BSU10130	hemH	K01772	ferrochelatase 
+BSU10640	sbcD	K03547	nuclease SbcCD subunit D
+BSU_rRNA_24	rrnH-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_25	rrnG-16S	K01977	ribosomal RNA-16S
+BSU_rRNA_26	rrnA-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_27	rrnG-23S	K01980	ribosomal RNA-23S
+BSU_rRNA_20	rrnB-23S	K01980	ribosomal RNA-23S
+BSU_rRNA_21	rrnB-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_22	rrnD-16S	K01977	ribosomal RNA-16S
+BSU_rRNA_23	rrnI-16S	K01977	ribosomal RNA-16S
+BSU21410	blyA	K01447	N-acetylmuramoyl-L-alanine amidase BlyA 
+BSU36700	moaA	K03639	cyclic pyranopterin monophosphate synthase
+BSU_rRNA_29	rrnH-23S	K01980	ribosomal RNA-23S
+BSU35160	uvrA	K03701	UvrABC system protein A
+BSU02650	pcp	K01304	pyrrolidone-carboxylate peptidase 
+BSU15850	sdaAB	K01752	L-serine dehydratase, beta chain 
+BSU30420	ytrE	K16920	ABC transporter ATP-binding protein
+BSU04500	ydbK	K01992	membrane protein
+BSU12390	uxaA	K01685	altronate dehydratase 
+BSU29580	ytbJ	K03151	tRNA sulfurtransferase
+BSU16390	flhA	K02400	flagellar biosynthesis protein FlhA
+BSU39720	iolE	K03335	inosose dehydratase 
+BSU03270	ycgT	K00384	ferredoxin--NADP reductase 1 
+BSU38630	katX	K03781	catalase X 
+BSU23220	scpA	K05896	segregation and condensation protein A
+BSU29340	tcyN	K16960	L-cystine import ATP-binding protein TcyN
+BSU16550	dxr	K00099	1-deoxy-D-xylulose 5-phosphate reductoisomerase 
+BSU02460	ycbC	K01707	5-dehydro-4-deoxyglucarate dehydratase 
+BSU28580	mutSB	K07456	methyl-directed mismatch repair protein MutS
+BSU11600	yjbM	K07816	GTP pyrophosphokinase YjbM
+BSU27030	sacC	K03332	levanase 
+BSU29560	ytcI	K01895	acyl--CoA ligase 
+BSU37540	ywhB	K01821	4-oxalocrotonate tautomerase
+BSU31260	mcpB	K03406	methyl-accepting chemotaxis protein McpB
+BSU16370	fliR	K02421	flagellar biosynthetic protein FliR
+BSU36830	atpA	K02111	ATP synthase subunit alpha 
+BSU36010	alsS	K01652	acetolactate synthase 
+BSU31060	gbsA	K00130	betaine aldehyde dehydrogenase 
+BSU38750	cydB	K00426	cytochrome d ubiquinol oxidase subunit 2 
+BSU07370	yfmR	K15738	ABC transporter ATP-binding protein 
+BSU39650	yxdK	K11633	sensor histidine kinase 
+BSU28740	araP	K17235	L-arabinose transport system permease protein AraP
+BSU03300	nasD	K00362	nitrite reductase 
+BSU29690	acuA	K04766	acetoin utilization protein AcuA 
+BSU16770	dapA	K01714	4-hydroxy-tetrahydrodipicolinate synthase 
+BSU15490	pyrB	K00609	aspartate carbamoyltransferase 
+BSU27320	greA	K03624	transcription elongation factor GreA
+BSU27250	yrhB	K17217	cystathionine gamma-lyase 
+BSU28560	lcfA	K01897	long-chain-fatty-acid--CoA ligase 
+BSU16290	flgG	K02390	flagellar basal-body rod protein FlgG
+BSU23190	dacB	K01286	D-alanyl-D-alanine carboxypeptidase DacB 
+BSU03890	gabR	K00375	GntR family transcriptional regulator
+BSU04470	dctP	K11103	C4-dicarboxylate transport protein
+BSU13600	mtnX	K08966	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase
+BSU09480	yhdI	K00375	GntR family transcriptional regulator
+BSU26810	yrpC	K01776	glutamate racemase 
+BSU02430	ybgJ	K01425	glutaminase 1 
+BSU38910	yxjL	K02479	transcriptional regulator
+BSU28360	ysnA	K02428	non-canonical purine NTP pyrophosphatase 
+BSU09640	yhdY	K16052	small mechanosensitive ion chanel protein MscS
+BSU09310	pgcA	K01835	phosphoglucomutase 
+BSU06150	gutB	K00008	sorbitol dehydrogenase 
+BSU37830	spsJ	K01710	dTDP-glucose 4,6-dehydratase 
+BSU16170	codY	K03706	GTP-sensing transcriptional pleiotropic repressor CodY
+BSU04570	murF	K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase 
+BSU22130	kduI	K01815	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase 
+BSU28410	gerE	K01994	spore germination protein GerE
+BSU37420	albF	K01417	zinc protease AlbF 
+BSU05330	aseR	K03892	ArsR family transcriptional regulator
+BSU08840	ssuA	K15553	aliphatic sulfonates-binding protein
+BSU01820	adaB	K13531	methylated-dna--protein-cysteine methyltransferase 
+BSU01530	cwlD	K01448	germination-specific N-acetylmuramoyl-L-alanine amidase 
+BSU17170	pksI	K15313	polyketide biosynthesis enoyl-CoA isomerase PksI
+BSU13110	purU	K01433	formyltetrahydrofolate deformylase 
+BSU06330	yeaC	K03924	hypothetical protein
+BSU22620	hisC	K00817	histidinol-phosphate aminotransferase 
+BSU32240	thrB	K00872	homoserine kinase 
+BSU25070	ispG	K03526	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase 
+BSU32710	sufC	K09013	vegetative protein 296
+BSU06440	purB	K01756	adenylosuccinate lyase 
+BSU40040	glxK	K00865	glycerate kinase 
+BSU22550	qcrB	K03887	menaquinol-cytochrome c reductase cytochrome b subunit
+BSU08200	malP	K02749	PTS maltose transporter subunit IIBC
+BSU29900	trmB	K03439	tRNA (guanine-N(7)-)-methyltransferase 
+BSU37050	ywkA	K00027	NAD-dependent malic enzyme 2
+BSU01220	rpsC	K02982	30S ribosomal protein S3
+BSU22480	mgsA	K01734	methylglyoxal synthase 
+BSU17450	glnR	K03713	MerR family transcriptional regulator
+BSU12890	ykcC	K00721	glycosyltransferase YkcC 
+BSU39390	hutM	K16236	histidine permease
+BSU33530	yvaA	K16044	oxidoreductase 
+BSU01000	secE	K03073	preprotein translocase subunit SecE
+BSU33820	opuCB	K05846	glycine betaine/carnitine/choline transport system permease protein OpuCB
+BSU28980	dnaI	K11144	primosomal protein DnaI
+BSU39860	aldX	K00128	aldehyde dehydrogenase AldX 
+BSU36400	flhO	K02392	flagellar hook-basal body complex protein FlhO
+BSU15730	fmt	K00604	methionyl-tRNA formyltransferase 
+BSU25410	rpsU	K02970	30S ribosomal protein S21
+BSU32800	yusH	K02437	glycine cleavage system H protein
+BSU22310	recU	K03700	holliday junction resolvase RecU
+BSU25780	arsC	K03741	arsenate reductase ArsC
+BSU17600	xylA	K01805	xylose isomerase 
+BSU32480	pucD	K00087	xanthine dehydrogenase subunit D 
+BSU18100	parC	K02621	DNA topoisomerase 4 subunit A
+BSU33620	yvaK	K03928	carboxylesterase 
+BSU01310	rplF	K02933	50S ribosomal protein L6
+BSU13850	zosA	K01534	zinc-transporting ATPase
+BSU34390	pnbA	K03929	para-nitrobenzyl esterase 
+BSU24300	xseA	K03601	exodeoxyribonuclease 7 large subunit 
+BSU08425	mprF	K14205	phosphatidylglycerol lysyltransferase
+BSU19180	des	K10255	fatty acid desaturase 
+BSU40400	walK	K07652	sensor histidine kinase
+BSU14730	ylaC	K03088	RNA polymerase sigma factor YlaC
+BSU10250	yhfJ	K03800	lipoate-protein ligase LplJ 
+BSU16080	ylqH	K04061	hypothetical protein
+BSU18740	yozG	K07727	XRE family transcriptional regulator
+BSU34570	yvdK	K00691	maltose phosphorylase
+BSU15190	mraY	K01000	phospho-n-acetylmuramoyl-pentapeptide-transferase 
+BSU34080	yvfS	K01992	transport permease YvfS
+BSU04010	sipU	K03100	signal peptidase I U 
+BSU00060	gyrB	K02470	DNA gyrase subunit B 
+BSU24230	spoIVB	K06399	peptidase S55 
+BSU08730	perR	K09825	peroxide operon regulator
+BSU15510	pyrAA	K01956	carbamoyl-phosphate synthase pyrimidine-specific small chain 
+BSU05830	gmuC	K02761	PTS system oligo-beta-mannoside transporter subunit IIC
+BSU25320	yqfG	K07042	metalloprotease
+BSU30120	yteR	K15532	rhamnogalacturonyl hydrolase 
+BSU36880	atpI	K02116	ATP synthase protein I
+BSU15280	ftsA	K03590	cell division protein FtsA
+BSU34400	padC	K13727	phenolic acid decarboxylase PadC
+BSU34150	ganP	K15771	arabinogalactan oligomer transport system permease protein GanP
+BSU31650	mrpF	K05570	Na(+)/H(+) antiporter subunit F
+BSU15990	rpsP	K02959	30S ribosomal protein S16
+BSU34880	hisA	K01814	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase 
+BSU30700	rpmE2	K02909	50S ribosomal protein L31 type B
+BSU33690	yvaQ	K03406	sensory transducer protein YvaQ
+BSU12250	yjkB	K02068	ABC transporter ATP-binding protein
+BSU16960	ymdA	K18682	ribonuclease Y
+BSU39400	pdp	K00756	pyrimidine-nucleoside phosphorylase 
+BSU03460	hxlA	K08093	3-hexulose-6-phosphate synthase
+BSU00660	yabT	K08884	serine/threonine protein kinase 
+BSU11720	fabI	K00208	enoyl-ACP reductase 
+BSU24120	prpB	K03417	methylisocitrate lyase 
+BSU29220	ytsJ	K00027	NAD-dependent malic enzyme 4 
+BSU05940	gcp	K01409	tRNA threonylcarbamoyladenosine biosynthesis protein Gcp
+BSU40880	exoAA	K01142	exodeoxyribonuclease 
+BSU21770	ilvA	K01754	threonine dehydratase 
+BSU30380	bceA	K11631	bacitracin export ATP-binding protein BceA
+BSU15420	divIVA	K04074	septum site-determining protein DivIVA
+BSU15460	rluD	K06180	RNA pseudouridine synthase YlyB 
+BSU00680	hprT	K00760	hypoxanthine-guanine phosphoribosyltransferase 
+BSU05900	thiL	K00946	thiamine-monophosphate kinase 
+BSU15860	sdaAA	K01752	L-serine dehydratase, alpha chain 
+BSU40860	yyaH	K01759	hypothetical protein
+BSU39710	iolF	K06610	minor myo-inositol transporter IolF
+BSU21790	yplQ	K11068	hemolysin-3 homolog
+BSU34970	hprP	K06019	pyrophosphatase PpaX 
+BSU30410	ytrF	K16918	ABC transporter permease
+BSU03790	yclM	K00928	aspartokinase 3 
+BSU38620	yxlJ	K03652	3-methyladenine DNA glycosylase
+BSU29590	iscS	K04487	cysteine desulfurase IscS 2 
+BSU07490	yfmF	K02013	Fe(3+)-citrate import ATP-binding protein YfmF
+BSU29350	tcyM	K16959	L-cystine transport system permease protein TcyM
+BSU16560	rseP	K11749	zinc metalloprotease RasP
+BSU36950	ywlC	K07566	tRNA threonylcarbamoyladenosine biosynthesis protein YwlC
+BSU11340	fabF	K09458	3-oxoacyl-[acyl-carrier-protein] synthase 2 
+BSU11610	ppnK	K00858	inorganic polyphosphate/ATP-NAD kinase 1 
+BSU10330	yhfQ	K02016	ABC transporter substrate-binding protein
+BSU36820	atpG	K02115	ATP synthase gamma chain 
+BSU27020	yraA	K05520	cysteine protease YraA
+BSU28080	folC	K11754	folylpolyglutamate synthase 
+BSU20040	nrdF	K00526	ribonucleoside-diphosphate reductase subunit beta 
+BSU10810	yisP	K02291	squalene/phytoene synthase 
+BSU31270	tgl	K00686	protein-glutamine gamma-glutamyltransferase 
+BSU16340	fliZ	K02418	flagellar biosynthetic protein FliZ
+BSU36000	alsD	K01575	alpha-acetolactate decarboxylase 
+BSU35020	nagBA	K02564	glucosamine-6-phosphate deaminase 1 
+BSU35750	tagA	K05946	N-acetylmannosaminyltransferase 
+BSU38720	yxkO	K17758	adp-dependent (S)-NAD(P)H-hydrate dehydratase
+BSU35590	tuaC	K16697	teichuronic acid biosynthesis glycosyltransferase TuaC 
+BSU29680	acsA	K01895	acetyl-coenzyme A synthetase 
+BSU39660	yxdJ	K11634	transcriptional regulator
+BSU28170	hemA	K02492	glutamyl-tRNA reductase 
+BSU26590	blt	K08153	multidrug resistance protein 2
+BSU03310	nasC	K00372	assimilatory nitrate reductase catalytic subunit 
+BSU00510	prs	K00948	ribose-phosphate pyrophosphokinase 
+BSU_rRNA_10	rrnW-23S	K01980	ribosomal RNA-23S
+BSU_rRNA_13	rrnE-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_12	rrnE-23S	K01980	ribosomal RNA-23S
+BSU_rRNA_15	rrnI-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_14	rrnI-23S	K01980	ribosomal RNA-23S
+BSU_rRNA_17	rrnD-23S	K01980	ribosomal RNA-23S
+BSU27330	udk	K00876	uridine kinase 
+BSU37280	narG	K00370	nitrate reductase alpha chain 
+BSU07520	yfmC	K02016	Fe(3+)-citrate-binding protein YfmC
+BSU28790	araB	K00853	ribulokinase 
+BSU10920	sat	K00958	sulfate adenylyltransferase 
+BSU_tRNA_53	trnB-Thr	K14234	tRNA-Thr
+BSU_tRNA_52	trnB-Val	K14237	tRNA-Val
+BSU38920	pepT	K01258	peptidase T 
+BSU_tRNA_50	trnS-Leu1	K14228	tRNA-Leu
+BSU_tRNA_57	trnB-Leu2	K14228	tRNA-Leu
+BSU_tRNA_56	trnB-Gly1	K14225	tRNA-Gly
+BSU_tRNA_55	trnB-Leu1	K14228	tRNA-Leu
+BSU13610	mtnB	K08964	methylthioribulose-1-phosphate dehydratase
+BSU06140	gutR	K16247	transcription activator GutR
+BSU_tRNA_59	trnB-Pro	K14232	tRNA-Pro
+BSU_tRNA_58	trnB-Arg	K14219	tRNA-Arg
+BSU35620	lytC	K01448	N-acetylmuramoyl-L-alanine amidase LytC 
+BSU22830	gpsA	K00057	glycerol-3-phosphate dehydrogenase 
+BSU02130	glpQ	K01126	glycerophosphoryl diester phosphodiesterase 
+BSU28310	ilvB	K01652	acetolactate synthase large subunit 
+BSU09670	dat	K00824	D-alanine aminotransferase 
+BSU37840	spsI	K00973	dTDP-glucose pyrophosphorylase 
+BSU09100	cspB	K03704	cold shock protein CspB
+BSU07630	nosA	K00491	nitric oxide synthase oxygenase
+BSU28420	ysmA	K07107	hypothetical protein
+BSU37660	eutD	K00625	phosphate acetyltransferase 
+BSU37190	clsB	K06131	cardiolipin synthetase
+BSU17160	pksH	K15312	polyketide biosynthesis enoyl-CoA hydratase PksH
+BSU08850	ssuC	K15554	aliphatic sulfonates transport permease protein SsuC
+BSU01810	adaA	K13530	bifunctional transcriptional activator/DNA repair enzyme AdaA 
+BSU13100	ykkD	K11741	multidrug resistance protein
+BSU02350	nagP	K02763	PTS system glucosamine-specific EIICBA component 
+BSU22630	trpA	K01695	tryptophan synthase alpha chain 
+BSU28220	clpX	K03544	ATP-dependent Clp protease ATP-binding subunit ClpX
+BSU28550	fadR	K13770	fatty acid metabolism regulator protein
+BSU09070	yhcG	K01990	spermidine/putrescine ABC transporter ATP-binding protein
+BSU06450	purC	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase 
+BSU22540	qcrC	K03888	menaquinol-cytochrome c reductase cytochrome b/c subunit
+BSU08210	malQ	K06147	ABC transporter ATP-binding protein
+BSU25660	aroE	K00014	shikimate dehydrogenase 
+BSU37060	tdk	K00857	thymidine kinase 
+BSU17290	ebrB	K11815	multidrug resistance protein EbrB
+BSU13040	hmp	K05916	flavohemoprotein 
+BSU23840	yqjK	K00784	ribonuclease Z 
+BSU37260	narJ	K00373	nitrate reductase molybdenum cofactor assembly chaperone NarJ 
+BSU22490	dapB	K00215	4-hydroxy-tetrahydrodipicolinate reductase 
+BSU01250	rpsQ	K02961	30S ribosomal protein S17
+BSU17760	yndE	K06311	spore germination protein YndE
+BSU09290	glpK	K00864	glycerol kinase 
+BSU39380	hutG	K01479	formimidoylglutamase 
+BSU22120	kdgR	K02525	LacI family transcriptional regulator
+BSU01490	rplM	K02871	50S ribosomal protein L13
+BSU33290	fhuC	K02013	iron(3+)-hydroxamate import ATP-binding protein FhuC
+BSU01070	rpoB	K03043	DNA-directed RNA polymerase subunit beta 
+BSU33830	opuCA	K05847	glycine betaine/carnitine/choline transport ATP-binding protein OpuCA
+BSU32830	yusK	K00632	3-ketoacyl-CoA thiolase 
+BSU15720	def	K01462	peptide deformylase 
+BSU17580	xynB	K01198	beta-xylosidase
+BSU17340	hfq	K03666	RNA-binding protein Hfq
+BSU17610	xylB	K00854	xylulose kinase 
+BSU08180	malA	K01232	maltose-6'-phosphate glucosidase 
+BSU34360	epsB	K00903	tyrosine-protein kinase YveL 
+BSU38060	ywcJ	K02598	transporter
+BSU13820	ykvT	K01449	hypothetical protein
+BSU14830	ylaM	K01425	glutaminase 
+BSU01100	rpsL	K02950	30S ribosomal protein S12
+BSU15610	sumT	K02303	uroporphyrinogen-iii C-methyltransferase 
+BSU04160	mtlR	K03483	transcriptional regulator MtlR
+BSU13910	ptsI	K08483	phosphoenolpyruvate-protein phosphotransferase 
+BSU19370	sucA	K00164	2-oxoglutarate dehydrogenase E1 component 
+BSU14580	pdhA	K00161	pyruvate dehydrogenase E1 component subunit alpha 
+BSU19400	sodC	K04565	superoxide dismutase-like protein YojM 
+BSU15180	murE	K01928	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase 
+BSU34500	yvdR	K11741	membrane protein
+BSU14900	ctaD	K02274	cytochrome c oxidase subunit 1 
+BSU00070	gyrA	K02469	DNA gyrase subunit A 
+BSU35960	rbsB	K10439	D-ribose-binding protein
+BSU08720	ygaF	K03564	peroxiredoxin YgaF 
+BSU10020	serC	K00831	phosphoserine aminotransferase 
+BSU28950	thrS	K01868	threonine--tRNA ligase 1 
+BSU40250	yycR	K00148	zinc-type alcohol dehydrogenase 
+BSU30135	yteP	K17319	multiple-sugar transport system permease YteP
+BSU34160	cycB	K15770	cyclodextrin-binding protein
+BSU40130	yydK	K03489	HTH-type transcriptional regulator YydK
+BSU41010	gidA	K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+BSU12080	ctaO	K02301	protoheme IX farnesyltransferase 
+BSU31660	mrpG	K05571	Na(+)/H(+) antiporter subunit G
+BSU11430	oppA	K15580	oligopeptide ABC transporter binding lipoprotein
+BSU39410	nupC	K11535	pyrimidine nucleoside transport protein
+BSU30240	bioW	K01906	6-carboxyhexanoate--CoA ligase 
+BSU30710	ythA	K00425	cytochrome bd menaquinol oxidase subunit I 
+BSU12240	yjkA	K02069	hypothetical protein
+BSU34180	yvfI	K05799	HTH-type transcriptional regulator LutR
+BSU03410	bglC	K01223	aryl-phospho-beta-d-glucosidase BglC 
+BSU29210	accD	K01963	acetyl-coenzyme A carboxylase carboxyl transferase subunit beta 
+BSU00670	tilS	K04075	tRNA(ile)-lysidine synthase
+BSU30390	bceS	K11629	sensor protein BceS
+BSU05480	ydfN	K15976	NAD(P)H nitroreductase MhqN 
+BSU31710	comQ	K02251	competence regulatory protein ComQ
+BSU05950	ydiF	K06158	ABC transporter ATP-binding protein
+BSU40890	rpsR	K02963	30S ribosomal protein S18
+BSU30620	ytlD	K02050	ABC transporter permease
+BSU11190	argC	K00145	N-acetyl-gamma-glutamyl-phosphate reductase 
+BSU00690	ftsH	K03798	ATP-dependent zinc metalloprotease FtsH 
+BSU15870	recG	K03655	ATP-dependent DNA helicase RecG
+BSU30400	bceR	K11630	sensory transduction protein BceR
+BSU39700	iolG	K00010	inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase 
+BSU03520	srfAD	K15657	surfactin synthase thioesterase subunit
+BSU38650	yxlG	K01992	transmembrane protein YxlG
+BSU35290	prfB	K02836	peptide chain release factor 2
+BSU16570	proS	K01881	proline--tRNA ligase 
+BSU36230	ywqF	K00012	UDP-glucose 6-dehydrogenase YwqF
+BSU29360	tcyL	K16958	L-cystine transport system permease protein TcyL
+BSU00210	recR	K06187	recombination protein RecR
+BSU15980	ffh	K03106	signal recognition particle protein
+BSU36920	ywlF	K01808	sugar phosphate isomerase YwlF 
+BSU39080	licT	K03488	transcription antiterminator LicT
+BSU11370	appF	K02032	oligopeptide transport ATP-binding protein AppF 
+BSU16350	fliP	K02419	flagellar biosynthetic protein FliP
+BSU36850	atpF	K02109	ATP synthase subunit b 
+BSU36760	murAA	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1 
+BSU27010	adhA	K13979	formaldehyde dehydrogenase AdhA 
+BSU28090	valS	K01873	valine--tRNA ligase 
+BSU11400	appC	K02034	oligopeptide transport system permease protein AppC
+BSU29540	ppnK	K00858	inorganic polyphosphate/ATP-NAD kinase 2 
+BSU36030	ywrK	K03893	arsenical pump membrane protein
+BSU35030	yvoA	K03710	HTH-type transcriptional repressor YvoA
+BSU35740	tagD	K00980	glycerol-3-phosphate cytidylyltransferase 
+BSU07080	yesZ	K01190	beta-galactosidase YesZ 
+BSU39670	iolJ	K03339	6-phospho-5-dehydro-2-deoxy-D-gluconate aldolase 
+BSU13590	mtnW	K08965	2,3-diketo-5-methylthiopentyl-1-phosphate enolase
+BSU28760	araM	K00096	glycerol-1-phosphate dehydrogenase 
+BSU29140	citZ	K01647	citrate synthase 2 
+BSU35580	tuaD	K00012	UDP-glucose 6-dehydrogenase TuaD
+BSU16750	asd	K00133	aspartate-semialdehyde dehydrogenase 
+BSU02230	purT	K08289	phosphoribosylglycinamide formyltransferase 
+BSU27650	secDF	K12257	protein translocase subunit SecDF
+BSU03630	yclB	K03186	phenolic acid decarboxylase subunit B
+BSU03320	nasB	K00362	assimilatory nitrate reductase electron transfer subunit
+BSU31440	patB	K14155	cystathionine beta-lyase 
+BSU16990	tdh	K00060	L-threonine 3-dehydrogenase 
+BSU28780	araD	K01786	L-ribulose-5-phosphate 4-epimerase 
+BSU02440	glnJ	K07717	sensor histidine kinase 
+BSU10930	yitB	K00390	phosphoadenosine phosphosulfate reductase 
+BSU13620	mtnD	K08967	acireductone dioxygenase 
+BSU_tRNA_40	trnD-Gln	K14223	tRNA-Gln
+BSU_tRNA_41	trnD-Gly	K14225	tRNA-Gly
+BSU_tRNA_42	trnD-Cys	K14222	tRNA-Cys
+BSU_tRNA_43	trnD-Leu1	K14228	tRNA-Leu
+BSU_tRNA_44	trnD-Leu2	K14228	tRNA-Leu
+BSU_tRNA_45	trnS-Asn	K14220	tRNA-Asn
+BSU_tRNA_46	trnS-Ser	K14233	tRNA-Ser
+BSU_tRNA_47	trnS-Glu	K14224	tRNA-Glu
+BSU_tRNA_48	trnS-Gln	K14223	tRNA-Gln
+BSU_tRNA_49	trnS-Lys	K14229	tRNA-Lys
+BSU02690	ansZ	K01424	asparaginase
+BSU16190	flgC	K02388	flagellar basal-body rod protein FlgC
+BSU28300	ilvH	K01653	acetolactate synthase small subunit 
+BSU03740	yclI	K02004	ABC transporter permease
+BSU23310	sipS	K03100	signal peptidase I S 
+BSU09110	yhcJ	K02073	lipoprotein
+BSU24190	yqiI	K01448	hypothetical protein
+BSU22790	hbs	K03530	DNA-binding protein HU 1
+BSU39260	bglH	K01223	aryl-phospho-beta-d-glucosidase BglH 
+BSU37670	ywfI	K09162	heme peroxidase
+BSU01800	alkA	K01247	DNA-3-methyladenine glycosylase 
+BSU17110	pksD	K15328	polyketide biosynthesis acyltransferase homolog PksD 
+BSU06680	gatA	K02433	glutamyl-tRNA(Gln) amidotransferase subunit A
+BSU13130	proA	K00147	gamma-glutamyl phosphate reductase 
+BSU32000	dhbA	K00216	2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase 
+BSU27270	mtn	K01243	5'-methylthioadenosine/s-adenosylhomocysteine nucleosidase 
+BSU28540	ysiB	K13767	enoyl-CoA hydratase 
+BSU08220	yfiC	K06147	ABC transporter ATP-binding protein
+BSU16230	fliH	K02411	flagellar assembly protein FliH
+BSU08880	rpsN	K02954	alternate 30S ribosomal protein S14
+BSU25650	yqeI	K07574	RNA-binding protein YqeI
+BSU23550	mleA	K00027	NAD-dependent malic enzyme 1 
+BSU37070	rpmE	K02909	50S ribosomal protein L31
+BSU27870	nadB	K00278	L-aspartate oxidase 
+BSU37270	narH	K00371	nitrate reductase beta chain 
+BSU01240	rpmC	K02904	50S ribosomal protein L29
+BSU32130	guaC	K00364	GMP reductase 
+BSU10420	comK	K02250	competence transcription factor
+BSU22150	ypvA	K03722	ATP-dependent helicase YpvA 
+BSU01480	truA	K06173	tRNA pseudouridine synthase A 
+BSU18560	yoaD	K00058	2-hydroxyacid dehydrogenase YoaD 
+BSU08080	acoC	K00627	dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system
+BSU01060	ybxB	K00564	hypothetical protein
+BSU25430	rimO	K18707	threonylcarbamoyladenosine tRNA methylthiotransferase MtaB
+BSU22370	aspB	K00812	aspartate aminotransferase 
+BSU09840	hemZ	K02495	oxygen-independent coproporphyrinogen-III oxidase
+BSU05170	ydeE	K13653	AraC family transcriptional regulator
+BSU27900	pheA	K04518	prephenate dehydratase 
+BSU18160	xynD	K15921	arabinoxylan arabinofuranohydrolase 
+BSU01660	ybbD	K01207	lipoprotein 
+BSU17330	miaA	K00791	tRNA dimethylallyltransferase 
+BSU32730	metN	K02073	methionine-binding lipoprotein MetQ
+BSU06460	purS	K01952	hypothetical protein
+BSU18300	ppsE	K15668	plipastatin synthase subunit E
+BSU33170	yvrB	K02015	ABC transporter permease
+BSU24320	nusB	K03625	N utilization substance protein B homolog
+BSU01110	rpsG	K02992	30S ribosomal protein S7
+BSU25500	hemN	K02495	oxygen-independent coproporphyrinogen-III oxidase 1 
+BSU09930	yhaM	K03698	3'-5' exoribonuclease YhaM
+BSU07880	yfkJ	K01104	low molecular weight protein-tyrosine-phosphatase YfkJ
+BSU19360	odhB	K00658	dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex 
+BSU34770	yvcJ	K06958	UPF0042 nucleotide-binding protein YvcJ
+BSU14590	pdhB	K00162	pyruvate dehydrogenase E1 component subunit beta 
+BSU13900	ptsH	K11189	phosphocarrier protein HPr
+BSU17930	ccdA	K06196	cytochrome c-type biogenesis protein CcdA
+BSU18410	ggt	K00681	gamma-glutamyltranspeptidase 
+BSU14910	ctaE	K02276	cytochrome c oxidase subunit 3 
+BSU00040	recF	K03629	DNA replication and repair protein RecF
+BSU_tRNA_16	trnJ-Gly	K14225	tRNA-Gly
+BSU_tRNA_15	trnJ-Leu1	K14228	tRNA-Leu
+BSU05810	gmuB	K02760	PTS system oligo-beta-mannoside transporter subunit IIB
+BSU_tRNA_13	trnJ-Thr	K14234	tRNA-Thr
+BSU35910	rbsR	K02529	ribose operon repressor
+BSU08710	gsaB	K01845	glutamate-1-semialdehyde 2,1-aminomutase 
+BSU40060	gntK	K00851	gluconokinase 
+BSU34170	ganR	K02529	HTH-type transcriptional regulator GanR
+BSU24690	comGE	K02247	ComG operon protein 5
+BSU13950	mcpC	K03406	methyl-accepting chemotaxis protein McpC
+BSU15080	rpmF	K02911	50S ribosomal protein L32
+BSU34200	sigL	K03092	RNA polymerase sigma-54 factor
+BSU30270	msmE	K10117	sugar ABC transporter substrate-binding protein
+BSU35350	yvyC	K06603	hypothetical protein
+BSU04360	mntH	K03322	divalent metal cation transporter MntH
+BSU38390	ywbA	K02761	permease IIC component YwbA
+BSU29200	accA	K01962	acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha 
+BSU00190	dnaX	K02343	DNA polymerase III subunit gamma/tau 
+BSU31700	comX	K02253	competence pheromone
+BSU05960	moaC	K03637	cyclic pyranopterin monophosphate synthase accessory protein
+BSU30650	dps	K04047	general stress protein 20U
+BSU13450	sigI	K03093	RNA polymerase sigma factor SigI
+BSU34990	lgt	K13292	prolipoprotein diacylglyceryl transferase
+BSU15470	pyrR	K02825	bifunctional protein PyrR 
+BSU16690	pnpA	K00962	polyribonucleotide nucleotidyltransferase 
+BSU40840	yyaJ	K08369	metabolite transport protein YyaJ
+BSU04210	ydaF	K03817	ribosomal N-acetyltransferase YdaF
+BSU29370	tcyK	K16957	L-cystine-binding protein TcyK
+BSU16500	tsf	K02357	elongation factor Ts
+BSU06860	yezE	K16137	TetR family transcriptional regulator
+BSU11360	appD	K02031	oligopeptide transport ATP-binding protein AppD 
+BSU02270	pssA	K17103	CDP-diacylglycerol--serine O-phosphatidyltransferase 
+BSU33940	gapA	K00134	glyceraldehyde-3-phosphate dehydrogenase 1 
+BSU15310	spoIIGA	K06383	sporulation sigma-E factor-processing peptidase
+BSU36930	ywlE	K01104	low molecular weight protein-tyrosine-phosphatase YwlE
+BSU31290	yugT	K01187	oligo-1,6-glucosidase 3 
+BSU16320	fliY	K02417	flagellar motor switch phosphatase FliY
+BSU36840	atpH	K02113	ATP synthase subunit delta 
+BSU20060	nrdEB	K00525	ribonucleoside-diphosphate reductase NrdEB subunit alpha 
+BSU31050	gbsB	K11440	alcohol dehydrogenase 
+BSU38700	sigY	K03088	RNA polymerase sigma factor SigY
+BSU30500	ytpB	K16188	tetraprenyl-beta-curcumene synthase
+BSU35000	hprK	K06023	HPr kinase/phosphorylase
+BSU02750	natA	K09697	ATP-binding transport protein NatA
+BSU07320	yfnC	K08223	MFS transporter
+BSU27480	yrrC	K03581	hypothetical protein
+BSU13580	ykrV	K08969	transaminase MtnE
+BSU03330	nasA	K02575	nitrate transporter
+BSU16210	fliF	K02409	flagellar M-ring protein
+BSU28150	hemC	K01749	porphobilinogen deaminase 
+BSU31450	kinB	K07697	sporulation kinase B 
+BSU00530	pth	K01056	peptidyl-tRNA hydrolase 
+BSU28500	trxA	K03671	thioredoxin
+BSU16030	trmD	K00554	tRNA (guanine-N(1)-)-methyltransferase
+BSU27460	glnP	K10040	glutamine ABC transporter permease protein GlnP
+BSU37460	rapF	K06364	response regulator aspartate phosphatase F
+BSU_tRNA_75	trnSL-Glu2	K14224	tRNA-Glu
+BSU_tRNA_74	trnSL-Gln2	K14223	tRNA-Gln
+BSU26840	sigZ	K03088	RNA polymerase sigma factor SigZ
+BSU_tRNA_76	trnSL-Thr1	K14234	tRNA-Thr
+BSU_tRNA_71	trnB-Ser2	K14233	tRNA-Ser
+BSU_tRNA_70	trnB-Asn	K14220	tRNA-Asn
+BSU38410	sacX	K02809	negative regulator of SacY activity
+BSU_tRNA_72	trnB-Glu	K14224	tRNA-Glu
+BSU28330	ysnE	K03829	N-acetyltransferase YsnE
+BSU_tRNA_79	trnE-Arg	K14219	tRNA-Arg
+BSU_tRNA_78	trnSL-Val1	K14237	tRNA-Val
+BSU29790	murC	K01924	UDP-N-acetylmuramate--L-alanine ligase 
+BSU36590	clsA	K06131	cardiolipin synthase 
+BSU03750	yclJ	K02483	transcriptional regulator
+BSU07570	yflS	K03319	malate transporter YflS
+BSU28440	sdhA	K00239	succinate dehydrogenase flavoprotein subunit 
+BSU23490	pupG	K03783	purine nucleoside phosphorylase 1 
+BSU37640	ywfL	K16869	octanoyl-[GcvH]:protein N-octanoyltransferase
+BSU22780	folE	K01495	GTP cyclohydrolase 1 
+BSU07610	citM	K11639	Mg(2+)/citrate complex secondary transporter
+BSU39270	bglP	K02755	PTS system beta-glucoside-specific EIIBCA component 
+BSU17100	pksC	K15327	polyketide biosynthesis malonyl CoA-acyl carrier protein transacylase PksC 
+BSU13120	proB	K00931	glutamate 5-kinase 1 
+BSU32030	bioYB	K03523	biotin transporter BioYB
+BSU10040	ecsA	K01990	ABC transporter ATP-binding protein
+BSU06690	gatB	K02434	aspartyl/glutamyl-tRNA amidotransferase subunit B
+BSU02370	ybgA	K03710	GntR family transcriptional regulator
+BSU09720	yheH	K06147	multidrug resistance ABC transporter ATP-binding/permease protein YheH
+BSU07050	yesW	K18197	rhamnogalacturonan endolyase YesW 
+BSU07500	yfmE	K02015	Fe(3+)-citrate import system permease protein YfmE
+BSU27260	mccA	K17216	O-acetylserine dependent cystathionine beta-synthase 
+BSU23960	artR	K02028	arginine transport ATP-binding protein ArtM
+BSU22560	qcrA	K03886	menaquinol-cytochrome c reductase iron-sulfur subunit
+BSU01580	ybaR	K03321	sulfate transporter YbaR
+BSU09540	plsC	K00655	1-acyl-sn-glycerol-3-phosphate acyltransferase 
+BSU04560	ddl	K01921	D-alanine--D-alanine ligase 
+BSU32580	frlM	K10119	ABC transporter permease
+BSU06670	gatC	K02435	glutamyl-tRNA(Gln) amidotransferase subunit C
+BSU29970	ytkP	K01738	cysteine synthase 
+BSU37080	rho	K03628	transcription termination factor Rho
+BSU23760	coaA	K00867	pantothenate kinase 
+BSU_tRNA_3	trnY-Glu	K14224	tRNA-Glu
+BSU36730	ywmD	K07114	hypothetical protein
+BSU01900	ybcM	K00820	hypothetical protein
+BSU01270	rplX	K02895	50S ribosomal protein L24
+BSU27860	nadC	K00767	nicotinate-nucleotide pyrophosphorylase 
+BSU00900	ispD	K00991	2-D-methyl-D-erythritol 4-phosphate cytidylyltransferase 
+BSU22960	gudB	K00260	cryptic catabolic NAD-specific glutamate dehydrogenase GudB 
+BSU37240	ywiE	K06131	cardiolipin synthase YwiE
+BSU01470	ybaF	K16785	energy-coupling factor transporter transmembrane protein EcfT
+BSU32100	yumB	K03885	NADH dehydrogenase-like protein YumB
+BSU22140	kduD	K00065	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase 
+BSU38500	dltA	K03367	D-alanine--poly(phosphoribitol) ligase subunit 1 
+BSU01290	rpsN	K02954	30S ribosomal protein S14
+BSU25420	yqeW	K03324	hypothetical protein
+BSU04690	rsbT	K17752	serine/threonine protein kinase
+BSU22360	asnC	K01893	asparagine--tRNA ligase 
+BSU32690	sufS	K11717	cysteine desulfurase 
+BSU14450	ampS	K01269	aminopeptidase AmpS 
+BSU33180	yvrC	K02016	ABC transporter substrate-binding protein
+BSU08190	malR	K03481	RpiR family transcriptional regulator
+BSU27910	pheB	K06209	hypothetical protein
+BSU23360	ppiB	K03768	peptidyl-prolyl cis-trans isomerase 
+BSU01610	feuC	K02015	iron-uptake system permease protein FeuC
+BSU33610	rnr	K12573	ribonuclease R 
+BSU_rRNA_9	rrnW-16S	K01977	ribosomal RNA-16S
+BSU18530	yoaA	K00676	N-acetyltransferase YoaA 
+BSU32740	metP	K02072	methionine import system permease protein MetP
+BSU06470	purQ	K01952	phosphoribosylformylglycinamidine synthase 
+BSU34690	yvcS	K02004	ABC transporter permease
+BSU18310	ppsD	K15667	plipastatin synthase subunit D
+BSU33160	yvrA	K02013	ABC transporter ATP-binding protein
+BSU15480	pyrP	K02824	uracil permease
+BSU01120	fusA	K02355	elongation factor G
+BSU04740	rsbX	K05518	phosphoserine phosphatase RsbX
+BSU_rRNA_6	rrnJ-16S	K01977	ribosomal RNA-16S
+BSU05610	vmlR	K18231	nucleotide-binding protein ExpZ
+BSU19310	dhaS	K00128	aldehyde dehydrogenase DhaS 
+BSU13930	splB	K03716	spore photoproduct lyase 
+BSU08090	acoL	K00382	dihydrolipoyl dehydrogenase 
+BSU01050	rplL	K02935	50S ribosomal protein L7/L12
+BSU38090	vpr	K14647	minor extracellular protease vpr 
+BSU_tRNA_82	trnSL-Gly1	K14225	tRNA-Gly
+BSU_tRNA_83	trnSL-Val2	K14237	tRNA-Val
+BSU24770	mgsR	K00537	regulatory protein MgsR
+BSU28930	lytS	K07704	sensor protein LytS
+BSU05800	pbuE	K08164	purine efflux pump PbuE
+BSU19220	yocI	K03654	ATP-dependent DNA helicase RecQ
+BSU10350	yhfS	K00626	acetyl-CoA acetyltransferase 
+BSU14670	suhB	K01092	inositol-1-monophosphatase 
+BSU14850	ftsW	K03588	lipid II flippase FtsW
+BSU40090	ahpC	K03386	alkyl hydroperoxide reductase subunit C 
+BSU21630	yokD	K00662	aminoglycoside N(3')-acetyltransferase-like protein YokD 
+BSU30260	msmR	K02529	LacI family transcriptional regulator
+BSU00990	rpmG	K02913	50S ribosomal protein L33 2
+BSU07100	lplA	K17318	lipoprotein
+BSU39470	yxeP	K01436	hydrolase YxeP 
+BSU24170	mmgA	K00626	acetyl-CoA acetyltransferase 
+BSU05970	ydiH	K01926	redox-sensing transcriptional repressor rex
+BSU35830	ywtG	K08139	metabolite transport protein YwtG
+BSU31840	yueD	K16216	benzil reductase
+BSU00180	tadA	K11991	tRNA-specific adenosine deaminase 
+BSU30860	ytcA	K00012	UDP-glucose 6-dehydrogenase YtcA 
+BSU15890	plsX	K03621	phosphate acyltransferase
+BSU40850	maa	K00661	maltose O-acetyltransferase 
+BSU30460	ytrA	K07979	GntR family transcriptional regulator
+BSU11890	yjcK	K03790	ribosomal-protein-alanine acetyltransferase
+BSU29090	polA	K02335	DNA polymerase I 
+BSU16680	rpsO	K02956	30S ribosomal protein S15
+BSU15600	cysC	K00860	adenylyl-sulfate kinase 
+BSU03500	comS	K02252	competence protein S
+BSU16510	pyrH	K09903	uridylate kinase 
+BSU36900	glyA	K00600	serine hydroxymethyltransferase 
+BSU11310	comZ	K02254	ComG operon repressor
+BSU40100	ahpF	K03387	NADH dehydrogenase 
+BSU31600	mrpA	K05565	Na(+)/H(+) antiporter subunit A
+BSU10770	wprA	K13274	cell wall-associated protease 
+BSU37500	speE	K00797	spermidine synthase 
+BSU16330	cheY	K03413	chemotaxis protein CheY
+BSU11420	trpS	K01867	tryptophan--tRNA ligase 
+BSU35010	nagA	K01443	N-acetylglucosamine-6-phosphate deacetylase 
+BSU36690	rapB	K06360	response regulator aspartate phosphatase B
+BSU30510	ytpA	K01048	phospholipase YtpA 
+BSU02740	natR	K11641	transcriptional regulator
+BSU07330	yfnB	K01560	HAD-hydrolase YfnB 
+BSU39610	yxeB	K02016	iron(3+)-hydroxamate-binding protein YxeB
+BSU28140	hemD	K01719	uroporphyrinogen-iii synthase 
+BSU03610	tcyA	K02424	L-cystine-binding protein TcyA
+BSU03340	yciA	K09007	GTP cyclohydrolase folE2
+BSU00520	ctc	K02897	general stress protein CTC
+BSU16200	fliE	K02408	flagellar hook-basal body complex protein FliE
+BSU27670	spoVB	K06409	stage V sporulation protein B
+BSU11220	argD	K00818	acetylornithine aminotransferase 
+BSU03180	cah	K01060	cephalosporin-C deacetylase 
+BSU31930	ald	K00259	alanine dehydrogenase 
+BSU17150	pksG	K15311	polyketide biosynthesis 3-hydroxy-3-methylglutaryl-ACP synthase PksG
+BSU16280	flgD	K02389	FlaA locus hypothetical protein YlxG
+BSU07580	citS	K11637	sensor protein CitS
+BSU16020	rimM	K02860	ribosome maturation factor RimM
+BSU27450	glnM	K10040	glutamine ABC transporter permease protein GlnM
+BSU_tRNA_68	trnB-Gly2	K14225	tRNA-Gly
+BSU_tRNA_69	trnB-Ile2	K14227	tRNA-Ile
+BSU_tRNA_62	trnB-Met3	K14230	tRNA-Met
+BSU38400	epr	K13277	minor extracellular protease epr 
+BSU_tRNA_60	trnB-Ala	K14218	tRNA-Ala
+BSU_tRNA_61	trnB-Met1	K14230	tRNA-Met
+BSU_tRNA_66	trnB-Phe	K14231	tRNA-Phe
+BSU_tRNA_67	trnB-His	K14226	tRNA-His
+BSU_tRNA_64	trnB-Met2	K14230	tRNA-Met
+BSU_tRNA_65	trnB-Asp	K14221	tRNA-Asp
+BSU02100	cypC	K15629	fatty-acid peroxygenase 
+BSU39100	yxiO	K06902	MFS transporter
+BSU27580	yrvJ	K01448	N-acetylmuramoyl-L-alanine amidase YrvJ 
+BSU23800	proI	K00286	pyrroline-5-carboxylate reductase 2 
+BSU03982	mtlF	K02798	mannitol-specific phosphotransferase enzyme IIA component 
+BSU03981	mtlA	K02799	PTS system mannitol-specific EIICB component 
+BSU36870	atpB	K02108	ATP synthase subunit a 
+BSU27070	levD	K11194	PTS system fructose transporter subunit IIA 
+BSU23020	recQ	K03654	ATP-dependent DNA helicase RecS 
+BSU22770	mtrB	K06285	transcription attenuation protein MtrB
+BSU28450	sdhC	K00241	succinate dehydrogenase cytochrome b558 subunit
+BSU17130	acpK	K15337	polyketide biosynthesis acyl-carrier-protein AcpK
+BSU32020	yuiH	K07147	oxidoreductase 
+BSU02360	nagBB	K02564	glucosamine-6-phosphate deaminase 2 
+BSU28210	lonB	K04076	Lon protease 2
+BSU06060	ydiO	K00558	BsuMI modification methylase subunit YdiO
+BSU07510	yfmD	K02015	Fe(3+)-citrate import system permease protein YfmD
+BSU11880	yjcJ	K01760	cystathionine beta-lyase MetC 
+BSU23570	aspA	K01744	aspartate ammonia-lyase 
+BSU37090	glpX	K02446	fructose-1,6-bisphosphatase class 2 
+BSU22680	trpE	K01657	anthranilate synthase component 1 
+BSU27850	nadA	K03517	quinolinate synthase A
+BSU23770	dsdA	K01753	D-serine dehydratase 
+BSU37250	narI	K00374	nitrate reductase gamma chain 
+BSU01260	rplN	K02874	50S ribosomal protein L14
+BSU17000	kbl	K00639	2-amino-3-ketobutyrate CoA ligase 
+BSU32110	yumC	K00384	ferredoxin--NADP reductase 2 
+BSU06240	bdhA	K00004	(r,r)-butanediol dehydrogenase 
+BSU22170	ypsC	K07444	RNA methyltransferase YpsC
+BSU01460	cbiO	K16787	energy-coupling factor transporter ATP-binding protein EcfA2
+BSU23480	dacF	K07258	D-alanyl-D-alanine carboxypeptidase DacF 
+BSU25180	trmK	K06967	tRNA: m1A22 methyltransferase
+BSU39820	htpG	K04079	chaperone protein HtpG
+BSU22420	panC	K01918	pantothenate synthetase 
+BSU01280	rplE	K02931	50S ribosomal protein L5
+BSU02810	cwlK	K17733	peptidoglycan L-alanyl-D-glutamate endopeptidase CwlK 
+BSU14440	ykpB	K00077	oxidoreductase 
+BSU26430	yrkP	K02483	transcriptional regulator
+BSU17640	alrB	K01775	alanine racemase 2 
+BSU27920	obgE	K03979	GTPase ObgE
+BSU06480	purL	K01952	phosphoribosylformylglycinamidine synthase 
+BSU32200	yutJ	K03885	NADH dehydrogenase-like protein YutJ 
+BSU32750	metQ	K02071	methionine import ATP-binding protein MetN
+BSU01130	tufA	K02358	elongation factor Tu 
+BSU34680	yvcT	K00090	2-ketogluconate reductase 
+BSU24340	accC	K01961	biotin carboxylase 1 
+BSU33970	araR	K02103	transcriptional repressor
+BSU40440	dnaC	K02314	replicative DNA helicase 
+BSU05420	ydfI	K11624	transcriptional regulator
+BSU25560	holA	K02340	hypothetical protein
+BSU25290	era	K03595	GTPase Era
+BSU00410	rnmV	K05985	ribonuclease M5
+BSU04730	sigB	K03090	RNA polymerase sigma-B factor
+BSU09950	prsA	K07533	foldase protein PrsA
+BSU13920	splA	K06315	transcriptional regulator SplA
+BSU38280	efeU	K07243	ferrous iron permease EfeU
+BSU33080	liaR	K11618	transcriptional regulatory protein LiaR
+BSU24900	rpmG	K02913	50S ribosomal protein L33 1
+BSU01730	sigW	K03088	RNA polymerase sigma factor SigW
+BSU33570	yvaE	K03297	membrane protein
+BSU40620	yybJ	K01990	ABC transporter ATP-binding protein
+BSU17260	aprX	K17734	serine protease AprX
+BSU38240	ywcA	K14393	symporter
+BSU30980	glgB	K00700	1,4-alpha-glucan branching enzyme GlgB 
+BSU07990	yfjR	K00020	oxidoreductase 
+BSU35930	rbsD	K06726	D-ribose pyranase
+BSU05740	phoB	K01077	alkaline phosphatase 3 
+BSU28920	lytT	K07705	sensory transduction protein LytT
+BSU25160	ispH	K03527	4-hydroxy-3-methylbut-2-enyl diphosphate reductase 
+BSU09680	nhaC	K03315	Na(+)/H(+) antiporter NhaC
+BSU19230	yocJ	K01118	FMN-dependent NADH-azoreductase 1
+BSU15790	rpe	K01783	ribulose-phosphate 3-epimerase 
+BSU15240	divIB	K03589	cell division protein DivIB
+BSU18320	ppsC	K15666	plipastatin synthase subunit C
+BSU41060	rpmH	K02914	50S ribosomal protein L34
+BSU40910	rpsF	K02990	30S ribosomal protein S6
+BSU30210	bioD	K01935	ATP-dependent dethiobiotin synthetase BioD 
+BSU35330	fliS	K02422	flagellar protein FliS
+BSU10540	ntdB	K18654	NTD biosynthesis operon putative hydrolase NtdB 
+BSU04340	ydaP	K00158	thiamine pyrophosphate-containing protein YdaP 
+BSU40080	gntZ	K00033	6-phosphogluconate dehydrogenase 
+BSU24160	mmgB	K00074	3-hydroxybutyryl-CoA dehydrogenase 
+BSU10140	hemY	K00231	protoporphyrinogen oxidase 
+BSU28850	rplT	K02887	50S ribosomal protein L20
+BSU00420	ksgA	K02528	ribosomal RNA small subunit methyltransferase A 
+BSU30670	luxS	K07173	S-ribosylhomocysteine lyase
+BSU30850	ytdA	K00963	UTP--glucose-1-phosphate uridylyltransferase 
+BSU21440	bdbB	K03611	disulfide bond formation protein B
+BSU30320	leuS	K01869	leucine--tRNA ligase 
+BSU30450	ytrB	K16921	ABC transporter ATP-binding protein 
+BSU30690	ytiB	K01673	carbonic anhydrase YtiB 
+BSU03510	srfAC	K15656	surfactin synthase subunit 3
+BSU38660	yxlF	K01990	ABC transporter ATP-binding protein
+BSU29080	mutM	K10563	formamidopyrimidine-DNA glycosylase 
+BSU16520	frr	K02838	ribosome-recycling factor
+BSU24010	bmr	K08153	multidrug resistance protein
+BSU31580	maeN	K11616	Na(+)-malate symporter
+BSU00730	cysK	K01738	cysteine synthase 
+BSU11300	med	K05519	transcriptional activator protein med
+BSU15330	sigG	K03091	RNA polymerase sigma-G factor
+BSU31610	mrpB	K05566	Na(+)/H(+) antiporter subunit B
+BSU03280	nasF	K13542	uroporphyrinogen-iii C-methyltransferase 
+BSU29530	sppA	K04773	signal peptide peptidase SppA
+BSU00950	mrnC	K11145	mini-ribonuclease 3
+BSU_tRNA_77	trnSL-Tyr1	K14236	tRNA-Tyr
+BSU35060	cypX	K17474	cytochrome P450 CypX 
+BSU35790	yvyI	K01809	mannose-6-phosphate isomerase YvyI 
+BSU15930	rnc	K03685	ribonuclease 3 
+BSU35370	csrA	K03563	carbon storage regulator homolog
+BSU_tRNA_73	trnSL-Gln1	K14223	tRNA-Gln
+BSU16780	rnjB	K12574	ribonuclease J 2
+BSU34820	bmrA	K18104	multidrug resistance ABC transporter ATP-binding/permease protein BmrA 
+BSU28130	hemB	K01698	delta-aminolevulinic acid dehydratase 
+BSU03600	tcyB	K10009	L-cystine transport system permease protein TcyB
+BSU00550	mfd	K03723	transcription-repair-coupling factor
+BSU00880	yacK	K07067	DNA integrity scanning protein DisA
+BSU21990	ypdQ	K03469	14.7 kDa ribonuclease H-like protein
+BSU11230	carA	K01956	carbamoyl-phosphate synthase arginine-specific small chain 
+BSU11540	pepF	K08602	oligoendopeptidase F homolog
+BSU27440	glnH	K10039	ABC transporter glutamine-binding protein GlnH
+BSU23160	rluB	K06178	ribosomal large subunit pseudouridine synthase B 
+BSU29620	hisJ	K04486	histidinol-phosphatase 
+BSU_tRNA_19	trnJ-Pro	K14232	tRNA-Pro
+BSU_tRNA_18	trnJ-Arg	K14219	tRNA-Arg
+BSU_tRNA_17	trnJ-Leu2	K14228	tRNA-Leu
+BSU31322	yugO	K10716	potassium channel protein YugO
+BSU35660	mnaA	K01791	UDP-N-acetylglucosamine 2-epimerase 
+BSU_tRNA_14	trnJ-Lys	K14229	tRNA-Lys
+BSU02480	gudP	K03535	glucarate transporter
+BSU_tRNA_12	trnJ-Val	K14237	tRNA-Val
+BSU_tRNA_11	trnSL-Glu1	K14224	tRNA-Glu
+BSU_tRNA_10	trnSL-Met1	K14230	tRNA-Met
+BSU13490	ykrL	K03799	protease HtpX homolog
+BSU28680	glcD	K00104	glycolate oxidase subunit GlcD 
+BSU35460	comFB	K02241	ComF operon protein 2
+BSU27590	yrvI	K07560	D-tyrosyl-tRNA(Tyr) deacylase
+BSU03770	rapC	K06361	response regulator aspartate phosphatase C
+BSU03990	mtlD	K00009	mannitol-1-phosphate 5-dehydrogenase 
+BSU16650	rbfA	K02834	ribosome-binding factor A
+BSU16300	fliL	K02415	flagellar protein FliL
+BSU36860	atpE	K02110	ATP synthase subunit c 
+BSU27060	levE	K11195	PTS system fructose-specific transporter subunit IIB 
+BSU05340	ydfA	K03893	arsenic pump protein
+BSU22760	hepS	K00805	heptaprenyl diphosphate synthase component 1 
+BSU38980	scoB	K01029	succinyl-CoA:3-ketoacid coenzyme A transferase subunit B 
+BSU09380	nsrR	K13771	Rrf2 family transcriptional regulator
+BSU16410	ylxH	K04562	flagellum site-determining protein YlxH
+BSU37310	fnr	K01420	anaerobic regulatory protein
+BSU17120	pksE	K15329	polyketide biosynthesis protein PksE 
+BSU39050	katE	K03781	catalase-2 
+BSU02390	ybgE	K00826	branched-chain-amino acid transaminase 1 
+BSU06070	ydiP	K00558	BsuMI modification methylase subunit YdiP
+BSU10030	hinT	K02503	protein hit
+BSU16040	rplS	K02884	50S ribosomal protein L19
+BSU02000	ybdJ	K02483	transcriptional regulator
+BSU27280	yrrT	K17462	methyltransferase
+BSU28260	leuC	K01703	3-isopropylmalate dehydratase large subunit 
+BSU28590	yshC	K02347	DNA polymerase/3'-5' exonuclease PolX
+BSU37790	rocG	K00260	catabolic NAD-specific glutamate dehydrogenase RocG 
+BSU02550	ycbL	K02483	transcriptional regulator
+BSU23580	ansA	K01424	L-asparaginase 1 
+BSU06650	sapB	K07507	peptide ABC transporter permease SapB
+BSU07700	nagP	K02803	PTS system N-acetylglucosamine-specific EIICB component
+BSU02950	yceI	K08369	niacin/nicotinamide transporter NaiP
+BSU25620	yqeL	K09710	hypothetical protein
+BSU13000	ykfD	K02032	oligopeptide transport ATP-binding protein YkfD
+BSU22690	aroH	K06208	chorismate mutase AroH 
+BSU17010	ymcB	K06168	(dimethylallyl)adenosine tRNA methylthiotransferase MiaB
+BSU09090	yhcI	K01992	hypothetical protein
+BSU00460	ipk	K00919	4-diphosphocytidyl-2-c-methyl-d-erythritol kinase 
+BSU32160	yutM	K13628	hypothetical protein
+BSU01450	cbiO	K16786	energy-coupling factor transporter ATP-binding protein EcfA1
+BSU09410	phoA	K01077	alkaline phosphatase 
+BSU22430	panB	K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase 
+BSU22340	nth	K10773	endonuclease III 
+BSU09890	natA	K01990	ABC transporter ATP-binding protein
+BSU05120	cspC	K03704	cold shock protein CspC
+BSU02820	rapJ	K06368	response regulator aspartate phosphatase J
+BSU14370	yknZ	K02004	ABC transporter permease
+BSU27930	spo0B	K06375	sporulation initiation phosphotransferase B
+BSU18150	xynC	K15924	glucuronoxylanase XynC 
+BSU14470	mreBH	K03569	rod-share determining protein MreBH
+BSU29880	malS	K00027	NAD-dependent malic enzyme 3
+BSU37130	spo0F	K02490	sporulation initiation phosphotransferase F
+BSU01630	feuA	K02016	iron-uptake system-binding protein
+BSU17300	ebrA	K11814	multidrug resistance protein EbrA
+BSU06490	purF	K00764	amidophosphoribosyltransferase 
+BSU32410	pucH	K01466	allantoinase 
+BSU25280	recO	K03584	DNA repair protein RecO
+BSU32940	yusV	K02013	siderophore transport system ATP-binding protein YusV
+BSU24570	gcvT	K00605	aminomethyltransferase 
+BSU22230	ypqE	K02777	PTS system transporter subunit IIA YpqE 
+BSU33960	araE	K02100	arabinose-proton symporter
+BSU15650	yloB	K01537	calcium-transporting ATPase
+BSU25570	comEC	K02238	ComE operon protein 3
+BSU19330	sodF	K04564	superoxide dismutase 
+BSU04720	rsbW	K04757	serine-protein kinase RsbW 
+BSU14270	moeB	K11996	molybdopterin-synthase adenylyltransferase
+BSU33090	liaS	K11617	sensor histidine kinase
+BSU12460	xlyB	K01447	N-acetylmuramoyl-L-alanine amidase XlyB 
+BSU24970	pstA	K02038	ABC transporter permease
+BSU01700	murQ	K07106	N-acetylmuramic acid 6-phosphate etherase
+BSU34780	yvcI	K03574	Nudix hydrolase YvcI
+BSU24710	comGC	K02245	ComG operon protein 3
+BSU00470	purR	K09685	Pur operon repressor
+BSU38270	efeM	K07224	iron uptake system component EfeM
+BSU28910	ysbA	K05338	antiholin-like protein LrgA
+BSU35920	rbsK	K00852	ribokinase 
+BSU10370	bioY	K03523	biotin transporter BioY
+BSU04650	endB	K07723	antitoxin EndoAI
+BSU14300	moaE	K03635	molybdopterin synthase catalytic subunit
+BSU14870	ctaA	K02259	heme A synthase
+BSU19200	desR	K07693	transcriptional regulatory protein DesR
+BSU15780	yloQ	K06949	ribosome biogenesis GTPase RsgA
+BSU_misc_RNA_55	ssrA	K15035	Evidence 1a: Function experimentally demonstrated in the studied strain
+BSU18330	ppsB	K15665	plipastatin synthase subunit B
+BSU41050	rnpA	K03536	ribonuclease P protein component 
+BSU10550	ntdA	K18653	NTD biosynthesis operon protein NtdA 
+BSU40900	ssbA	K03111	single-stranded DNA-binding protein
+BSU21610	yokF	K01174	endonuclease
+BSU30200	bioB	K01012	biotin synthase 
+BSU35320	fliT	K02423	flagellar protein FliT
+BSU30190	bioI	K16593	biotin biosynthesis cytochrome P450
+BSU14890	ctaC	K02275	cytochrome c oxidase subunit 2 
+BSU19590	ctpA	K03797	carboxy-terminal processing protease CtpA
+BSU02470	ycbD	K00128	aldehyde dehydrogenase YcbD 
+BSU35810	gerBB	K06292	spore germination protein B2
+BSU15430	ileS	K01870	isoleucine--tRNA ligase 
+BSU28860	rpmI	K02916	50S ribosomal protein L35
+BSU05910	ydiB	K06925	UPF0079 ATP-binding protein YdiB
+BSU21050	yonN	K03530	DNA-binding protein HU 2
+BSU21500	uvrX	K03502	UV-damage repair protein UvrX 
+BSU40140	yydJ	K16916	peptide export permease protein YydJ
+BSU19440	yojI	K03327	multidrug resistance protein NorM
+BSU35490	degU	K07692	transcriptional regulatory protein DegU
+BSU30440	ytrC	K16919	ABC transporter permease
+BSU02570	ycbN	K01990	ABC transporter ATP-binding protein
+BSU35250	ftsX	K09811	cell division protein FtsX
+BSU16530	uppS	K00806	undecaprenyl pyrophosphate synthase 
+BSU11330	fabHA	K00648	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 1 
+BSU38050	sacP	K02809	PTS system sucrose-specific EIIBC component 
+BSU00090	guaB	K00088	inosine-5'-monophosphate dehydrogenase 
+BSU31620	mrpC	K05567	Na(+)/H(+) antiporter subunit C
+BSU10790	asnO	K01953	asparagine synthetase 3 
+BSU28200	lonA	K01338	Lon protease 1 
+BSU11440	oppB	K15581	oligopeptide transport system permease protein OppB
+BSU31550	yufO	K02056	ABC transporter ATP-binding protein
+BSU35780	lytD	K01227	beta-N-acetylglucosaminidase 
+BSU00940	cysS	K01883	cysteine--tRNA ligase 
+BSU13550	mtnA	K08963	methylthioribose-1-phosphate isomerase 
+BSU35070	yvmC	K17485	hypothetical protein
+BSU02760	natB	K09696	sodium efflux ABC transporter permease NatB
+BSU39630	yxdM	K11636	ABC transporter permease
+BSU21870	ilvD	K01687	dihydroxy-acid dehydratase 
+BSU29180	pyk	K00873	pyruvate kinase 
+BSU12020	manA	K01809	mannose-6-phosphate isomerase ManA 
+BSU16220	fliG	K02410	flagellar motor switch protein FliG
+BSU27610	apt	K00759	adenine phosphoribosyltransferase 
+BSU28120	hemL	K01845	glutamate-1-semialdehyde 2,1-aminomutase 
+BSU25640	nadD	K00969	nicotinate-nucleotide adenylyltransferase 
+BSU21470	sunT	K06148	sublancin-168-processing and transport ATP-binding protein SunT
+BSU23560	mleN	K03315	malate-2H(+)/Na(+)-lactate antiporter
+BSU11200	argJ	K00620	arginine biosynthesis bifunctional protein ArgJ 
+BSU40420	purA	K01939	adenylosuccinate synthetase 
+BSU27430	glnQ	K10041	glutamine transport ATP-binding protein GlnQ 
+BSU27120	sigV	K03088	RNA polymerase sigma factor SigV
+BSU03380	yckB	K02424	ABC transporter extracellular-binding protein YckB
+BSU29610	ezrA	K06286	septation ring formation regulator EzrA
+BSU36410	mbl	K03569	MreB-like protein
+BSU35670	gtaB	K00963	UTP--glucose-1-phosphate uridylyltransferase 
+BSU02490	gudD	K01706	glucarate dehydratase 
+BSU09620	yhdW	K01126	glycerophosphoryl diester phosphodiesterase 
+BSU35470	comFA	K02240	ComF operon protein 1
+BSU36890	upp	K00761	uracil phosphoribosyltransferase 
+BSU13540	ogt	K00567	methylated-dna--protein-cysteine methyltransferase 
+BSU40050	gntR	K11476	gluconate operon transcriptional repressor
+BSU16310	fliM	K02416	flagellar motor switch protein FliM
+BSU26890	csn	K01233	chitosanase 
+BSU22750	ubiE	K03183	demethylmenaquinone methyltransferase 
+BSU38990	scoA	K01028	succinyl-CoA:3-ketoacid coenzyme A transferase subunit A 
+BSU28670	ysfB	K02647	hypothetical protein
+BSU36520	glnK	K04751	nitrogen regulatory PII-like protein
+BSU36250	ptkA	K00903	tyrosine-protein kinase YwqD
+BSU39020	yxjA	K16323	purine nucleoside transport protein NupG
+BSU09710	yheI	K06147	multidrug resistance ABC transporter ATP-binding/permease protein YheI
+BSU07060	yesX	K18198	rhamnogalacturonan exolyase YesX 
+BSU38860	galE	K01784	UDP-glucose 4-epimerase 
+BSU28270	leuB	K00052	3-isopropylmalate dehydrogenase 
+BSU03010	amhX	K14665	amidohydrolase AmhX 
+BSU37780	rocA	K00294	1-pyrroline-5-carboxylate dehydrogenase 
+BSU09570	yhdR	K11358	aspartate aminotransferase 
+BSU06620	ligA	K01972	DNA ligase 
+BSU09080	yhcH	K01990	ABC transporter ATP-binding protein
+BSU13010	ykgB	K07404	6-phosphogluconolactonase 
+BSU39330	abnB	K06113	arabinan endo-1,5-alpha-L-arabinosidase 
+BSU37230	ywjA	K06147	ABC transporter ATP-binding protein
+BSU01440	rplQ	K02879	50S ribosomal protein L17
+BSU32170	dapF	K01778	diaminopimelate epimerase 
+BSU36120	ywrB	K07240	transporter
+BSU28470	lysC	K00928	aspartokinase 2 
+BSU06530	purD	K01945	phosphoribosylamine--glycine ligase 
+BSU22400	dinG	K03722	ATP-dependent helicase DinG homolog
+BSU02830	ycdF	K00034	glucose 1-dehydrogenase 2 
+BSU13300	mgtE	K06213	magnesium transporter MgtE
+BSU05130	ydeB	K07736	transcription factor YdeB
+BSU17660	yncF	K01520	deoxyuridine 5'-triphosphate nucleotidohydrolase YncF 
+BSU27940	rpmA	K02899	50S ribosomal protein L27
+BSU37120	fbaA	K01624	fructose-bisphosphate aldolase 
+BSU33310	fhuB	K02015	iron(3+)-hydroxamate import system permease protein FhuB
+BSU01620	feuB	K02015	iron-uptake system permease protein FeuB
+BSU12940	dppC	K16201	dipeptide transport system permease protein DppC
+BSU33130	liaI	K11619	protein LiaI
+BSU01150	rpsJ	K02946	30S ribosomal protein S10
+BSU17680	thyA	K00560	thymidylate synthase 
+BSU25540	gpr	K06012	germination protease 
+BSU18180	yngB	K00963	UTP--glucose-1-phosphate uridylyltransferase YngB 
+BSU07840	yfkN	K08693	nucleotide phosphoesterase 
+BSU33950	cggR	K05311	central glycolytic genes regulator
+BSU05620	ydgF	K11737	transporter
+BSU19320	sqhC	K18115	sporulenol synthase 
+BSU29980	ytjP	K01439	dipeptidase YtjP
+BSU14260	mobA	K03752	molybdenum cofactor guanylyltransferase
+BSU17200	pksM	K13613	polyketide synthase PksM
+BSU24960	pstBA	K02036	phosphate import ATP-binding protein PstB 2
+BSU34790	trxB	K00384	thioredoxin 
+BSU18450	gltA	K00265	glutamate synthase [NADPH] large chain 
+BSU33040	fumC	K01679	fumarate hydratase class II 
+BSU38260	efeN	K16301	deferrochelatase/peroxidase EfeN
+BSU19690	kamA	K01843	L-lysine 2,3-aminomutase 
+BSU24700	comGD	K02246	ComG operon protein 4
+BSU08020	yfjO	K03215	RNA methyltransferase YfjO 
+BSU28900	ysbB	K05339	antiholin-like protein LrgB
+BSU_rRNA_19	rrnB-16S	K01977	ribosomal RNA-16S
+BSU_rRNA_18	rrnD-5S	K01985	ribosomal RNA-5S
+BSU15220	murG	K02563	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase 
+BSU40021	yxzK	K06518	integral membrane protein YxzK
+BSU04660	ndoA	K07171	mRNA interferase EndoA
+BSU41040	spoIIIJ	K03217	membrane protein insertase MisCA
+BSU14310	moaD	K03636	molybdopterin synthase sulfur carrier subunit
+BSU14860	pycA	K01958	pyruvate carboxylase 
+BSU17840	yndN	K11210	metallothiol transferase FosB
+BSU12230	hemD	K01719	hypothetical protein
+BSU10520	glcP	K08174	sugar transporter
+BSU38190	galT	K00965	galactose-1-phosphate uridylyltransferase 
+BSU_rRNA_11	rrnW-5S	K01985	ribosomal RNA-5S
+BSU00390	yabD	K03424	deoxyribonuclease YabD 
+BSU14880	ctaB	K02301	protoheme IX farnesyltransferase 2
+BSU24140	mmgD	K01647	2-methylcitrate synthase 
+BSU00150	dgk	K15518	deoxyguanosine kinase
+BSU28870	infC	K02520	translation initiation factor IF-3
+BSU40330	rocE	K02205	amino acid permease RocE
+BSU30830	menF	K02552	menaquinone-specific isochorismate synthase 
+BSU_rRNA_16	rrnH-16S	K01977	ribosomal RNA-16S
+BSU01040	rplJ	K02864	50S ribosomal protein L10
+BSU15680	gmk	K00942	guanylate kinase 
+BSU10630	addA	K16898	ATP-dependent helicase/nuclease subunit A
+BSU30300	melA	K07406	alpha-galactosidase 
+BSU35260	ftsE	K09812	cell division ATP-binding protein FtsE
+BSU04250	lrpC	K03719	AsnC family transcriptional regulator
+BSU38040	sacA	K01193	sucrose-6-phosphate hydrolase 
+BSU16810	ymfC	K03710	GntR family transcriptional regulator
+BSU15350	ylmB	K01438	N-formyl-4-amino-5-aminomethyl-2-methylpyrimidine deformylase 
+BSU31630	mrpD	K05568	Na(+)/H(+) antiporter subunit D 
+BSU00710	hslO	K04083	33 kDa chaperonin
+BSU30940	glgP	K00688	glycogen phosphorylase 
+BSU30230	bioA	K00833	L-lysine-8-amino-7-oxononanoate aminotransferase 
+BSU05850	gmuR	K03492	GntR family transcriptional regulator
+BSU11450	oppC	K15582	oligopeptide transport system permease protein OppC
+BSU31010	yuaG	K07192	hypothetical protein
+BSU36660	ureA	K01430	urease subunit gamma 
+BSU30540	asnB	K01953	asparagine synthetase 1 
+BSU29190	pfkA	K00850	6-phosphofructokinase 
+BSU12010	manP	K02768	PTS system mannose-specific EIIBCA component 
+BSU15910	fabG	K00059	3-oxoacyl-[acyl-carrier-protein] reductase FabG 
+BSU03370	yckA	K10009	amino acid ABC transporter permease protein YckA
+BSU29420	fabG	K00059	oxidoreductase 
+BSU16250	fliJ	K02413	flagellar FliJ protein
+BSU39480	yxeO	K16963	amino acid import ATP-binding protein YxeO
+BSU27600	relA	K00951	GTP pyrophosphokinase 
+BSU11210	argB	K00930	acetylglutamate kinase 
+BSU03170	ycgK	K04761	LysR family transcriptional regulator
+BSU00370	abrB	K06284	transition state regulatory protein AbrB
+BSU16490	rpsB	K02967	30S ribosomal protein S2
+BSU10940	yitC	K05979	2-phosphosulfolactate phosphatase 
+BSU_tRNA_31	trnD-Glu	K14224	tRNA-Glu
+BSU_tRNA_30	trnD-Ser	K14233	tRNA-Ser
+BSU_tRNA_33	trnD-Met	K14230	tRNA-Met
+BSU_tRNA_32	trnD-Val	K14237	tRNA-Val
+BSU_tRNA_35	trnD-Phe	K14231	tRNA-Phe
+BSU_tRNA_34	trnD-Asp	K14221	tRNA-Asp
+BSU_tRNA_37	trnD-Tyr	K14236	tRNA-Tyr
+BSU_tRNA_36	trnD-Thr	K14234	tRNA-Thr
+BSU_tRNA_39	trnD-His	K14226	tRNA-His
+BSU_tRNA_38	trnD-Trp	K14235	tRNA-Trp
+BSU02620	phoD	K01113	alkaline phosphatase D 
+BSU12160	yjgC	K00123	oxidoreductase 
+BSU07270	yfnH	K00978	glucose-1-phosphate cytidylyltransferase 
+BSU27730	ruvB	K03551	holliday junction ATP-dependent DNA helicase RuvB 
+BSU27040	levG	K02771	PTS system fructose transporter subunit IID
+BSU20020	yosS	K01520	deoxyuridine 5'-triphosphate nucleotidohydrolase YosS 
+BSU16670	ribC	K11753	riboflavin biosynthesis protein RibC 
+BSU23610	nudF	K01515	adp-ribose pyrophosphatase 
+BSU16100	sucD	K01902	succinyl-CoA ligase [ADP-forming] subunit alpha 
+BSU27550	aspS	K01876	aspartate--tRNA ligase 
+BSU_tRNA_51	trnS-Leu2	K14228	tRNA-Leu
+BSU28640	pheS	K01889	phenylalanine--tRNA ligase alpha subunit 
+BSU03950	ycnJ	K14166	copper transport protein YcnJ
+BSU37330	argS	K01887	arginine--tRNA ligase 
+BSU36240	ywqE	K01104	tyrosine-protein phosphatase YwqE
+BSU38520	dltC	K14188	D-alanine--poly(phosphoribitol) ligase subunit 2 
+BSU23920	yqjD	K01966	propionyl-CoA carboxylase beta chain
+BSU36130	ywrA	K07240	transporter
+BSU03000	opuAC	K02002	glycine betaine-binding protein OpuAC
+BSU23100	sigX	K03088	RNA polymerase sigma factor SigX
+BSU25600	comER	K02239	ComE operon protein 4
+BSU23930	yqjC	K05606	hypothetical protein
+BSU25140	cshB	K18692	DEAD/DEAH box helicase 
+BSU37200	uvsE	K13281	UV DNA damage endonuclease
+BSU16180	flgB	K02387	flagellar basal body rod protein FlgB
+BSU32140	paiB	K07734	protease synthase and sporulation protein PAI 2
+BSU01430	rpoA	K03040	DNA-directed RNA polymerase subunit alpha 
+BSU07120	lplC	K17320	ABC transporter permease LplC
+BSU22740	hepT	K00805	heptaprenyl diphosphate synthase component 2 
+BSU22410	panD	K01579	aspartate 1-decarboxylase 
+BSU09210	yhcT	K06180	RNA pseudouridine synthase YhcT 
+BSU24350	accB	K02160	biotin carboxyl carrier protein of acetyl-CoA carboxylase 
+BSU06520	purH	K00602	bifunctional purine biosynthesis protein PurH 
+BSU02840	ycdG	K01182	oligo-1,6-glucosidase 2 
+BSU14410	sipT	K03100	signal peptidase I T 
+BSU01380	mapA	K01265	methionine aminopeptidase 1 
+BSU39920	asnH	K01953	asparagine synthetase 2 
+BSU37110	ywjH	K00616	transaldolase 
+BSU33300	fhuG	K02015	iron(3+)-hydroxamate import system permease protein FhuG
+BSU01540	salA	K03593	protein mrp homolog SalA
+BSU12950	dppD	K16202	dipeptide transport ATP-binding protein DppD
+BSU01890	ybcL	K08164	MFS transporter
+BSU18620	yoaI	K00483	4-hydroxyphenylacetate 3-monooxygenase
+BSU33120	liaH	K11620	lia operon expression modulator LiaH
+BSU01360	secY	K03076	protein translocase subunit SecY
+BSU16430	cheA	K03407	chemotaxis protein CheA 
+BSU25550	rpsT	K02968	30S ribosomal protein S20
+BSU32430	pucJ	K16170	uric acid permease PucJ
+BSU24550	gcvPB	K00283	glycine dehydrogenase subunit 2 
+BSU25100	zur	K02076	zinc-specific metallo-regulatory protein
+BSU14520	adeC	K01486	adenine deaminase 
+BSU29990	pbuO	K06901	guanine/hypoxanthine permease PbuO
+BSU32840	fadN	K07516	enoyl-CoA hydratase 
+BSU15320	sigE	K03091	RNA polymerase sigma-E factor
+BSU24950	pstBB	K02036	phosphate import ATP-binding protein PstB 1
+BSU33230	sigO	K03093	RNA polymerase sigma factor SigO
+BSU33540	yvaB	K01118	FMN-dependent NADH-azoreductase 2
+BSU01090	ybxF	K07590	ribosome-associated protein L7Ae-like
+BSU17210	pksN	K13614	polyketide synthase PksN
+BSU00020	dnaN	K02338	DNA polymerase III subunit beta 
+BSU18440	gltD	K00266	glutamate synthase [NADPH] small chain 
+BSU13990	kinA	K02491	sporulation kinase A 
+BSU24730	comGA	K02243	ComG operon protein 1
+BSU10650	sbcC	K03546	nuclease SbcCD subunit C
+BSU34490	yvdS	K11741	membrane protein
+BSU40120	yyzE	K02777	PTS system transporter subunit IIA YyzE 
+BSU26600	bltD	K00657	spermine/spermidine acetyltransferase 
+BSU17040	mutS	K03555	DNA mismatch repair protein MutS
+BSU15230	murB	K00075	UDP-N-acetylenolpyruvoylglucosamine reductase 
+BSU14630	speA	K01585	arginine decarboxylase 
+BSU14320	yknU	K06147	ABC transporter ATP-binding protein
+BSU33430	yvgQ	K00381	sulfite reductase [NADPH] hemoprotein beta-component
+BSU01160	rplC	K02906	50S ribosomal protein L3
+BSU17850	lexA	K01356	lexa repressor 
+BSU35300	secA	K03070	protein translocase subunit SecA
+BSU10530	ntdC	K18652	NTD biosynthesis operon putative oxidoreductase NtdC 
+BSU41000	gidB	K03501	ribosomal RNA small subunit methyltransferase G
+BSU38320	ywbH	K06518	holin-like protein CidA
+BSU00380	metS	K01874	methionine--tRNA ligase 
+BSU18840	xynA	K01181	endo-1,4-beta-xylanase A 
+BSU08630	yfhQ	K03575	A/G-specific adenine glycosylase YfhQ 
+BSU00140	dck	K15519	deoxyadenosine/deoxycytidine kinase 
+BSU28800	araA	K01804	L-arabinose isomerase 
+BSU05930	rimI	K03789	ribosomal-protein-alanine acetyltransferase 
+BSU15690	rpoZ	K03060	DNA-directed RNA polymerase subunit omega 
+BSU40320	argI	K01476	arginase 
+BSU30820	menD	K02551	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase 
+BSU14210	ykuT	K03442	MscS family protein YkuT
+BSU19710	yodQ	K01438	metallohydrolase YodQ 
+BSU10620	addB	K16899	ATP-dependent helicase/deoxyribonuclease subunit B
+BSU04260	topB	K03169	DNA topoisomerase 3 
+BSU33500	copA	K17686	copper-exporting P-type ATPase A
+BSU19480	yojE	K05786	transporter
+BSU16800	spoIIIE	K03466	spore DNA translocase
+BSU06830	rapH	K06366	response regulator aspartate phosphatase H
+BSU11680	thiS	K03154	sulfur carrier protein ThiS
+BSU24040	bkdAB	K00167	2-oxoisovalerate dehydrogenase subunit beta 
+BSU20250	mtbP	K00558	Phi-3T prophage-derived modification methylase Phi3TI 
+BSU00700	coaX	K03525	type III pantothenate kinase 
+BSU13210	thiX	K16785	HMP/thiamine permease protein YkoC
+BSU15340	ylmA	K02013	ABC transporter ATP-binding protein
+BSU30950	glgA	K00703	glycogen synthase 
+BSU30220	bioF	K00652	8-amino-7-oxononanoate synthase 
+BSU00960	rlmB	K03218	tRNA/rRNA methyltransferase TrmH 
+BSU11660	tenI	K10810	regulatory protein TenI
+BSU31570	yufQ	K02057	ABC transporter permease
+BSU21810	dfrA	K00287	dihydrofolate reductase 
+BSU36650	ureB	K01429	urease subunit beta 
+BSU30550	metK	K00789	S-adenosylmethionine synthase 
+BSU12000	manR	K02538	transcriptional regulator ManR
+BSU02700	estA	K01046	lipase EstA 
+BSU39490	yxeN	K16962	amino acid permease protein YxeN
+BSU34870	hisF	K02500	imidazole glycerol phosphate synthase subunit HisF
+BSU38140	qoxD	K02829	quinol oxidase subunit 4 
+BSU31970	dhbB	K01252	isochorismatase 
+BSU29450	argG	K01940	argininosuccinate synthase 
+BSU00560	spoVT	K04769	stage V sporulation protein T
+BSU16240	fliI	K02412	flagellum-specific ATP synthase 
+BSU03490	srfAB	K15655	surfactin synthase subunit 2
+BSU00360	yabC	K07056	ribosomal RNA small subunit methyltransferase I
+BSU31150	yubB	K06153	undecaprenyl-diphosphatase 
+BSU03810	yclO	K02015	ABC transporter permease
+BSU29670	tyrS	K01866	tyrosine--tRNA ligase 1 
+BSU10950	yitD	K08097	phosphosulfolactate synthase 
+BSU16060	rnhB	K03470	ribonuclease HII 
+BSU13680	motB	K02557	motility protein B
+BSU_tRNA_26	trnI-Arg	K14219	tRNA-Arg
+BSU_tRNA_27	trnI-Pro	K14232	tRNA-Pro
+BSU_tRNA_24	trnI-Thr	K14234	tRNA-Thr
+BSU_tRNA_25	trnI-Gly	K14225	tRNA-Gly
+BSU_tRNA_22	trnE-Asp	K14221	tRNA-Asp
+BSU_tRNA_23	trnI-Asn	K14220	tRNA-Asn
+BSU_tRNA_20	trnJ-Ala	K14218	tRNA-Ala
+BSU_tRNA_21	trnE-Met	K14230	tRNA-Met
+BSU21920	ugtP	K03429	processive diacylglycerol glucosyltransferase
+BSU_tRNA_28	trnI-Ala	K14218	tRNA-Ala
+BSU_tRNA_29	trnD-Asn	K14220	tRNA-Asn
+BSU35450	comFC	K02242	ComF operon protein 3
+BSU02630	tatAD	K03116	Sec-independent protein translocase protein TatAd
+BSU02140	glpT	K02445	glycerol-3-phosphate transporter
+BSU34900	hisB	K01693	imidazoleglycerol-phosphate dehydratase 
+BSU28070	comC	K02236	type 4 prepilin-like proteins leader peptide-processing enzyme 
+BSU03720	gerKB	K06296	spore germination protein KB
+BSU16660	truB	K03177	tRNA pseudouridine synthase B 
+BSU27700	yajC	K03210	preprotein translocase subunit YajC
+BSU11460	oppD	K15583	oligopeptide transport ATP-binding protein OppD
+BSU28650	ysgA	K03437	tRNA/rRNA methyltransferase YsgA 
+BSU37320	narK	K02575	nitrite extrusion protein
+BSU27560	hisS	K01892	histidine--tRNA ligase 
+BSU13190	ispA	K13275	major intracellular serine protease 
+BSU03920	glcU	K05340	glucose uptake protein GlcU
+BSU31200	yulC	K00848	rhamnulokinase 
+BSU27090	aapA	K11737	amino acid permease AapA
+BSU06020	groES	K04078	10 kDa chaperonin
+BSU02030	ybdM	K08884	serine/threonine protein kinase 
+BSU28250	leuD	K01704	3-isopropylmalate dehydratase small subunit 
+BSU13750	ykvM	K09457	NADPH-dependent 7-cyano-7-deazaguanine reductase
+BSU23280	ribD	K11752	riboflavin biosynthesis protein RibD 
+BSU07000	yesR	K15532	rhamnogalacturonyl hydrolase 
+BSU27410	alaS	K01872	alanine--tRNA ligase 
+BSU23110	resE	K07651	sensor histidine kinase
+BSU22640	trpB	K01696	tryptophan synthase beta chain 
+BSU12560	xpf	K03088	positive control factor 
+BSU01950	skfE	K01990	SkfA peptide export ATP-binding protein SkfE
+BSU12810	xlyA	K01447	N-acetylmuramoyl-L-alanine amidase XlyA 
+BSU36340	ywpE	K07284	sortase
+BSU01420	rpsK	K02948	30S ribosomal protein S11
+BSU28490	uvrC	K03703	UvrABC system protein C 
+BSU06730	yefA	K03215	23S rRNA (uracil-C(5))-methyltransferase RlmCD 
+BSU22880	rpsA	K02945	30S ribosomal protein S1 homolog
+BSU02450	glnL	K07719	transcriptional regulatory protein GlnL
+BSU22730	ndk	K00940	nucleoside diphosphate kinase 
+BSU07640	yflL	K01512	acylphosphatase 
+BSU09200	yhcS	K07284	hypothetical protein
+BSU04460	dctR	K11692	C4-dicarboxylate response regulator DctR
+BSU06510	purN	K11175	phosphoribosylglycinamide formyltransferase 
+BSU08350	estB	K01046	extracellular esterase EstB 
+BSU02850	adcA	K09815	zinc transport system zinc-binding lipoprotein AdcA
+BSU27960	rplU	K02888	50S ribosomal protein L21
+BSU05010	rapI	K06367	response regulator aspartate phosphatase I
+BSU14400	fruA	K02768	PTS system fructose-specific EIIABC component 
+BSU37100	murAB	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 2 
+BSU33330	lysP	K03758	arginine/ornithine antiporter
+BSU01390	infA	K02518	translation initiation factor IF-1
+BSU08820	katA	K03781	vegetative catalase 
+BSU22080	ypwA	K01299	metalloprotease YpwA 
+BSU40070	gntP	K03299	gluconate permease
+BSU17190	pksL	K13612	polyketide synthase PksL
+BSU12960	dppE	K16199	dipeptide ABC transporter substrate-binding protein
+BSU01889	ybzH	K03892	ArsR family transcriptional regulator
+BSU32550	yurJ	K10112	ABC transporter ATP-binding protein
+BSU06600	pcrB	K07094	heptaprenylglyceryl phosphate synthase
+BSU32420	pucR	K09684	purine catabolism regulatory protein
+BSU01370	adk	K00939	adenylate kinase 
+BSU33930	pgk	K00927	phosphoglycerate kinase 
+BSU25830	rapE	K06363	response regulator aspartate phosphatase E 
+BSU25010	yqgE	K08222	hypothetical protein
+BSU09990	hpr	K09682	MarR family transcriptional regulator
+BSU22060	pbuX	K16169	xanthine permease
+BSU09280	glpF	K02440	glycerol permease
+BSU14530	rnjA	K12574	ribonuclease J 1
+BSU01080	rpoC	K03046	DNA-directed RNA polymerase subunit beta' 
+BSU17220	pksR	K13615	polyketide synthase PksR
+BSU01770	glmM	K03431	phosphoglucosamine mutase 
+BSU25490	hrcA	K03705	heat-inducible transcription repressor HrcA
+BSU32330	lipA	K03644	lipoyl synthase
+BSU24720	comGB	K02244	ComG operon protein 2
+BSU33060	gerAB	K06289	spore germination protein A2
+BSU38200	galK	K00849	galactokinase 
+BSU15590	sat	K00958	sulfate adenylyltransferase 
+BSU08000	yfjQ	K03284	metal ion transporter YfjQ
+BSU15750	yloN	K06941	dual-specificity RNA methyltransferase RlmN
+BSU15200	murD	K01925	UDP-N-acetylmuramoylalanine--D-glutamate ligase 
+BSU14330	yknV	K06147	ABC transporter ATP-binding protein
+BSU41020	trmE	K03650	tRNA modification GTPase MnmE
+BSU24830	yqgT	K01308	hypothetical protein
+BSU33110	liaG	K11621	protein LiaG
+BSU38460	tyrZ	K01866	tyrosine--tRNA ligase 2 
+BSU33440	cysJ	K00380	sulfite reductase [NADPH] flavoprotein alpha-component 
+BSU01170	rplD	K02926	50S ribosomal protein L4
+BSU34460	levB	K18775	levanbiose-producing levanase 
+BSU28690	glcF	K11473	glycolate oxidase iron-sulfur subunit 
+BSU05410	ydfH	K11623	sensor histidine kinase
+BSU28810	abnA	K06113	arabinan-endo 1,5-alpha-L-arabinase 
+BSU30810	ytxM	K08680	esterase 
+BSU15110	ylbQ	K00077	2-dehydropantoate 2-reductase 
+BSU30035	ytzG	K06183	RNA pseudouridine synthase 
+BSU18470	proJ	K00931	glutamate 5-kinase 
+BSU12360	exuT	K08191	hexuronate transporter
+BSU16870	fabG	K00059	oxidoreductase 
+BSU27720	queA	K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+BSU11690	thiG	K03149	thiazole synthase
+BSU24050	bkdAA	K00166	2-oxoisovalerate dehydrogenase subunit alpha 
+BSU00770	sul	K00796	dihydropteroate synthase 
+BSU27050	levF	K02795	PTS system fructose transporter subunit IIC
+BSU30780	menC	K02549	o-succinylbenzoate synthase 
+BSU15570	cysH	K00390	phosphoadenosine phosphosulfate reductase 
+BSU30960	glgD	K00975	glycogen biosynthesis protein GlgD 
+BSU31560	yufP	K02057	ABC transporter permease
+BSU00910	ispF	K01770	2-D-methyl-D-erythritol 2,4-cyclodiphosphate synthase 
+BSU36640	ureC	K01428	urease subunit alpha 
+BSU30560	pckA	K01610	phosphoenolpyruvate carboxykinase 
+BSU11670	thiO	K03153	glycine oxidase 
+BSU02730	natK	K11640	sensor histidine kinase
+BSU30760	mntB	K11710	manganese transport system ATP-binding protein MntB 
+BSU16270	fliK	K02414	flagellar hook-length control protein
+BSU27620	recJ	K07462	single-stranded-dna-specific exonuclease RecJ 
+BSU34860	hisI	K11755	histidine biosynthesis bifunctional protein HisIE 
+BSU03150	aroK	K00891	shikimate kinase 
+BSU38150	qoxC	K02828	quinol oxidase subunit 3 
+BSU31960	dhbF	K04780	dimodular nonribosomal peptide synthase 
+BSU29440	argH	K01755	argininosuccinate lyase 
+BSU16470	sigD	K02405	RNA polymerase sigma-D factor
+BSU03480	srfAA	K15654	surfactin synthase subunit 1
+BSU35190	yvkC	K01007	phosphotransferase YvkC
+BSU07150	yetG	K07145	monooxygenase
+BSU29660	rpsD	K02986	30S ribosomal protein S4
+BSU00820	lysS	K04567	lysine--tRNA ligase 
+BSU27390	yrrK	K07447	Holliday junction resolvase
+BSU13690	motA	K02556	motility protein A
+BSU15800	thiN	K00949	thiamine pyrophosphokinase 
+BSU21930	cspD	K03704	cold shock protein CspD
+BSU28390	racE	K01776	glutamate racemase 
+BSU02600	cwlJ	K01449	cell wall hydrolase CwlJ
+BSU39770	iolR	K06608	HTH-type transcriptional regulator IolR
+BSU27710	tgt	K00773	queuine tRNA-ribosyltransferase 
+BSU34910	hisD	K00013	histidinol dehydrogenase 
+BSU28000	minC	K03610	septum site-determining protein MinC
+BSU03730	yclH	K02003	ABC transporter ATP-binding protein
+BSU29060	coaE	K00859	dephospho-CoA kinase 
+BSU07250	yetO	K14338	bifunctional P-450/NADPH-P450 reductase 1 
+BSU_tRNA_84	trnSL-Arg2	K14219	tRNA-Arg
+BSU11470	oppF	K10823	oligopeptide transport ATP-binding protein OppF
+BSU28620	rnhC	K03471	ribonuclease HIII 
+BSU09340	yhdA	K03206	FMN-dependent NADPH-azoreductase
+BSU10170	fabHB	K00648	3-oxoacyl-[acyl-carrier-protein] synthase 3 protein 2 
+BSU16120	topA	K03168	DNA topoisomerase 1 
+BSU36510	amtB	K03320	ammonium transporter NrgA
+BSU13180	metE	K00549	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase 
+BSU39010	yxjB	K00563	23S rRNA (guanine-N(1)-)-methyltransferase YxjB
+BSU03930	gdh	K00034	glucose 1-dehydrogenase 
+BSU38540	dltE	K14189	oxidoreductase 
+BSU13740	queE	K10026	7-carboxy-7-deazaguanine synthase
+BSU06030	groEL	K04077	60 kDa chaperonin
+BSU35730	tagE	K00712	poly(glycerol-phosphate) alpha-glucosyltransferase 
+BSU02510	garD	K01708	D-galactarate dehydratase 
+BSU38830	aldY	K00128	aldehyde dehydrogenase AldY 
+BSU23120	resD	K07775	transcriptional regulatory protein ResD
+BSU26970	adhB	K00121	zinc-type alcohol dehydrogenase 
+BSU16050	rbgA	K14540	ribosome biogenesis GTPase A
+BSU22650	trpF	K01817	N-(5'-phosphoribosyl)anthranilate isomerase 
+BSU02990	opuAB	K02001	glycine betaine transport system permease protein OpuAB
+BSU23250	ribH	K00794	6,7-dimethyl-8-ribityllumazine synthase 
+BSU27880	nifS	K04487	cysteine desulfurase NifS 
+BSU17050	mutL	K03572	DNA mismatch repair protein MutL
+BSU13170	guaD	K01487	guanine deaminase 
+BSU01410	rpsM	K02952	30S ribosomal protein S13
+BSU10980	yitG	K08221	MFS transporter
+BSU23380	lysA	K01586	diaminopimelate decarboxylase 
+BSU22890	cmk	K00945	cytidylate kinase 
+BSU38490	menA	K02548	1,4-dihydroxy-2-naphthoate octaprenyltransferase 
+BSU22720	cheR	K00575	chemotaxis protein methyltransferase 
+BSU32630	yurR	K00285	oxidoreductase 
+BSU06500	purM	K01933	phosphoribosylformylglycinamidine cyclo-ligase 
+BSU02860	adcC	K09817	zinc transport system ATP-binding protein AdcC
+BSU09230	yhcV	K00088	CBS domain-containing protein YhcV
+BSU25710	cwlH	K01447	N-acetylmuramoyl-L-alanine amidase CwlH 
+BSU27970	spoIVFB	K06402	stage IV sporulation protein FB 
+BSU26280	yqaK	K07455	hypothetical protein
+BSU33320	fhuD	K02016	iron(3+)-hydroxamate-binding protein FhuD
+BSU12970	ykfA	K01297	murein peptide carboxypeptidase 
+BSU08830	ssuB	K15555	aliphatic sulfonates import ATP-binding protein SsuB
+BSU17180	pksJ	K13611	polyketide synthase PksJ
+BSU09520	sigM	K03088	RNA polymerase sigma factor SigM
+BSU33630	secG	K03075	protein-export membrane protein SecG
+BSU32520	pucG	K00839	purine catabolism protein PucG 
+BSU06610	pcrA	K03657	ATP-dependent DNA helicase PcrA
+BSU32450	pucL	K16838	urate oxidase with peroxide reductase N-terminal domain 
+BSU07810	treA	K01226	trehalose-6-phosphate hydrolase 
+BSU08120	yfjF	K09771	hypothetical protein
+BSU01340	rpmD	K02907	50S ribosomal protein L30
+BSU33920	tpiA	K01803	triosephosphate isomerase 
+BSU22070	xpt	K03816	xanthine phosphoribosyltransferase 
+BSU11870	yjcI	K01739	cystathionine gamma-synthase/O-acetylhomoserine
+BSU24680	comGF	K02248	ComG operon protein 6
+BSU13220	thiW	K16786	HMP/thiamine import ATP-binding protein YkoD
+BSU37000	prmC	K02493	release factor glutamine methyltransferase 
+BSU17230	pksS	K15468	polyketide biosynthesis cytochrome P450 PksS
+BSU18040	yneP	K07107	acyl-CoA thioesterase
+BSU25480	grpE	K03687	heat shock protein GrpE
+BSU24280	ispA	K13789	farnesyl diphosphate synthase 
+BSU07920	yfkE	K07300	cation exchanger YfkE
+BSU08010	yfjP	K01247	DNA-3-methyladenine glycosylase YfjP 
+BSU33850	yvbG	K05595	hypothetical protein
+BSU15580	cysP	K16331	sulfate permease CysP
+BSU32850	fadM	K00318	proline dehydrogenase 1 
+BSU24990	pstS	K02040	phosphate-binding protein PstS
+BSU15740	rsmB	K03500	ribosomal RNA small subunit methyltransferase B 
+BSU15210	spoVE	K03588	stage V sporulation protein E
+BSU25130	yqfS	K01151	endonuclease IV 
+BSU14610	pdhD	K00382	dihydrolipoyl dehydrogenase 
+BSU01180	rplW	K02892	50S ribosomal protein L23
+BSU23850	zwf	K00036	glucose-6-phosphate 1-dehydrogenase 
+BSU34670	yvdA	K01673	carbonic anhydrase YvdA 
+BSU14180	dapH	K05822	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase 
+BSU33100	liaF	K11622	LiaR negative effector LiaF
+BSU33450	helD	K03657	helicase IV
+BSU19800	phy	K01083	3-phytase 
+BSU34450	sacB	K00692	levansucrase 
+BSU38300	thiM	K00878	hydroxyethylthiazole kinase 
+BSU40410	walR	K07668	transcriptional regulator
+BSU28820	ysdC	K01179	aminopeptidase 
+BSU00980	sigH	K03091	RNA polymerase sigma-H factor 
+BSU08650	fabL	K10780	enoyl-[acyl-carrier-protein] reductase [NADPH] FabL 
+BSU40300	rapG	K06365	response regulator aspartate phosphatase G
+BSU30800	menB	K01661	1,4-dihydroxy-2-naphthoyl-CoA synthase 
+BSU34070	yvfT	K07778	two-component sensor histidine kinase YvfU
+BSU18460	gltC	K09681	LysR family transcriptional regulator
+BSU40550	ppaC	K15986	manganese-dependent inorganic pyrophosphatase 
+BSU39780	iolS	K06607	aldo/keto reductase family protein IolS 
+BSU30370	bceB	K11632	bacitracin export permease protein BceB
+BSU38018	ywzG	K10947	DNA-binding protein YwzG
+BSU39540	yxeI	K01442	hypothetical protein
+BSU24060	lpdV	K00382	dihydrolipoyl dehydrogenase 
+BSU15300	bpr	K13276	bacillopeptidase F 
+BSU24260	yqxC	K06442	rRNA methyltransferase YqxC
+BSU40160	yydH	K16922	peptide zinc metalloprotease protein YydH
+BSU00760	pabC	K02619	aminodeoxychorismate lyase 
+BSU30970	glgC	K00975	glucose-1-phosphate adenylyltransferase 
+BSU30790	menE	K01911	2-succinylbenzoate--CoA ligase 
+BSU15560	pyrE	K00762	orotate phosphoribosyltransferase 
+BSU05880	gmuG	K01218	mannan endo-1,4-beta-mannosidase 
+BSU_tRNA_7	trnSL-Ser1	K14233	tRNA-Ser
+BSU_tRNA_6	trnO-Ala	K14218	tRNA-Ala
+BSU_tRNA_5	trnO-Ile	K14227	tRNA-Ile
+BSU_tRNA_4	trnY-Lys	K14229	tRNA-Lys
+BSU29380	tcyJ	K16956	L-cystine-binding protein TcyJ
+BSU_tRNA_2	trnY-Asp	K14221	tRNA-Asp
+BSU_tRNA_1	trnY-Phe	K14231	tRNA-Phe
+BSU16590	ylxS	K09748	ribosome maturation factor RimP
+BSU_tRNA_9	trnA-Ala	K14218	tRNA-Ala
+BSU_tRNA_8	trnA-Ile	K14227	tRNA-Ile
+BSU35500	degS	K07777	signal transduction histidine-protein kinase/phosphatase DegS 
+BSU31680	comA	K07691	transcriptional regulatory protein ComA
+BSU_rRNA_8	rrnJ-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_5	rrnA-23S	K01980	ribosomal RNA-23S
+BSU_rRNA_4	rrnA-16S	K01977	ribosomal RNA-16S
+BSU_rRNA_7	rrnJ-23S	K01980	ribosomal RNA-23S
+BSU30770	mntA	K11707	manganese-binding lipoprotein MntA
+BSU_rRNA_1	rrnO-16S	K01977	ribosomal RNA-16S
+BSU_rRNA_3	rrnO-5S	K01985	ribosomal RNA-5S
+BSU_rRNA_2	rrnO-23S	K01980	ribosomal RNA-23S
+BSU31990	dhbC	K02361	isochorismate synthase DhbC 
+BSU29470	ackA	K00925	acetate kinase 
+BSU11240	carB	K01955	carbamoyl-phosphate synthase arginine-specific large chain 
+BSU38160	qoxB	K02827	quinol oxidase subunit 1 
+BSU16460	cheD	K03411	chemoreceptor glutamine deamidase CheD
+BSU03830	yclQ	K02016	ABC transporter substrate-binding protein
+BSU29490	tpx	K11065	thiol peroxidase 
+BSU31350	pgi	K01810	glucose-6-phosphate isomerase 
+BSU00830	ctsR	K03708	transcriptional regulator CtsR
+BSU36740	ywmC	K07114	hypothetical protein
+BSU03290	nasE	K00363	assimilatory nitrite reductase [NAD(P)H] small subunit 
+BSU31190	yulD	K03534	L-rhamnose mutarotase 
+BSU21900	bsaA	K00432	glutathione peroxidase homolog BsaA 
+BSU12930	dppB	K16200	dipeptide transport system permease protein DppB
+BSU35430	flgM	K02398	negative regulator of flagellin synthesis
+BSU39760	mmsA	K00140	methylmalonate semialdehyde dehydrogenase 
+BSU34920	hisG	K00765	ATP phosphoribosyltransferase 
+BSU28010	mreD	K03571	rod shape-determining protein MreD
+BSU29010	speD	K01611	S-adenosylmethionine decarboxylase proenzyme 
+BSU16600	nusA	K02600	transcription termination/antitermination protein NusA
+BSU09440	citA	K01647	citrate synthase 
+BSU16130	gid	K04094	methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO
+BSU27500	mnmA	K00566	tRNA-specific 2-thiouridylase MnmA
+BSU28630	pheT	K01890	phenylalanine--tRNA ligase beta subunit 
+BSU03900	gabT	K07250	4-aminobutyrate aminotransferase 
+BSU29720	ytxE	K02557	hypothetical protein
+BSU36560	ywnH	K03823	phosphinothricin acetyltransferase YwnH
+BSU38550	ywaA	K00826	branched-chain-amino acid aminotransferase 2 
+BSU13730	queD	K01737	6-pyruvoyl tetrahydrobiopterin synthase 
+BSU35720	tagF	K09809	CDP-glycerol:poly 
+BSU27160	cypB	K14338	bifunctional P-450/NADPH-P450 reductase 2
+BSU28700	ysfE	K01759	hypothetical protein
+BSU03050	ldh	K00016	L-lactate dehydrogenase 
+BSU29120	mdh	K00024	malate dehydrogenase 
+BSU02290	psd	K01613	phosphatidylserine decarboxylase proenzyme 
+BSU15390	sepF	K09772	cell division machinery factor
+BSU22660	trpC	K01609	indole-3-glycerol phosphate synthase 
+BSU28520	etfA	K03522	electron transfer flavoprotein subunit alpha
+BSU23710	yqjW	K02346	DNA polymerase IV 2 
+BSU37760	rocC	K02205	amino acid permease RocC
+BSU05240	ydeL	K00375	GntR family transcriptional regulator
+BSU16450	cheC	K03410	Chey-P phosphatase CheC
+BSU36360	mscL	K03282	large-conductance mechanosensitive channel
+BSU39370	hutI	K01468	imidazolonepropionase 
+BSU08930	cspR	K03216	tRNA (cytidine(34)-2'-O)-methyltransferase 
+BSU01400	rpmJ	K02919	50S ribosomal protein L36
+BSU07110	lplB	K17319	ABC transporter permease LplB
+BSU22710	aroF	K01736	chorismate synthase 
+BSU04440	dctB	K11688	C4-dicarboxylate-binding protein DctB
+BSU08330	yfiN	K01992	transport permease YfiN
+BSU02870	adcB	K09816	zinc transport system permease protein AdcB
+BSU37160	rpoE	K03048	DNA-directed RNA polymerase subunit delta 
+BSU33380	yvgL	K02020	ABC transporter substrate-binding protein
+BSU02980	opuAA	K02000	glycine/betaine ABC transporter ATP-binding protein
+BSU06370	pbuG	K06901	guanine/hypoxanthine permease PbuG
+BSU32530	yurH	K02083	allantoate amidohydrolase
+BSU01350	rplO	K02876	50S ribosomal protein L15
+BSU33910	pgm	K15633	2,3-bisphosphoglycerate-independent phosphoglycerate mutase 
+BSU25580	comEB	K01493	ComE operon protein 2
+BSU07800	treP	K02818	PTS system trehalose-specific EIIBC component 
+BSU13230	thiV	K16925	HMP/thiamine permease protein YkoE
+BSU22040	ypbQ	K16168	hypothetical protein
+BSU37010	prfA	K02835	peptide chain release factor 1
+BSU33260	yvrN	K02004	ABC transporter permease
+BSU01750	ybbP	K18672	hypothetical protein
+BSU18070	yneS	K08591	glycerol-3-phosphate acyltransferase
+BSU22440	birA	K03524	bifunctional protein BirA 
+BSU14280	moeA	K03750	molybdopterin molybdenumtransferase
+BSU24290	xseB	K03602	exodeoxyribonuclease 7 small subunit 
+BSU18250	yngI	K00666	acyl-CoA synthetase YngI 
+BSU15500	pyrC	K01465	dihydroorotase 
+BSU24980	pstC	K02037	ABC transporter permease
+BSU24450	efp	K02356	elongation factor P
+BSU08060	acoA	K00161	acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha 
+BSU08790	thiC	K03147	phosphomethylpyrimidine synthase
+BSU25450	prmA	K02687	ribosomal protein L11 methyltransferase
+BSU04620	acpS	K00997	holo-[acyl-carrier-protein] synthase 
+BSU05820	gmuA	K02759	PTS system oligo-beta-mannoside transporter subunit IIA
+BSU15770	prkC	K08884	serine/threonine protein kinase
+BSU34660	yvdB	K03321	sulfate transporter YvdB
+BSU14600	pdhC	K00627	dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex 
+BSU01190	rplB	K02886	50S ribosomal protein L2
+BSU32990	mrgA	K04047	metalloregulation DNA-binding stress protein
+BSU18670	yoaN	K01569	oxalate decarboxylase OxdD
+BSU14190	dapL	K05823	N-acetyldiaminopimelate deacetylase 
+BSU24850	glcK	K00845	glucokinase 
+BSU06990	yesQ	K02026	ABC transporter permease
+BSU34110	rsbP	K01090	phosphoserine phosphatase RsbP 
+BSU30160	ytcQ	K17318	peptide ABC transporter substrate-binding protein
+BSU33710	opuBC	K05845	choline-binding protein
+BSU24180	yqiK	K01126	hypothetical protein
+BSU24670	comGG	K02249	ComG operon protein 7
+BSU00110	yaaD	K06215	pyridoxal biosynthesis lyase PdxS
+BSU37570	mmr	K08166	methylenomycin A resistance protein
+BSU11100	nprB	K08777	neutral protease B 
+BSU08460	yfhA	K02015	siderophore transport system permease protein YfhA
+BSU25210	dnaG	K02316	DNA primase 
+BSU34590	mdxG	K15772	maltodextrin transport system permease protein MdxG
+BSU30010	ythP	K01990	ABC transporter ATP-binding protein 
+BSU10290	yhfN	K01417	metalloprotease YhfN 
+BSU34060	yvfU	K02479	transcriptional regulator
+BSU12340	uxuA	K01686	mannonate dehydratase 
+BSU05980	tatAY	K03116	Sec-independent protein translocase protein TatAy
+BSU_tRNA_63	trnB-Ser1	K14233	tRNA-Ser
+BSU24070	buk	K00929	butyrate kinase 
+BSU40190	fbp	K04041	fructose-1,6-bisphosphatase 
+BSU17460	glnA	K01915	glutamine synthetase 
+BSU00750	pabA	K01664	para-aminobenzoate/anthranilate synthase glutamine amidotransferase component II 
+BSU24270	dxs	K01662	1-deoxy-D-xylulose-5-phosphate synthase 
+BSU05870	gmuF	K01809	mannose-6-phosphate isomerase GmuF 
+BSU40970	parA	K03496	sporulation initiation inhibitor protein Soj
+BSU15550	pyrF	K01591	orotidine 5'-phosphate decarboxylase 
+BSU11650	tenA	K03707	thiaminase 
+BSU15950	ftsY	K03110	signal recognition particle receptor FtsY
+BSU39680	iolI	K06606	inosose isomerase
+BSU21820	thyA	K00560	thymidylate synthase 
+BSU35530	tagO	K02851	undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase 
+BSU31690	comP	K07680	sensor histidine kinase 
+BSU40990	noc	K03497	nucleoid occlusion protein
+BSU30740	mntD	K11709	manganese transport system membrane protein MntD
+BSU38170	qoxA	K02826	quinol oxidase subunit 2 
+BSU31980	dhbE	K02363	2,3-dihydroxybenzoate-AMP ligase 
+BSU12290	ndh	K03885	NADH dehydrogenase-like protein YjlD 
+BSU16920	pgsA	K00995	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase 
+BSU06970	yesO	K02027	ABC transporter substrate-binding protein
+BSU11250	argF	K00611	ornithine carbamoyltransferase 
+BSU03130	nadE	K01916	NH(3)-dependent NAD(+) synthetase 
+BSU35360	hag	K02406	flagellin
+BSU00620	divIC	K13052	cell division protein DivIC
+BSU29480	ytxK	K00571	hypothetical protein
+BSU21910	metA	K00651	homoserine O-succinyltransferase 
+BSU23890	yqjG	K03217	membrane protein insertase MisCB
+BSU35150	yvzB	K02406	flagellin
+BSU35400	flgL	K02397	flagellar hook-associated protein 3
+BSU31180	yulE	K01813	L-rhamnose isomerase 
+BSU15820	rpmB	K02902	50S ribosomal protein L28
+BSU34930	hisZ	K02502	ATP phosphoribosyltransferase regulatory subunit
+BSU28020	mreC	K03570	cell shape-determining protein MreC
+BSU00280	tmk	K00943	thymidylate kinase 
+BSU16630	infB	K02519	translation initiation factor IF-2
+BSU39750	iolB	K03337	5-deoxy-glucuronate isomerase 
+BSU27770	yrbE	K00010	oxidoreductase 
+BSU03590	tcyC	K10010	L-cystine import ATP-binding protein TcyC
+BSU29000	nrdR	K07738	transcriptional repressor NrdR
+BSU00930	cysE	K00640	serine acetyltransferase 
+BSU29730	ytxD	K02556	hypothetical protein
+BSU16140	xerC	K03733	tyrosine recombinase XerC
+BSU27510	iscS	K04487	cysteine desulfurase IscS 1 
+BSU03910	gabD	K00135	succinate-semialdehyde dehydrogenase 
+BSU10850	yisS	K16043	oxidoreductase 
+BSU31230	tlpB	K03406	methyl-accepting chemotaxis protein TlpB
+BSU38560	licH	K01222	6-phospho-beta-glucosidase 
+BSU16400	flhF	K02404	flagellar biosynthesis protein FlhF
+BSU38760	cydA	K00425	cytochrome d ubiquinol oxidase subunit 1 
+BSU38810	msmX	K10112	maltodextrin import ATP-binding protein MsmX
+BSU28280	leuA	K01649	2-isopropylmalate synthase 
+BSU13720	queC	K06920	7-cyano-7-deazaguanine synthase 
+BSU38020	thiD	K00868	pyridoxine kinase 
+BSU35710	tagG	K09692	teichoic acid translocation permease protein TagG
+BSU24560	gcvPA	K00282	glycine dehydrogenase subunit 1 
+BSU28730	araQ	K17236	L-arabinose transport system permease protein AraQ
+BSU03040	amyE	K01176	alpha-amylase 
+BSU03820	yclP	K02013	ABC transporter ATP-binding protein
+BSU29130	icd	K00031	isocitrate dehydrogenase 
+BSU37970	ung	K03648	uracil-DNA glycosylase 
+BSU40110	bglA	K01223	aryl-phospho-beta-d-glucosidase BglA 

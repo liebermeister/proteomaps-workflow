@@ -10,11 +10,11 @@ from proteomaps_organisms import proteomaps_organisms
 
 # ----------------------------------------------
 
-def make_csv_tables(data_dir):
+def make_csv_tables(data_dir,pp,pn):
 
-  po = proteomaps_organisms()
-  hh = proteomaps_hierarchy(data_dir)
-  pp = proteomaps_path_names(data_dir)
+  po = proteomaps_organisms(pn)
+  hh = proteomaps_hierarchy(data_dir,pp)
+  #pp = proteomaps_path_names(data_dir)
   
   data_files    = pp.get_data_files()
   organism_list = pp.get_organism_list()

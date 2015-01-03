@@ -16,6 +16,7 @@ from proteomaps_path_names import proteomaps_path_names
 parser = argparse.ArgumentParser(description='Proteomaps data processing workflow')
 parser.add_argument('data_set_directory',   help='directory name for data set bundle')
 parser.add_argument('paver_input_file_directory', help='directory name for paver input files')
+parser.add_argument('hierarchy_version', help='subdirectory with hierarchy data')
 args = parser.parse_args()
 
 print args.data_set_directory
@@ -24,7 +25,7 @@ print args.paver_input_file_directory
 # ---------------------------------------------------------------
 # read data file names
 
-pp = proteomaps_path_names(args.data_set_directory)
+pp = proteomaps_path_names(args.data_set_directory,args.hierarchy_version)
 data_file_triples = pp.get_data_files()
 
 data_files = []

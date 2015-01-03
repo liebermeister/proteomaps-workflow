@@ -28,7 +28,6 @@ fraction_nonmapped_lumped = 0.005
 # how many nonmapped proteins will be shown maximally?
 n_nonmapped_displayed = 500
 
-
 def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,nonmapped_dict,my_organism):
   
   # set of all gene names to be explicitly shown in the non-mapped region of some proteomap
@@ -164,11 +163,11 @@ def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy
 # -------------------------------------------------------------
 # main program
 
-def prune_nonmapped_proteins(data_dir):
+def prune_nonmapped_proteins(data_dir,pp):
   
-  pp = proteomaps_path_names(data_dir)
-  hh = proteomaps_hierarchy(data_dir)
-  rk = relevant_ko(data_dir)
+  #pp = proteomaps_path_names(data_dir)
+  hh = proteomaps_hierarchy(data_dir,pp)
+  rk = relevant_ko(data_dir,pp)
   
   data_files    = pp.get_data_files()
   organism_list = pp.get_organism_list()

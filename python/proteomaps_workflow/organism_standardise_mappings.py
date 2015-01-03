@@ -10,11 +10,11 @@ from relevant_ko import relevant_ko
 
 # ----------------------------------------------
 
-def organism_standardise_mappings(data_dir):
+def organism_standardise_mappings(data_dir,pp):
   
-  pp = proteomaps_path_names(data_dir)
-  hh = proteomaps_hierarchy(data_dir)
-  rk = relevant_ko(data_dir)
+  #pp = proteomaps_path_names(data_dir)
+  hh = proteomaps_hierarchy(data_dir,pp)
+  rk = relevant_ko(data_dir,pp)
   
   organism_list = pp.get_organism_list()
   my_relevant_ko = rk.read_relevant_ko(pp.FILE_RELEVANT_KO)

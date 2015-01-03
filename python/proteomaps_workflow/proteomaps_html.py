@@ -99,16 +99,16 @@ def to_precision(x,p):
 
 class mapping_from_file:
 
-    def __init__(self, mapping_file):
+    def __init__(self, mapping_file,colnumber):
         # print mapping_file
         mapping = {}        
         file = open(mapping_file,'r')
         igot = file.readlines()
         for line in igot:
             q = re.split('\t', line.strip())
-            if len(q)>1:
+            if len(q)>colnumber-1:
                 my_key = q[0]
-                my_value = q[1]
+                my_value = q[colnumber-1]
                 mapping[my_key] = my_value
         self.mapping = mapping
 
@@ -139,7 +139,7 @@ class proteomap_make_one_html_file:
     class for making an HTML file based on paver html output
     """
     
-    def __init__(self, html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name, level, data_set_name, flag_zoom, data_type,picture_format):
+    def __init__(self, html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name, level, data_set_name, flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR):
 
         """
         Arguments:
@@ -159,20 +159,20 @@ class proteomap_make_one_html_file:
          picture_format:   'jpg' or 'png'
         """
 
-        a = proteomaps_PATHNAMES()
-        self.PROTEIN_HIERARCHY_DIR = a.PROTEIN_HIERARCHY_DIR
+        original_mapping_file = '/home/wolfram/Proteomaps/genomic_data/KO_gene_hierarchy_2015-01-01/KO_gene_hierarchy_organism_mapping/' + organism + '_mapping.csv'
 
         # precompute some mappings
-        self.tag_to_amount = mapping_from_file(amount_file).mapping
-        self.tag_to_weighted_amount = mapping_from_file(weighted_amount_file).mapping
+        self.tag_to_amount = mapping_from_file(amount_file,2).mapping
+        self.tag_to_weighted_amount = mapping_from_file(weighted_amount_file,2).mapping
         self.id_to_gene     = gene_mapping_file(mapping_file).mapping
+        self.id_to_proteinNameLong = mapping_from_file(original_mapping_file,4).mapping
         self.data_type      = data_type
         self.picture_format = picture_format
         
         # mapping id -> kegg_id
         if organism == 'hsa':
-            hsa_kegg_mapping_file = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy_organism_mapping/hsa_uniprot_to_GeneID.csv"
-            self.id_to_kegg_id = mapping_from_file(hsa_kegg_mapping_file).mapping
+            hsa_kegg_mapping_file = PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy_organism_mapping/hsa_uniprot_to_GeneID.csv"
+            self.id_to_kegg_id = mapping_from_file(hsa_kegg_mapping_file,2).mapping
         else:
             self.id_to_kegg_id = {}
             for my_id in self.id_to_gene:
@@ -180,7 +180,7 @@ class proteomap_make_one_html_file:
 
         # make header, map, and footer parts of html file
         self.header = self.get_header(picture_file, organism, mapping_file, article_name, level, data_set_name, flag_zoom)
-        self.map_tag = self.get_map_tag(html_input_file, organism, resolution_1, resolution_2, level)
+        self.map_tag = self.get_map_tag(html_input_file, organism, resolution_1, resolution_2, level,po)
         self.footer = ['  </body>','</html>']
 
 
@@ -235,7 +235,7 @@ class proteomap_make_one_html_file:
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv2.html">></a>')
             header.append('&nbsp;&nbsp;')
-            header.append('  <a href="'   + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
+            header.append('  <a href="'   + data_set_name + '_' + self.data_type +'.html">Zoom</a>')
 
         if level == 'lv2':
             header.append('  ')
@@ -246,7 +246,7 @@ class proteomap_make_one_html_file:
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">></a>')
             header.append('&nbsp;&nbsp;')
-            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
+            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">Zoom</a>')
 
         if level == 'lv3':
             header.append('  ')
@@ -257,7 +257,7 @@ class proteomap_make_one_html_file:
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">4</a>')
             header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv5.html">></a>')
             header.append('&nbsp;&nbsp;')
-            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
+            header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">Zoom</a>')
 
         if level == 'lv5':
             if flag_zoom == 1:
@@ -277,7 +277,7 @@ class proteomap_make_one_html_file:
                 header.append('  | <a href="' + data_set_name + '_' + self.data_type +'_lv3.html">3</a>')
                 header.append('  | 4')
                 header.append('  | > &nbsp;&nbsp;')
-                header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">[Zoom]</a>')
+                header.append('  <a href="' + data_set_name + '_' + self.data_type +'.html">Zoom</a>')
 
         header.append('  </p></td></tr>')
         header.append('  <tr> ')
@@ -289,9 +289,9 @@ class proteomap_make_one_html_file:
             header.append('  <td><div><img src="./pictures/' + picture_file_800 + '" align="left" usemap="\#proteins" class="wrap" width="800"></div></td>')
         
         header.append('  </tr>')
-        header.append('  <tr><td></td><td><p><a href="./pictures/' + picture_file + '"  download="' + picture_file + '">[Download image]</a>&nbsp;&nbsp;')
-        header.append('  <a href="../../index.html">[Home]</a>&nbsp;&nbsp;')
-        header.append('  <a href="../../help.html" target="_blank">[Help]</a></p></td></tr>')
+        header.append('  <tr><td></td><td><p><a href="./pictures/' + picture_file + '"  download="' + picture_file + '">Download image</a>&nbsp;&nbsp;')
+        header.append('  <a href="../../index.html">Home</a>&nbsp;&nbsp;')
+        header.append('  <a href="../../help.html" target="_blank">Help</a></p></td></tr>')
 
         header.append('  </td></tr></table>')
         return header
@@ -308,13 +308,12 @@ class proteomap_make_one_html_file:
             fo.write(line + '\n')
         fo.close
 
-    def scale_to_total_protein_molecule_number(self, organism, amount_fraction):
+    def scale_to_total_protein_molecule_number(self, organism, amount_fraction,po):
 
         # see Ron's numbers (email 25/09/13)
         # total_protein_numbers = {'mpn': 50000, 'eco': 3000000, 'syn': 3000000, 'sce': 100000000, 'spo': 300000000, 'ath': 10000000000, 'dme': 10000000000, 'mmu': 10000000000, 'hsa': 10000000000}
         #protein_number = total_protein_numbers[organism] * amount_fraction
 
-        po = proteomaps_organisms()
         protein_number = po.data[organism]['protsize'] * amount_fraction
 
         if protein_number >= 100000:
@@ -328,7 +327,7 @@ class proteomap_make_one_html_file:
             protein_number = '%s' % int(round(float('%.2g' % protein_number)))
         return protein_number
     
-    def get_map_tag(self, html_input_file, organism, resolution_1, resolution_2, level):
+    def get_map_tag(self, html_input_file, organism, resolution_1, resolution_2, level,po):
 
         map_tag = ['    <map name="proteins">']
 
@@ -371,6 +370,8 @@ class proteomap_make_one_html_file:
                     my_name_string = my_gene + ' [' + my_name + ']'
                 else:
                     my_name_string = my_name
+                if my_name in self.id_to_proteinNameLong:
+                    my_name_string = my_name_string + '\n' + self.id_to_proteinNameLong[my_name]
                 
                 if len(url_string) * len(my_kegg_id) > 0:
                     url_term = ' href="' + url_string + my_kegg_id + '" target="_blank"'
@@ -379,7 +380,7 @@ class proteomap_make_one_html_file:
 
             if my_name in self.tag_to_weighted_amount:
                 amount_fraction = float(self.tag_to_amount[my_name])
-                est_copy_number = self.scale_to_total_protein_molecule_number(organism, amount_fraction)
+                est_copy_number = self.scale_to_total_protein_molecule_number(organism, amount_fraction,po)
                 my_amount = 'Estimated copy number: ~ ' + est_copy_number
                 my_amount = my_amount + '\nFraction by copy number:' + to_precision(float(100.00 * float(self.tag_to_amount[my_name])),2) + ' percent'
                 my_amount = my_amount + '\nFraction by mass:' + to_precision(float(100.00 * float(self.tag_to_weighted_amount[my_name])),2) + ' percent'
@@ -396,7 +397,7 @@ class proteomap_make_one_html_file:
 
 class proteomap_process_html:
 
-    def __init__(self, paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2,article_name,data_type,picture_format="jpg"):
+    def __init__(self, paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2,article_name,data_type,picture_format,po,PROTEIN_HIERARCHY_DIR):
 
         """
         Arguments:
@@ -423,12 +424,12 @@ class proteomap_process_html:
             weighted_amount_file  = data_dir + '/' + data_set_name + '/' + data_set_name + '_cost_relative_' + level + '.csv'
             output_file           = html_dir + '/' + data_set_name + '_' + data_type +'_' + level + '.html'
             flag_zoom             = 0
-            pm = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name,level,data_set_name,flag_zoom, data_type,picture_format)
+            pm = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name,level,data_set_name,flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR)
             pm.write_file(output_file)
 
         # make html page with the zoom effect
         flag_zoom = 1
-        pm_cost = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file,article_name,level,data_set_name,flag_zoom, data_type,picture_format)
+        pm_cost = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file,article_name,level,data_set_name,flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR)
         output_file  = html_dir + '/' + data_set_name + '_' + data_type +'.html'
 
         pm_cost.write_file(output_file)
@@ -482,7 +483,7 @@ class proteomap_process_html:
 
 class make_proteomaps_html:
 
-    def __init__(self, data_dir, html_dir, paver_html_dir, resolution_1, resolution_2, picture_format):
+    def __init__(self, data_dir, html_dir, paver_html_dir, resolution_1, resolution_2, picture_format, hierarchy_version):
   
       """
       Create html pages for a data set bundle for proteomaps website
@@ -499,7 +500,11 @@ class make_proteomaps_html:
         resolution_2:     size of the picture as shown on the website
         picture_format:  'png' or 'jpg'
       """
-      
+
+      pn = proteomaps_PATHNAMES(hierarchy_version)
+      PROTEIN_HIERARCHY_DIR = pn.PROTEIN_HIERARCHY_DIR
+      po = proteomaps_organisms(pn)
+
       filenames_file = data_dir + "/filenames.csv"
       print "Data set directory: " + data_dir
   
@@ -508,7 +513,7 @@ class make_proteomaps_html:
           print "\nData set " + data_set_name + ":\nWriting html files to directory " + html_dir
 
           data_type = "cost"
-          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format)
+          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format,po,PROTEIN_HIERARCHY_DIR)
 
           data_type = "abundance"
-          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format)
+          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format,po,PROTEIN_HIERARCHY_DIR)

@@ -1,0 +1,16 @@
+!!SBtab SBtabVersion='0.1' TableType='Definition' TableName='Proteomaps data files'
+!ComponentName	!ComponentType	!IsPartOf	!Format	!Description
+Organism	Column	Organism	String	Organism name
+Organism:KEGG	Column	Organism	String	KEGG organism shortname (3 letters)
+ProteinIdentifierType	Column	Organism	String	Type of protein identifier
+ExampleEnolase	Column	Organism	String	Protein ID for example protein enolase
+ProteinURL	Column	Organism	String	URL for resolving protein identifiers
+Protein:Identifier	Column	Proteomaps	String	Protein identifier
+Abundance:[original]	Column	Proteomaps	String	Abundance (original values)
+Abundance:[ppm]	Column	Proteomaps	String	Abundance in parts per million
+SizeWeightedAbundance:[original]	Column	Proteomaps	String	SizeWeightedAbundance (original values)
+SizeWeightedAbundance:[ppm]	Column	Proteomaps	String	SizeWeightedAbundance in parts per million
+Protein:Size	Column	Proteomaps	String	Protein size (# amino acids)
+Protein:Name	Column	Proteomaps	String	Protein name
+Identifiers:kegg.orthology	Column	Proteomaps	String	KO identifier
+Pathway	Column	Proteomaps	String	Pathway name

@@ -100,7 +100,7 @@ for it = 1:length(ind_level_1),
 end
 
 
-display('Please wait a moment');
+display('Please wait for a moment');
 
 
 % ----------------------------------------------

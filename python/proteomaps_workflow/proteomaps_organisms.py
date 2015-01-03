@@ -4,14 +4,12 @@
 # ----------------------------------------------------
 
 import re
-from proteomaps_PATHNAMES import proteomaps_PATHNAMES
 
 # ----------------------------------------------
 
 class proteomaps_organisms:
 
-  def __init__(self):
-    pn = proteomaps_PATHNAMES()
+  def __init__(self,pn):
     self.organism_information_file = pn.ORGANISM_INFORMATION
     self.data = {}
     self.organisms = []

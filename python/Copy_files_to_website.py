@@ -11,12 +11,10 @@ import shutil
 import re
 
 from proteomaps_PATHNAMES import proteomaps_PATHNAMES
-pn = proteomaps_PATHNAMES()
-BASE_DIR = pn.BASE_DIR
 
 # ==========================================================
 
-def copy_files(data_set_collections, resize_pictures):
+def copy_files(data_set_collections, resize_pictures,hierarchy_version,BASE_DIR):
 
   data_set_names = []
   data_set_to_collection = {}
@@ -92,10 +90,13 @@ def copy_files(data_set_collections, resize_pictures):
 # Which data set collections should be copied to the website?
 # (You need to create the html files before by running make_proteomaps_html.py)
 
-data_set_collections = {'paper', 'other', 'geiger_cell_lines', 'geiger_mouse', 'valgepea_ecoli', 'new'} # 
-# {'khan_human_chimp', 'krizhanovsky'}
+data_set_collections = {'other', 'new', 'paper', 'geiger_cell_lines', 'geiger_mouse', 'valgepea_ecoli'}
 
 # set resize_pictures to zero if the resizing has been done already
 resize_pictures = 0
 
-copy_files(data_set_collections, resize_pictures)
+hierarchy_version = 'KO_gene_hierarchy_2014-08-01/'
+
+BASE_DIR = "/home/wolfram/Proteomaps/"
+
+copy_files(data_set_collections, resize_pictures,hierarchy_version,BASE_DIR)

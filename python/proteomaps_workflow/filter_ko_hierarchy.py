@@ -16,11 +16,11 @@ from relevant_ko import relevant_ko
 
 # ----------------------------------------------
 
-def filter_ko_hierarchy(data_dir):
+def filter_ko_hierarchy(data_dir,pp):
 
-  pp = proteomaps_path_names(data_dir)
-  hh = proteomaps_hierarchy(data_dir)
-  rk = relevant_ko(data_dir)
+  #pp = proteomaps_path_names(data_dir)
+  hh = proteomaps_hierarchy(data_dir,pp)
+  rk = relevant_ko(data_dir,pp)
 
   INFILE_KO_HIERARCHY_FILE    = pp.INFILE_KO_HIERARCHY_FILE
   OUTFILE_KO_HIERARCHY_FILE_1 = pp.OUTFILE_KO_HIERARCHY_FILE_1

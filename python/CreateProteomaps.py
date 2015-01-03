@@ -7,6 +7,7 @@ import csv
 import pymatlab
 
 from proteomaps_PATHNAMES import proteomaps_PATHNAMES
+from proteomaps_path_names import proteomaps_path_names
 from map_protein_data import map_protein_data
 from filter_ko_hierarchy import filter_ko_hierarchy
 from filter_ko_hierarchy_mult import filter_ko_hierarchy_mult
@@ -22,36 +23,40 @@ parser = argparse.ArgumentParser(description='Data processing workflow for prote
 parser.add_argument('data_dir',   help='directory name (full path) for data set bundle')
 parser.add_argument('paver_files_directory', help='directory name (full path) for proteomaps output files')
 parser.add_argument('n_annotation_subsampling', help='number of subsampled hierarchy trees')
+parser.add_argument('hierarchy_version', help='subdirectory containing the hierarchy data to be used')
 
 args = parser.parse_args()
 
 data_dir                 = args.data_dir 
 n_annotation_subsampling = int(args.n_annotation_subsampling)
 paver_files_directory    = args.paver_files_directory
+hierarchy_version        = args.hierarchy_version
 
 # ----------------------------------------------------------------
 # Path names
 
-a             = proteomaps_PATHNAMES()
-WORKFLOW_PATH = a.WORKFLOW_PATH
-MATLAB_PATH   = a.MATLAB_PATH
+pn            = proteomaps_PATHNAMES(hierarchy_version)
+WORKFLOW_PATH = pn.WORKFLOW_PATH
+MATLAB_PATH   = pn.MATLAB_PATH
 
 # ----------------------------------------------------------------
 # Run workflow (python functions)
 
-map_protein_data(data_dir)
+pp = proteomaps_path_names(data_dir,hierarchy_version)
 
-filter_ko_hierarchy(data_dir)
+map_protein_data(data_dir,pp)
 
-filter_ko_hierarchy_mult(data_dir, n_annotation_subsampling)
+filter_ko_hierarchy(data_dir,pp)
 
-organism_standardise_mappings(data_dir)
+filter_ko_hierarchy_mult(data_dir, n_annotation_subsampling,pp)
 
-organism_standardised_hierarchy(data_dir)
+organism_standardise_mappings(data_dir,pp)
 
-prune_nonmapped_proteins(data_dir)
+organism_standardised_hierarchy(data_dir,pp)
 
-make_csv_tables(data_dir)
+prune_nonmapped_proteins(data_dir,pp)
+
+make_csv_tables(data_dir,pp,pn)
 
 # ---------------------------------------------------------------
 # Run MATLAB scripts
@@ -63,6 +68,9 @@ matlab_session = pymatlab.session_factory("-nojvm -nodisplay")
 print('Preparing color map');
 
 matlab_session.run( "addpath(genpath('" + MATLAB_PATH + "'))" )
+matlab_session.run( "BASE_DIR = '" + pn.BASE_DIR + "'")
+matlab_session.run( "TMP_DIR = '" + pn.TMP_DIR  + "'")
+matlab_session.run( "RESOURCE_DIR = '" + pn.PROTEIN_HIERARCHY_DIR  + "'")
 matlab_session.run( "data_directory = '" + data_dir + "'" )
 matlab_session.run( "show_protein_colormap"  )
 
@@ -78,5 +86,5 @@ del matlab_session
 # ---------------------------------------------------------------
 # Data for Paver
 
-p = subprocess.Popen(['python', WORKFLOW_PATH + '/prepare_files_for_paver.py', data_dir, paver_files_directory])
+p = subprocess.Popen(['python', WORKFLOW_PATH + '/prepare_files_for_paver.py', data_dir, paver_files_directory,hierarchy_version])
 p.wait()

@@ -2,13 +2,15 @@ import os
 
 class proteomaps_PATHNAMES:
 
-  def __init__(self):
+  def __init__(self, hierarchy_version):
+
+    # Base and tmp directory -- please edit
+    self.BASE_DIR              = "/home/wolfram/Proteomaps/"
+    self.TMP_DIR               = "/home/wolfram/tmp/matlab_protein_abundance";
 
     # Predefined directory names
-    self.BASE_DIR              = "/home/wolfram/Proteomaps/"
-    self.PROTEIN_HIERARCHY_DIR = "/home/wolfram/Proteomaps/genomic_data/KO_gene_hierarchy/"
-    self.PROTEIN_LENGTH_DIR    = "/home/wolfram/Proteomaps/genomic_data/KO_gene_hierarchy/protein_length_data/"
-    self.TMP_DIR               = "/home/wolfram/tmp/matlab_protein_abundance";
+    self.PROTEIN_HIERARCHY_DIR = self.BASE_DIR + "genomic_data/" + hierarchy_version + "/"
+    self.PROTEIN_LENGTH_DIR    = self.PROTEIN_HIERARCHY_DIR + "protein_length_data/"
 
     # Files / subdirectories within the functional hierarchy
     self.INFILE_KO_HIERARCHY_FILE  = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy.tms"
@@ -17,5 +19,5 @@ class proteomaps_PATHNAMES:
     self.ORGANISM_INFORMATION      = self.PROTEIN_HIERARCHY_DIR + "/organisms.csv"
 
     # Python directory
-    self.WORKFLOW_PATH = '/home/wolfram/Proteomaps/python/proteomaps_workflow/'
-    self.MATLAB_PATH   = '/home/wolfram/Proteomaps/matlab/'
+    self.WORKFLOW_PATH = self.BASE_DIR + 'python/proteomaps_workflow/'
+    self.MATLAB_PATH   = self.BASE_DIR + 'matlab/'

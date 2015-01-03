@@ -1,0 +1,769 @@
+SA0991	mutS2	K07456	recombination and DNA strand exchange inhibitor protein
+SA0992	trxA	K03671	thioredoxin
+SA0993	uvrC	K03703	excinuclease ABC subunit C
+SA0994	sdhC	K00241	succinate dehydrogenase cytochrome b-558
+SA0995	sdhA	K00239	succinate dehydrogenase flavoprotein subunit 
+SA0996	sdhB	K00240	succinate dehydrogenase iron-sulfur subunit 
+SA0997	murI	K01776	glutamate racemase
+SA0017	vicR	K07668	response regulator
+SA1095	xerC	K03733	hypothetical protein
+SA2008	alsS	K01652	acetolactate synthase 
+SA2430	aur	K01401	zinc metalloproteinase aureolysin
+SA2435	pmi	K01809	mannose-6-phosphate isomerase
+SA2492	vraD	K11631	hypothetical protein
+SA2003	hysA	K01727	hyaluronate lyase
+SA0460	pth	K01056	peptidyl-tRNA hydrolase 
+SA0461	mfd	K03723	transcription-repair coupling factor
+SA0483	clpC	K03696	endopeptidase
+SA0469	ftsH	K03798	cell-division protein
+SA0344	metE	K00549	5-methyltetrahydropteroyltriglutamate/homocysteine S-methyltransferase 
+SA0865	ppnK	K00858	inorganic polyphosphate/ATP-NAD kinase 
+SA2494	cspB	K03704	cold shock protein cspB
+SA0869	fabI	K00208	enoyl-ACP reductase 
+SAS042	rpmG	K02913	50S ribosomal protein L33
+SA1561	murC	K01924	UDP-N-acetylmuramate--L-alanine ligase 
+SAS047	rpmG	K02913	50S ribosomal protein L33
+SA1720	lig	K01972	DNA ligase
+SA1681	gsaB	K01845	glutamate-1-semialdehyde aminotransferase 
+SA1569	trmB	K03439	tRNA (guanine-N(7)-)-methyltransferase
+SA1858	ilvD	K01687	dihydroxy-acid dehydratase 
+SA0901	sspA	K01318	serine protease
+SA0638	uppP	K06153	UDP pyrophosphate phosphatase 
+SA2316	srtA	K07284	sortase
+SA1449	mnmA	K00566	tRNA-specific 2-thiouridylase MnmA
+SA2312	ddh	K03778	D-lactate dehydrogenase 
+SA1113	rbfA	K02834	ribosome-binding factor A
+SA1112	infB	K02519	translation initiation factor IF-2
+SA1446	alaS	K01872	alanyl-tRNA synthetase
+SA1117	pnpA	K00962	polynucleotide phosphorylase
+SA1116	rpsO	K02956	30S ribosomal protein S15
+SA1115	ribC	K11753	riboflavin kinase / FAD synthase ribC
+SA1114	truB	K03177	tRNA pseudouridine synthase B
+SA2480	drp35	K02352	hypothetical protein
+SA2482	pcp	K01304	pyrrolidone-carboxylate peptidase 
+SA0241	ispD	K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase 
+SA1081	rpsP	K02959	30S ribosomal protein S16
+SA0766	ermA	K00561	rRNA methylase
+SA0765	ant(9)	K00984	O-nucleotidylltransferase(9)
+SA1492	hemB	K01698	delta-aminolevulinic acid dehydratase 
+SA1350	recN	K03631	DNA repair protein
+SA1207	femB	K11695	FemB protein
+SA1206	femA	K11694	factor essential for expression of methicillin resistance
+SA1205	trpA	K01695	tryptophan synthase subunit alpha 
+SA1204	trpB	K01696	tryptophan synthase subunit beta 
+SA1203	trpF	K01817	N-(5'-phosphoribosyl)anthranilate isomerase
+SA1202	trpC	K01609	indole-3-glycerol phosphate synthase
+SA1201	trpD	K00766	anthranilate phosphoribosyltransferase
+SA1200	trpG	K01658	anthranilate synthase component II
+SA1367	gcvT	K00605	glycine cleavage system aminomethyltransferase T
+SA1166	thrB	K00872	homoserine kinase
+SA1164	dhoM	K00003	homoserine dehydrogenase
+SA1165	thrC	K01733	threonine synthase
+SA1160	nuc	K01174	thermonuclease
+SA1614	menC	K02549	o-succinylbenzoic acid synthetase
+SA1382	sodA	K04564	superoxide dismutase SodA
+SA1381	pbp3	K12553	penicillin-binding protein 3
+SA1193	fmtC	K14205	oxacillin resistance-related FmtC protein
+SA1647	sem	K11040	enterotoxin SEM
+SA0493	secE	K03073	preprotein translocase subunit SecE
+SA0495	rplK	K02867	50S ribosomal protein L11
+SA0494	nusG	K02601	transcription antitermination protein
+SA0497	rplJ	K02864	50S ribosomal protein L10
+SA0496	rplA	K02863	50S ribosomal protein L1
+SA0498	rplL	K02935	50S ribosomal protein L7/L12
+SA1645	yent1	K11040	enterotoxin Yent1
+SA0162	aldA	K00128	hypothetical protein
+SA1067	rpmB	K02902	50S ribosomal protein L28
+SA1065	cfxE	K01783	hypothetical protein
+SA0713	uvrB	K03702	excinuclease ABC subunit B
+SA0015	dnaC	K02314	replicative DNA helicase
+SA1310	ansA	K01424	L-asparaginase
+SA1843	agrC	K07706	accessory gene regulator C
+SA1842	agrB	K07813	accessory gene regulator B
+SA1844	agrA	K07707	accessory gene regulator A
+SA1847	scrR	K03484	sucrose operon repressor
+SA1846	scrB	K01193	sucrose-6-phosphate hydrolase
+SA1848	nrgA	K03320	ammonium transporter
+SA1700	vraR	K07694	two-component response regulator
+SA1701	vraS	K07681	two-component sensor histidine kinase
+SA1669	fumC	K01679	fumarate hydratase 
+SA1348	bfmBAA	K00166	branched-chain alpha-keto acid dehydrogenase E1
+SA0794	dltB	K03739	DltB membrane protein
+SA0795	dltC	K14188	D-alanine--poly(phosphoribitol) ligase subunit 2 
+SA1253	ctpA	K03797	carboxy-terminal processing proteinase ctpA
+SA2167	scrA	K02809	PTS system sucrose-specific transporter subunit IIBC
+SA1941	dps	K04047	general stress protein 20U
+SA2048	rpsJ	K02946	30S ribosomal protein S10
+SA1948	czrB	K16264	hypothetical protein
+SA2045	rplW	K02892	50S ribosomal protein L23
+SA2046	rplD	K02926	50S ribosomal protein L4
+SA2047	rplC	K02906	50S ribosomal protein L3
+SA2040	rplP	K02878	50S ribosomal protein L16
+SA2041	rpsC	K02982	30S ribosomal protein S3
+SA2042	rplV	K02890	50S ribosomal protein L22
+SA2043	rpsS	K02965	30S ribosomal protein S19
+SA0719	trxB	K00384	thioredoxine reductase
+SA0382	set6	K11042	superantigen-like protein
+SA1012	argF	K00611	ornithine carbamoyltransferase 
+SA0808	mnhF	K05570	monovalent cation/H+ antiporter subunit F
+SA0549	mvaK2	K00938	phosphomevalonate kinase
+SA0548	mvaD	K01597	mevalonate diphosphate decarboxylase
+SA0547	mvaK1	K00869	mevalonate kinase
+SA0014	rplI	K02939	50S ribosomal protein L9
+SA0545	eutD	K00625	phosphotransacetylase
+SA0809	mnhE	K05569	monovalent cation/H+ antiporter subunit E
+SA0942	def	K01462	peptide deformylase 
+SA0946	pdhD	K00382	dihydrolipoamide dehydrogenase 
+SA0945	pdhC	K00627	branched-chain alpha-keto acid dehydrogenase E2 subunit
+SA0944	pdhB	K00162	pyruvate dehydrogenase E1 component subunit beta
+SA2291	fnb	K13732	hypothetical protein
+SA2290	fnbB	K13733	hypothetical protein
+SA2293	gntP	K03299	gluconate permease
+SA2295	gntR	K11476	gluconate operon transcriptional repressor
+SA2294	gntK	K00851	gluconokinase
+SA1407	prmA	K02687	50S ribosomal protein L11 methyltransferase
+SA1409	dnaK	K04043	molecular chaperone DnaK
+SA1408	dnaJ	K03686	molecular chaperone DnaJ
+SA1761	sep	K11040	enterotoxin P
+SA0934	ptsH	K11189	phosphocarrier protein HPr
+SA0935	ptsI	K08483	phosphoenolpyruvate-protein phosphatase
+SA2442	azi	K03070	preprotein translocase subunit SecA
+SA2446	secY	K03076	preprotein translocase subunit SecY
+SA0729	tpiA	K01803	triosephosphate isomerase
+SA0728	pgk	K00927	phosphoglycerate kinase 
+SA1642	seg	K11040	extracellular enterotoxin type G
+SA0723	clpP	K01358	ATP-dependent Clp protease proteolytic subunit
+SA0835	clpB	K03695	hypothetical protein
+SA0727	gap	K00134	glyceraldehyde-3-phosphate dehydrogenase
+SA0726	gapR	K05311	glycolytic operon regulator
+SA0831	cdr	K08255	coenzyme A disulfide reductase
+SAS078	rpmJ	K02919	50S ribosomal protein L36
+SAS079	rpsN	K02954	30S ribosomal protein S14
+SA1126	pgsA	K00995	phosphatidylglycerophosphate synthase
+SA1535	tpx	K11065	thiol peroxidase
+SA1128	recA	K03553	recombinase A
+SA1531	ald	K00259	alanine dehydrogenase
+SA1245	sucA	K00164	2-oxoglutarate dehydrogenase E1 
+SA1244	odhB	K00658	dihydrolipoamide succinyltransferase 
+SA1494	hemC	K01749	porphobilinogen deaminase 
+SA2349	crtM	K10208	squalene synthase
+SA2348	crtN	K10209	squalene synthase
+SA2344	copA	K17686	copper-transporting ATPase copA
+SA2341	rocA	K00294	1-pyrroline-5-carboxylate dehydrogenase 
+SA1836	groEL	K04077	molecular chaperone GroEL
+SA1837	groES	K04078	co-chaperonin GroES
+SA0617	vraG	K11632	ABC transporter permease
+SA0616	vraF	K11631	ABC transporter ATP-binding protein
+SA0598	pbp4	K07258	penicillin binding protein 4
+SA0594	tagG	K09692	teichoic acid translocation permease
+SA0597	tagD	K00980	glycerol-3-phosphate cytidylyltransferase
+SA0592	tagA	K05946	teichoic acid biosynthesis protein
+SA0593	tagH	K09693	teichoic acids export protein ATP-binding subunit
+SA0204	acpD	K01118	azoreductase
+SA0206	msmX	K10112	multiple sugar-binding transport ATP-binding protein
+SA1955	tnpA	K04763	transposition regulatory protein tnpA
+SA0201	rlp	K02035	RGD-containing lipoprotein
+SA1338	malA	K01187	alpha-D-1,4-glucosidase
+SA1586	ribH	K00794	6,7-dimethyl-8-ribityllumazine synthase
+SA1587	ribA	K14652	riboflavin biosynthesis protein
+SA1588	ribB	K00793	riboflavin synthase subunit alpha 
+SA1589	ribD	K11752	riboflavin specific deaminase
+SA1234	cspA	K03704	cold-shock protein CspA
+SA1232	lysA	K01586	diaminopimelate decarboxylase
+SA1904	atpC	K02114	ATP synthase F0F1 subunit epsilon
+SA1905	atpD	K02112	ATP synthase F0F1 subunit beta 
+SA1906	atpG	K02115	ATP synthase F0F1 subunit gamma
+SA1907	atpA	K02111	ATP synthase F0F1 subunit alpha 
+SA0943-1	pdhA	K00161	pyruvate dehydrogenase E1 component subunit alpha
+SA1901	fabZ	K02372	(3R)-hydroxymyristoyl-ACP dehydratase
+SA1902	murA	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 
+SA0185	murQ	K07106	N-acetylmuramic acid 6-phosphate etherase
+SA0183	glcA	K02763	hypothetical protein
+SA1909	atpF	K02109	ATP synthase F0F1 subunit B
+SA1533	ackA	K00925	acetate kinase 
+SA2122	hutU	K01712	urocanate hydratase 
+SA2121	hutI	K01468	imidazolonepropionase 
+SA0905	atl	K13714	autolysin, N-acetylmuramyl-L-alanine amidase and endo-b-N-acetylglucosaminidas
+SA0898	menB	K01661	naphthoate synthase 
+SA0503	rpsL	K02950	30S ribosomal protein S12
+SA0501	rpoC	K03046	DNA-directed RNA polymerase subunit beta' 
+SA0500	rpoB	K03043	DNA-directed RNA polymerase subunit beta 
+SA0506	tuf	K02358	elongation factor Tu 
+SA0505	fus	K02355	elongation factor G
+SA0504	rpsG	K02992	30S ribosomal protein S7
+SA0110	sirB	K02015	lipoprotein
+SA0111	sirA	K02016	lipoprotein
+SA0900	sspB	K13715	cysteine protease
+SA1758	sak	K14198	staphylokinase
+SA1055	priA	K04066	PriA, primosomal protein
+SA0686	nrdE	K00525	ribonucleotide-diphosphate reductase subunit alpha 
+SA0189	hsdR	K01153	type I restriction enzyme restriction protein
+SA0006	gyrA	K02469	DNA gyrase subunit A
+SA2017	rplM	K02871	50S ribosomal protein L13
+SA2016	rpsI	K02996	30S ribosomal protein S9
+SA0520	sdrD	K14194	Ser-Asp rich fibrinogen-binding, bone sialoprotein-binding protein
+SA1870	rsbW	K04757	serine-protein kinase RsbW 
+SA2390	panD	K01579	aspartate alpha-decarboxylase 
+SA2391	panC	K01918	pantoate--beta-alanine ligase 
+SA2392	panB	K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase 
+SA2018	truA	K06173	tRNA pseudouridine synthase A 
+SA0374	pbuX	K16169	xanthine permease
+SA0375	guaB	K00088	inositol-monophosphate dehydrogenase
+SA0376	guaA	K01951	GMP synthase 
+SA0373	xprT	K03816	xanthine phosphoribosyltransferase 
+SA2405	betA	K00108	choline dehydrogenase 
+SA2406	gbsA	K00130	glycine betaine aldehyde dehydrogenase gbsA
+SA2400	mqo2	K00116	malate:quinone oxidoreductase 
+SA0479	nupC	K11535	pyrimidine nucleoside transport protein
+SA0475	lysS	K04567	lysyl-tRNA synthetase 
+SA0474	folK	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase
+SA0473	folB	K01633	dihydroneopterin aldolase
+SA0472	folP	K00796	dihydropteroate synthase
+SA0471	cysK	K01738	hypothetical protein
+SA0470	hslO	K04083	heat shock protein 33
+SA0877	prfC	K02837	peptide chain release factor 3
+SA0876	murE	K05362	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase
+SA1579	leuS	K01869	leucyl-tRNA synthetase 
+SA0973	coaD	K00954	phosphopantetheine adenylyltransferase
+SA1551	sgtA	K12551	transglycosylase
+SAS033	rpmF	K02911	50S ribosomal protein L32
+SAS093	rpmH	K02914	50S ribosomal protein L34
+SA2304	fbp	K04041	fructose-bisphosphatase
+SA1470	obgE	K03979	GTPase ObgE
+SA1471	rpmA	K02899	50S ribosomal protein L27
+SA1473	rplU	K02888	50S ribosomal protein L21
+SA2493	vraE	K11632	ABC transporter permease
+SA0986	pheT	K01890	phenylalanyl-tRNA synthetase subunit beta
+SA0985	pheS	K01889	phenylalanyl-tRNA synthetase subunit alpha 
+SA0983	isdG	K07145	heme-degrading monooxygenase IsdG 
+SA0982	srtB	K08600	NPQTN specific sortase B
+SA0981	isdF	K02015	hypothetical protein
+SA0980	isdE	K02016	hypothetical protein
+SA2499	gidB	K03501	16S rRNA methyltransferase GidB
+SA0807	mnhG	K05571	monovalent cation/H+ antiporter subunit G
+SA0716	lgt	K13292	prolipoprotein diacylglyceryl transferase
+SA0803	ampA	K01255	cytosol aminopeptidase
+SA0714	uvrA	K03701	excinuclease ABC subunit A
+SA0715	hprK	K06023	HPr kinase/phosphorylase
+SA0253	lrgB	K05339	antiholin-like protein LrgB
+SA0650	norA	K08153	quinolone resistance protein
+SA0656	nagA	K01443	N-acetylglucosamine-6-phosphate deacetylase
+SA0655	fruA	K02768	fructose specific permease
+SA0654	fruB	K00882	fructose 1-phosphate kinase
+SA0265	lytM	K08259	peptidoglycan hydrolase
+SA0251	lytR	K07705	two-component response regulator
+SA1099	rpsB	K02967	30S ribosomal protein S2
+SA1377	glcK	K00845	glucokinase
+SA1174	lexA	K01356	LexA repressor 
+SA1177	tkt	K00615	transketolase
+SA1171	rpsN	K02954	30S ribosomal protein S14
+SA1170	katA	K03781	catalase
+SA1394	glyS	K01880	glycyl-tRNA synthetase 
+SA1397	cdd	K01489	cytidine deaminase
+SA1396	era	K03595	GTP-binding protein Era
+SA1391	dnaG	K02316	DNA primase
+SA1390	sigA	K03086	RNA polymerase sigma factor RpoD
+SA1879	kdpC	K01548	potassium-transporting ATPase subunit C
+SA0256	bglA	K01223	6-phospho-beta-glucosidase 
+SA0158	capO	K02472	capsular polysaccharide synthesis protein Cap8O
+SA0159	capP	K01791	capsular polysaccharide synthesis protein Cap5P
+SA1098	codY	K03706	transcriptional repressor CodY
+SA1651	hemH	K01772	ferrochelatase 
+SA1096	clpQ	K01419	ATP-dependent protease peptidase subunit
+SA1097	hslU	K03667	ATP-dependent protease ATP-binding subunit HslU
+SA1094	gid	K04094	tRNA (uracil-5-)-methyltransferase Gid
+SA0157	capN	K01784	capsular polysaccharide synthesis protein Cap5N
+SA0150	capG	K01791	capsular polysaccharide synthesis protein Cap5G
+SA0259	rbsD	K06726	D-ribose pyranase
+SA0258	rbsK	K00852	ribokinase
+SA1650	hemY	K00231	protoporphyrinogen oxidase 
+SA1718	putP	K11928	high affinity proline permease
+SA1652	hemE	K01599	uroporphyrinogen decarboxylase 
+SA0252	lrgA	K05338	murein hydrolase regulator LrgA
+SA1308	rpsA	K02945	30S ribosomal protein S1
+SA1309	cmk	K00945	cytidylate kinase
+SA1306	gpsA	K00057	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase
+SA1307	engA	K03977	GTP-binding protein EngA
+SA1305	hu	K03530	DNA-binding protein II
+SA0785	lipA	K03644	lipoyl synthase
+SA1303	ubiE	K03183	ubiquinone/menaquinone biosynthesis methyltransferase
+SA1717	gatC	K02435	aspartyl/glutamyl-tRNA amidotransferase subunit C
+SA1301	ndk	K00940	nucleoside diphosphate kinase
+SA1656	hit	K02503	cell-cycle regulation Hit-like protein
+SA1896	thiD	K00941	phosphomethylpyrimidine kinase 
+SA1874	alr	K01775	alanine racemase
+SA1894	thiE	K00788	thiamine-phosphate pyrophosphorylase
+SA1895	thiM	K00878	hydroxyethylthiazole kinase 
+SA2114	glvC	K02749	PTS system arbutin-like transporter subunit IIBC
+SA1875	acpS	K00997	4'-phosphopantetheinyl transferase
+SA2039	rpmC	K02904	50S ribosomal protein L29
+SA2051	topB	K03169	DNA topoisomerase III
+SA2057	fmhB	K11693	FmhB protein
+SA1952	ant(9)	K00984	O-nucleotidylltransferase(9)
+SA1951	ermA	K00561	rRNA methylase Erm(A)
+SA2038	rpsQ	K02961	30S ribosomal protein S17
+SA0432	treP	K02818	PTS trehalose-specific transporter subunit II
+SA0431	gltD	K00266	glutamate synthase subunit beta 
+SA0430	gltB	K00265	glutamate synthase large subunit
+SA0436	dnaX	K02343	DNA polymerase III subunits gamma and tau
+SA1715	gatB	K02434	aspartyl/glutamyl-tRNA amidotransferase subunit B
+SA0309	geh	K01046	glycerol ester hydrolase
+SA0438	recR	K06187	recombination protein RecR
+SA0250	lytS	K07704	two-component sensor histidine kinase
+SA0538	ung	K03648	uracil-DNA glycosylase
+SA2388	tnpA	K04763	transposition regulatory protein tnpA
+SA2066	moaE	K03635	molybdopterin converting factor moa (subunit 2)
+SA0531	proP	K03762	hypothetical protein
+SA2037	rplN	K02874	50S ribosomal protein L14
+SA0534	vraB	K00626	acetyl-CoA c-acetyltransferase
+SA0762	tnpA	K04763	transposase A for Tn554
+SA2064	mobA	K03752	molybdopterin-guanine dinucleotide biosynthesis protein MobA
+SA1659	prsA	K07533	hypothetical protein
+SA1438	greA	K03624	transcription elongation factor GreA
+SA1439	udk	K00876	uridine kinase 
+SA1137	mutS	K03555	DNA mismatch repair protein MutS
+SA2032	rplR	K02881	50S ribosomal protein L18
+SA2028	secY	K03076	preprotein translocase subunit SecY
+SA2029	rplO	K02876	50S ribosomal protein L15
+SA2026	infA	K02518	translation initiation factor IF-1
+SA2027	adk	K00939	adenylate kinase
+SA2024	rpsK	K02948	30S ribosomal protein S11
+SA2025	rpsM	K02952	30S ribosomal protein S13
+SA2022	rplQ	K02879	50S ribosomal protein L17
+SA2023	rpoA	K03040	DNA-directed RNA polymerase subunit alpha 
+SA2020	cbiO	K16787	cobalt transporter ATP-binding subunit
+SA2021	cbiO	K16786	cobalt transporter ATP-binding subunit
+SA2188	nasD	K00362	nitrite reductase
+SA0442	holB	K02341	DNA polymerase III subunit delta'
+SA2385	ant(9)	K00984	O-nucleotidylltransferase(9)
+SA0440	tmk	K00943	thymidylate kinase
+SA0325	glpT	K02445	glycerol-3-phosphate transporter
+SA2182	narI	K00374	nitrate reductase subunit gamma
+SA2185	narG	K00370	respiratory nitrate reductase subunit alpha
+SA2184	narH	K00371	nitrate reductase subunit beta NarH
+SA0448	metS	K01874	methionyl-tRNA synthetase 
+SA2186	nasF	K02303	uroporphyrin-III C-methyl transferase
+SA1716	gatA	K02433	aspartyl/glutamyl-tRNA amidotransferase subunit A
+SA0925	purH	K00602	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase
+SA1197	tyrA	K04517	prephenate dehydrogenase 
+SA0848	oppF	K10823	hypothetical protein
+SA0926	purD	K01945	phosphoribosylamine--glycine ligase
+SA0921	purL	K01952	phosphoribosylformylglycinamidine synthase II
+SA0920	purQ	K01952	phosphoribosylformylglycinamidine synthase I
+SA0923	purM	K01933	phosphoribosylaminoimidazole synthetase 
+SA0922	purF	K00764	amidophosphoribosyltransferase
+SA0842	FabH	K00648	3-oxoacyl-ACP synthase 
+SA0843	fab	K09458	3-oxoacyl-ACP synthase
+SA0847	oppD	K15583	hypothetical protein
+SA0845	oppB	K15581	oligopeptide transport system permease
+SA1508	dnaB	K03346	chromosome replication initiation/membrane attachment protein
+SA1509	nrdR	K07738	transcriptional regulator NrdR
+SA2237	opuCA	K05847	glycine betaine/carnitine/choline ABC transporter opuCA
+SA2236	opuCB	K05846	glycine betaine/carnitine/choline ABC transporter opuCB
+SA2235	opuCC	K05845	glycine betaine/carnitine/choline ABC transporter opuCC
+SA2234	opuCD	K05846	glycine betaine/carnitine/choline ABC transporter opuCD
+SA1139	glpP	K02443	glycerol uptake operon antiterminator regulatory protein
+SA1138	mutL	K03572	DNA mismatch repair protein
+SA1502	rplT	K02887	50S ribosomal protein L20
+SA1503	rpmI	K02916	50S ribosomal protein L35
+SA1504	infC	K02520	translation initiation factor IF-3
+SA1505	lysP	K11733	lysine-specific permease
+SA1506	thrS	K01868	threonyl-tRNA synthetase
+SAS066	agrD	K07800	AgrD protein
+SA2333	mvaA	K00054	hydroxymethylglutaryl-CoA reductase
+SA2336	clpL	K04086	ATP-dependent Clp proteinase subunit clpL
+SA2337	feoB	K04759	hypothetical protein
+SA2334	mvaS	K01641	3-hydroxy-3-methylglutaryl-CoA synthase
+SA1404	rpsU	K02970	30S ribosomal protein S21
+SA1959	glmS	K00820	glucosamine--fructose-6-phosphate aminotransferase 
+SA1297	aroA	K00800	3-phosphoshikimate 1-carboxyvinyltransferase 
+SA1298	aroB	K01735	3-dehydroquinate synthase
+SA1299	aroC	K01736	chorismate synthase 
+SA0660	saeS	K10681	histidine protein kinase
+SA0661	saeR	K10682	response regulator
+SAP018	arsC	K03741	arsenate reductase
+SAP017	arsB	K03893	arsenic efflux pump protein
+SAP016	arsR	K03892	arsenical resistance operon repressor
+SAP011	blaR1	K02172	bla regulator protein blaR1
+SAP010	blaZ	K18766	beta-lactamase
+SAP012	blaI	K02171	penicillinase repressor
+SA1342	gnd	K00033	6-phosphogluconate dehydrogenase 
+SA1615	menE	K01911	O-succinylbenzoic acid--CoA ligase
+SA0219	pflA	K04069	formate acetyltransferase activating enzyme
+SA0218	pflB	K00656	formate acetyltransferase
+SA1346	bmfBB	K09699	branched-chain alpha-keto acid dehydrogenase E2 subunit
+SA1347	bfmBAB	K00167	branched-chain alpha-keto acid dehydrogenase E1
+SA0747	cspC	K03704	cold-shock protein C
+SA0214	uhpT	K07784	sugar phosphate antiporter
+SA1184	citB	K01681	aconitate hydratase 
+SA1229	dapD	K05822	tetrahydrodipicolinate acetyltransferase
+SA1228	dapB	K00215	dihydrodipicolinate reductase
+SA1182	mscL	K03282	large-conductance mechanosensitive channel
+SA1225	lysC	K00928	aspartate kinase
+SA1227	dapA	K01714	dihydrodipicolinate synthase 
+SA1226	asd	K00133	aspartate semialdehyde dehydrogenase
+SA1188	parE	K02622	DNA topoisomerase IV subunit B
+SA1189	parC	K02621	DNA topoisomerase IV subunit A
+SA1913	mnaA	K01791	UDP-GlcNAc 2-epimerase
+SA1911	atpB	K02108	ATP synthase F0F1 subunit A 
+SA1910	atpE	K02110	ATP synthase F0F1 subunit C 
+SA1915	glyA	K00600	serine hydroxymethyltransferase
+SA1914	upp	K00761	uracil phosphoribosyltransferase
+SA1908	atpH	K02113	ATP synthase F0F1 subunit delta
+SA0796	dltD	K03740	poly D-alanine transfer protein
+SA0107	spa	K14196	immunoglobulin G binding protein A
+SA0068	kdpA	K01546	potassium-transporting ATPase subunit A 
+SA1516	phoP	K07658	alkaline phosphatase synthesis transcriptional regulatory protein
+SA0066	kdpE	K07667	hypothetical protein
+SA0067	kdpD	K07646	hypothetical protein
+SA1515	phoR	K07636	alkaline phosphatase synthesis sensor protein
+SA0109	sirC	K02015	lipoprotein
+SA1048	pyrE	K00762	orotate phosphoribosyltransferase
+SA1041	pyrR	K02825	bifunctional pyrimidine regulatory protein PyrR/uracil phosphoribosyltransferase 
+SA1043	pyrB	K00609	aspartate carbamoyltransferase 
+SA1042	pyrP	K02824	uracil permease
+SA1045	pyrAA	K01956	carbamoyl phosphate synthase small subunit 
+SA1044	pyrC	K01465	dihydroorotase 
+SA1047	pyrF	K01591	orotidine 5'-phosphate decarboxylase
+SA1046	carB	K01955	carbamoyl phosphate synthase large subunit 
+SAS052	rpsD	K02986	30S ribosomal protein S4
+SA2335	adaB	K00567	methylated-DNA--protein-cysteine methyltransferase
+SA0917	purK	K01589	phosphoribosylaminoimidazole carboxylase ATPase subunit
+SA2063	moaA	K03639	molybdenum cofactor biosynthesis protein A
+SA1965	glmM	K03431	phosphoglucosamine mutase
+SA1962	mtlA	K02798	PTS system mannitol specific transporter subunit IIA
+SA1963	mtlD	K00009	mannitol-1-phosphate 5-dehydrogenase
+SA1960	mtlF	K02799	PTS system mannitol specific transporter subunit IIBC
+SA2065	moaD	K03636	molybdopterin synthase small subunit
+SA2068	moeA	K03750	molybdopterin biosynthesis protein moeA
+SA2069	moaC	K03637	molybdenum cofactor biosynthesis protein MoaC
+SA1968	arg	K01476	arginase
+SA2384	ermA	K00561	rRNA methylase Erm(A)
+SA0366	ahpC	K03386	alkyl hydroperoxide reductase
+SA0365	ahpF	K03387	alkyl hydroperoxide reductase
+SA2145	tcaB	K07552	TcaB protein
+SA2410	nrdD	K00527	anaerobic ribonucleoside triphosphate reductase 
+SA0564	argS	K01887	arginyl-tRNA synthetase 
+SA0562	adh1	K13953	alcohol dehydrogenase
+SA2124	fosB	K11210	fosfomycin resistance protein FosB
+SA1467	ruvB	K03551	Holliday junction DNA helicase RuvB 
+SA1466	queA	K07568	S-adenosylmethionine--tRNA ribosyltransferase-isomerase
+SA1465	tgt	K00773	queuine tRNA-ribosyltransferase 
+SA0052	tnpA	K04763	transposase A for Tn554
+SA1463	secF	K12257	preprotein translocase subunit SecD/SecF
+SA1461	apt	K00759	adenine phosphoribosyltransferase 
+SA1460	relA	K00951	GTP pyrophosphokinase
+SA1545	serA	K00058	D-3-phosphoglycerate dehydrogenase
+SA0963	pycA	K01958	pyruvate carboxylase 
+SA1547	ptaA	K02803	PTS system N-acetylglucosamine-specific transporter subunit IIABC
+SA0965	ctaB	K02301	protoheme IX farnesyltransferase
+SA1468	ruvA	K03550	Holliday junction DNA helicase RuvA
+SA0023	orfX	K00783	rRNA large subunit methyltransferase
+SA1484	tnpA	K04763	transposase A for Tn554
+SA1104	cdsA	K00981	phosphatidate cytidylyltransferase
+SA2468	hisB	K01693	imidazoleglycerol-phosphate dehydratase
+SA2467	hisH	K02501	imidazole glycerol phosphate synthase subunit HisH
+SA2464	hisI	K11755	bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase
+SA2465	hisF	K02500	imidazole glycerol phosphate synthase subunit HisF
+SA2463	lip	K01046	triacylglycerol lipase 
+SA0318	ulaA	K03475	PTS system ascorbate-specific transporter subunit IIC
+SA0702	llm	K02851	lipophilic protein affecting lysis rate and methicillin resistance level
+SA0811	mnhC	K05567	monovalent cation/H+ antiporter subunit C
+SA0810	mnhD	K05568	monovalent cation/H+ antiporter subunit D 
+SA0813	mnhA	K05565	monovalent cation/H+ antiporter subunit A
+SA0812	mnhB	K05566	monovalent cation/H+ antiporter subunit B
+SA0709	prfB	K02836	peptide chain release factor 2
+SA0708	secA	K03070	preprotein translocase subunit SecA
+SA0819	gudB	K00260	NAD-specific glutamate dehydrogenase
+SA0818	rocD	K00819	ornithine--oxo-acid transaminase 
+SA1260	thyA	K00560	thymidylate synthase 
+SA1149	glnR	K03713	glutamine synthetase
+SA2208	hlgC	K11038	gamma-hemolysin component C
+SA2209	hlgB	K11038	gamma-hemolysin component B
+SA1140	glpF	K02440	glycerol uptake facilitator
+SA1141	glpK	K00864	glycerol kinase 
+SA1142	glpD	K00111	aerobic glycerol-3-phosphate dehydrogenase
+SA1491	hemL	K01845	glutamate-1-semialdehyde aminotransferase 
+SA1496	hemA	K02492	glutamyl-tRNA reductase
+SA2207	hlgA	K11038	gamma-hemolysin subunit II
+SA2204	gpmA	K01834	phosphoglyceromutase
+SA1819	tst	K11043	toxic shock syndrome toxin-1
+SA1816	sel	K11040	extracellular enterotoxin L
+SA1817	sec3	K11040	enterotoxin C
+SA1811	hlb	K01114	hypothetical protein
+SA1052	gmk	K00942	guanylate kinase
+SA1053	rpoZ	K03060	DNA-directed RNA polymerase subunit omega
+SA1724	purB	K01756	adenylosuccinate lyase 
+SA0148	capE	K17716	capsular polysaccharide synthesis protein Cap8E
+SA1089	sucD	K01902	succinyl-CoA synthetase subunit alpha 
+SA1088	sucC	K01903	succinyl-CoA synthetase subunit beta 
+SA1722	pcrB	K07094	geranylgeranylglyceryl phosphate synthase
+SA0143	adhE	K04072	bifunctional acetaldehyde-CoA/alcohol dehydrogenase
+SA1084	rplS	K02884	50S ribosomal protein L19
+SA1087	rnhB	K03470	ribonuclease HII
+SA1086	rbgA	K14540	ribosomal biogenesis GTPase
+SA1728	nadE	K01916	NAD synthetase 
+SA1080	ffh	K03106	hypothetical protein
+SA1083	trmD	K00554	tRNA (guanine-N(1)-)-methyltransferase
+SA1082	rimM	K02860	16S rRNA-processing protein RimM
+SA1869	sigB	K03090	RNA polymerase sigma factor SigB
+SA1648	seo	K11040	enterotoxin SeO
+SA1863	leuB	K00052	3-isopropylmalate dehydrogenase
+SA1862	leuA	K01649	2-isopropylmalate synthase 
+SA1861	ilvC	K00053	ketol-acid reductoisomerase 
+SA1644	yent2	K11040	enterotoxin YENT2
+SA1643	sen	K11040	enterotoxin SeN
+SA1866	ilvA	K01754	threonine dehydratase 
+SA1865	leuD	K01704	isopropylmalate isomerase small subunit
+SA1864	leuC	K01703	isopropylmalate isomerase large subunit 
+SA1660	cbf1	K03698	3'-5' exoribonuclease
+SA1887	ddl	K01921	D-alanyl-alanine synthetase A 
+SA1929	pyrG	K01937	CTP synthetase 
+SA1881	kdpA	K01546	potassium-transporting ATPase subunit A 
+SA1880	kdpB	K01547	potassium-transporting ATPase subunit B
+SA1883	kdpE	K07667	KDP operon transcriptional regulatory protein KdpE
+SA1882	kdpD	K07646	sensor protein KdpD
+SA1922	rpmE2	K02909	50S ribosomal protein L31
+SA1923	rho	K03628	transcription termination factor Rho
+SA1920	prfA	K02835	peptide chain release factor 1
+SA1921	tdk	K00857	thymidine kinase 
+SA1926	murZ	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 
+SA1927	fbaA	K01624	fructose-bisphosphate aldolase 
+SA0033	aadD	K17882	kanamycin nucleotidyltransferase
+SA1288	dinG	K03722	ATP-dependent DNA helicase DinG
+SA0039	mecR1	K02547	methicillin resistance protein
+SA0038	mecA	K02545	penicillin binding protein 2 prime
+SA1036	ileS	K01870	isoleucyl-tRNA synthetase 
+SA0687	nrdF	K00526	ribonucleotide-diphosphate reductase subunit beta 
+SA0521	sdrE	K14194	Ser-Asp rich fibrinogen-binding, bone sialoprotein-binding protein
+SA1039	lspA	K03101	lipoprotein signal peptidase
+SA0134	drm	K01839	phosphopentomutase 
+SA0133	dra	K01619	deoxyribose-phosphate aldolase
+SA0527	nagB	K02564	glucosamine-6-phosphate isomerase
+SA0131	pnp	K03784	purine nucleoside phosphorylase 
+SA0793	dltA	K03367	D-alanine--poly(phosphoribitol) ligase subunit 1 
+SA1427	pfs	K01243	5'-methylthioadenosine nucleosidase
+SA1424	aroE	K00014	shikimate 5-dehydrogenase
+SA2423	clfB	K14192	clumping factor B
+SA2420	phoB	K01077	alkaline phosphatase 
+SA2426	arcD	K03758	arginine/oirnithine antiporter
+SA2427	arcB	K00611	ornithine carbamoyltransferase 
+SA2425	arcC	K00926	carbamate kinase 
+SA2035	rplE	K02931	50S ribosomal protein L5
+SA2034	rpsH	K02994	30S ribosomal protein S8
+SA2428	arcA	K01478	arginine deiminase 
+SA2036	rplX	K02895	50S ribosomal protein L24
+SA2031	rpsE	K02988	30S ribosomal protein S5
+SA2030	rpmD	K02907	50S ribosomal protein L30
+SA2033	rplF	K02933	50S ribosomal protein L6
+SA0245	ispD	K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase 
+SA0454	purR	K09685	pur operon repressor
+SA0457	glmU	K04042	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase
+SA0451	ksgA	K02528	dimethyladenosine transferase
+SA1704	map	K01265	methionine aminopeptidase 
+SA0453	ipk	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase 
+SA0352	rpsF	K02990	30S ribosomal protein S6
+SA0353	ssb	K03111	ssDNA-binding protein
+SA0459	rplY	K02897	50S ribosomal protein L25
+SA0458	prs	K00948	ribose-phosphate pyrophosphokinase
+SA0354	rpsR	K02963	30S ribosomal protein S18
+SA1517	citC	K00031	isocitrate dehydrogenase 
+SA0911	qoxC	K02828	quinol oxidase polypeptide III QoxC
+SA0912	qoxB	K02827	quinol oxidase polypeptide I QoxB
+SA1513	polA	K02335	DNA polymerase I
+SA0915	folD	K01491	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/5,10-methylene-tetrahydrofolate cyclohydrolase
+SA1511	coaE	K00859	dephospho-CoA kinase
+SA1510	gapB	K00134	glyceraldehyde 3-phosphate dehydrogenase 2
+SA0918	purC	K01923	phosphoribosylaminoimidazolesuccinocarboxamide synthase 
+SA1695	ampS	K01269	aminopeptidase
+SA0853	oppB	K02033	oligopeptide transport system permease OppB
+SA0852	appF	K02032	hypothetical protein
+SA0855	trpS	K01867	tryptophanyl-tRNA synthetase 
+SA1691	sgtB	K04478	glycosyltransferase
+SA1519	aapA	K11737	D-serine/D-alanine/glycine transporter
+SA1518	citZ	K01647	citrate synthase 
+SA1109	nusA	K02600	transcription elongation factor NusA
+SA1458	lytH	K01448	N-acetylmuramoyl-L-alanine amidase
+SA1456	aspS	K01876	aspartyl-tRNA synthetase 
+SA1457	hisS	K01892	histidyl-tRNA synthetase 
+SA1106	proS	K01881	prolyl-tRNA synthetase 
+SA1107	polC	K03763	DNA polymerase III PolC
+SA1100	tsf	K02357	elongation factor Ts
+SA1101	pyrH	K09903	uridylate kinase
+SA1102	frr	K02838	ribosome recycling factor
+SA1103	uppS	K00806	undecaprenyl pyrophosphate synthase
+SA2082	ureA	K01430	urease subunit gamma 
+SA2083	ureB	K01429	urease subunit beta 
+SA2084	ureC	K01428	urease subunit alpha 
+SA2326	ptsG	K02763	PTS system glucose-specific transporter subunit IIABC
+SA1119	spoIIIE	K03466	hypothetical protein
+SA1721	pcrA	K03657	ATP-dependent DNA helicase
+SA1287	asnC	K01893	asparaginyl-tRNA synthetase 
+SA1285	nth	K10773	endonuclease-like protein
+SA1283	pbp2	K05366	hypothetical protein
+SA1282	recU	K03700	Holliday junction-specific endonuclease
+SA0676	recQ	K03654	DNA helicase
+SA1351	ahrC	K03402	arginine repressor ArgR
+SA1940	deoD	K03784	purine nucleoside phosphorylase 
+SA1352	ispA	K13789	hypothetical protein
+SA1355	nusB	K03625	transcription antitermination protein NusB
+SA1354	xseA	K03601	exodeoxyribonuclease VII large subunit 
+SA1357	accC	K01961	acetyl-CoA carboxylase biotin carboxylase subunit 
+SA1358	accB	K02160	acetyl-CoA carboxylase biotin carboxyl carrier subunit
+SA1609	pckA	K01610	phosphoenolpyruvate carboxykinase 
+SA1608	metK	K00789	S-adenosylmethionine synthetase 
+SA2255	opp-1A	K15584	oligopeptide transporter substrate binding protein
+SA2254	opp-1B	K15585	oligopeptide transporter permease
+SA1191	glcT	K03480	transcription antiterminator
+SA2251	opp-1F	K10824	oligopeptide transporter ATPase
+SA2187	nasE	K00363	assimilatory nitrite reductase
+SA2253	opp-1C	K15586	oligopeptide transporter permease
+SA2252	opp-1D	K15587	oligopeptide transporter ATPase
+SA1211	opp-2F	K02032	oligopeptide transporter ATPase
+SA1212	opp-2D	K02031	oligopeptide transport ATPase
+SA1213	opp-2C	K02034	oligopeptide transporter permease
+SA1214	opp-2B	K02033	oligopeptide transporter permease
+SA2459	icaA	K11936	N-glycosyltransferase
+SA2044	rplB	K02886	50S ribosomal protein L2
+SA0480	ctsR	K03708	hypothetical protein
+SA0486	gltX	K09698	glutamyl-tRNA synthetase
+SA0487	cysE	K00640	hypothetical protein
+SA0484	radA	K04485	DNA repair protein RadA
+SA0488	cysS	K01883	cysteinyl-tRNA synthetase 
+SA1074	fabG	K00059	3-oxoacyl-ACP reductase
+SA1218	pstB	K02036	phosphate transporter ATP-binding protein
+SA1076	rnc	K03685	ribonuclease III
+SA0171	fdh	K00122	formate dehydrogenase 
+SA1070	recG	K03655	ATP-dependent DNA helicase RecG
+SA0177	argJ	K00620	bifunctional ornithine acetyltransferase/N-acetylglutamate synthase 
+SA1072	plsX	K03621	glycerol-3-phosphate acyltransferase PlsX
+SA0742	clfA	K14201	fibrinogen-binding protein A, clumping factor
+SA0178	argC	K00145	N-acetyl-gamma-glutamyl-phosphate reductase 
+SA0070	kdpB	K01547	potassium-transporting ATPase subunit B
+SA1852	vga	K06158	ABC transporter ATP-binding protein
+SA1998	lacR	K02530	lactose phosphotransferase system repressor
+SA1854	gcp	K01409	DNA-binding/iron metalloprotein/AP endonuclease
+SA1993	lacF	K02786	PTS system lactose-specific transporter subunit IIA
+SA1992	lacE	K02787	PTS system lactose-specific transporter subunit IIBC
+SA1991	lacG	K01220	6-phospho-beta-galactosidase
+SA1859	ilvB	K01652	acetolactate synthase large subunit
+SA1997	lacA	K01819	galactose-6-phosphate isomerase subunit LacA 
+SA1996	lacB	K01819	galactose-6-phosphate isomerase subunit LacB 
+SA1995	lacC	K00917	tagatose-6-phosphate kinase
+SA1994	lacD	K01635	tagatose 1,6-diphosphate aldolase
+SA0091	plc	K01771	1-phosphatidylinositol phosphodiesterase precurosr
+SA1194	msrA	K07304	methionine sulfoxide reductase A 
+SA2071	moeB	K11996	molybdopterin biosynthesis protein moeB
+SA2073	modB	K02018	molybdenum ABC transporter permease
+SA2072	modC	K02017	molybdenum transport ATP-binding protein ModC
+SA2074	modA	K02020	molybdate-binding protein
+SA1144	miaA	K00791	tRNA delta(2)-isopentenylpyrophosphate transferase
+SA0924	purN	K11175	phosphoribosylglycinamide formyltransferase
+SA0392	hsdS	K01154	restriction modification system specificity subunit
+SA2176	narK	K10850	nitrite extrusion protein
+SA0391	hsdM	K03427	type I site-specific deoxyribonuclease LldI subunit HsdM 
+SA0419	metB	K17217	cystathionine gamma-synthase
+SA0418	cysM	K17216	hypothetical protein
+SA0008	hutH	K01745	histidine ammonia-lyase 
+SA0009	serS	K01875	seryl-tRNA synthetase 
+SA0411	ndhF	K05577	NADH dehydrogenase subunit 5
+SA0004	recF	K03629	recombination protein F
+SA0005	gyrB	K02470	DNA gyrase subunit B
+SA0002	dnaN	K02338	DNA polymerase III subunit beta 
+SA0001	dnaA	K02313	chromosome replication initiator DnaA
+SA0950	potA	K11072	hypothetical protein
+SA0951	potB	K11071	hypothetical protein
+SA0952	potC	K11070	hypothetical protein
+SA0953	potD	K11069	hypothetical protein
+SA0896	menD	K02551	menaquinone biosynthesis protein
+SA1412	hemN	K02495	coproporphyrinogen III oxidase 
+SA1410	grpE	K03687	heat shock protein GrpE
+SA1411	hrcA	K03705	heat-inducible transcriptional repressor
+SA1417	comEB	K01493	late competence operon required for DNA binding and uptake comEB
+SA1414	rpsT	K02968	30S ribosomal protein S20
+SA1415	holA	K02340	DNA polymerase III subunit delta
+SA1553	fhs	K01938	formate--tetrahydrofolate ligase
+SA2288	gtaB	K00963	UTP-glucose-1-phosphate uridylyltransferase
+SA1550	tyrS	K01866	tyrosyl-tRNA synthetase
+SA1557	ccpA	K02529	catabolite control protein A
+SA1555	acuA	K04766	hypothetical protein
+SA1554	acsA	K01895	acetyl-CoA synthetase 
+SA1886	murF	K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+SA1498	clpX	K03544	ATP-dependent protease ATP-binding subunit ClpX
+SA0304	nanA	K01639	N-acetylneuraminate lyase 
+SA2471	hisG	K00765	ATP phosphoribosyltransferase 
+SA0018	vicK	K07652	two-component sensor histidine kinase
+SA0820	glpQ	K01126	glycerophosphoryl diester phosphodiesterase
+SA0821	argH	K01755	argininosuccinate lyase
+SA0822	argG	K01940	argininosuccinate synthase
+SA0823	pgi	K01810	glucose-6-phosphate isomerase 
+SA0825	spsA	K03100	type-I signal peptidase
+SA0826	spsB	K03100	type-1 signal peptidase 1B
+SA1493	hemD	K01719	uroporphyrinogen III synthase
+SA0735	rnr	K12573	ribonuclease R
+SA0730	pgm	K15633	phosphoglyceromutase 
+SA0731	eno	K01689	phosphopyruvate hydratase
+SA0733	secG	K03075	preprotein translocase subunit SecG
+SA0016	purA	K01939	adenylosuccinate synthetase
+SA1259	dfrA	K00287	dihydrofolate reductase
+SA1150	glnA	K01915	glutamine-ammonia ligase
+SA2206	sbi	K14197	IgG-binding protein SBI
+SA1525	dnaE	K02337	DNA polymerase III subunit alpha
+SA1522	accA	K01962	acetyl-CoA carboxylase carboxyltransferase subunit alpha 
+SA1251	murG	K02563	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase 
+SA1520	pykA	K00873	pyruvate kinase
+SA1521	pfkA	K00850	6-phosphofructokinase 
+SA1489	tag	K01246	DNA-3-methyladenine glycosidase
+SA1488	valS	K01873	valyl-tRNA synthetase 
+SA1146	bsaA	K00432	glutathione peroxidase
+SA1481	ant(9)	K00984	O-nucleotidylltransferase(9)
+SA1480	ermA	K00561	rRNA methylase Erm(A)
+SA2213	bioB	K01012	biotin synthase 
+SA2215	bioD	K01935	dethiobiotin synthetase
+SA2214	bioA	K00833	adenosylmethionine-8-amino-7-oxononanoate aminotransferase
+SA1487	folC	K11754	folylpolyglutamate synthase
+SA1646	sei	K11040	extracellular enterotoxin type I
+SAS065	hld	K11039	delta-hemolysin
+SA1507	dnaI	K11144	primosomal protein DnaI
+SA0232	lctE	K00016	L-lactate dehydrogenase
+SA1736	aldH	K00128	aldehyde dehydrogenase
+SA0071	kdpC	K01548	hypothetical protein
+SA0238	gatC	K02775	PTS galactitol-specific transporter subunit IIC
+SA0602	fhuA	K02013	ferrichrome ABC transporter ATP-binding protein
+SA0603	fhuB	K02015	ferrichrome ABC transporter permease
+SA0604	fhuG	K02015	ferrichrome ABC transporter permease
+SA0977	isdA	K14193	cell surface protein
+SA1328	xerD	K04763	site-specific recombinase
+SA1638	lukE	K11038	leukotoxin LukE
+SA2501	trmE	K03650	tRNA modification GTPase TrmE
+SA2500	gidA	K03495	tRNA uridine 5-carboxymethylaminomethyl modification protein GidA
+SA2502	rnpA	K03536	ribonuclease P 
+SA1322	srrB	K07651	respiratory response protein SrrB
+SA1323	srrA	K07775	respiratory response protein SrrA
+SA1324	rluB	K06178	ribosomal large subunit pseudouridine synthase B
+SA1637	lukD	K11038	leukotoxin, LukD
+SA0198	oppF	K02031	oligopeptide transport ATP-binding protein
+SA0199	oppB	K02033	hypothetical protein
+SA0698	pepT	K01258	peptidase T 
+SA1938	pdp	K00756	pyrimidine-nucleoside phosphorylase 
+SA1077	smc	K03529	chromosome segregation protein SMC
+SA1930	rpoE	K03048	DNA-directed RNA polymerase subunit delta
+SA2136	fni	K01823	isopentenyl pyrophosphate isomerase 
+SA1936	luxS	K07173	S-ribosylhomocysteinase
+SA0040	mecI	K02546	methicillin resistance regulatory protein
+SA0510	araB	K00853	ribulokinase 
+SA0512	ilvE	K00826	branched-chain amino acid aminotransferase 
+SA1302	gerCC	K00805	heptaprenyl diphosphate syntase component II
+SA0048	ermA	K00561	rRNA methylase
+SA0049	ant(9)	K00984	O-nucleotidylltransferase(9)
+SA0519	sdrC	K14194	Ser-Asp rich fibrinogen-binding, bone sialoprotein-binding protein
+SA0128	sodM	K04564	superoxide dismutase
+SA1029	ftsZ	K03531	cell division protein FtsZ
+SA1028	ftsA	K03590	cell division protein
+SA1027	div1b	K03589	hypothetical protein
+SA1026	murD	K01925	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase 
+SA1025	mraY	K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase
+SA1024	pbpA	K12552	penicillin-binding protein 1
+SA0693	murB	K00075	UDP-N-acetylenolpyruvoylglucosamine reductase
+SA1022	mraW	K03438	S-adenosyl-methyltransferase MraW
+SA0122	butA	K03366	acetoin reductase

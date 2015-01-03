@@ -1,0 +1,757 @@
+SACOL2702	hisD	K00013	histidinol dehydrogenase 
+SACOL2703	hisG	K00765	ATP phosphoribosyltransferase catalytic subunit 
+SACOL2700	hisB	K01693	imidazoleglycerol-phosphate dehydratase 
+SACOL0968	spsA	K03100	signal peptidase IA, inactive
+SACOL0842	eno	K01689	phosphopyruvate hydratase 
+SACOL0841	pgm	K15633	phosphoglyceromutase 
+SACOL0840	tpiA	K01803	triosephosphate isomerase 
+SACOL0845	est	K03928	carboxylesterase 
+SACOL0844	secG	K03075	preprotein translocase subunit SecG
+SACOL0960	rocD	K00819	ornithine--oxo-acid transaminase 
+SACOL0961	gluD	K00260	glutamate dehydrogenase 
+SACOL0963	argH	K01755	argininosuccinate lyase 
+SACOL0964	argG	K01940	argininosuccinate synthase 
+SACOL0966	pgi	K01810	glucose-6-phosphate isomerase 
+SACOL1161	murI	K01776	glutamate racemase 
+SACOL1160	sdhB	K00240	succinate dehydrogenase iron-sulfur subunit 
+SACOL1100	def	K01462	peptide deformylase 
+SACOL1001	trpS	K01867	tryptophanyl-tRNA synthetase 
+SACOL1168	efb	K14200	fibrinogen-binding protein
+SACOL2739	rnpA	K03536	ribonuclease P 
+SACOL1363	thrC	K01733	threonine synthase 
+SACOL1362	hom	K00003	homoserine dehydrogenase 
+SACOL1364	thrB	K00872	homoserine kinase 
+SACOL2362	mqo1	K00116	malate:quinone oxidoreductase 
+SACOL1962	gatC	K02435	aspartyl/glutamyl-tRNA amidotransferase subunit C 
+SACOL1369	rpmG	K02913	50S ribosomal protein L33
+SACOL1368	kataA	K03781	catalase 
+SACOL1513	hup	K03530	DNA-binding protein HU
+SACOL2639	cysJ	K00380	sulfite reductase (NADPH) flavoprotein alpha-component 
+SACOL2149	mtlD	K00009	mannitol-1-phosphate 5-dehydrogenase 
+SACOL1181	arcB1	K00611	ornithine carbamoyltransferase 
+SACOL2145	glmS	K00820	glucosamine--fructose-6-phosphate aminotransferase 
+SACOL1182	arcC1	K00926	carbamate kinase 
+SACOL2634	nrdG	K04068	anaerobic ribonucleoside-triphosphate reductase activating protein
+SACOL2635	nrdD	K00527	anaerobic ribonucleoside triphosphate reductase 
+SACOL2225	rpsH	K02994	30S ribosomal protein S8
+SACOL2224	rplF	K02933	50S ribosomal protein L6
+SACOL2227	rplE	K02931	50S ribosomal protein L5
+SACOL2226	rpsN	K02954	30S ribosomal protein S14
+SACOL2221	rpmD	K02907	50S ribosomal protein L30
+SACOL2220	rplO	K02876	50S ribosomal protein L15
+SACOL2223	rplR	K02881	50S ribosomal protein L18
+SACOL2222	rpsE	K02988	30S ribosomal protein S5
+SACOL2229	rplN	K02874	50S ribosomal protein L14
+SACOL2228	rplX	K02895	50S ribosomal protein L24
+SACOL1268	gid	K04094	tRNA (uracil-5-)-methyltransferase Gid
+SACOL1269	xerC	K03733	tyrosine recombinase XerC
+SACOL0969	spsB	K03100	signal peptidase IB 
+SACOL2737	gidA	K03495	tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA
+SACOL1267	topA	K03168	DNA topoisomerase I 
+SACOL1260	rbgA	K14540	ribosomal biogenesis GTPase
+SACOL1261	rnhB	K03470	ribonuclease HII 
+SACOL1262	sucC	K01903	succinyl-CoA synthetase subunit beta 
+SACOL1263	sucD	K01902	succinyl-CoA synthetase subunit alpha 
+SACOL1505	aroB	K01735	3-dehydroquinate synthase 
+SACOL1504	aroA	K00800	3-phosphoshikimate 1-carboxyvinyltransferase 
+SACOL1506	aroC	K01736	chorismate synthase 
+SACOL0991	oppB	K15581	oligopeptide ABC transporter permease
+SACOL1518	cmk	K00945	cytidylate kinase 
+SACOL0993	oppD	K15583	oligopeptide ABC transporter ATP-binding protein
+SACOL0992	oppC	K15582	oligopeptide ABC transporter permease
+SACOL1462	thyA	K00560	thymidylate synthase 
+SACOL1461	folA	K00287	dihydrofolate reductase 
+SACOL1509	ndk	K00940	nucleoside diphosphate kinase 
+SACOL1982	ppaC	K15986	manganese-dependent inorganic pyrophosphatase 
+SACOL0515	gltD	K00266	glutamate synthase 
+SACOL1984	aldA2	K00128	aldehyde dehydrogenase 
+SACOL2030	scrR	K03484	sucrose operon repressor
+SACOL1862	hsdM2	K03427	type I restriction-modification system, M subunit 
+SACOL1861	hsdS	K01154	type I restriction-modification enzyme, S subunit, EcoA family protein
+SACOL2130	deoD	K03784	purine nucleoside phosphorylase 
+SACOL2135	manA1	K01809	mannose-6-phosphate isomerase, class I 
+SACOL0459	pbuX	K16169	xanthine permease
+SACOL0190	acpD	K01118	azoreductase
+SACOL0566	nupC	K11535	nucleoside permease NupC
+SACOL0567	ctsR	K03708	transcriptional regulator CtsR
+SACOL0560	folK	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase 
+SACOL0562	lysS	K04567	lysyl-tRNA synthetase 
+SACOL0205	pflA	K04069	pyruvate formate-lyase-activating enzyme 
+SACOL1210	pyrR	K02825	bifunctional pyrimidine regulatory protein PyrR uracil phosphoribosyltransferase 
+SACOL1213	pyrC	K01465	dihydroorotase 
+SACOL1212	pyrB	K00609	aspartate carbamoyltransferase catalytic subunit 
+SACOL1215	carB	K01955	carbamoyl phosphate synthase large subunit 
+SACOL1214	carA	K01956	carbamoyl phosphate synthase small subunit 
+SACOL1217	pyrE	K00762	orotate phosphoribosyltransferase 
+SACOL1216	pyrF	K01591	orotidine 5'-phosphate decarboxylase 
+SACOL0033	mecA	K02545	penicillin-binding protein 2' 
+SACOL0034	mecR1	K02547	methicillin-resistance MecR1 regulatory protein
+SACOL0743	uppP	K06153	UDP pyrophosphate phosphatase 
+SACOL0588	rpoB	K03043	DNA-directed RNA polymerase subunit beta 
+SACOL0589	rpoC	K03046	DNA-directed RNA polymerase subunit beta' 
+SACOL1608	rpmG	K02913	50S ribosomal protein L33
+SACOL1609	pbp3	K12553	penicillin-binding protein 3
+SACOL0582	nusG	K02601	transcription antitermination protein
+SACOL0583	rplK	K02867	50S ribosomal protein L11
+SACOL1604	glk	K00845	glucokinase 
+SACOL0581	secE	K03073	preprotein translocase subunit SecE
+SACOL0586	rplL	K02935	50S ribosomal protein L7/L12
+SACOL0428	metE	K00549	5-methyltetrahydropteroyltriglutamate/homocysteine S-methyltransferase 
+SACOL0584	rplA	K02863	50S ribosomal protein L1
+SACOL0585	rplJ	K02864	50S ribosomal protein L10
+SACOL1241	recG	K03655	ATP-dependent DNA helicase RecG 
+SACOL2128	pdp	K00756	pyrimidine-nucleoside phosphorylase 
+SACOL2350	tcaB	K07552	tcaB protein
+SACOL2129	deoC2	K01619	deoxyribose-phosphate aldolase 
+SACOL2459	pnbA	K03929	para-nitrobenzyl esterase 
+SACOL1005	pepF	K08602	oligoendopeptidase F 
+SACOL0927	lipA	K03644	lipoyl synthase
+SACOL0634	eutD	K00625	phosphotransacetylase 
+SACOL0636	mvk	K00869	mevalonate kinase 
+SACOL0637	mvaD	K01597	mevalonate diphosphate decarboxylase 
+SACOL1733	nrdR	K07738	transcriptional regulator NrdR
+SACOL1731	dnaI	K11144	primosomal protein DnaI
+SACOL1329	femC	K01915	glutamine synthetase 
+SACOL1737	polA	K02335	DNA polymerase I 
+SACOL1734	gapA2	K00134	glyceraldehyde 3-phosphate dehydrogenase 2 
+SACOL1735	coaE	K00859	dephospho-CoA kinase 
+SACOL1325	gpxA1	K00432	glutathione peroxidase 
+SACOL2126	luxS	K07173	S-ribosylhomocysteinase
+SACOL1321	glpD	K00111	aerobic glycerol-3-phosphate dehydrogenase 
+SACOL1049	menA	K02548	1,4-dihydroxy-2-naphthoate octaprenyltransferase 
+SACOL1323	miaA	K00791	tRNA delta(2)-isopentenylpyrophosphate transferase 
+SACOL0620	proP	K03762	osmoprotectant proline transporter
+SACOL2675	secY	K03076	preprotein translocase subunit SecY
+SACOL0818	prfB	K02836	peptide chain release factor 2
+SACOL0547	mfd	K03723	transcription-repair coupling factor
+SACOL1725	rplT	K02887	50S ribosomal protein L20
+SACOL0816	secA	K03070	preprotein translocase subunit SecA
+SACOL0951	mnhE	K05569	monovalent cation/H+ antiporter subunit E
+SACOL0950	mnhF	K05570	monovalent cation/H+ antiporter subunit F
+SACOL0953	mnhC	K05567	monovalent cation/H+ antiporter subunit C
+SACOL0952	mnhD	K05568	monovalent cation/H+ antiporter subunit D 
+SACOL0955	mnhA	K05565	monovalent cation/H+ antiporter subunit A
+SACOL0954	mnhB	K05566	monovalent cation/H+ antiporter subunit B
+SACOL1492	nth	K10773	endonuclease III 
+SACOL1726	rpmI	K02916	50S ribosomal protein L35
+SACOL1134	coaD	K00954	phosphopantetheine adenylyltransferase 
+SACOL1137	rpmF	K02911	50S ribosomal protein L32
+SACOL2292	nhaC	K03315	Na+/H+ antiporter NhaC
+SACOL1786	ccpA	K02529	catabolite control protein A
+SACOL1784	acuA	K04766	acetoin utilization protein AcuA 
+SACOL1783	acs	K01895	acetyl-CoA synthetase 
+SACOL1782	fhs	K01938	formate--tetrahydrofolate ligase 
+SACOL1428	lysC	K00928	aspartate kinase 
+SACOL1429	asd	K00133	aspartate semialdehyde dehydrogenase 
+SACOL0253	rbsK	K00852	ribokinase 
+SACOL0251	bglA	K01223	6-phospho-beta-glucosidase 
+SACOL2079	cls2	K06131	cardiolipin synthetase 
+SACOL2074	ddl	K01921	D-alanyl-alanine synthetase A 
+SACOL2075	ftsW	K05837	cell cycle protein FtsW
+SACOL2070	kdpD	K07646	sensor histidine kinase KdpD
+SACOL2071	kdpE	K07667	DNA-binding response regulator KdpE 
+SACOL2073	murF	K01929	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase 
+SACOL_Sa5SD	rrfD	K01985	5S ribosomal RNA
+SACOL_Sa5SE	rrfE	K01985	5S ribosomal RNA
+SACOL_Sa5SF	rrfF	K01985	5S ribosomal RNA
+SACOL_Sa5SG	rrfG	K01985	5S ribosomal RNA
+SACOL_Sa5SA	rrfA	K01985	5S ribosomal RNA
+SACOL_Sa5SB	rrfB	K01985	5S ribosomal RNA
+SACOL_Sa5SC	rrfC	K01985	5S ribosomal RNA
+SACOL_Sa23SA	rrlA	K01980	23S ribosomal RNA
+SACOL2270	modC	K02017	molybdenum ABC transporter ATP-binding protein ModC
+SACOL_Sa23SB	rrlB	K01980	23S ribosomal RNA
+SACOL_Sa23SE	rrlE	K01980	23S ribosomal RNA
+SACOL_Sa23SD	rrlD	K01980	23S ribosomal RNA
+SACOL_Sa23SF	rrlF	K01980	23S ribosomal RNA
+SACOL2271	modB	K02018	molybdenum ABC transporter permease ModB
+SACOL2188	lacR	K02530	lactose phosphotransferase system repressor
+SACOL1254	rpsP	K02959	30S ribosomal protein S16
+SACOL1257	rplS	K02884	50S ribosomal protein L19
+SACOL1256	trmD	K00554	tRNA (guanine-N(1)-)-methyltransferase 
+SACOL1253	ffh	K03106	signal recognition particle protein
+SACOL2180	lacG	K01220	6-phospho-beta-galactosidase 
+SACOL2181	lacE	K02787	PTS system, lactose-specific IIBC components
+SACOL2182	lacF	K02786	PTS system, lactose-specific IIA component
+SACOL1551	malA	K01187	alpha-D-1,4-glucosidase 
+SACOL2184	lacC	K00917	tagatose-6-phosphate kinase 
+SACOL2185	lacB	K01819	galactose-6-phosphate isomerase subunit LacB 
+SACOL1554	gnd	K00033	6-phosphogluconate dehydrogenase 
+SACOL1302	pgsA	K00995	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase 
+SACOL0177	murQ	K07106	N-acetylmuramic acid-6-phosphate etherase
+SACOL0173	ipdC	K04103	indole-3-pyruvate decarboxylase 
+SACOL0078	plc	K01771	1-phosphatidylinositol phosphodiesterase 
+SACOL0170	rocD1	K00819	ornithine aminotransferase 
+SACOL_Sa16SA	rrsA	K01977	16S ribosomal RNA
+SACOL_Sa16SC	rrsC	K01977	16S ribosomal RNA
+SACOL1955	dinP	K02346	DNA polymerase IV
+SACOL_Sa16SE	rrsE	K01977	16S ribosomal RNA
+SACOL_Sa16SD	rrsD	K01977	16S ribosomal RNA
+SACOL1819	ribE	K00793	riboflavin synthase subunit alpha 
+SACOL1818	ribBA	K14652	riboflavin biosynthesis protein
+SACOL1817	ribH	K00794	6,7-dimethyl-8-ribityllumazine synthase 
+SACOL1816	putA	K00318	proline dehydrogenase 
+SACOL2003	hlb	K01114	phospholipase C 
+SACOL2002	map	K14204	map protein, programmed frameshift
+SACOL0494	nuoF	K05577	NADH dehydrogenase subunit 5 
+SACOL0765	saeS	K10681	sensor histidine kinase SaeS
+SACOL0559	folB	K01633	dihydroneopterin aldolase 
+SACOL0558	folP	K00796	dihydropteroate synthase 
+SACOL0554	hpt	K00760	hypoxanthine phosphoribosyltransferase 
+SACOL0557	cysK	K01738	cysteine synthase 
+SACOL0556	hslO	K04083	Hsp33-like chaperonin
+SACOL0761	nagA	K01443	N-acetylglucosamine-6-phosphate deacetylase 
+SACOL1778	tyrS	K01866	tyrosyl-tRNA synthetase 
+SACOL0476	hsdM1	K03427	type I restriction-modification system, M subunit 
+SACOL1773	serA	K00058	D-3-phosphoglycerate dehydrogenase 
+SACOL1676	mnmA	K00566	tRNA-specific 2-thiouridylase MnmA 
+SACOL1315	hexA	K03555	DNA mismatch repair protein MutS
+SACOL1673	alaS	K01872	alanyl-tRNA synthetase 
+SACOL0949	mnhG	K05571	monovalent cation/H+ antiporter subunit G
+SACOL0780	recQ1	K03654	ATP-dependent DNA helicase RecQ 
+SACOL0783	opuBB	K05845	osmoprotectant ABC transporter permease
+SACOL0784	hisC	K00817	histidinol-phosphate aminotransferase 
+SACOL2216	rpmJ	K02919	50S ribosomal protein L36
+SACOL0004	recF	K03629	recombination protein F
+SACOL0609	sdrD	K14194	sdrD protein
+SACOL0608	sdrC	K14194	sdrC protein
+SACOL0856	clfA	K14201	clumping factor A
+SACOL2514	gntP	K03299	gluconate transporter, permease
+SACOL2212	rplQ	K02879	50S ribosomal protein L17
+SACOL0600	ilvE	K00826	branched-chain amino acid aminotransferase 
+SACOL1587	efp	K02356	elongation factor P
+SACOL2198	budA1	K01575	alpha-acetolactate decarboxylase 
+SACOL2183	lacD	K01635	tagatose 1,6-diphosphate aldolase 
+SACOL1079	purF	K00764	amidophosphoribosyltransferase 
+SACOL1078	purL	K01952	phosphoribosylformylglycinamidine synthase II 
+SACOL1632	rpsU	K02970	30S ribosomal protein S21
+SACOL1075	purC	K01923	phosphoribosylaminoimidazole-succinocarboxamide synthase 
+SACOL1074	purK	K01589	phosphoribosylaminoimidazole carboxylase ATPase subunit 
+SACOL1077	purQ	K01952	phosphoribosylformylglycinamidine synthase I 
+SACOL1076	purS	K01952	phosphoribosylformylglycinamidine synthase, PurS protein 
+SACOL1070	qoxB	K02826	quinol oxidase subunit II 
+SACOL1073	purE	K01588	phosphoribosylaminoimidazole carboxylase, catalytic subunit 
+SACOL1072	folD	K01491	bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/5,10-methylene-tetrahydrofolate cyclohydrolase
+SACOL1370	rpsN	K02954	30S ribosomal protein S14
+SACOL1371	guaC	K00364	guanosine 5'-monophosphate oxidoreductase 
+SACOL1377	tkt	K00615	transketolase 
+SACOL1374	lexA	K01356	LexA repressor 
+SACOL2419	hlgA	K11038	gamma-hemolysin, component A
+SACOL2415	gpmA	K01834	phosphoglyceromutase 
+SACOL0357	dut	K01520	prophage L54a, deoxyuridine 5'-triphosphate nucleotidohydrolase 
+SACOL1198	ftsA	K03590	cell division protein FtsA
+SACOL1199	ftsZ	K03531	cell division protein FtsZ
+SACOL2714	pcp	K01304	pyrrolidone-carboxylate peptidase 
+SACOL1192	mraW	K03438	S-adenosyl-methyltransferase MraW
+SACOL2606	pyrD	K00226	dihydroorotate dehydrogenase 2 
+SACOL1196	murD	K01925	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase 
+SACOL1197	divIB	K03589	cell division protein
+SACOL1194	pbp1	K12552	penicillin-binding protein 1
+SACOL1195	mraY	K01000	phospho-N-acetylmuramoyl-pentapeptide-transferase 
+SACOL2236	rplB	K02886	50S ribosomal protein L2
+SACOL2237	rplW	K02892	50S ribosomal protein L23
+SACOL2234	rplV	K02890	50S ribosomal protein L22
+SACOL2235	rpsS	K02965	30S ribosomal protein S19
+SACOL2232	rplP	K02878	50S ribosomal protein L16
+SACOL2233	rpsC	K02982	30S ribosomal protein S3
+SACOL2230	rpsQ	K02961	30S ribosomal protein S17
+SACOL2231	rpmC	K02904	50S ribosomal protein L29
+SACOL2238	rplD	K02926	50S ribosomal protein L4
+SACOL2239	rplC	K02906	50S ribosomal protein L3
+SACOL1291	ribF	K11753	riboflavin biosynthesis protein RibF
+SACOL1290	truB	K03177	tRNA pseudouridine synthase B 
+SACOL1293	pnp	K00962	polynucleotide phosphorylase/polyadenylase 
+SACOL1292	rpsO	K02956	30S ribosomal protein S15
+SACOL0825	hprK	K06023	HPr kinase/phosphorylase 
+SACOL0824	uvrA	K03701	excinuclease ABC subunit A
+SACOL0826	lgt	K13292	prolipoprotein diacylglyceryl transferase 
+SACOL0829	trxB	K00384	thioredoxin-disulfide reductase 
+SACOL1516	rpsA	K02945	30S ribosomal protein S1
+SACOL0987	fabH	K00648	3-oxoacyl-ACP synthase 
+SACOL1514	gpsA	K00057	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase 
+SACOL2738	trmE	K03650	tRNA modification GTPase TrmE
+SACOL1105	pdhD	K00382	dihydrolipoamide dehydrogenase 
+SACOL1104	pdhC	K00627	branched-chain alpha-keto acid dehydrogenase E2 
+SACOL1511	ubiE	K03183	ubiquinone/menaquinone biosynthesis methyltransferase
+SACOL0439	rpsR	K02963	30S ribosomal protein S18
+SACOL1453	murG	K02563	UDPdiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase 
+SACOL2736	gidB	K03501	16S rRNA methyltransferase GidB
+SACOL0988	fabF	K09458	3-oxoacyl-ACP synthase 
+SACOL1519	ansA	K01424	L-asparaginase 
+SACOL0806	pepT	K01258	peptidase T 
+SACOL2045	ilvC	K00053	ketol-acid reductoisomerase 
+SACOL2047	leuB	K00052	3-isopropylmalate dehydrogenase 
+SACOL2046	leuA	K01649	2-isopropylmalate synthase 
+SACOL1102	pdhA	K00161	pyruvate dehydrogenase complex E1 component subunit alpha 
+SACOL2043	ilvB	K01652	acetolactate synthase large subunit 
+SACOL2042	ilvD	K01687	dihydroxy-acid dehydratase 
+SACOL2120	rpoE	K03048	DNA-directed RNA polymerase subunit delta
+SACOL2049	leuD	K01704	isopropylmalate isomerase small subunit 
+SACOL2048	leuC	K01703	isopropylmalate isomerase large subunit 
+SACOL_Sa23SC	rrlC	K01980	23S ribosomal RNA
+SACOL0188	ggt	K00681	gamma-glutamyltranspeptidase 
+SACOL1208	lspA	K03101	lipoprotein signal peptidase 
+SACOL_Sa16SB	rrsB	K01977	16S ribosomal RNA
+SACOL1202	ylmF	K09772	hypothetical protein
+SACOL1203	ylmG	K02221	hypothetical protein
+SACOL1206	ileS	K01870	isoleucyl-tRNA synthetase 
+SACOL0009	serS	K01875	seryl-tRNA synthetase 
+SACOL0008	hutH	K01745	histidine ammonia-lyase 
+SACOL0006	gyrA	K02469	DNA gyrase, A subunit 
+SACOL0005	gyrB	K02470	DNA gyrase, B subunit 
+SACOL_Sa16SF	rrsF	K01977	16S ribosomal RNA
+SACOL0002	dnaN	K02338	DNA polymerase III subunit beta 
+SACOL0001	dnaA	K02313	chromosomal replication initiation protein
+SACOL0437	rpsF	K02990	30S ribosomal protein S6
+SACOL1637	dnaK	K04043	molecular chaperone DnaK
+SACOL1636	dnaJ	K03686	chaperone protein DnaJ
+SACOL1635	prmA	K02687	50S ribosomal protein L11 methyltransferase 
+SACOL1926	mutY	K03575	A/G-specific adenine glycosylase 
+SACOL1639	hrcA	K03705	heat-inducible transcription repressor HrcA
+SACOL1638	grpE	K03687	heat shock protein GrpE
+SACOL1922	hemL2	K01845	glutamate-1-semialdehyde aminotransferase 
+SACOL1921	bcp	K03564	bacterioferritin comigratory protein
+SACOL0514	gltB	K00265	glutamate synthase 
+SACOL2272	modA	K02020	molybdenum ABC transporter molybdenum-binding protein ModA
+SACOL2329	rpiA	K01807	ribose-5-phosphate isomerase A 
+SACOL1211	uraA	K02824	uracil permease
+SACOL2281	ureB	K01429	urease subunit beta 
+SACOL1124	ctaA	K02259	cytochrome oxidase assembly protein
+SACOL1123	pyc	K01958	pyruvate carboxylase 
+SACOL1704	mreC	K03570	rod shape-determining protein MreC
+SACOL1158	sdhC	K00241	succinate dehydrogenase, cytochrome b558 subunit
+SACOL1700	rpmA	K02899	50S ribosomal protein L27
+SACOL0970	rexB	K16899	exonuclease RexB
+SACOL1709	folC	K11754	folylpolyglutamate synthase/dihydrofolate synthase 
+SACOL2511	fnbA	K13732	fibronectin-binding protein A
+SACOL2516	gntR	K11476	gluconate operon transcriptional repressor
+SACOL2515	gntK	K00851	gluconokinase 
+SACOL1157	uvrC	K03703	excinuclease ABC subunit C
+SACOL1155	trxA	K03671	thioredoxin
+SACOL0097	sirC	K02015	iron compound ABC transporter permease SirC
+SACOL1095	cydB	K00426	cytochrome d ubiquinol oxidase subunit II 
+SACOL1094	cydA	K00425	cytochrome d ubiquinol oxidase subunit I 
+SACOL1092	ptsI	K08483	phosphoenolpyruvate-protein phosphotransferase 
+SACOL1091	ptsH	K11189	phosphocarrier protein HPr
+SACOL0979	clpB	K03695	ATP-dependent Clp protease, ATP-binding subunit ClpB
+SACOL0860	nuc	K01174	thermonuclease precursor 
+SACOL2098	atpH	K02113	F0F1 ATP synthase subunit delta 
+SACOL1149	pheT	K01890	phenylalanyl-tRNA synthetase subunit beta 
+SACOL1148	pheS	K01889	phenylalanyl-tRNA synthetase subunit alpha 
+SACOL1145	srtB	K08600	sortase
+SACOL1410	femA	K11694	femA protein
+SACOL1140	isdA	K14193	LPXTG cell wall surface anchor protein
+SACOL1022	ypfP	K03429	diacylglycerol glucosyltransferase
+SACOL1023	murE	K05362	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase 
+SACOL1389	parE	K02622	DNA topoisomerase IV subunit B 
+SACOL1795	pepA1	K01261	glutamyl aminopeptidase 
+SACOL1025	prfC	K02837	peptide chain release factor 3
+SACOL1798	trmB	K03439	tRNA (guanine-N(7)-)-methyltransferase 
+SACOL1382	sbcC	K03546	exonuclease SbcC
+SACOL1381	sbcD	K03547	exonuclease SbcD
+SACOL1385	acnA	K01681	aconitate hydratase 
+SACOL2341	fni	K01823	isopentenyl pyrophosphate isomerase 
+SACOL2083	thiE	K00788	thiamine-phosphate pyrophosphorylase 
+SACOL2085	thiD2	K00941	phosphomethylpyrimidine kinase 
+SACOL2084	thiM	K00878	hydroxyethylthiazole kinase 
+SACOL1898	cbf1	K03698	3'-5' exoribonuclease YhaM
+SACOL2243	topB	K03169	DNA topoisomerase III 
+SACOL2240	rpsJ	K02946	30S ribosomal protein S10
+SACOL0312	nanA	K01639	N-acetylneuraminate lyase 
+SACOL1245	fabG1	K00059	3-oxoacyl-ACP reductase 
+SACOL1243	plsX	K03621	glycerol-3-phosphate acyltransferase PlsX
+SACOL1569	nusB	K03625	transcription antitermination protein NusB
+SACOL1568	xseA	K03601	exodeoxyribonuclease VII large subunit 
+SACOL1567	xseB	K03602	exodeoxyribonuclease VII small subunit 
+SACOL1566	ispA	K13789	geranyltranstransferase 
+SACOL2641	gpxA2	K00432	glutathione peroxidase 
+SACOL1564	recN	K03631	DNA repair protein RecN
+SACOL1563	lpdA	K00382	dihydrolipoamide dehydrogenase 
+SACOL1248	rnc	K03685	ribonuclease III 
+SACOL1969	purB	K01756	adenylosuccinate lyase 
+SACOL0167	argB	K00930	acetylglutamate kinase 
+SACOL0168	argJ	K00620	bifunctional ornithine acetyltransferase/N-acetylglutamate synthase 
+SACOL0169	argC	K00145	N-acetyl-gamma-glutamyl-phosphate reductase 
+SACOL1961	gatA	K02433	aspartyl/glutamyl-tRNA amidotransferase subunit A 
+SACOL1960	gatB	K02434	aspartyl/glutamyl-tRNA amidotransferase subunit B 
+SACOL1966	pcrA	K03657	ATP-dependent DNA helicase PcrA 
+SACOL1965	ligA	K01972	DNA ligase, NAD-dependent 
+SACOL1800	dat	K00824	D-alanine aminotransferase 
+SACOL1808	leuS	K01869	leucyl-tRNA synthetase 
+SACOL2016	groEL	K04077	chaperonin GroEL
+SACOL2017	groES	K04078	co-chaperonin GroES
+SACOL2151	glmM	K03431	phosphoglucosamine mutase
+SACOL0956	kapB	K06347	hypothetical protein
+SACOL2422	hlgB	K11038	gamma hemolysin, component B
+SACOL2421	hlgC	K11038	gamma hemolysin, component C
+SACOL0546	pth	K01056	peptidyl-tRNA hydrolase 
+SACOL1691	recJ	K07462	single-stranded-DNA-specific exonuclease RecJ 
+SACOL0544	prsA	K00948	ribose-phosphate pyrophosphokinase 
+SACOL0545	rplY	K02897	50S ribosomal protein L25/general stress protein Ctc
+SACOL0543	glmU	K04042	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase 
+SACOL1690	apt	K00759	adenine phosphoribosyltransferase 
+SACOL2332	galM	K01785	aldose 1-epimerase 
+SACOL2099	atpF	K02109	F0F1 ATP synthase subunit B 
+SACOL0766	saeR	K10682	DNA-binding response regulator SaeR
+SACOL1742	gltA	K01647	citrate synthase 
+SACOL1741	icd	K00031	isocitrate dehydrogenase 
+SACOL1740	phoP	K07658	alkaline phosphatase synthesis transcriptional regulatory protein
+SACOL1747	accA	K01962	acetyl-CoA carboxylase carboxyltransferase subunit alpha 
+SACOL1746	pfkA	K00850	6-phosphofructokinase 
+SACOL1745	pyk	K00873	pyruvate kinase 
+SACOL0204	pflB	K00656	formate acetyltransferase 
+SACOL1748	accD	K01963	acetyl-CoA carboxylase subunit beta 
+SACOL1665	greA	K03624	transcription elongation factor GreA
+SACOL1666	udk	K00876	uridine kinase 
+SACOL1702	rplU	K02888	50S ribosomal protein L21
+SACOL0438	ssb2	K03111	single-stranded DNA-binding protein
+SACOL1699	obgE	K03979	GTPase ObgE
+SACOL0200	uhpT	K07784	sugar phosphate antiporter
+SACOL0773	pabA	K01664	para-aminobenzoate synthase, glutamine amidotransferase, component II 
+SACOL2613	panD	K01579	aspartate alpha-decarboxylase 
+SACOL1599	comGC	K02245	comG operon protein 3 precursor
+SACOL1596	aroK	K00891	shikimate kinase 
+SACOL0907	seb	K11040	enterotoxin B
+SACOL0610	sdrE	K14194	sdrE protein
+SACOL1595	gcvT	K00605	glycine cleavage system aminomethyltransferase T 
+SACOL0616	nagB	K02564	glucosamine-6-phosphate isomerase 
+SACOL1068	qoxC	K02828	quinol oxidase subunit III 
+SACOL1069	qoxA	K02827	quinol oxidase subunit I 
+SACOL1067	qoxD	K02829	quinol oxidase subunit IV 
+SACOL1489	recU	K03700	Holliday junction-specific endonuclease
+SACOL1062	atl	K13714	bifunctional autolysin 
+SACOL1222	rpoZ	K03060	DNA-directed RNA polymerase subunit omega 
+SACOL1695	queA	K07568	S-adenosylmethionine:tRNA ribosyltransferase-isomerase 
+SACOL1694	tgt	K00773	queuine tRNA-ribosyltransferase 
+SACOL1697	ruvA	K03550	Holliday junction DNA helicase RuvA
+SACOL1696	ruvB	K03551	Holliday junction DNA helicase RuvB 
+SACOL2427	bioA	K00833	adenosylmethionine-8-amino-7-oxononanoate aminotransferase 
+SACOL2426	bioB	K01012	biotin synthase 
+SACOL1693	yajC	K03210	preprotein translocase, YajC subunit
+SACOL2424	bioW	K01906	6-carboxyhexanoate--CoA ligase 
+SACOL0339	ssb1	K03111	prophage L54a, single-stranded DNA binding protein
+SACOL2428	bioD	K01935	dethiobiotin synthase 
+SACOL2544	sdaAA	K01752	L-serine dehydratase, iron-sulfur-dependent subunit alpha 
+SACOL2545	sdaAB	K01752	L-serine dehydratase, iron-sulfur-dependent subunit beta 
+SACOL2208	truA	K06173	tRNA pseudouridine synthase A 
+SACOL2614	panC	K01918	pantoate--beta-alanine ligase 
+SACOL2615	panB	K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase 
+SACOL2617	budA2	K01575	alpha-acetolactate decarboxylase 
+SACOL2618	ldh2	K00016	L-lactate dehydrogenase 
+SACOL1227	def2	K01462	peptide deformylase 
+SACOL2207	rplM	K02871	50S ribosomal protein L13
+SACOL2206	rpsI	K02996	30S ribosomal protein S9
+SACOL1750	dnaE	K02337	DNA polymerase III subunit alpha 
+SACOL1540	xerD	K04763	tyrosine recombinase XerD
+SACOL1282	proS	K01881	prolyl-tRNA synthetase 
+SACOL1283	polC	K03763	DNA polymerase III PolC 
+SACOL1103	pdhB	K00162	pyruvate dehydrogenase complex E1 component subunit beta 
+SACOL0837	gapR	K05311	glycolytic operon regulator
+SACOL1285	nusA	K02600	transcription elongation factor NusA
+SACOL1523	recQ2	K03654	ATP-dependent DNA helicase RecQ 
+SACOL0838	gapA1	K00134	glyceraldehyde 3-phosphate dehydrogenase 
+SACOL0839	pgk	K00927	phosphoglycerate kinase 
+SACOL2685	cap1C	K01104	capsular polysaccharide biosynthesis protein Cap1C
+SACOL1448	sucB	K00658	dihydrolipoamide succinyltransferase 
+SACOL1449	sucA	K00164	2-oxoglutarate dehydrogenase E1 component 
+SACOL2721	nixA	K07241	high-affinity nickel-transport protein
+SACOL2689	icaA	K11936	N-glycosyltransferase
+SACOL0536	ksgA	K02528	dimethyladenosine transferase 
+SACOL0533	metS	K01874	methionyl-tRNA synthetase 
+SACOL0539	purR	K09685	pur operon repressor
+SACOL0538	ipk	K00919	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase 
+SACOL2054	rpoF	K03090	RNA polymerase sigma factor SigB
+SACOL2055	rsbW	K04757	serine-protein kinase RsbW 
+SACOL2050	ilvA2	K01754	threonine dehydratase 
+SACOL2117	fbaA	K01624	fructose-bisphosphate aldolase 
+SACOL2116	murAB	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 
+SACOL1873	epiF	K01990	epidermin immunity protein F
+SACOL2113	rho	K03628	transcription termination factor Rho
+SACOL2112	rpmE2	K02909	50S ribosomal protein L31
+SACOL2111	tdk	K00857	thymidine kinase 
+SACOL2110	prfA	K02835	peptide chain release factor 1
+SACOL1255	rimM	K02860	16S rRNA-processing protein RimM
+SACOL1571	accC	K01961	acetyl-CoA carboxylase biotin carboxylase subunit 
+SACOL0222	ldh1	K00016	L-lactate dehydrogenase 
+SACOL1238	rpmB	K02902	50S ribosomal protein L28
+SACOL0887	sei	K11040	enterotoxin type I
+SACOL0886	sek	K11040	enterotoxin
+SACOL1235	rpe	K01783	ribulose-phosphate 3-epimerase 
+SACOL0015	rplI	K02939	50S ribosomal protein L9
+SACOL0016	dnaB	K02314	replicative DNA helicase 
+SACOL1736	fpg	K10563	formamidopyrimidine-DNA glycosylase 
+SACOL0151	cap5P	K01791	UDP-N-acetylglucosamine 2-epimerase Cap5P 
+SACOL0019	yycF	K07668	DNA-binding response regulator YycF
+SACOL0400	ulaA	K03475	PTS system ascorbate-specific transporter subunit IIC
+SACOL0407	glpT	K02445	glycerol-3-phosphate transporter
+SACOL1280	cdsA	K00981	phosphatidate cytidylyltransferase 
+SACOL1624	era	K03595	GTP-binding protein Era
+SACOL1625	cdd	K01489	cytidine deaminase 
+SACOL1626	dgkA	K00901	diacylglycerol kinase 
+SACOL1622	glyS	K01880	glycyl-tRNA synthetase 
+SACOL1937	pepS	K01269	aminopeptidase PepS 
+SACOL1831	tal	K00616	translaldolase 
+SACOL1837	metK	K00789	S-adenosylmethionine synthetase 
+SACOL2652	clfB	K14192	clumping factor B
+SACOL0124	deoB	K01839	phosphopentomutase 
+SACOL0121	deoD1	K03784	purine nucleoside phosphorylase 
+SACOL0123	deoC1	K01619	deoxyribose-phosphate aldolase 
+SACOL1289	rbfA	K02834	ribosome-binding factor A
+SACOL2577	crtM	K10208	dehydrosqualene synthase 
+SACOL2576	crtN	K10209	squalene synthase 
+SACOL1719	hemA	K02492	glutamyl-tRNA reductase 
+SACOL1490	pbp2	K05366	penicillin-binding protein 2
+SACOL1497	papS	K00974	tRNA CCA-pyrophosphorylase 
+SACOL1496	birA	K03524	birA bifunctional protein
+SACOL1494	asnC	K01893	asparaginyl-tRNA synthetase 
+SACOL1710	valS	K01873	valyl-tRNA synthetase 
+SACOL1714	hemL1	K01845	glutamate-1-semialdehyde aminotransferase 
+SACOL1715	hemB	K01698	delta-aminolevulinic acid dehydratase 
+SACOL1716	hemD	K01719	uroporphyrinogen III synthase 
+SACOL1717	hemC	K01749	porphobilinogen deaminase 
+SACOL1650	nadD	K00969	nicotinate (nicotinamide) nucleotide adenylyltransferase
+SACOL1652	aroE	K00014	shikimate 5-dehydrogenase 
+SACOL1655	mtn	K01243	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase
+SACOL1304	recA	K03553	recombinase A
+SACOL2508	galU	K00963	UTP-glucose-1-phosphate uridylyltransferase 
+SACOL2509	fnbB	K13733	fibronectin binding protein B
+SACOL1080	purM	K01933	phosphoribosylaminoimidazole synthetase 
+SACOL1081	purN	K11175	phosphoribosylglycinamide formyltransferase 
+SACOL1082	purH	K00602	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase
+SACOL1083	purD	K01945	phosphoribosylamine--glycine ligase 
+SACOL2712	drp35	K02352	drP35 protein
+SACOL2719	rarD	K05786	rarD protein
+SACOL0877	gcvH	K02437	glycine cleavage system protein H
+SACOL0873	aroD	K03785	3-dehydroquinate dehydratase 
+SACOL1408	trpB	K01696	tryptophan synthase subunit beta 
+SACOL1409	trpA	K01695	tryptophan synthase subunit alpha 
+SACOL0971	rexA	K16898	exonuclease RexA
+SACOL1159	sdhA	K00239	succinate dehydrogenase flavoprotein subunit 
+SACOL1404	trpG	K01658	anthranilate synthase component II 
+SACOL1405	trpD	K00766	anthranilate phosphoribosyltransferase 
+SACOL1406	trpC	K01609	indole-3-glycerol-phosphate synthase 
+SACOL1407	trpF	K01817	N-(5'-phosphoribosyl)anthranilate isomerase 
+SACOL1401	tyrA	K04517	prephenate dehydrogenase 
+SACOL1150	rnhC	K03471	ribonuclease HIII 
+SACOL1403	trpE	K01657	anthranilate synthase component I 
+SACOL1016	fabI	K00208	enoyl-ACP reductase 
+SACOL1013	mgtE	K06213	magnesium transporter
+SACOL1399	dmpI	K01821	4-oxalocrotonate tautomerase 
+SACOL1011	ppnK	K00858	inorganic polyphosphate/ATP-NAD kinase 
+SACOL1010	relA1	K07816	GTP pyrophosphokinase 
+SACOL1396	fmtC	K14205	fmtC protein
+SACOL1397	msrA	K07304	methionine sulfoxide reductase A 
+SACOL1390	parC	K02621	DNA topoisomerase IV subunit A 
+SACOL2092	murAA	K00790	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 
+SACOL2628	betB	K00130	betaine aldehyde dehydrogenase 
+SACOL2091	fabZ	K02372	(3R)-hydroxymyristoyl-ACP dehydratase 
+SACOL2096	atpG	K02115	F0F1 ATP synthase subunit gamma 
+SACOL2097	atpA	K02111	F0F1 ATP synthase subunit alpha 
+SACOL2094	atpC	K02114	F0F1 ATP synthase subunit epsilon
+SACOL2095	atpD	K02112	F0F1 ATP synthase subunit beta 
+SACOL2623	mqo2	K00116	malate:quinone oxidoreductase 
+SACOL2622	fdaB	K01623	fructose-1,6-bisphosphate aldolase 
+SACOL2627	betA	K00108	choline dehydrogenase 
+SACOL2154	rocF	K01476	arginase 
+SACOL2398	nirB	K00362	nitrite reductase [NAD(P)H], large subunit 
+SACOL2253	femX	K11693	femX protein
+SACOL2393	narJ	K00373	respiratory nitrate reductase subunit delta
+SACOL2392	narI	K00374	respiratory nitrate reductase subunit gamma 
+SACOL2395	narG	K00370	respiratory nitrate reductase subunit alpha 
+SACOL2394	narH	K00371	respiratory nitrate reductase subunit beta 
+SACOL2397	nirD	K00363	nitrite reductase [NAD(P)H], small subunit 
+SACOL1790	murC	K01924	UDP-N-acetylmuramate--L-alanine ligase 
+SACOL1279	uppS	K00806	UDP pyrophosphate synthase 
+SACOL1278	frr	K02838	ribosome recycling factor
+SACOL1320	glpK	K00864	glycerol kinase 
+SACOL1272	codY	K03706	transcriptional repressor CodY
+SACOL1271	hslU	K03667	ATP-dependent protease ATP-binding subunit HslU
+SACOL1270	hslV	K01419	ATP-dependent protease peptidase subunit
+SACOL1277	pyrH	K09903	uridylate kinase 
+SACOL1276	tsf	K02357	elongation factor Ts
+SACOL1274	rpsB	K02967	30S ribosomal protein S2
+SACOL1478	ald1	K00259	alanine dehydrogenase 
+SACOL1572	accB	K02160	acetyl-CoA carboxylase, biotin carboxyl carrier protein
+SACOL2659	aur	K01401	zinc metalloproteinase aureolysin 
+SACOL2654	arcC2	K00926	carbamate kinase 
+SACOL2655	arcD	K03758	arginine/ornithine antiporter
+SACOL2656	arcB2	K00611	ornithine carbamoyltransferase 
+SACOL2657	arcA	K01478	arginine deiminase 
+SACOL1477	ilvA1	K01754	threonine dehydratase 
+SACOL1974	nadE	K01916	NAD synthetase 
+SACOL1977	pheA	K04518	prephenate dehydratase 
+SACOL1970	sspB2	K08258	cysteine protease precursor SspB
+SACOL0118	sodA1	K04564	superoxide dismutase 
+SACOL1383	mscL	K03282	large-conductance mechanosensitive channel
+SACOL1871	epiG	K01992	epidermin immunity protein F
+SACOL1515	engA	K03977	GTP-binding protein EngA
+SACOL2029	cscA	K01193	sucrose-6-phosphate hydrolase 
+SACOL2026	agrA	K07707	accessory gene regulator protein A
+SACOL2025	argC2	K07706	accessory gene regulator protein C
+SACOL2024	agrD	K07800	accessory gene regulator protein D
+SACOL2023	agrB	K07813	accessory gene regulator protein B
+SACOL2022	hld	K11039	delta-hemolysin
+SACOL0833	clpP	K01358	ATP-dependent Clp protease proteolytic subunit 
+SACOL1173	hlY	K11032	alpha-hemolysin precursor
+SACOL1565	argR	K03402	arginine repressor
+SACOL1888	hemH	K01772	ferrochelatase 
+SACOL1889	hemE	K01599	uroporphyrinogen decarboxylase 
+SACOL0576	cysS	K01883	cysteinyl-tRNA synthetase 
+SACOL0575	cysE	K00640	serine acetyltransferase 
+SACOL0574	gltX	K09698	glutamyl-tRNA synthetase 
+SACOL1880	lukD	K11038	leukotoxin LukD
+SACOL1881	lukE	K11038	leukotoxin LukE
+SACOL0276	yukA	K03466	diarrheal toxin
+SACOL1887	hemG	K00231	protoporphyrinogen oxidase 
+SACOL0693	tagA	K05946	teichoic acid biosynthesis protein
+SACOL0758	fruK	K00882	1-phosphofructokinase 
+SACOL2119	pyrG	K01937	CTP synthetase 
+SACOL0020	yycG	K07652	sensory box histidine kinase YycG
+SACOL0698	tagD	K00980	glycerol-3-phosphate cytidylyltransferase 
+SACOL0699	pbp4	K07258	penicillin-binding protein 4
+SACOL0754	norA	K08153	multi drug resistance protein (norA)
+SACOL0451	ahpF	K03387	alkyl hydroperoxide reductase subunit F
+SACOL0452	ahpC	K03386	alkyl hydroperoxide reductase subunit C
+SACOL1619	dnaG	K02316	DNA primase 
+SACOL1618	rpoD	K03086	RNA polymerase sigma factor RpoD
+SACOL0458	xpt	K03816	xanthine phosphoribosyltransferase 
+SACOL1614	nfo	K01151	endonuclease IV 
+SACOL0593	fusA	K02355	elongation factor G
+SACOL0592	rpsG	K02992	30S ribosomal protein S7
+SACOL1758	ald2	K00259	alanine dehydrogenase 
+SACOL0594	tuf	K02358	elongation factor Tu 
+SACOL0572	radA	K04485	DNA repair protein RadA
+SACOL0050	pls	K14195	methicillin-resistant surface protein
+SACOL0937	dltC	K14188	D-alanine--poly(phosphoribitol) ligase subunit 2 
+SACOL0936	dltB	K03739	DltB protein
+SACOL0935	dltA	K03367	D-alanine--poly(phosphoribitol) ligase subunit 1 
+SACOL0627	ung	K03648	uracil-DNA glycosylase 
+SACOL0626	thiD1	K00868	phosphomethylpyrimidine kinase 
+SACOL2340	gltS	K03312	sodium:glutamate symporter
+SACOL0938	dltD	K03740	DltD protein
+SACOL0622	atoB	K00626	acetyl-CoA acetyltransferase
+SACOL1328	glnR	K03713	glutamine synthetase
+SACOL1721	clpX	K03544	ATP-dependent protease ATP-binding subunit ClpX
+SACOL1052	menD	K02551	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase 
+SACOL1057	sspA	K01318	V8 protease 
+SACOL1056	sspB1	K13715	cysteine protease precursor SspB
+SACOL1727	infC	K02520	translation initiation factor IF-3
+SACOL1054	menB	K01661	naphthoate synthase 
+SACOL1729	thrS	K01868	threonyl-tRNA synthetase 
+SACOL1351	cls1	K06131	cardiolipin synthetase 
+SACOL1686	hisS	K01892	histidyl-tRNA synthetase 
+SACOL1685	aspS	K01876	aspartyl-tRNA synthetase 
+SACOL2539	srtA	K07284	sortase
+SACOL1689	relA2	K00951	GTP pyrophosphokinase 
+SACOL2664	manA2	K01809	mannose-6-phosphate isomerase 
+SACOL2194	hysA	K01727	hyaluronate lyase 
+SACOL2218	adk	K00939	adenylate kinase 
+SACOL2219	secY	K03076	preprotein translocase subunit SecY
+SACOL0994	oppF	K10823	oligopeptide ABC transporter ATP-binding protein
+SACOL2214	rpsK	K02948	30S ribosomal protein S11
+SACOL2215	rpsM	K02952	30S ribosomal protein S13
+SACOL2740	rpmH	K02914	50S ribosomal protein L34
+SACOL2217	infA	K02518	translation initiation factor IF-1
+SACOL2210	cbiO	K16787	cobalt transporter ATP-binding subunit
+SACOL2211	cbiO	K16786	cobalt transporter ATP-binding subunit
+SACOL2199	budB	K01652	acetolactate synthase 
+SACOL2213	rpoA	K03040	DNA-directed RNA polymerase subunit alpha 
+SACOL0691	sirR	K03709	iron-dependent repressor
+SACOL1764	thiI	K03151	thiamine biosynthesis protein ThiI
+SACOL2698	hisA	K01814	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase 
+SACOL2699	hisH	K02501	imidazole glycerol phosphate synthase subunit HisH 
+SACOL1538	scpA	K05896	hypothetical protein
+SACOL0801	murB	K00075	UDP-N-acetylenolpyruvoylglucosamine reductase 
+SACOL1534	srrB	K07651	sensor histidine kinase SrrB
+SACOL1535	srrA	K07775	DNA-binding response regulator SrrA
+SACOL1536	rluB	K06178	ribosomal large subunit pseudouridine synthase B 
+SACOL1537	scpB	K06024	segregation and condensation protein B
+SACOL2694	geh	K01046	lipase 
+SACOL2696	hisI	K11755	bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP 
+SACOL2697	hisF	K02500	imidazole glycerol phosphate synthase subunit HisF
+SACOL1435	lysA	K01586	diaminopimelate decarboxylase 
+SACOL2282	ureC	K01428	urease subunit alpha 
+SACOL1125	ctaB	K02301	protoheme IX farnesyltransferase 
+SACOL2280	ureA	K01430	urease subunit gamma 
+SACOL1431	dapB	K00215	dihydrodipicolinate reductase 
+SACOL1430	dapA	K01714	dihydrodipicolinate synthase 
+SACOL1432	dapD	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase 
+SACOL2323	hutI	K01468	imidazolonepropionase 
+SACOL2324	hutU	K01712	urocanate hydratase 
+SACOL2326	fosB	K11210	fosfomycin resistance protein FosB
+SACOL2327	hutG	K01479	formimidoylglutamase 
+SACOL0240	ispD	K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase 
+SACOL2069	kdpF	K01545	K+-transporting ATPase, F subunit 
+SACOL2068	kdpA	K01546	potassium-transporting ATPase subunit A 
+SACOL0245	lytS	K07704	sensor histidine kinase LytS
+SACOL0247	lrgA	K05338	murein hydrolase regulator LrgA
+SACOL0246	lytR	K07705	two-component response regulator
+SACOL0248	lrgB	K05339	antiholin-like protein LrgB
+SACOL2061	acpS	K00997	4'-phosphopantetheinyl transferase 
+SACOL2060	alr	K01775	alanine racemase 
+SACOL2067	kdpB	K01547	potassium-transporting ATPase subunit B 
+SACOL2066	kdpC	K01548	potassium-transporting ATPase subunit C 
+SACOL2100	atpE	K02110	F0F1 ATP synthase subunit C 
+SACOL2101	atpB	K02108	F0F1 ATP synthase subunit A 
+SACOL2104	upp	K00761	uracil phosphoribosyltransferase 
+SACOL2105	glyA	K00600	serine hydroxymethyltransferase 
+SACOL2261	moaA	K03639	molybdenum cofactor biosynthesis protein A
+SACOL2263	moaD	K03636	molybdopterin converting factor subunit 1
+SACOL2262	mobA	K03752	molybdopterin-guanine dinucleotide biosynthesis protein MobA
+SACOL2264	moaE	K03635	molybdenum cofactor biosynthesis protein E
+SACOL2267	moaC	K03637	molybdenum cofactor biosynthesis protein MoaC
+SACOL1908	fumC	K01679	fumarate hydratase 
+SACOL1756	pepQ	K01271	proline dipeptidase 
+SACOL1549	zwf	K00036	glucose-6-phosphate 1-dehydrogenase 
+SACOL1221	gmk	K00942	guanylate kinase 
+SACOL0236	ispD	K00991	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase 
+SACOL1223	coaBC	K13038	phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase
+SACOL1224	priA	K04066	primosomal protein N`
+SACOL0233	gutB	K00008	sorbitol dehydrogenase 
+SACOL1228	fmt	K00604	methionyl-tRNA formyltransferase 
+SACOL1229	sun	K03500	sun protein
+SACOL1546	proC	K00286	pyrroline-5-carboxylate reductase 
+SACOL0149	cap5N	K01784	capsular polysaccharide biosynthesis protein Cap5N
+SACOL0793	nrdF	K00526	ribonucleotide-diphosphate reductase subunit beta 
+SACOL0792	nrdE	K00525	ribonucleotide-diphosphate reductase subunit alpha 
+SACOL0142	cap5G	K01791	UDP-N-acetylglucosamine 2-epimerase Cap5G 
+SACOL0140	cap5E	K17716	capsular polysaccharide biosynthesis protein Cap5E
+SACOL0591	rpsL	K02950	30S ribosomal protein S12
+SACOL1943	vraS	K07681	sensor histidine kinase VraS
+SACOL1942	vraR	K07694	DNA-binding response regulator VraR
+SACOL1822	arsR	K03892	arsenical resistance operon repressor
+SACOL1823	arsB	K03893	arsenical pump membrane protein
+SACOL1820	ribD	K11752	riboflavin biosynthesis protein RibD 
+SACOL0263	lytM	K08259	peptidoglycan hydrolase
+SACOL1824	arsC	K03741	arsenate reductase
+SACOL0098	sirB	K02015	iron compound ABC transporter permease SirB
+SACOL0099	sirA	K02016	iron compound ABC transporter iron compound-binding protein SirA
+SACOL0095	spa	K14196	immunoglobulin G binding protein A precursor
+SACOL1610	sodA2	K04564	superoxide dismutase 
+SACOL0018	purA	K01939	adenylosuccinate synthetase 
+SACOL0150	cap5O	K02472	capsular polysaccharide biosynthesis protein Cap5O
+SACOL0520	dnaX	K02343	DNA polymerase III subunits gamma and tau 
+SACOL0522	recR	K06187	recombination protein RecR
+SACOL0524	tmk	K00943	thymidylate kinase 
+SACOL2562	ogt	K00567	methylated-DNA--protein-cysteine methyltransferase 
+SACOL2564	feoB	K04759	ferrous iron transport protein B
+SACOL0663	argS	K01887	arginyl-tRNA synthetase 
+SACOL0660	adhP	K13953	alcohol dehydrogenase 
+SACOL0823	uvrB	K03702	excinuclease ABC subunit B
+SACOL0154	aldA1	K00128	aldehyde dehydrogenase 
+SACOL0700	abcA	K18104	ABC transporter ATP-binding protein/permease
+SACOL1769	rpsD	K02986	30S ribosomal protein S4
+SACOL0461	guaA	K01951	GMP synthase 
+SACOL0460	guaB	K00088	inosine-5'-monophosphate dehydrogenase 
+SACOL1760	ackA	K00925	acetate kinase 
+SACOL1762	tpx	K11065	thiol peroxidase
+SACOL1642	rpsT	K02968	30S ribosomal protein S20
+SACOL1643	holA	K02340	DNA polymerase III subunit delta
+SACOL1316	mutL	K03572	DNA mismatch repair protein
+SACOL1317	glpP	K02443	glycerol uptake operon antiterminator regulatory protein
+SACOL1646	comEA	K02237	comE operon protein 1-like protein
+SACOL1312	miaB	K06168	(dimethylallyl)adenosine tRNA methylthiotransferase
+SACOL1838	pckA	K01610	phosphoenolpyruvate carboxykinase 
+SAA0002	tet	K08168	tetracycline resistance protein
+SACOL1319	glpF	K02440	glycerol uptake facilitator protein
+SACOL1288	infB	K02519	translation initiation factor IF-2

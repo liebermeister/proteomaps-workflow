@@ -4,9 +4,9 @@ from proteomaps_PATHNAMES import proteomaps_PATHNAMES
 
 class proteomaps_path_names:
 
-  def __init__(self,data_dir):
+  def __init__(self,data_dir,hierarchy_version):
 
-    a = proteomaps_PATHNAMES()
+    a = proteomaps_PATHNAMES(hierarchy_version)
 
     # Predefined directory names
     self.PROTEIN_HIERARCHY_DIR = a.PROTEIN_HIERARCHY_DIR
@@ -102,7 +102,6 @@ class proteomaps_path_names:
       q[1] = dum[-1]
       data_files.append([self.DATA_DIR + '/' + q[2] + '/' + q[0] + '_ko_' + q[1],q[0],q[2]])
     return data_files
-
 
   def make_data_file_directories(self):    
     # Create directories if they do not exist

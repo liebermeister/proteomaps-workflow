@@ -1,0 +1,322 @@
+MPN238	gatB	K02434	aspartyl/glutamyl-tRNA amidotransferase subunit B
+MPN223	G07_orf312	K06023	HPr kinase/phosphorylase
+MPN672	hpt	K00760	hypoxanthine-guanine phosphoribosyltransferase
+MPN230	rpsR	K02963	30S ribosomal protein S18
+MPN231	rplI	K02939	50S ribosomal protein L9
+MPN232	dnaB	K02314	replicative DNA helicase DnaB
+MPN429	pgk	K00927	phosphoglycerate kinase 
+MPN156	rbfA	K02834	ribosome binding factor A
+MPN235	ung	K03648	uracil-DNA glycosylase
+MPN237	gatA	K02433	aspartyl/glutamyl-tRNA amidotransferase subunit A
+MPN034	polC	K03763	DNA polymerase III PolC
+MPN033	upp	K00761	uracil phosphoribosyltransferase
+MPN108	C09_orf404	K00571	hypothetical protein
+MPN136	ugpE	K02026	sn-glycerol-3-phosphate transport system permease
+MPN135	ugpA	K02025	sn-glycerol-3-phosphate transport system permease
+MPN134	ugpC	K10112	sn-glycerol-3-phosphate transport system permease
+MPN133	E07_orf301	K02027	lipoprotein
+MPN334	bcrA	K01990	ABC transporter ATP-binding protein
+MPN336	nadD	K00969	nicotinate-nucleotide adenylyltransferase 
+MPN227	fus	K02355	elongation factor G
+MPN062	deoD	K03784	purine nucleoside phosphorylase 
+MPN175	rplN	K02874	50S ribosomal protein L14
+MPN420	glpQ	K01126	glycerophosphoryl diester phosphodiesterase
+MPN569	D02_orf108	K07042	metalloprotein
+MPN479	P01_orf197	K01118	ACP phosphodieterase
+MPN446	rpsD	K02986	30S ribosomal protein S4
+MPN636	frr	K02838	ribosome releasing factor
+MPN637	cdsA	K00981	CDP-diglyceride synthetase
+MPN528	ppa	K01507	inorganic pyrophosphatase 
+MPN631	tsf	K02357	elongation factor Ts
+MPN632	pyrH	K09903	uridylate kinase
+MPN525	G12_orf413	K03346	hypothetical protein
+MPN197	pepF	K08602	oligoendopeptidase F
+MPN520	ileS	K01870	isoleucyl-tRNA synthetase 
+MPN521	ygl3	K03216	rRNA methylase
+MPN522	G12_orf210V	K03439	methyltransferase
+MPN389	lplA	K03800	lipoate protein ligase
+MPN656	rbgA	K14540	ribosomal biogenesis GTPase
+MPN307	arcC	K00926	carbamate kinase 
+MPN652	mtlD	K00009	mannitol-1-phosphate 5-dehydrogenase 
+MPN653	mtlF	K02798	PTS system mannitol-specific transporter subunit IIA
+MPN302	pfkA	K00850	6-phosphofructokinase 
+MPN303	pyk	K00873	pyruvate kinase 
+MPN546	plsX	K03621	glycerol-3-phosphate acyltransferase PlsX
+MPN258	yjcW	K02056	sugar ABC transporter ATP-binding protein
+MPN545	rnc	K03685	ribonuclease III
+MPN543	fmt	K00604	methionyl-tRNA formyltransferase 
+MPN658	rplS	K02884	50S ribosomal protein L19
+MPN659	trmD	K00554	tRNA (guanine-N(1)-)-methyltransferase
+MPN025	tsr	K01624	fructose-bisphosphate aldolase
+MPN024	rpoE	K03048	DNA-directed RNA polymerase subunit delta
+MPN021	dnaJ	K03686	molecular chaperone DnaJ
+MPN023	metS	K01874	methionyl-tRNA synthetase 
+MPN022	pip	K01259	proline iminopeptidase
+MPN471	rpmG	K02913	50S ribosomal protein L33
+MPN029	efp	K02356	elongation factor P
+MPN260	rbsC	K02057	sugar (ribose/galactose) ABC transporter permease
+MPN259	A65_orf517	K02057	sugar ABC transporter permease
+MPN115	infC	K02520	translation initiation factor IF-3
+MPN432	artP	K16787	cobalt ABC transporter ATP-binding protein
+MPN622	rpsO	K02956	30S ribosomal protein S15
+MPN539	rplL	K02935	50S ribosomal protein L7/L12
+MPN538	rplJ	K02864	50S ribosomal protein L10
+MPN627	ptsI	K08483	PEP-dependent HPr protein kinase phosphoryltransferase enzyme I
+MPN229	ssb	K03111	single-stranded DNA binding protein
+MPN434	dnaK	K04043	molecular chaperone DnaK
+MPN624	rpmB	K02902	50S ribosomal protein L28
+MPN533	ackA	K00925	acetate kinase 
+MPN629	tpiA	K01803	triosephosphate isomerase
+MPN628	pgm	K15633	phosphoglyceromutase 
+MPN537	mucB	K02346	UV protection protein MucB
+MPN536	ruvB	K03551	Holliday junction DNA helicase RuvB 
+MPN535	ruvA	K03550	Holliday junction DNA helicase RuvA
+MPN494	yjfU	K02821	phosphotransferase II subunit A
+MPN568	spg	K03595	GTPase Era
+MPN496	ulaA	K03475	PTS system ascorbate-specific transporter subunit IIC
+MPN317	ftsZ	K03531	cell division protein FtsZ
+MPN558	gidB	K03501	methyltransferase GidB
+MPN492	yjfW	K03079	L-xylulose 5-phosphate 3-epimerase
+MPN493	ulaD	K03078	3-keto-L-gulonate-6-phosphate decarboxylase 
+MPN557	gidA	K03495	tRNA uridine 5-carboxymethylaminomethyl modification protein GidA
+MPN556	argS	K01887	arginyl-tRNA synthetase 
+MPN540	rpmF	K02911	50S ribosomal protein L32
+MPN550	G12_orf387	K03151	thiamine biosynthesis protein ThiI
+MPN553	thrSv	K01868	threonyl-tRNA synthetase
+MPN158	yaaC	K11753	riboflavin kinase 
+MPN195	GT9_orf434	K16785	cobalt ABC transporter
+MPN167	rplW	K02892	50S ribosomal protein L23
+MPN014	dnaE	K02316	hypothetical protein
+MPN016	rimK	K05844	ribosomal S6 modification protein
+MPN017	mtd1	K01491	5,10-methylene-tetrahydrofolate dehydrogenase
+MPN018	pmd1	K06147	ABC transporter ATP-binding protein
+MPN487	nifS	K11717	cysteine desulfurase
+MPN671	ftsH	K03798	cell division protein FtsH
+MPN155	infB	K02519	translation initiation factor IF-2
+MPN154	nusA	K02600	transcription elongation factor NusA
+MPN361	prfA	K02835	peptide chain release factor 1
+MPN046	aspS	K01876	aspartyl-tRNA synthetase 
+MPN216	amiD	K15582	peptide ABC transporter permease
+MPN431	A05_orf317	K16785	permease
+MPN298	acpS	K00997	4'-phosphopantetheinyl transferase 
+MPN433	cbiO	K16786	cobalt ABC transporter ATP-binding protein
+MPN417	P69	K02042	transport system permease P69
+MPN335	F10_orf741	K01992	hypothetical protein
+MPN541	rpsT	K02968	30S ribosomal protein S20
+MPN621	C12_orf561	K12574	metallo hydrolase
+MPN194	cbiO	K16787	cobalt ABC transporter ATP-binding protein
+MPN226	rpsG	K02992	30S ribosomal protein S7
+MPN225	rpsL	K02950	30S ribosomal protein S12
+MPN422	mnmA	K00566	tRNA-specific 2-thiouridylase MnmA
+MPN425	ftsY	K03110	cell division protein FtsY
+MPN222	yacA	K04075	PP-loop superfamily protein ATPase
+MPN221	pth	K01056	peptidyl-tRNA hydrolase 
+MPN220	rplA	K02863	50S ribosomal protein L1
+MPN384	leuS	K01869	leucyl-tRNA synthetase 
+MPN278	yefE	K01854	UDP-galactopyranose mutase
+MPN380	fpg	K10563	formamidopyrimidine-DNA glycosylase 
+MPN217	oppD	K15583	peptide ABC transporter ATP-binding protein
+MPN382	A19_orf200	K00859	hypothetical protein
+MPN228	rpsF	K02990	30S ribosomal protein S6
+MPN164	rpsJ	K02946	30S ribosomal protein S10
+MPN165	rplC	K02906	50S ribosomal protein L3
+MPN166	rplD	K02926	50S ribosomal protein L4
+MPN480	valS	K01873	valyl-tRNA synthetase 
+MPN674	ldh	K00016	L-lactate dehydrogenase
+MPN678	gltX	K01885	glutamyl-tRNA synthetase 
+MPN561	udk	K00876	uridine kinase 
+MPN562	outB	K01916	NH(3)-dependent NAD(+) synthetase
+MPN563	obgE	K03979	GTPase ObgE
+MPN168	rplB	K02886	50S ribosomal protein L2
+MPN169	rpsS	K02965	30S ribosomal protein S19
+MPN566	glpQ	K01126	Glpq or Uplq glycerophosphoryl diester phosphodiesterase
+MPN360	rpmE	K02909	50S ribosomal protein L31
+MPN008	trmE	K03650	tRNA modification GTPase TrmE
+MPN007	holB	K02341	DNA polymerase III subunit delta' 
+MPN006	D12_orf210	K00943	thymidylate kinase
+MPN005	serS	K01875	seryl-tRNA synthetase 
+MPN004	gyrA	K02469	DNA gyrase subunit A
+MPN003	gyrB	K02470	DNA gyrase subunit B
+MPN001	dnaN	K02338	DNA polymerase III subunit beta
+MPN340	pcrA	K03657	DNA helicase II
+MPN507	P02_orf363V	K01154	type I restriction enzyme HsdS-like specificity protein
+MPN122	parB	K02622	topoisomerase IV subunit B
+MPN252	asnC	K01893	asparaginyl-tRNA synthetase 
+MPN253	pgsA	K00995	phosphatidylglycerophosphate synthase
+MPN250	pgi	K01810	glucose-6-phosphate isomerase 
+MPN251	cfxE	K01783	ribulose-phosphate 3-epimerase 
+MPN418	alaS	K01872	alanyl-tRNA synthetase 
+MPN257	galE	K01784	UDP-glucose 4-epimerase
+MPN393	pdhA	K00161	pyruvate dehydrogenase
+MPN392	pdhB	K00162	pyruvate dehydrogenase E1-beta subunit
+MPN391	pdhC	K00627	branched-chain alpha-keto acid dehydrogenase subunit E2
+MPN390	pdhD	K00382	dihydrolipoamide dehydrogenase
+MPN560	arcA	K01478	arginine deiminase
+MPN396	F11_orf887	K12257	SecD like protein export protein
+MPN395	apt	K00759	adenine phosphoribosyltransferase 
+MPN394	nox	K03885	NADH oxidase
+MPN173	rpmC	K02904	50S ribosomal protein L29
+MPN172	rplP	K02878	50S ribosomal protein L16
+MPN171	rpsC	K02982	30S ribosomal protein S3
+MPN170	rplV	K02890	50S ribosomal protein L22
+MPN177	rplE	K02931	50S ribosomal protein L5
+MPN176	rplX	K02895	50S ribosomal protein L24
+MPN669	tyrS	K01866	tyrosyl tRNA synthetase
+MPN174	rpsQ	K02961	30S ribosomal protein S17
+MPN667	gtaB	K00963	UDP-glucose pyrophosphorylase
+MPN179	rpsH	K02994	30S ribosomal protein S8
+MPN178	rpsN	K02954	30S ribosomal protein S14
+MPN662	pilB	K07305	methionine sulfoxide reductase B 
+MPN660	rpsP	K02959	30S ribosomal protein S16
+MPN607	pmsR	K07304	methionine sulfoxide reductase A 
+MPN078	fruA	K02768	fructose-permease IIBC component
+MPN680	K05_orf385	K03217	inner membrane protein translocase component YidC
+MPN072	yabF	K05985	nucelotidyl transferase/polynicleotide cleavage protein
+MPN073	prs	K00948	ribose-phosphate pyrophosphokinase 
+MPN125	uvrC	K03703	excinuclease ABC subunit C
+MPN071	yabC	K07056	hypothetical protein
+MPN379	polA	K02335	5'-3' exonuclease
+MPN378	dnaE	K02337	DNA polymerase III subunit alpha
+MPN198	mte1	K00571	adenine-specific methyltransferase
+MPN679	ksgA	K02528	dimethyladenosine transferase
+MPN321	dhfr	K00287	dihydrofolate reductase 
+MPN315	mraW	K03438	S-adenosyl-methyltransferase MraW
+MPN240	trxB	K00384	thioredoxin reductase
+MPN009	yabD	K03424	hydrolase
+MPN058	D09_orf485	K11069	hypothetical protein
+MPN450	orf7	K02340	hypothetical protein
+MPN243	vacB	K12573	3'-5' exoribonuclease
+MPN242	secG	K03075	preprotein translocase subunit SecG
+MPN245	def	K01462	peptide deformylase 
+MPN082	tklB	K00615	transketolase 
+MPN247	ptc1	K01090	protein phoshatase
+MPN246	gmk	K00942	guanylate kinase
+MPN249	yjeQ	K06949	GTP/ATP binding protein
+MPN402	proS	K01881	prolyl-tRNA synthetase 
+MPN401	greA	K03624	transcription elongation factor GreA
+MPN300	scpA	K05896	segregation and condensation protein A
+MPN089	hsdS	K01154	hypothetical protein
+MPN529	G12_orf109	K03530	histone like protein
+MPN618	dnaX	K02343	DNA polymerase III subunit gamma/tau
+MPN602	atpF	K02109	ATP synthase F0F1 subunit B 
+MPN081	glnQ	K02003	glutamine ABC transporter ATP-binding protein
+MPN188	rpmJ	K02919	50S ribosomal protein L36
+MPN189	rpsM	K02952	30S ribosomal protein S13
+MPN498	araD	K03077	L-ribulose-5-phosphate 4-epimerase 
+MPN184	secY	K03076	preprotein translocase subunit SecY
+MPN185	adk	K00939	adenylate kinase
+MPN616	rpsI	K02996	30S ribosomal protein S9
+MPN183	rplO	K02876	50S ribosomal protein L15
+MPN180	rplF	K02933	50S ribosomal protein L6
+MPN190	rpsK	K02948	30S ribosomal protein S11
+MPN106	pheT	K01890	phenylalanyl-tRNA synthetase subunit beta 
+MPN068	secE	K03073	preprotein translocase subunit SecE
+MPN342	hsdM	K03427	type I restriction enzyme HsdM
+MPN105	pheS	K01889	phenylalanyl-tRNA synthetase subunit alpha 
+MPN193	cbiO	K16786	cobalt ABC transporter ATP-binding protein
+MPN248	K04_orf389	K08884	Ser/Thr/Tyr protein kinase
+MPN061	ffh	K03106	signal recognition particle protein
+MPN060	metX	K00789	S-adenosylmethionine synthetase 
+MPN063	deoC	K01619	deoxyribose-phosphate aldolase 
+MPN192	rplQ	K02879	50S ribosomal protein L17
+MPN053	ptsH	K11189	phosphocarrier protein HPr
+MPN064	deoA	K00758	thymidine phosphorylase 
+MPN067	nusG	K02601	transcription antitermination factor
+MPN066	cpsG	K01840	phosphomannomutase
+MPN599	atpG	K02115	ATP synthase F0F1 subunit gamma
+MPN615	hsdS	K01154	type I restriction endonuclease subunit S
+MPN665	tuf	K02358	elongation factor Tu 
+MPN114	cpt2	K00624	acyltransferase
+MPN475	engA	K03977	GTP-binding protein EngA
+MPN686	dnaA	K02313	chromosome replication initiator DnaA
+MPN576	glyA	K00600	serine hydroxymethyltransferase
+MPN490	recA	K03553	recombinase A
+MPN574	groES	K04078	co-chaperonin GroES
+MPN573	groEL	K04077	molecular chaperone GroEL
+MPN572	D02_orf445	K01255	leucyl aminopeptidase 
+MPN111	C09_orf422	K00571	hypothetical protein
+MPN123	parC	K02621	topoisomerase IV subunit A
+MPN277	lysS	K04567	lysyl-tRNA synthetase
+MPN415	P37	K02044	transporter
+MPN273	hit1	K02503	nucleotidyl hydrolase/transferase
+MPN609	pstB	K02036	phosphate ABC transporter ATP-binding protein
+MPN055	potA	K11072	spermidine/putrescine transport ATP-binding protein
+MPN056	potB	K11071	spermidine/putrescine transport system permease
+MPN057	potI	K11070	spermidine/putrescine transport system permease
+MPN050	glpK	K00864	glycerol kinase 
+MPN051	glpD	K00111	glycerol-3-phospate dehydrogenase
+MPN218	oppF	K10823	hypothetical protein
+MPN219	rplK	K02867	50S ribosomal protein L11
+MPN601	atpH	K02113	ATP synthase F0F1 subunit delta 
+MPN600	atpA	K02111	ATP synthase F0F1 subunit alpha 
+MPN603	atpE	K02110	ATP synthase F0F1 subunit C 
+MPN196	truA	K06173	tRNA pseudouridine synthase A 
+MPN191	rpoA	K03040	DNA-directed RNA polymerase subunit alpha 
+MPN059	gcp	K01409	DNA-binding/iron metalloprotein/AP endonuclease
+MPN210	secA	K03070	preprotein translocase subunit SecA
+MPN606	eno	K01689	phosphopyruvate hydratase 
+MPN296	rpsU	K02970	30S ribosomal protein S21
+MPN598	atpD	K02112	ATP synthase F0F1 subunit beta 
+MPN117	rplT	K02887	50S ribosomal protein L20
+MPN116	rpmI	K02916	50S ribosomal protein L35
+MPN292	yceC	K06180	ribosomal large subunit pseudouridine synthase D
+MPN293	lspA	K03101	signal peptidase II 
+MPN019	msbA	K06147	ABC transporter ATP-binding protein
+MPN357	lig	K01972	DNA ligase
+MPN356	cysS	K01883	cysteinyl-tRNA synthetase
+MPN604	atpB	K02108	ATP synthase F0F1 subunit A 
+MPN354	grs1	K01880	glycyl-tRNA synthetase 
+MPN595	lacA	K01808	ribose-5-phosphate isomerase B 
+MPN352	sigA	K03086	RNA polymerase sigma factor
+MPN351	H91_orf213	K06967	methyltransferase
+MPN299	plsB	K00655	1-acyl-sn-glycerol-3-phosphate acyltransferase
+MPN548	G12_orf326	K06179	pseudouridine synthase
+MPN353	dnaE	K02316	DNA primase
+MPN651	mtlA	K02799	PTS system mannitol-specific transporter subunit IIBC
+MPN355	yacO	K03218	tRNA/rRNA methyltransferase
+MPN118	C09_orf143b	K03470	ribonuclease HII
+MPN269	ysr1	K18682	hypothetical protein
+MPN597	atpC	K02114	ATP synthase F0F1 subunit epsilon 
+MPN187	infA	K02518	initiation factor 1
+MPN263	trx	K03671	thioredoxin
+MPN261	topA	K03168	DNA topoisomerase I 
+MPN350	ygiH	K08591	glycerol-3-phosphate acyltransferase PlsY
+MPN267	ppnK	K00858	inorganic polyphosphate/ATP-NAD kinase 
+MPN610	pstA	K02037	phosphate specific Psta/Pstc-like ABC transporter
+MPN265	trpS	K01867	tryptophanyl-tRNA synthetase 
+MPN043	glpF	K02440	glycerol uptake facilitator
+MPN347	hsdR	K01153	type I restriction enzyme
+MPN611	C12_orf385	K02040	phosphate binding protein PstS
+MPN047	D09_orf451	K03462	nicotinate phosphoribosyltransferase
+MPN208	rpsB	K02967	30S ribosomal protein S2
+MPN045	hisS	K01892	histidyl-tRNA synthetase 
+MPN044	tdk	K00857	thymidine kinase
+MPN182	rpsE	K02988	30S ribosomal protein S5
+MPN207	ptsG	K02777	PTS system glucose-specific transporter subunit IIABC
+MPN617	rplM	K02871	50S ribosomal protein L13
+MPN120	grpE	K03687	heat shock protein GrpE
+MPN328	nfo	K01151	endonuclease IV
+MPN215	oppB	K15581	peptide ABC transporter permease
+MPN124	hrcA	K03705	heat-inducible transcription repressor
+MPN280	A65_orf569	K12574	single stranded RNA(DNA) processing protein
+MPN211	uvrB	K03702	excinuclease ABC subunit B
+MPN322	nrdF	K00526	ribonucleotide-diphosphate reductase subunit beta 
+MPN416	P29	K02041	ATP-binding protein
+MPN320	thyA	K00560	thymidylate synthase 
+MPN181	rplR	K02881	50S ribosomal protein L18
+MPN327	rpmA	K02899	50S ribosomal protein L27
+MPN324	nrdE	K00525	ribonucleotide-diphosphate reductase subunit alpha 
+MPN325	rplU	K02888	50S ribosomal protein L21
+MPN681	rnpA	K03536	RNase P subunit C5
+MPN069	rpmG	K02913	50S ribosomal protein L33
+MPN682	rpmH	K02914	50S ribosomal protein L34
+MPN224	lgt	K13292	prolipoprotein diacylglyceryl transferase
+MPN341	mutB1	K03657	DNA helicase II
+MPN688	soj	K03496	ParA family ATPase
+MPN426	A05_orf982	K03529	SMC family chromosome/DNA binding/protecting protein
+MPN301	scpB	K06024	segregation and condensation protein B
+MPN080	R02_orf1386V	K02004	ABC transporter
+MPN343	H91_orf330	K01154	type I restriction endonuclease subunit S
+MPN515	rpoC	K03046	DNA-directed RNA polymerase subunit beta' 
+MPN516	rpoB	K03043	DNA-directed RNA polymerase subunit beta 
+MPN619	uvrA	K03701	excinuclease ABC subunit A

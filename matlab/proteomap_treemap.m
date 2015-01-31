@@ -12,6 +12,9 @@ if 0,
   data_directory = '/home/wolfram/projekte/protein_abundance/proteomaps_data_sets/protein_abundances_paper'; proteomap_treemap
   
   data_directory = '/home/wolfram/projekte/protein_abundance/proteomaps_data_sets/protein_abundances_other'; proteomap_treemap
+
+  data_directory = '/home/wolfram/projekte/protein_abundance/Proteomaps_DEVELOPMENT_VERSION/data_sets/protein_abundances_mycoplasma_pneumoniae_lluch'; proteomap_treemap
+
 end
 
 % load preprocessed data (see protein_abundance_read_data)
@@ -19,7 +22,7 @@ end
 
 nnn       = findstr('/', data_directory);
 data_sets = data_directory(nnn(end)+1:end);
-infile    = [ data_sets '_read_data_protein_lengths' ]; load(infile);
+infile    = [PROTEOMAPS_MATLAB_DATA_DIR  data_sets '_read_data_protein_lengths' ]; load(infile);
                                                                    
 options.fixed_arrangement = 1;
 options.split_direction   = 'flexible'; % overridden by fixed arrangement

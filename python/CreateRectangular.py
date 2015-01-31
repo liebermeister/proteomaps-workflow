@@ -20,5 +20,5 @@ MATLAB_PATH   = a.MATLAB_PATH
 # ----------------------------------------------------------------
 # Call matlab program to create rectangular treemaps
 
-p = subprocess.Popen(['matlab', '-nodesktop', '-nosplash', '-nodisplay', '-r "addpath(genpath(\'' + MATLAB_PATH + '\')); BASE_DIR = \'' + a.BASE_DIR + '\'; TMP_DIR = \'' + a.TMP_DIR + '\'; RESOURCE_DIR = \'' + a.PROTEIN_HIERARCHY_DIR + '\'; data_directory = \'' + args.data_dir + '\'; proteomap_treemap; quit;"'])
+p = subprocess.Popen(['matlab', '-nodesktop', '-nosplash', '-nodisplay', '-r "addpath(genpath(\'' + MATLAB_PATH + '\')); BASE_DIR = \'' + a.BASE_DIR + '\'; TMP_DIR = \'' + a.TMP_DIR + '\'; RESOURCE_DIR = \'' + a.PROTEIN_HIERARCHY_DIR + '\'; data_directory = \'' + args.data_dir + '\'; proteomaps_path_names; proteomap_treemap; quit;"'])
 p.wait()

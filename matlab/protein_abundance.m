@@ -3,7 +3,7 @@
 % make sure that everything is up to date (script README in data directory has been run)
 
 % This script is called from the commandline; 
-% so the the variable 'data_directory' MUST BE SET, for instance:  
+% so the variable 'data_directory' MUST BE SET, for instance:  
 % data_directory = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_paper';
 
 proteomaps_path_names;

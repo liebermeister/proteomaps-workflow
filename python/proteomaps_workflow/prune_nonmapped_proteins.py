@@ -255,18 +255,25 @@ def prune_nonmapped_proteins(data_dir,pp):
   for my_organism in pp.organism_list:
     mapping_filenames = pp.get_mapping_files(my_organism)
     fo_mapping   = open(mapping_filenames['final'],"w")
+    #fos_mapping  = open(mapping_filenames['final_long'],"w")
     fol_mapping  = open(mapping_filenames['final_some_unmapped'],"w")
   
     my_added_ko           = rk.get_added_ko_dictionary()  
     systematic_to_ko_gene = hh.get_mapping_systematic_to_ko_gene(my_organism,my_added_ko)
-    
+    #[ko_to_genes, ko_to_orfs, genes_to_ko, systematic_to_ko, ko_to_genes_completed, ko_to_orfs_completed, systematic_to_long, ko_to_long] = hh.get_ko_mappings([my_organism],[])
+  
     # only mapped genes
     for my_systematic in systematic_to_ko_gene:
       my_ko   = systematic_to_ko_gene[my_systematic]["ko"]
       my_gene = systematic_to_ko_gene[my_systematic]["gene"]
+      #if my_systematic in systematic_to_long:
+      #  my_long = systematic_to_long[my_systematic]
+      #else:
+      #  my_long = ''
       if not (my_systematic in all_nonmapped_dict[my_organism]):
         fo_mapping.write( my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
         fol_mapping.write(my_ko + "\t" + my_gene + ":" + my_systematic + "\n")
+        #fos_mapping.write(my_systematic + "\t" + my_long + "\n")
     fo_mapping.close()
   
     # additionally, nonmapped genes

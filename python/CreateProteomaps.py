@@ -67,6 +67,8 @@ matlab_session = pymatlab.session_factory("-nojvm -nodisplay")
 
 print('Preparing color map');
 
+print "MATLAB command: addpath(genpath('" + MATLAB_PATH + "')); BASE_DIR = '" + pn.BASE_DIR + "'; TMP_DIR = '" + pn.TMP_DIR  + "'; RESOURCE_DIR = '" + pn.PROTEIN_HIERARCHY_DIR  + "'; data_directory = '" + data_dir + "'; show_protein_colormap; n_randomised_trees = " + str(n_annotation_subsampling) + "; protein_abundance;"
+
 matlab_session.run( "addpath(genpath('" + MATLAB_PATH + "'))" )
 matlab_session.run( "BASE_DIR = '" + pn.BASE_DIR + "'")
 matlab_session.run( "TMP_DIR = '" + pn.TMP_DIR  + "'")
@@ -77,6 +79,7 @@ matlab_session.run( "show_protein_colormap"  )
 # Create result tables with matlab
 
 print('Preparing result table');
+
 
 matlab_session.run( "n_randomised_trees = " + str(n_annotation_subsampling) )
 matlab_session.run( "protein_abundance" )

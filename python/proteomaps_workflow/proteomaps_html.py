@@ -139,7 +139,7 @@ class proteomap_make_one_html_file:
     class for making an HTML file based on paver html output
     """
     
-    def __init__(self, html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name, level, data_set_name, flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR):
+    def __init__(self, html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name, level, data_set_name, flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR,original_mapping_dir):
 
         """
         Arguments:
@@ -158,8 +158,7 @@ class proteomap_make_one_html_file:
          data_type:        'cost' or 'abundance'
          picture_format:   'jpg' or 'png'
         """
-
-        original_mapping_file = '/home/wolfram/Proteomaps/genomic_data/KO_gene_hierarchy_2015-01-01/KO_gene_hierarchy_organism_mapping/' + organism + '_mapping.csv'
+        original_mapping_file = original_mapping_dir + '/KO_gene_hierarchy_organism_mapping/' + organism + '_mapping.csv'
 
         # precompute some mappings
         self.tag_to_amount = mapping_from_file(amount_file,2).mapping
@@ -397,7 +396,7 @@ class proteomap_make_one_html_file:
 
 class proteomap_process_html:
 
-    def __init__(self, paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2,article_name,data_type,picture_format,po,PROTEIN_HIERARCHY_DIR):
+    def __init__(self, paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2,article_name,data_type,picture_format,po,PROTEIN_HIERARCHY_DIR, original_mapping_dir):
 
         """
         Arguments:
@@ -424,12 +423,12 @@ class proteomap_process_html:
             weighted_amount_file  = data_dir + '/' + data_set_name + '/' + data_set_name + '_cost_relative_' + level + '.csv'
             output_file           = html_dir + '/' + data_set_name + '_' + data_type +'_' + level + '.html'
             flag_zoom             = 0
-            pm = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name,level,data_set_name,flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR)
+            pm = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file, article_name,level,data_set_name,flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR, original_mapping_dir)
             pm.write_file(output_file)
 
         # make html page with the zoom effect
         flag_zoom = 1
-        pm_cost = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file,article_name,level,data_set_name,flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR)
+        pm_cost = proteomap_make_one_html_file(html_input_file, picture_file, organism, mapping_file, resolution_1, resolution_2, amount_file, weighted_amount_file,article_name,level,data_set_name,flag_zoom, data_type,picture_format,po,PROTEIN_HIERARCHY_DIR, original_mapping_dir)
         output_file  = html_dir + '/' + data_set_name + '_' + data_type +'.html'
 
         pm_cost.write_file(output_file)
@@ -483,7 +482,7 @@ class proteomap_process_html:
 
 class make_proteomaps_html:
 
-    def __init__(self, data_dir, html_dir, paver_html_dir, resolution_1, resolution_2, picture_format, hierarchy_version):
+    def __init__(self, data_dir, html_dir, paver_html_dir, resolution_1, resolution_2, picture_format, hierarchy_version, original_mapping_dir):
   
       """
       Create html pages for a data set bundle for proteomaps website
@@ -513,7 +512,7 @@ class make_proteomaps_html:
           print "\nData set " + data_set_name + ":\nWriting html files to directory " + html_dir
 
           data_type = "cost"
-          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format,po,PROTEIN_HIERARCHY_DIR)
+          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format,po,PROTEIN_HIERARCHY_DIR, original_mapping_dir)
 
           data_type = "abundance"
-          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format,po,PROTEIN_HIERARCHY_DIR)
+          proteomap_process_html(paver_html_dir, html_dir, data_dir, data_set_name, organism, resolution_1, resolution_2, article_name, data_type, picture_format,po,PROTEIN_HIERARCHY_DIR, original_mapping_dir)

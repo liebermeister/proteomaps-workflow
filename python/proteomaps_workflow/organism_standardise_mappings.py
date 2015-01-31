@@ -24,7 +24,6 @@ def organism_standardise_mappings(data_dir,pp):
   
   [ko_to_genes, ko_to_orfs, genes_to_ko, systematic_to_ko, ko_to_genes_completed, ko_to_orfs_completed] = hh.get_ko_mappings(organism_list,my_relevant_ko)
   
-  
   # -------------------------------------------------
   # save standardised gene mappings
   

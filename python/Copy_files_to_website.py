@@ -90,7 +90,7 @@ def copy_files(data_set_collections, resize_pictures,hierarchy_version,BASE_DIR)
 # Which data set collections should be copied to the website?
 # (You need to create the html files before by running make_proteomaps_html.py)
 
-data_set_collections = {'other', 'new', 'paper', 'geiger_cell_lines', 'geiger_mouse', 'valgepea_ecoli'}
+data_set_collections = {'paper', 'geiger_cell_lines'} # {'other', 'new', 'valgepea_ecoli',  'geiger_mouse'}
 
 # set resize_pictures to zero if the resizing has been done already
 resize_pictures = 0

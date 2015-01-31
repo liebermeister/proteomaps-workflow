@@ -15,7 +15,8 @@ class proteomaps_PATHNAMES:
     # Files / subdirectories within the functional hierarchy
     self.INFILE_KO_HIERARCHY_FILE  = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy.tms"
     self.INFILE_ANNOTATION_CHANGES = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy_changes.csv"
-    self.INDIR_ORGANISM_MAPPING    = self.PROTEIN_HIERARCHY_DIR + "/KO_gene_hierarchy_organism_mapping/"
+    ## NOTE THAT THE 2015 mapping is always used
+    self.INDIR_ORGANISM_MAPPING    = self.BASE_DIR + "genomic_data/" + "KO_gene_hierarchy_2015-01-01/" + "/KO_gene_hierarchy_organism_mapping/"
     self.ORGANISM_INFORMATION      = self.PROTEIN_HIERARCHY_DIR + "/organisms.csv"
 
     # Python directory

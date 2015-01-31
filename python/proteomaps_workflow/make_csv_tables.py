@@ -134,7 +134,12 @@ def make_csv_tables(data_dir,pp,pn):
       # Read length values 
   
       systematic_to_length = hh.get_protein_lengths(my_organism,350)
-  
+
+      # ---------------------------------------------------------
+      # read protein long names
+      
+      [systematic_to_long, ko_to_long] = hh.get_long_names([my_organism])
+      
       # ----------------------------------------------------------------------
       # write table to output file
   
@@ -142,15 +147,15 @@ def make_csv_tables(data_dir,pp,pn):
       outfile = data_dir + "/" + my_data_set + "/" + my_data_set + ".csv"
       print "Writing file " + outfile
       fo_abundance = open(outfile,"w")
-      fo_abundance.write("!!SBtab TableType='Proteomaps'")
-      fo_abundance.write(" Organism='" + my_organism + "'")
-      fo_abundance.write(" DefaultProteinLength='350'")
-      if not(my_organism in po.organisms):
-        error('Unknown organism')
-      else:
+
+      fo_abundance.write("!!SBtab TableType='Proteomaps' Organism='" + my_organism + "' DefaultProteinLength='350'")
+      if my_organism in po.organisms:
         my_url = po.data[my_organism]['url']
         fo_abundance.write(" ProteinURL='" + my_url + "'\n")
-      fo_abundance.write("!Protein:Identifier\t!Abundance:[original]\t!Abundance:[ppm]\t!SizeWeightedAbundance:[original]\t!SizeWeightedAbundance:[ppm]\t!Protein:Size\t!Protein:Name\t!Identifiers:kegg.orthology\t!Pathway\n")
+      else:
+        error('Unknown organism')
+
+      fo_abundance.write("!Protein:Identifier\t!Abundance:[original]\t!Abundance:[ppm]\t!SizeWeightedAbundance:[original]\t!SizeWeightedAbundance:[ppm]\t!Protein:Size\t!Protein:Name\t!Identifiers:kegg.orthology\t!Pathway\t!Protein\n")
   
       for systematic in all_systematic:
         
@@ -165,6 +170,7 @@ def make_csv_tables(data_dir,pp,pn):
         if systematic in systematic_to_gene[my_organism].keys():
           my_gene = systematic_to_gene[my_organism][systematic]
           my_ko   = systematic_to_ko[my_organism][systematic]
+
           if my_ko in ko_to_category:
             my_category = ko_to_category[my_ko]
           else:
@@ -173,9 +179,15 @@ def make_csv_tables(data_dir,pp,pn):
             my_ko = ''
           if my_category == 'Not mapped':
             my_category = ''
-          wline_end = wline_end + "\t" + my_gene + "\t" + my_ko + "\t" + my_category
+
+          if systematic in systematic_to_long[my_organism]:
+            long_name = systematic_to_long[my_organism][systematic][0]
+          else:
+            long_name = ''
+
+          wline_end = wline_end + "\t" + my_gene + "\t" + my_ko + "\t" + my_category  + "\t" + long_name
         else:
-          wline_end = wline_end + "\t\t\t"
+          wline_end = wline_end + "\t\t\t\t"
   
         for it in range(0,len(systematic_to_abundance[systematic])):
           abundance      = systematic_to_abundance[systematic][it]
@@ -183,7 +195,7 @@ def make_csv_tables(data_dir,pp,pn):
           cost           = systematic_to_cost[systematic][it]
           cost_ppm       = systematic_to_cost_ppm[systematic][it]
   
-          wline = systematic + "\t" + abundance + "\t" + abundance_ppm + "\t" + cost + "\t" + cost_ppm  + "\t" + wline_end
+          wline = systematic + "\t" + abundance + "\t" + abundance_ppm + "\t" + cost + "\t" + cost_ppm + "\t" + wline_end
           fo_abundance.write(wline + "\n")
   
       fo_abundance.close()

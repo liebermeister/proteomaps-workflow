@@ -22,6 +22,7 @@ class proteomaps_hierarchy:
     # stored in two dictionaries:
     #  systematic names -> gene names
     #  systematic names -> ko numbers
+    #  systematic names -> protein long names
     # make them now:
 
     #pp = proteomaps_path_names(data_dir)
@@ -171,6 +172,36 @@ class proteomaps_hierarchy:
       f.close()
     return ko_to_genes
 
+  def get_long_names(self,organism_list):
+    # note that each entry yields a list of long names
+    systematic_to_long = {}
+    ko_to_long         = {}
+    for organism_name in organism_list:
+      my_systematic_to_long = {}
+      my_ko_to_long = {}
+      mapping_files = self.pp.get_mapping_files(organism_name)
+      fh = open(mapping_files['original'],"r")
+      igot = fh.readlines()        
+      for line in igot:
+        q = re.split('\t', line.strip())
+        if len(q) > 1:
+          ko   = q[2]          
+          systematic = replace_whitespaces(q[0])
+          if len(q)>3:
+            this_protein_longname = q[3]
+            if not ko in my_ko_to_long:
+              my_ko_to_long[ko] = [this_protein_longname]
+            else:
+              my_ko_to_long[ko].append(this_protein_longname)
+            if not ko in my_systematic_to_long:
+              my_systematic_to_long[systematic] = [this_protein_longname]
+            else:
+              my_systematic_to_long[systematic].append(this_protein_longname)
+      fh.close()
+      systematic_to_long[organism_name] = my_systematic_to_long
+      ko_to_long[organism_name]         = my_ko_to_long
+
+    return systematic_to_long, ko_to_long
 
   def get_ko_mappings(self,organism_list,relevant_ko):
     # Returns  dictionaries for the mapping between ko numbers and gene names
@@ -183,15 +214,15 @@ class proteomaps_hierarchy:
     #   ko_to_systematic_completed
 
     ko_to_genes      = {}
-    ko_to_systematic       = {}
+    ko_to_systematic = {}
     genes_to_ko      = {}
     systematic_to_ko = {}
 
     for organism_name in organism_list:
-      my_ko_to_genes = {}
-      my_ko_to_systematic  = {}
-      my_genes_to_ko = {}
-      my_systematic_to_ko  = {}
+      my_ko_to_genes      = {}
+      my_ko_to_systematic = {}
+      my_genes_to_ko      = {}
+      my_systematic_to_ko = {}
       mapping_files = self.pp.get_mapping_files(organism_name)
       fh = open(mapping_files['original'],"r")
       igot = fh.readlines()        
@@ -201,7 +232,7 @@ class proteomaps_hierarchy:
           ko   = q[2]
           if ko in relevant_ko:
             gene = q[1]
-            systematic  = replace_whitespaces(q[0])
+            systematic = replace_whitespaces(q[0])
             if not ko in my_ko_to_genes:
               my_ko_to_genes[ko] = [gene]
             else:
@@ -211,7 +242,7 @@ class proteomaps_hierarchy:
             else:
               my_ko_to_systematic[ko].append(systematic)
       fh.close()
-    
+
       my_systematic_to_ko = {}
       my_genes_to_ko      = {}
       
@@ -225,10 +256,10 @@ class proteomaps_hierarchy:
         for my_systematic in my_ko_to_systematic[my_ko]:
           my_systematic_to_ko[my_systematic] = my_ko
 
-      ko_to_genes[organism_name]      = my_ko_to_genes
-      ko_to_systematic[organism_name]       = my_ko_to_systematic
-      genes_to_ko[organism_name]      = my_genes_to_ko
-      systematic_to_ko[organism_name] = my_systematic_to_ko
+      ko_to_genes[organism_name]        = my_ko_to_genes
+      ko_to_systematic[organism_name]   = my_ko_to_systematic
+      genes_to_ko[organism_name]        = my_genes_to_ko
+      systematic_to_ko[organism_name]   = my_systematic_to_ko
 
     f = open(self.pp.INFILE_ANNOTATION_CHANGES, 'r')
     igot = f.readlines()
@@ -283,7 +314,6 @@ class proteomaps_hierarchy:
           ko_to_systematic_completed[organism_name][my_ko] = "-"
 
     return ko_to_genes, ko_to_systematic, genes_to_ko, systematic_to_ko, ko_to_genes_completed, ko_to_systematic_completed
-
 
   def get_ko_to_category(self,organism_list):
     # for each organism:

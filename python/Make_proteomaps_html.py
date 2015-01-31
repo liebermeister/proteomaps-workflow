@@ -8,6 +8,9 @@
 
 from proteomaps_html import make_proteomaps_html 
 
+original_mapping_dir = '/home/wolfram/Proteomaps/genomic_data/KO_gene_hierarchy_2015-01-01'
+# used for mapping from protein ids to long protein names (2015 is better than 2014)
+
 ## --------------------------------------------------------------
 ## data sets for paper 
 #
@@ -18,7 +21,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
 #
 ## --------------------------------------------------------------
 ## data set other 
@@ -30,7 +33,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
 #
 ## --------------------------------------------------------------
 ## Geiger's cell line data
@@ -42,7 +45,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
 #  
 ## --------------------------------------------------------------
 ## Geiger's mouse tissue data
@@ -54,7 +57,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version) 
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir) 
 #
 ## --------------------------------------------------------------
 ## Valgepea E coli data
@@ -66,7 +69,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
 #
 ## --------------------------------------------------------------
 ## data sets directory "new"
@@ -78,7 +81,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
 #
 ## --------------------------------------------------------------
 ## synchechocystis 
@@ -90,7 +93,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
 #
 ## --------------------------------------------------------------
 ## Khan Human / Chimpanzee data
@@ -102,7 +105,7 @@ from proteomaps_html import make_proteomaps_html
 #resolution_2     = 800
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 #
-#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+#make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)
  
 # --------------------------------------------------------------
 # Small picture on main website
@@ -114,4 +117,4 @@ from proteomaps_html import make_proteomaps_html
 # resolution_2    = 256
 #hierarchy_version = 'KO_gene_hierarchy_2014-08-01'
 # 
-# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version)
+# make_proteomaps_html(data_dir, output_html_dir, paver_html_dir, resolution_1, resolution_2, 'png', hierarchy_version, original_mapping_dir)

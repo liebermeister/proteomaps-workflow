@@ -6,17 +6,17 @@ class proteomaps_path_names:
 
   def __init__(self,data_dir,hierarchy_version):
 
-    a = proteomaps_PATHNAMES(hierarchy_version)
+    pn = proteomaps_PATHNAMES(hierarchy_version)
 
     # Predefined directory names
-    self.PROTEIN_HIERARCHY_DIR = a.PROTEIN_HIERARCHY_DIR
-    self.PROTEIN_LENGTH_DIR    = a.PROTEIN_LENGTH_DIR
-    self.TMP_DIR               = a.TMP_DIR
+    self.PROTEIN_HIERARCHY_DIR = pn.PROTEIN_HIERARCHY_DIR
+    self.PROTEIN_LENGTH_DIR    = pn.PROTEIN_LENGTH_DIR
+    self.TMP_DIR               = pn.TMP_DIR
     
     # Files defining the functional hierarchy
-    self.INFILE_KO_HIERARCHY_FILE    = a.INFILE_KO_HIERARCHY_FILE
-    self.INFILE_ANNOTATION_CHANGES   = a.INFILE_ANNOTATION_CHANGES
-    self.INDIR_ORGANISM_MAPPING      = a.INDIR_ORGANISM_MAPPING
+    self.INFILE_KO_HIERARCHY_FILE    = pn.INFILE_KO_HIERARCHY_FILE
+    self.INFILE_ANNOTATION_CHANGES   = pn.INFILE_ANNOTATION_CHANGES
+    self.INDIR_ORGANISM_MAPPING      = pn.INDIR_ORGANISM_MAPPING
 
     # Determined from predefined names and "data_dir"
     self.DATA_DIR                    = data_dir
@@ -36,6 +36,7 @@ class proteomaps_path_names:
     igot = f.readlines()
     for line in igot:
       q = re.split('\t', line.strip())
+      q[2].replace('.','_')
       data_files.append([q[1],q[0],q[2]])
       organism_list.add(q[0])
     self.data_files    = data_files
@@ -131,5 +132,6 @@ class proteomaps_path_names:
     mapping_filenames['standardised_genepair'] = path + organism_name + "_mapping_standardised_genepair.csv"
     mapping_filenames['standardised_pair']     = path + organism_name + "_mapping_standardised_pair.csv"
     mapping_filenames['final']                 = path + organism_name + "_mapping_final.csv"
+    mapping_filenames['final_long']            = path + organism_name + "_mapping_systematic_to_protein_name.csv"
     mapping_filenames['final_some_unmapped']   = path + organism_name + "_mapping_final_some_unmapped.csv"
     return mapping_filenames

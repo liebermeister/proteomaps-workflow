@@ -1,0 +1,66 @@
+----------------------
+Rectangle proteomovies
+----------------------
+
+How to generate a rectangle proteomovie
+
+ 0. Create file directories
+     [DATA_DIR]       (for input data)
+     [PROTEOMAPS_DIR] (for files produced by the workflow)
+     [TMP_DIR]        (for temporary files)
+
+ 1. Prepare one table with the original data. 
+    - Make sure that absolute numbers (not logarithms) are given
+    - Make sure that the column (sample) names do not contain any special characters 
+      (including ".", and except for "_") that make it difficult to use them as parts of filenames
+
+    Two input formats (simple tables or SBtab tables) are allowed:
+
+    Format 1: simple table
+    
+    [IGNORED] [sample 1] [sample 2] ...
+    [gene 1]  value      value           ...
+    [gene 2]  value      value           ...
+    ...       ...        ...             ...
+    
+    Format 2: SBtab table
+    
+    !!SBtab .... [this line is ignored]
+    ![IGNORED] [sample 1] [sample 2] ...
+    [any further lines starting with ! are ignored]
+    [gene 1]   value      value      ...
+    [gene 2]   value      value      ...
+    ...        ...        ...        ...
+
+ 2. Use
+
+    python ~/projekte/protein_abundance/python/split_data_table.py DATA_SET_NAME INFILE_PATH [DATA_DIR]/OUTFILE_NAME ORGANISM_SHORT_NAME ORGANISM_LONG_NAME DATA_SET_LONG_NAME 
+
+    To split the table into single data files. Relative file paths can be used.
+    The filenames.csv file (as ..LOG) is automatically created
+
+ 2a. Copy the log file as "filenames" into the [PROTEOMAPS_DIR] directory
+     cp [DATA_DIR]/[DATASET_NAME]_LOG.csv [PROTEOMAPS_DIR]/filenames.csv
+
+ 3. Run the proteomaps workflow to generate the .mat files
+
+    python /home/wolfram/Proteomaps/python/CreateProteomaps.py [PROTEOMAPS_DIR] [TMP_DIR] 10 KO_gene_hierarchy_2015-01-01
+
+ 4. Run proteomap_treemap_movie.m to make the movies
+
+organism       = '[ORGANISM_SHORT_NAME]';
+data_directory = '[PROTEOMAPS_DIR]';
+movie_name     = '[MOVIE_NAME]';
+options        = struct('show_black_frames',0);
+
+options.show_data_sets = {...
+    '[SAMPLE_NAME_1]'; ...
+    '[SAMPLE_NAME_2]'; ...
+ ...
+};
+
+proteomap_treemap_movie(organism,data_directory,movie_name,options);
+
+# copy movie to here
+
+cp ~/projekte/protein_abundance/ps-files/rectangular_proteomaps/movies/proteomap_movie_sce_li_2006_lv3.gif /home/wolfram/projekte/protein_abundance/proteomovies/rectangle_maps/data/sce_transcript_li_2006

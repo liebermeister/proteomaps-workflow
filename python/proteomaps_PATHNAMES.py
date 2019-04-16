@@ -5,8 +5,8 @@ class proteomaps_PATHNAMES:
   def __init__(self, hierarchy_version):
 
     # Base and tmp directory -- please edit
-    self.BASE_DIR              = "/home/wolfram/Proteomaps/"
-    self.TMP_DIR               = "/home/wolfram/tmp/matlab_protein_abundance";
+    self.BASE_DIR              = "/home/wolfram/projekte/proteomaps/github/proteomaps-workflow/"
+    self.TMP_DIR               = "/tmp/matlab_protein_abundance";
 
     # Predefined directory names
     self.PROTEIN_HIERARCHY_DIR = self.BASE_DIR + "genomic_data/" + hierarchy_version + "/"

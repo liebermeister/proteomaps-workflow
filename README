@@ -1,13 +1,13 @@
-----------------------------------------
+=======================================================
 Proteomaps workflow and data directories
-----------------------------------------
-
-This directory contains public code, resource data, and proteome data files
-for proteomaps.
-
 =======================================================
 
+This directory contains public code, resource data, and proteome data files for proteomaps.
+
+
+----------------------------------------
 1. Directories
+----------------------------------------
 
 CODE
   python - python code
@@ -28,22 +28,22 @@ PROTEOMAPS ONLINE
                       ! do not edit unless you know what you're doing !
 
 
-=======================================================
-
+----------------------------------------
 2. Installation
+----------------------------------------
 
-For running the python and matlab code on your computer, you have to update 
-the path names. They are set in the following files:
+For running the python and matlab code on your computer, you need to update the path names.
+They are set in the following files:
 
 ../python/proteomaps_PATHNAMES.py
 ../matlab/proteomaps_path_names.m
 
-Of course, also the path names in your scripts CreateProteomaps.sh
-have to be adjusted.
+Of course, also the path names in your scripts CreateProteomaps.sh have to be adjusted.
 
-=======================================================
 
+----------------------------------------
 3. How to generate proteomaps
+----------------------------------------
 
 Data sets to be analysed together are called a "bundle". To create 
 a new data bundle (called [DATA_BUNDLE]), create a new directory 
@@ -65,8 +65,8 @@ directories)
 
  o run the shell script
 
-This will create intermediate files in ../data_sets/[DATA BUNDLE] as 
-well as files for paver in ../data_paver_input/data_for_paver_[DATA BUNDLE]
+This will create intermediate files in ../data_sets/[DATA BUNDLE] as well as
+files for paver in ../data_paver_input/data_for_paver_[DATA BUNDLE]
 
 Then, proceed as follows:
 
@@ -84,5 +84,3 @@ Then, proceed as follows:
  o If you want to put the new proteomaps on the Proteomaps online website,
    use copy_files_to_website.py. You have to modify the script: insert the 
    [DATA_ BUNDLE] in the list "data_set_collections" and run the script.
-
-=======================================================

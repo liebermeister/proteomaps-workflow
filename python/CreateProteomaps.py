@@ -80,7 +80,6 @@ matlab_session.run( "show_protein_colormap"  )
 
 print('Preparing result table');
 
-
 matlab_session.run( "n_randomised_trees = " + str(n_annotation_subsampling) )
 matlab_session.run( "protein_abundance" )
 

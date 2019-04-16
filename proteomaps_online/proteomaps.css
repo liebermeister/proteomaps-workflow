@@ -1,6 +1,11 @@
 /* css stylesheet for proteomap web pages */
 
-body {background-color:#fafaff; color: #404040; font-size: 14px}
+body {background-color:#ffffff; color: #404040; font-size: 14px; margin-left:6px;}
+
+.content       {margin-left:10px; margin-right:10px; max-width: 800px; margin:auto;}
+.pp            {margin-left:10px; width:800px;} /* text mit fester breite  */
+.organismImage {width:100px;}
+.organismName  {text-align:center; width:120px;}
 
 h1,h2,h3,h4,p,ul,ol,li,div,td,th,address,blockquote,nobr,b,i { font-family:Arial,sans-serif; }
 
@@ -12,15 +17,15 @@ h3 { font-size:18px; }
 
 h4 { font-size:14px; }
 
-p {color: #202040; font-size:14px; "Arial,Helvetica";  text-align:justify; margin-left:0px;}
+p {color: #202040; font-size:14px; "Arial,Helvetica";  text-align:justify; margin-left:0px; max-width:800px;}
 
-ul,ol,li,div,td,th,address,blockquote { color: #404040; font-size:14px; "Arial,Helvetica"; }
+ul,ol,li,div,td,th,address,blockquote { color: #404040; font-size:14px; "Arial,Helvetica";  max-width:800px;}
 
 table {color: #404040; font-face: "Arial,Helvetica"; font-size: 14px}
 
 td {color: #000000; font-face: "Arial,Helvetica"; font-size: 14px}
 
-li { margin-top:3px;  width:700px;}
+li { margin-top:3px; }/*width:700px;} */
 
 pre { font-family:Courier New,Courier; font-size:14px; color:#000000; }
 
@@ -41,3 +46,25 @@ a:active { color:#994400;  }
 ins { color:#009900; font-weight:bold; text-decoration:none; }
 
 del { color:#990000; font-weight:bold; text-decoration:line-through; }
+
+hr  { max-width:100%; }
+
+
+/* for mobile devices */
+
+
+@media screen and (max-width: 600px){
+    .content  {margin-left:6px; margin-right:6px;}
+    .organismImage {width:50px;}
+    .organismName {vertical-align:top; font-size:0.7em;}
+    .pp       {margin-left:6px;}
+    h1        {font-size:1.2em;}
+    h2        {font-size:1.1em;}
+    h3        {font-size:1.0em;}
+    h4        {font-size:0.9em;}
+    .pp       {font-size:0.7em;}
+    p         {font-size:0.8em;}
+    li        {font-size:0.8em;}
+    td        {font-size:0.7em;}
+    mypblock  {font-size:0.8em;}
+}                                          

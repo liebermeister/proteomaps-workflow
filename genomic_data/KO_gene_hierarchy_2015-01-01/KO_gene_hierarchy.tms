@@ -6595,6 +6595,10 @@ Genetic Information Processing
 			K03169
 			K03170
 		Chromosome-related
+			K11251
+			K11252
+			K11253
+			K11254
 			K06636
 			K06669
 			K06670
@@ -6619,10 +6623,6 @@ Genetic Information Processing
 			K11274
 			K17390
 			K11275
-			K11251
-			K11252
-			K11253
-			K11254
 			K11276
 			K11277
 			K11278
@@ -15581,6 +15581,7 @@ Cellular Processes
 	Vesicular transport
 		Motor proteins
 		Endocytosis
+			K07937
 			K13375
 			K13376
 			K13377
@@ -28286,6 +28287,7 @@ Metabolism
 			K17651
 	Other Enzymes
 		Other enzymes
+			K19269
 			K00001
 			K00121
 			K04072
@@ -40326,7 +40328,7 @@ Organismal Systems
 			K14738
 			K14739
 			K07213
-	Excretory System 
+	Excretory System
 		Vasopressin-regulated water reabsorption
 			K05242
 			K04228
@@ -44490,10 +44492,6 @@ Human Diseases
 			K11409
 			K18671
 			K11418
-			K11251
-			K11252
-			K11253
-			K11254
 			K11303
 			K04144
 			K04632

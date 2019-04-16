@@ -81,7 +81,10 @@ def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy
   nn = min(n_nonmapped_displayed,n_nonzero)
   i = max(len(v) - nn,0)
   i = min(i,i_area_percentage)
-  threshold = v[i]
+  if len(v)>0:
+    threshold = v[i]
+  else:
+    threshold = 0
 
   # -------------------------------------------------------- 
 
@@ -110,7 +113,8 @@ def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy
 
   print " Number of nonmapped proteins shown: " + str(len(nonmapped_show))
   print " Lumped within nonmapped: " + str(sum_nonmapped_lumped)
-  print " Fraction of lumped within nonmapped: " + str(sum_nonmapped_lumped/sum_nonmapped)
+  if sum_nonmapped > 0:
+    print " Fraction of lumped within nonmapped: " + str(sum_nonmapped_lumped/sum_nonmapped)
 
   for my_gene in nonmapped_dict:
     if my_gene in nonmapped_show:

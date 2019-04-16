@@ -1,22 +1,24 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!doctype html>
+
+<html lang="en">
   <head>
     <title>Proteomaps methods description</title>
-    <link rel="stylesheet" type="text/css" href="proteomaps.css">
 
-  <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-4526009-11', 'proteomaps.net');
-   ga('send', 'pageview');
-  </script>
-
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+      
+      <link rel="stylesheet" type="text/css" href="proteomaps.css">
+      <link rel="icon" type="image/png" href="./website/images/me_favicon.png">
+      
   </head>
-
+  
   <body>
-
+    <div class="content">
+      
     <h1>How are proteomaps generated?</h1>
 
     <img class="wrap" width="256" src="pictures/eco_Valgepea_2013_48_cost_small.png" usemap="\#proteins">
@@ -26,7 +28,7 @@
 
 <h3>Proteome tree maps visualization</h3>
 
-<p style="width:700">To generate proteomaps, we modified the algorithm
+<p>To generate proteomaps, we modified the algorithm
 for the construction of Voronoi treemaps described in bernhardt et
 al. (2009) to present polygons with variable sizes. The algorithm was
 implemented in the <a href="http://www.decodon.com/paver.html">Paver
@@ -35,7 +37,7 @@ browsed interactively; individual protein tiles are linked to protein
 information on the <a href="http://www.genome.jp/kegg/">KEGG
 website</a>.</p>
 
-<p style="width:700">In the proteomaps shown here, we visualize three
+<p>In the proteomaps shown here, we visualize three
 levels of functional categories and a level of individual proteins. To
 create a proteomap, a total area is first divided into polygons
 representing the top-level categories. These polygons are constructed
@@ -48,7 +50,7 @@ proteins. When several orthologous proteins exist in the same
 proteome, e.g. isozymes such as the two enolases Eno1 and Eno2 in
 yeast glycolysis, they share one subdivided polygon.</p>
 
-<p style="width:700">Proteins that do not have a functional category
+<p>Proteins that do not have a functional category
 annotation are lumped in a subclass labeled "Not mapped". Mass
 fractions smaller than 1/1,500,000 of the whole proteome (corresponding
 to 4 pixels within an area of 2500 x 2500 pixels in size) are
@@ -135,14 +137,14 @@ requires adaptation beyond the scope of this study.</p>
 <li>Kanehisa, M., Goto, S., Kawashima, S., Okuno, Y.,
 and Hattori, M. (2004).<br> The KEGG resource for deciphering the genome.
 <a href="http://www.ncbi.nlm.nih.gov/pubmed/14681412"><br>
-Nucleic Acids Research 32, D277-280</a>.</li><br>
+Nucleic Acids Research 32, D277-280</a>.</li>
 
 <li>Otto, A., Bernhardt, J., Meyer, H., Schaffer, M.,
 Herbst, F.-A., Siebourg, J., M&auml;der, U., Lalk, M., Hecker, M., and
 Becher, D. (2010).<br> Systems-wide temporal proteomic profiling in
 glucose-starved Bacillus subtilis.<br>
 <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105300/">
-Nature Communications 1, 137</a>.</li><br>
+Nature Communications 1, 137</a>.</li>
 
 <li>
 Bernhardt J, Funke S, Hecker M, Siebourg J (2009)<br>
@@ -175,9 +177,8 @@ Liebermeister W., Noor  E.,  Flamholz A., Davidi D., Bernhardt J., and
 </ol>
 </p>
 
-<br> 
 <hr>
-<p style="font-size:11pt; width:450;">
+<p>
   <a href="./index.html">Main</a> |
   <a href="./help.html">Help</a> |
   Method | 
@@ -185,6 +186,7 @@ Liebermeister W., Noor  E.,  Flamholz A., Davidi D., Bernhardt J., and
   <a href="./methods.html#reference">Reference</a> |
   <a href="./methods.html#contact">Contact</a>
 </p>
+</div>
 
     <map name="proteins">
        <area shape="poly" coords="54,0,180,0,178,16,63,16," alt="Transcription" title="Transcription

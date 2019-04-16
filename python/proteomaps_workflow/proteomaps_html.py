@@ -197,15 +197,15 @@ class proteomap_make_one_html_file:
         if flag_zoom ==1:
             header.append('    <script src="../../shiftzoom.js" language="javascript" type="text/javascript"></script>')
         header.append("");
-        header.append("    <script>");
-        header.append("     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){");
-        header.append("     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),");
-        header.append("     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)");
-        header.append("     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');");
-        header.append("     ga('create', 'UA-4526009-11', 'proteomaps.net');");
-        header.append("     ga('send', 'pageview');");
-        header.append('    </script>');
-        header.append("");
+        # header.append("    <script>");
+        # header.append("     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){");
+        # header.append("     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),");
+        # header.append("     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)");
+        # header.append("     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');");
+        # header.append("     ga('create', 'UA-4526009-11', 'proteomaps.net');");
+        # header.append("     ga('send', 'pageview');");
+        # header.append('    </script>');
+        # header.append("");
         header.append('    <script src="' + preload_file + '"></script>');
         header.append("");
         header.append('  </head>')

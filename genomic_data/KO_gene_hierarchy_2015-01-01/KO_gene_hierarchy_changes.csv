@@ -3779,7 +3779,6 @@ mmu	18102	Nme1, AL024257, NDPK-A, NM23-M1, NM23A	K00940	Purine metabolism		KEGG 
 mmu	170745	Xpnpep2, 9030008G12Rik, mAPP	K14208	Protein digestion and absorption		KEGG web services (possibly manually reannotated)
 mmu	72900	Ndufv2, 2900010C23Rik	K03943	Oxidative phosphorylation		KEGG web services (possibly manually reannotated)
 mmu	76282	Gpt, 1300007J06Rik, 2310022B03Rik, ALT, Gpt-1, Gpt1	K00814	Amino acid metabolism		KEGG web services (possibly manually reannotated)
-mmu	319162	Hist3h2a	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	19058	Ppp3r1, CaNB1, Cnb1, MCIP1	K06268	MAPK signaling pathway		KEGG web services (possibly manually reannotated)
 mmu	19052	Ppp2ca, PP2A, R75353	K04382	mRNA surveillance pathway		KEGG web services (possibly manually reannotated)
 mmu	19053	Ppp2cb, AI115466, D8Ertd766e, PP2Ac	K04382	mRNA surveillance pathway		KEGG web services (possibly manually reannotated)
@@ -3809,7 +3808,6 @@ mmu	16440	Itpr3, Ip3r3, Itpr-3	K04960	Calcium signaling pathway		KEGG web servic
 mmu	81877	Tnxb, Tn-mhc, Tnx	K06252	PI3K-Akt signaling pathway		KEGG web services (possibly manually reannotated)
 mmu	21372	Tbl1x, 5330429M20, Tbl1	K04508	Wnt signaling pathway		KEGG web services (possibly manually reannotated)
 mmu	211347	Pank3	K09680	Cofactor biosynthesis		KEGG web services (possibly manually reannotated)
-mmu	404634	H2afy2, macroH2A2	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	13480	Dpm1, AI118379, AI194292	K00721	Glycan metabolism		KEGG web services (possibly manually reannotated)
 mmu	13482	Dpp4, Cd26, Dpp-4, THAM	K01278	Protein digestion and absorption		KEGG web services (possibly manually reannotated)
 mmu	13487	Slc26a3, 9030623B18Rik, 9130013M11Rik, AV376035, Dra	K14078	Pancreatic secretion		KEGG web services (possibly manually reannotated)
@@ -3858,7 +3856,6 @@ mmu	78330	Ndufv3, 1500032D16Rik	K03944	Oxidative phosphorylation		KEGG web servi
 mmu	21356	Tapbp, D17Wsu91e, TPN	K08058	Antigen processing and presentation		KEGG web services (possibly manually reannotated)
 mmu	80911	Acox3, BI685180, EST-s59, PCOX	K00232	Lipid and steroid metabolism		KEGG web services (possibly manually reannotated)
 mmu	26912	Gcat, AI526977, Kbl	K00639	Amino acid metabolism		KEGG web services (possibly manually reannotated)
-mmu	26914	H2afy, H2AF12M, mH2a1, macroH2A1	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	67727	Stx17, 4833418L03Rik, 6330411F21Rik, 9030425C21Rik, AW048351	K08491	SNARE interactions in vesicular transport		KEGG web services (possibly manually reannotated)
 mmu	18293	Ogdh, 2210403E04Rik, 2210412K19Rik, AA409584, d1401, mKIAA4192	K00164	TCA cycle and anaplerotic enzymes		KEGG web services (possibly manually reannotated)
 mmu	14732	Gpam, GPAT, GPAT1	K00629	Lipid and steroid metabolism		KEGG web services (possibly manually reannotated)
@@ -4241,7 +4238,6 @@ mmu	14228	Fkbp4, 59kDa, AL022792, AW208983, FKBP-4, FKBP-52, FKBP52, FKPB52, p59
 mmu	14229	Fkbp5, D17Ertd592e, Dit1, FKBP-5, FKBP51	K09571	Estrogen signaling pathway		KEGG web services (possibly manually reannotated)
 mmu	108067	Eif2b3, 1190002P15Rik	K03241	RNA transport		KEGG web services (possibly manually reannotated)
 mmu	18212	Ntrk2, GP145-TrkB/GP95-TrkB, Tkrb, trk-B, trkB	K04360	MAPK signaling pathway		KEGG web services (possibly manually reannotated)
-mmu	621893	Hist2h2ab, EG621893, H2a-613a	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	22793	Zyx, 9530098H06Rik, R75157	K06273	Focal adhesion		KEGG web services (possibly manually reannotated)
 mmu	103135	Pan2, 1200014O24Rik, AI047843, AW742773, Usp52, mKIAA0710	K12571	RNA degradation		KEGG web services (possibly manually reannotated)
 mmu	216134	Pdxk, 2310036D04Rik, AA119688, C77999	K00868	Cofactor biosynthesis		KEGG web services (possibly manually reannotated)
@@ -4447,7 +4443,6 @@ mmu	15530	Hspg2, AI852380, Pcn, Plc, per	K06255	ECM-receptor interaction		KEGG w
 mmu	234594	Cnot1, 6030411K04Rik, AA815922, D830048B13	K12604	RNA degradation		KEGG web services (possibly manually reannotated)
 mmu	109801	Glo1, 0610009E22Rik, 1110008E19Rik, 2510049H23Rik, AW550643, GLY1, Glo-1, Glo-1r, Glo-1s, Glo1-r, Glo1-s, Qglo	K01759	Pyruvate metabolism		KEGG web services (possibly manually reannotated)
 mmu	11957	Atp5j	K02131	Oxidative phosphorylation		KEGG web services (possibly manually reannotated)
-mmu	319186	Hist1h2bm, H2b-291b	K11252	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	22235	Ugdh, Udpgdh	K00012	Carbohydrate metabolism		KEGG web services (possibly manually reannotated)
 mmu	22230	Ufd1l, Ufd1	K14016	Protein processing in endoplasmic reticulum		KEGG web services (possibly manually reannotated)
 mmu	107435	Hat1, 2410071B14Rik, AA536933, Hat-1, KAT1	K11303	Alcoholism		KEGG web services (possibly manually reannotated)
@@ -4792,7 +4787,6 @@ mmu	19301	Pxmp2, 22kDa, PMP22	K13347	Peroxisome		KEGG web services (possibly man
 mmu	30960	Vapa, 33kDa, VAP33	K06096	Tight junction		KEGG web services (possibly manually reannotated)
 mmu	72508	Rps6kb1, 2610318I15Rik, 4732464A07Rik, 70kDa, AA959758, AI256796, AI314060, S6K1, p70/85s6k, p70s6k	K04688	ErbB signaling pathway		KEGG web services (possibly manually reannotated)
 mmu	326618	Tpm4, 2610528G24Rik	K10375	Cardiac muscle contraction		KEGG web services (possibly manually reannotated)
-mmu	326619	Hist1h4a	K11254	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	73902	Psmb11, 5830406J20Rik, beta5t	K11598	Proteasome		KEGG web services (possibly manually reannotated)
 mmu	108077	Skiv2l, 4930534J06Rik, AW214248, Ddx13, SKI, Ski2w	K12599	RNA degradation		KEGG web services (possibly manually reannotated)
 mmu	56449	Ybx3, Csda, Dpba, MSY3, MSY4, Yb2, dbpA, oxyR	K06099	Tight junction		KEGG web services (possibly manually reannotated)
@@ -5024,7 +5018,6 @@ mmu	12867	Cox7c, COXVIIc, Cox7c1	K02272	Oxidative phosphorylation		KEGG web serv
 mmu	225363	Etf1, AI463371, D6Ertd109e, ERF, ERF1, SUP45L1, TB3-1	K03265	mRNA surveillance pathway		KEGG web services (possibly manually reannotated)
 mmu	216558	Ugp2	K00963	Carbohydrate metabolism		KEGG web services (possibly manually reannotated)
 mmu	66070	Cwc15, 0610040D20Rik, 2900052N06Rik, Ed1, c11orf5, mED1	K12863	Spliceosome		KEGG web services (possibly manually reannotated)
-mmu	51788	H2afz, H2A.Z, H2a.z-1	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	27050	Rps3, D7Ertd795e, Rs_3	K02985	Ribosome		KEGG web services (possibly manually reannotated)
 mmu	109754	Cyb5r3, 0610016L08Rik, 2500002N19Rik, C85115, Dia-1, Dia1, WU:AL591952.1-001, WU:AL591952.1-002, WU:AL591952.1-003, WU:Cyb5r3	K00326	Other central metabolism enzymes		KEGG web services (possibly manually reannotated)
 mmu	27058	Srp9, 9kDa	K03109	Protein export		KEGG web services (possibly manually reannotated)
@@ -5288,7 +5281,6 @@ mmu	76722	Ckmt2, 2300008A19Rik, ScCKmit	K00933	Amino acid metabolism		KEGG web s
 mmu	77891	Ube2s, 0910001J09Rik, 6720465F12Rik, AA409170, E2-EPF	K10583	Ubiquitin mediated proteolysis		KEGG web services (possibly manually reannotated)
 mmu	18115	Nnt, 4930423F13Rik, AI323702, BB168308	K00323	Cofactor biosynthesis		KEGG web services (possibly manually reannotated)
 mmu	18113	Nnmt	K00541	Cofactor biosynthesis		KEGG web services (possibly manually reannotated)
-mmu	360198	Hist1h3a	K11253	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	110119	Mpi, 1110002E17Rik, AI315153, Mpi-1, Mpi1	K01809	Carbohydrate metabolism		KEGG web services (possibly manually reannotated)
 mmu	110115	Cyp11b1, AA389061, CPN1, Cyp11b, Cyp11b-1, FHI	K07433	Steroid hormone biosynthesis		KEGG web services (possibly manually reannotated)
 mmu	103988	Gck, GLK, Gk, Gls006, HK4, HKIV, HXKP, MODY2	K12407	Glycolysis		KEGG web services (possibly manually reannotated)
@@ -5382,7 +5374,6 @@ mmu	66171	Pgls, 1110030K05Rik, AI447866, Plgs	K01057	Pentose phosphate metabolis
 mmu	110135	Fgb, 2510049G14Rik	K03904	Complement and coagulation cascades		KEGG web services (possibly manually reannotated)
 mmu	76257	Slc38a3, 0610012J02Rik, D9Ucla2, Nat1, Slc38-3, Sn1, Snat3, mNAT	K13576	Glutamatergic synapse		KEGG web services (possibly manually reannotated)
 mmu	27756	Lsm2, D17H6S56E-2, D17H6S56E2, Dmapl, Dmpkap, G7b, Sm-X5, SmX5, snRNP	K12621	RNA degradation		KEGG web services (possibly manually reannotated)
-mmu	15078	H3f3a, H3.3A	K11253	Alcoholism		KEGG web services (possibly manually reannotated)
 mmu	16341	Eif3e, 48kDa, Eif3s6, Int6, eIF3-p46, eIF3-p48	K03250	RNA transport		KEGG web services (possibly manually reannotated)
 mmu	23996	Psmc4, CIP21, MIP224	K03063	Proteasome		KEGG web services (possibly manually reannotated)
 mmu	23997	Psmd13, S11	K03039	Proteasome		KEGG web services (possibly manually reannotated)
@@ -6233,7 +6224,6 @@ hsa	Q8WX93-3	TCF7L2, TCF-4, TCF4	K04491	Wnt signaling pathway		KEGG web services
 hsa	O60271-4	MPHOSPH10, CT90, MPP10, MPP10P	K14559	Ribosome biogenesis in eukaryotes		KEGG web services (possibly manually reannotated)
 hsa	O14523-2	MT1F, MT1	K14739	Mineral absorption		KEGG web services (possibly manually reannotated)
 hsa	Q5T7A9	IMPAD1, GPAPP, IMP_3, IMP-3, IMPA3	K15759	Carbohydrate metabolism		KEGG web services (possibly manually reannotated)
-hsa	Q8IVI9	HIST2H2BF	K11252	Alcoholism		KEGG web services (possibly manually reannotated)
 hsa	B4DH24	RMI2, BLAP18, C16orf75	K15365	Fanconi anemia pathway		KEGG web services (possibly manually reannotated)
 hsa	B0LV25	NTPCR, C1orf57, HCR-NTPase, RP4-678E16.2	K06928	Purine metabolism		KEGG web services (possibly manually reannotated)
 hsa	Q8N3Z3-1	EXOC2, SEC5, SEC5L1, Sec5p	K17637	Ras signaling pathway		KEGG web services (possibly manually reannotated)
@@ -6571,8 +6561,6 @@ hsa	P48060	MICA	K07985	Natural killer cell mediated cytotoxicity		KEGG web servi
 hsa	Q8WUM9	CYBRD1	K08370	Mineral absorption		KEGG web services (possibly manually reannotated)
 hsa	P55327	RCL1	K11108	Ribosome biogenesis in eukaryotes		KEGG web services (possibly manually reannotated)
 hsa	Q68D91-1	RCL1	K11108	Ribosome biogenesis in eukaryotes		KEGG web services (possibly manually reannotated)
-hsa	Q5VU43-4	HIST2H2AA4	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
-hsa	Q8NHH9-1	HIST2H2AA3	K11251	Alcoholism		KEGG web services (possibly manually reannotated)
 hsa	Q9BYK8	PAN3	K12572	RNA degradation		KEGG web services (possibly manually reannotated)
 hsa	P40222	PABPC1L	K13126	RNA transport		KEGG web services (possibly manually reannotated)
 hsa	Q6F5E8	REXO2	K13288	Ribosome biogenesis in eukaryotes		KEGG web services (possibly manually reannotated)
@@ -7870,6 +7858,7 @@ spo	SPCC613.04c	Rng3		Cytokinesis		assembly of the actomyosin ring
 spo	SPCC645.05c	Rng5		Cytokinesis		assembly of the actomyosin ring
 spo	SPCC645.05c	Myo2		Cytokinesis		assembly of the actomyosin ring
 syn	slr0942	slr0942	K00002	Glycolysis		KEGG web services (possibly manually reannotated)
+syn	slr0012	RbcS	K01602	Carbon fixation in photosynthetic organisms		KEGG
 syn	slr1299	slr1299	K00012	Carbohydrate metabolism		KEGG web services (possibly manually reannotated)
 syn	sll5079	sll5079	K00059	Lipid and steroid metabolism		KEGG web services (possibly manually reannotated)
 syn	sll0019	sll0019	K00099	Cofactor biosynthesis		KEGG web services (possibly manually reannotated)
@@ -7958,28 +7947,37 @@ syn	slr0876	slr0876	K17218	Sulfur metabolism		KEGG web services (possibly manual
 syn	slr1289	Icd	K00031	Other enzymes		(no peroxisome in bacteria)
 syn	slr1516	SodB	K04564	Other enzymes		(no peroxisome in bacteria)
 syn	ssr0330	FtrV		Other enzymes	ferredoxin-thioredoxin reductase, variable chain	http://www.genome.jp/dbget-bin/www_bget?syn:ssr0330
-mpn	MPN067	NusG	K02601	Transcription factors		transcriptional antiterminator NusG
-mpn	MPN401	GreA	K03624	Basal transcription factors	transcription elongation factor GreA	transcription elongation factor
-mpn	MPN685	CysA		Transport		sulfate ABC transporter ATP-binding protein
-mpn	MPN263	Trx		Other enzymes		Thioredoxin
+mpn	MPN668	osmC		Stress response	Organic hydroperoxide resistance protein-like	Uniprot: response to oxidative stress
+mpn	MPN470	pepX		Peptidases	Putative Xaa-Pro aminopeptidase	Uniprot: Release of any N-terminal amino acid, 
+mpn	MPN625	osmC		Stress response	Peroxiredoxin osmC	Uniprot: response to oxidative stress
+mpn	MPN076	uhpT		Transport	Hexose phosphate transport protein
+mpn	MPN331	tig		Protein export	Trigger factor	Uniprot: Involved in protein export. Acts as a chaperone
+mpn	MPN447	HWM1		Cytoskeleton proteins	Cytadherence high molecular weight protein  Uniprot: Component of the cytoskeleton-like structure
+mpn	MPN406	acpA		Lipid and steroid metabolism	Acyl carrier protein homolog	Uniprot: Carrier the growing fatty acid chain
+mpn	MPN186	map		Peptidases	Methionine aminopeptidase
+mpn	MPN445	lip3		Lipid and steroid metabolism	Triacylglycerol lipase
+mpn	MPN067	nusG	K02601	Transcription factors	transcriptional antiterminator NusG	transcriptional antiterminator NusG
+mpn	MPN401	greA	K03624	Basal transcription factors	transcription elongation factor GreA	transcription elongation factor
+mpn	MPN685	cysA		Transport		sulfate ABC transporter ATP-binding protein
+mpn	MPN263	trx		Other enzymes	Thioredoxin
 mpn	MPN141	P1		Cell adhesion molecules (CAMs)		http://www.genome.jp/dbget-bin/www_bget?mpn:MPN141
-mpn	MPN452	Hmw3		Cell adhesion molecules (CAMs)		http://www.genome.jp/dbget-bin/www_bget?mpn:MPN452
-mpn	MPN428	EutD		Other enzymes		phosphotransacetylase http://www.genome.jp/dbget-bin/www_bget?mpn:MPN428
+mpn	MPN452	hmw3		Cell adhesion molecules (CAMs)		http://www.genome.jp/dbget-bin/www_bget?mpn:MPN452
+mpn	MPN428	eutD		Other enzymes		phosphotransacetylase http://www.genome.jp/dbget-bin/www_bget?mpn:MPN428
 mpn	MPN294	H10_orf206		Proteases		http://www.genome.jp/dbget-bin/www_bget?mpn:MPN294
 mpn	MPN453	P30		Bacterial motility proteins		http://www.kegg.jp/dbget-bin/www_bget?mpn:MPN453
-mpn	MPN479	AcpD	K01118	Other enzymes		Azoreductase
+mpn	MPN479	acpD	K01118	Other enzymes		Azoreductase
 mpn	MPN621	C12_orf561	K12574	RNA degradation		KEGG web services (possibly manually reannotated)
 mpn	MPN006	D12_orf210	K00943	Pyrimidine metabolism		KEGG web services (possibly manually reannotated)
-mpn	MPN430	Gap	K00134	Glycolysis		(KO missing in KEGG)
-mpn	MPN050	GlpK	K00864	Lipid and steroid metabolism		Appeared in "PPAR pathway"
-mpn	MPN479	AcpD	K01118			KEGG: acyl carrier protein phosphodiesterase; Metabolism unclassified
-mpn	MPN572	PepA	K01255	Cofactor biosynthesis		Ascorbate and aldarate metabolism
+mpn	MPN430	gap	K00134	Glycolysis		(KO missing in KEGG)
+mpn	MPN050	glpK	K00864	Lipid and steroid metabolism		Appeared in "PPAR pathway"
+mpn	MPN479	acpD	K01118			KEGG: acyl carrier protein phosphodiesterase; Metabolism unclassified
+mpn	MPN572	pepA	K01255	Cofactor biosynthesis		Ascorbate and aldarate metabolism
 mpn	MPN195	GT9_orf434	K02008	ABC transporters		KEGG web services (possibly manually reannotated)
 mpn	MPN611	C12_orf385	K02040	ABC transporters		KEGG web services (possibly manually reannotated)
 mpn	MPN416	P29	K02041	ABC transporters		KEGG web services (possibly manually reannotated)
 mpn	MPN415	P37	K02044	ABC transporters		KEGG web services (possibly manually reannotated)
-mpn	MPN665	Tuf	K02358	Translation factors		(wrongly in Plant-pathogen interaction in KEGG)
-mpn	MPN273	Hit1	K02503	Cell cycle		KEGG: "Hit-like protein involved in cell-cycle regulation"
+mpn	MPN665	tuf	K02358	Translation factors		(wrongly in Plant-pathogen interaction in KEGG)
+mpn	MPN273	hit1	K02503	Cell cycle		KEGG: "Hit-like protein involved in cell-cycle regulation"
 mpn	MPN495	MPN495	K02822	Carbohydrate metabolism		KEGG web services (possibly manually reannotated)
 mpn	MPN680	K05_orf385	K03217	glucosinolate biosynthesis		KEGG web services (possibly manually reannotated)
 mpn	MPN118	C09_orf143b	K03471	DNA replication		KEGG web services (possibly manually reannotated)
@@ -7987,9 +7985,9 @@ mpn	MPN314	YabB	K03925	Cell cycle		KEGG: "cell division protein MraZ", "Cell cyc
 mpn	MPN058	D09_orf485	K11069	ABC transporters		KEGG web services (possibly manually reannotated)
 mpn	MPN396	F11_orf887	K12257	Protein export		KEGG web services (possibly manually reannotated)
 mpn	MPN280	A65_orf569	K12574	RNA degradation		KEGG web services (possibly manually reannotated)
-mpn	MPN428	EutD		Other enzymes		KEGG: Phosphate acetyltransferase UniProt:Acetyl-CoA + phosphate = CoA + acetyl phosphate.
+mpn	MPN428	eutD		Other enzymes	KEGG: Phosphate acetyltransferase UniProt:Acetyl-CoA + phosphate = CoA + acetyl phosphate.
 mpn	MPN141	Cytadhesin P1		Cytoskeleton proteins		Ron
-mpn	MPN263	Trx				Chaperones and folding catalysts
+mpn	MPN263	trx		Chaperones and folding catalysts		
 mpn	MPN452	Hmw3		Cytoskeleton proteins		Ron
 bsu	BSU02900	YceD				Subtiwiki: required for survival of ethanol stress
 bsu	BSU07440	YfmK				Subtiwiki: function unknown
@@ -8320,6 +8318,66 @@ sce	YOR383C	Fit3		Cell wall		SGD: cell wall protein
 sce	YPL124W	Spc29		Cytoskeleton proteins		SGD
 sce	YPL130W	Spo19		Cell wall		SGD: cell wall protein
 sce	YPL255W	Bbp1		Cytoskeleton proteins		SGD
+mtu	Rv2889c	tsf	K02357	Basal transcription factors	elongation factor EF-Ts	
+mtu	Rv0684	fusA1	K02355	Basal transcription factors	elongation factor G	
+mtu	Rv3102c	ftsE	K09812	Cell cycle	cell division ATP-binding protein FtsE	
+mtu	Rv2151c	ftsQ	K03589	Cell cycle	cell division protein FtsQ	
+mtu	Rv2150c	ftsZ	K03531	Cell cycle	cell division protein FtsZ	
+mtu	Rv3101c	ftsX	K09811	Cell cycle	cell division protein FtsX	
+mtu	Rv0475	hbhA	K16645	Cellular antigens	Microbial pathogens (General comment) Adhesion of microorganism to host cells	
+mtu	Rv3763	lpqH	K14953	Cellular antigens	lipoprotein LpqH	
+mtu	Rv0440	groEL2	K04077	Chaperones and folding catalysts	molecular chaperone GroEL	
+mtu	Rv3418c	groES	K04078	Chaperones and folding catalysts	chaperonin GroES	
+mtu	Rv0350	dnaK	K04043	Chaperones and folding catalysts	chaperone protein DnaK	
+mtu	Rv3417c	groEL1	K04077	Chaperones and folding catalysts	chaperonin GroEL	
+mtu	Rv0351	grpE	K03687	Chaperones and folding catalysts	protein GrpE	
+mtu	Rv2373c	dnaJ2	K03686	Chaperones and folding catalysts	chaperone protein DnaJ	
+mtu	Rv0352	dnaJ1	K03686	Chaperones and folding catalysts	chaperone protein DnaJ	
+mtu	Rv1229c	mrp	K03593	Chromosome-related	Mrp-like protein	ATP-binding protein involved in chromosome partitioning
+mtu	Rv2213	pepB	K01255	Peptidases	cytosol aminopeptidase	
+mtu	Rv1537	dinX	K02346	DNA replication	DNA polymerase IV	
+mtu	Rv0001	dnaA	K02313	DNA replication	chromosomal replication initiator protein DnaA	
+mtu	Rv3837c	Rv3837c	K15634	Glycolysis	phosphoglycerate mutase	
+mtu	Rv2852c	mqo	K00116	TCA cycle and anaplerotic enzymes	malate:quinone oxidoreductase	
+mtu	Rv3285	accA3	K11263	Lipid and steroid metabolism	bifunctional protein acetyl-/propionyl-CoA carboxylase subunit alpha AccA	
+mtu	Rv2182c	Rv2182c	K00655	Lipid and steroid metabolism	1-acylglycerol-3-phosphate O-acyltransferase	
+mtu	Rv0234c	gabD1	K00135	TCA cycle and anaplerotic enzymes	succinate-semialdehyde dehydrogenase	
+mtu	Rv1827	garA		Other enzymes	glycogen accumulation regulator GarA	
+mtu	Rv1442	bisC	K08351	Other enzymes	biotin sulfoxide reductase BisC	
+mtu	Rv2428	ahpC	K03386	Other enzymes	alkyl hydroperoxide reductase subunit C	
+mtu	Rv3910	Rv3910	K03980	Glycan metabolism	putative peptidoglycan lipid II flippase	
+mtu	Rv2089c	pepE	K01274	Peptidases	dipeptidase PepE	
+mtu	Rv0419	lpqM	K01269	Peptidases	lipoprotein peptidase LpqM	
+mtu	Rv2782c	pepR	K01417	Proteases	zinc protease	
+mtu	Rv0983	pepD	K08372	Proteases	serine protease PepD	
+mtu	Rv0198c	zmp1	K07386	Proteases	zinc metalloprotease	
+mtu	Rv0563	htpX	K03799	Proteases	protease HtpX	
+mtu	Rv0724	sppA	K04773	Proteases	protease IV SppA	
+mtu	Rv3596c	clpC1	K03696	Proteases	ATP-dependent protease ATP-binding subunit ClpC	
+mtu	Rv0931c	pknD	K08884	Protein kinases	serine/threonine-protein kinase PknD	
+mtu	Rv0014c	pknB	K08884	Protein kinases	serine/threonine-protein kinase PknB	
+mtu	Rv0410c	pknG	K14949	Protein kinases	serine/threonine-protein kinase PknG	
+mtu	Rv0015c	pknA	K08884	Protein kinases	serine/threonine-protein kinase PknA	
+mtu	Rv1746	pknF	K08884	Protein kinases	serine/threonine-protein kinase PknF	
+mtu	Rv1266c	pknH	K08884	Protein kinases	serine/threonine-protein kinase PknH	
+mtu	Rv2088	pknJ	K08884	Protein kinases	transmembrane serine/threonine-protein kinase PknJ	
+mtu	Rv1636	TB15.3		Stress response	Iron-regulated universal stress protein family protein TB15.3	
+mtu	Rv2919c	glnB	K04751	Stress response	nitrogen regulatory protein P-II	
+mtu	Rv1837c	glcB	K01638	TCA cycle and anaplerotic enzymes	malate synthase	
+mtu	Rv2215	dlaT	K00658	Glycolysis	pyruvate dehydrogenase E2 component dihydrolipoamide acyltransferase	
+mtu	Rv1731	gabD2	K00135	TCA cycle and anaplerotic enzymes	succinate-semialdehyde dehydrogenase	
+mtu	Rv2498c	citE	K01644	TCA cycle and anaplerotic enzymes	citrate (pro-3S)-lyase subunit beta	
+mtu	Rv1297	rho	K03628	Transcription factors	transcription termination factor Rho	
+mtu	Rv2839c	infB	K02519	Translation factors	translation initiation factor IF-2	
+mtu	Rv1641	infC	K02520	Translation factors	initiation factor IF-3	
+mtu	Rv0934	pstS1	K02040	Transport	phosphate ABC transporter substrate-binding lipoprotein PstS	
+mtu	Rv0932c	pstS2	K02040	Transport	phosphate ABC transporter substrate-binding lipoprotein PstS	
+mtu	Rv0928	pstS3	K02040	Transport	phosphate ABC transporter substrate-binding lipoprotein PstS	
+mtu	Rv1626	Rv1626		Two-component system		
+mtu	Rv3220c	Rv3220c	K00936 	Two-component system		
+mtu	Rv2027c	Rv2027c		Two-component system		
+mtu	Rv2429	ahpD	K04756	Stress response		
+mtu	Rv1411c	lprG	K14954	Cellular antigens	lipoprotein LprG	
 mtu	Rv3290c	lat	K03918	Metabolic pathways		KEGG web services
 mtu	Rv0244c	fadE5	K00257	Geraniol degradation		KEGG web services
 mtu	Rv3570c	hsaA	K16047	Steroid degradation		KEGG web services
@@ -8399,10 +8457,22 @@ mtu	Rv1463	Rv1463	K09013	Transport
 mtu	Rv3270	ctpC	K12950	Transport		http://www.genome.jp/dbget-bin/www_bget?mtu:Rv3270
 mtu	Rv0676c	mmpL5	K06994	Transport		http://www.genome.jp/dbget-bin/www_bget?mtu:Rv0676c
 mtu	Rv0757	phoP	K02483	Two-component system		
+eco	b2912	Fau	K01934	One carbon pool by folate		5-formyltetrahydrofolate cyclo-ligase family protein
+eco	b0299	InsF1		DNA repair and recombination proteins	IS3 transposase B	 
+eco	b2742	NlpD	K06194		lipoprotein NlpD	divisome; activates peptidoglycan hydrolase AmiC (septal splitting)
+eco	b0001	ThrL	K08278	Transcription factors	thr operon leader peptide	controls by attenuation the expression of the thrLABC operon
+eco	b0460	Hha	K05839			haemolysin expression modulating protein; pleiotropic effects on catabolite repression
+eco	b3337	Bfd	K02192	Other enzymes		bacterioferritin-associated ferredoxin; involved in Bfr iron storage and iron release functions
+eco	b0607	UspG	K11932	Stress response	universal stress protein G	
+eco	b3163	NlpI	K05803		lipoprotein NlpI	lipoprotein involved in osmotic sensitivity and filamentation
+eco	b1060	BssS	K12148		regulator BssS	biofilm regulator
+eco	b0635	MrdA	K05515	Cell envelope		transpeptidase involved in peptidoglycan synthesis (penicillin-binding protein 2)
 eco	b3982	NusG	K02601	Transcription factors		http://www.genome.jp/dbget-bin/www_bget?eco:b3982
 eco	b0814	OmpX	K11934	Membrane proteins		http://www.genome.jp/dbget-bin/www_bget?eco:b0814
 eco	b0741	Pal	K03640	Cell envelope		peptidoglycan-associated outer membrane lipoprotein
-eco	b0814	OmpX	K11934	Cell adhesion molecules (CAMs)		
+eco	b0814	OmpX	K11934	Cell adhesion molecules (CAMs)
+eco	b0484	CopA	K17686	Transport		copper transporter
+eco	b3355	PrkB	K00855	Oxidative phosphorylation		ATP synthase, membrane-bound accessory factor
 eco	b3751	RbsB	K10439	Transport		http://www.genome.jp/dbget-bin/www_bget?K10439
 eco	b1677	Lpp	K06078	Cell envelope		murein lipoprotein
 eco	b3495	UspA	K06149	Stress response		universal stress protein A
@@ -8570,6 +8640,8 @@ eco	b1558	CspF	K03704	Chaperones and folding catalysts		Cold shock protein
 eco	b0990	CspG	K03704	Chaperones and folding catalysts		Cold shock protein
 eco	b0989	CspH	K03704	Chaperones and folding catalysts		Cold shock protein
 eco	b1552	CspI	K03704	Chaperones and folding catalysts		Cold shock protein
+tps	THAPSDRAFT_25544	PGP	K19269	Other enzymes		
+tps	THAPSDRAFT_39299	ARF3	K07937	Endocytosis		
 syf	Synpcc7942_0846	hypothetical protein	K01792	Glycolysis and gluconeogenesis		KEGG web services
 syf	Synpcc7942_0842	glutathione reductase (EC:1.8.1.7)	K00383	Glutathione metabolism		KEGG web services
 syf	Synpcc7942_1953	6-pyruvoyl tetrahydrobiopterin synthase	K01737	Folate biosynthesis		KEGG web services

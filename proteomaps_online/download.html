@@ -1,21 +1,23 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!doctype html>
+
+<html lang="en">
   <head>
     <title>Proteomaps methods description</title>
-    <link rel="stylesheet" type="text/css" href="proteomaps.css">
 
-  <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-4526009-11', 'proteomaps.net');
-   ga('send', 'pageview');
-  </script>
+    <!-- Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+        
+    <link rel="stylesheet" type="text/css" href="proteomaps.css">
+    <link rel="icon" type="image/png" href="./website/images/me_favicon.png">
 
   </head>
-
+  
   <body>
+    <div class="content">
 
 <h1>Proteomaps data download</h1>
 
@@ -24,10 +26,10 @@
 
 <h3>Downloads</h3>
 
+<br>
 <table style="background-color:#faf2ca"  >
-<tr><td style="width:750">
+<tr><td style="max-width:700pt;">
 
-<p style="width:550">
 <ol type="none">
 
 <li><strong>Protein functional hierarchy</strong><br>
@@ -43,7 +45,7 @@ Orthology ID may still appear in several functional categories.
   <a href="data/KO_organism_mapping.zip">ID mapping files</a>
 <p/>
 
-</li><br>
+</li>
 
  <li><strong>Abundance values for protein categories</strong><br>
 
@@ -58,7 +60,7 @@ marked by "-" (2nd level categories) and "--" (3rd level categories).
   <a href="data/category_cost.csv">Protein abundances (length-weighted)</a>
 <p/>
 
-</li><br>
+</li>
 
 <li><strong>Protein abundance ratios between functional categories</strong><br>
 Protein abundances are weighted by protein chain lengths.
@@ -68,7 +70,7 @@ Protein abundances are weighted by protein chain lengths.
   <a href="data/category_cost_ratios.csv">Abundance ratios (length-weighted)</a>
 <p/>
 
-</li><br>
+</li>
 
 <li><strong>Protein abundance ratios (ranges obtained from permutation test)</strong><br> 
 
@@ -92,9 +94,8 @@ the 90% quantile for a selection of data sets.
 </td></tr>
 </table>
 
-<br> 
 <hr>
-<p style="font-size:11pt; width:450;">
+<p>
   <a href="./index.html">Main</a> |
   <a href="./help.html">Help</a> | 
   <a href="./methods.html">Method</a> | 
@@ -103,6 +104,7 @@ the 90% quantile for a selection of data sets.
   <a href="./methods.html#contact">Contact</a>
 </p>
 
+    </div>
 
     <map name="proteins">
        <area shape="poly" coords="54,0,180,0,178,16,63,16," alt="Transcription" title="Transcription

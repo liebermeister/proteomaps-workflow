@@ -28,7 +28,7 @@ fraction_nonmapped_lumped = 0.005
 # how many nonmapped proteins will be shown maximally?
 n_nonmapped_displayed = 500
 
-def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,nonmapped_dict,my_organism):
+def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,nonmapped_dict,my_organism,pp):
   
   # set of all gene names to be explicitly shown in the non-mapped region of some proteomap
   nonmapped_show = set()
@@ -56,10 +56,11 @@ def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy
         value_dict[my_gene] = my_value
     sum_all = sum_mapped + sum_nonmapped
 
-  print " Removing values below " + str(sum_all/(2500*2500))  + " (1 pixel)"
-  print " Fraction of nonmapped: " + str(sum_nonmapped/sum_all)
-  print " Total: " + str(sum_all)
-  print " Total nonmapped: " + str(sum_nonmapped)
+  if pp.verbose:
+    print(" Removing values below " + str(sum_all/(2500*2500))  + " (1 pixel)")
+    print(" Fraction of nonmapped: " + str(sum_nonmapped/sum_all))
+    print(" Total: " + str(sum_all))
+    print(" Total nonmapped: " + str(sum_nonmapped))
 
   # -------------------------------------------------------- 
   # compute threshold value s.t. sum of lumped protein mass
@@ -111,10 +112,12 @@ def prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy
   sum_nonmapped_lumped_string = '%(value).8g' % {'value': sum_nonmapped_lumped}
   fo1.write("OtherNotMapped\t" + sum_nonmapped_lumped_string + "\n")
 
-  print " Number of nonmapped proteins shown: " + str(len(nonmapped_show))
-  print " Lumped within nonmapped: " + str(sum_nonmapped_lumped)
+  if pp.verbose:
+    print(" Number of nonmapped proteins shown: " + str(len(nonmapped_show)))
+    print(" Lumped within nonmapped: " + str(sum_nonmapped_lumped))
   if sum_nonmapped > 0:
-    print " Fraction of lumped within nonmapped: " + str(sum_nonmapped_lumped/sum_nonmapped)
+    if pp.verbose:
+      print(" Fraction of lumped within nonmapped: " + str(sum_nonmapped_lumped/sum_nonmapped))
 
   for my_gene in nonmapped_dict:
     if my_gene in nonmapped_show:
@@ -189,10 +192,12 @@ def prune_nonmapped_proteins(data_dir,pp):
     filenames   = pp.get_filenames(my_file)
     my_organism = filenames['organism']
     mapping_filenames = pp.get_mapping_files(my_organism)
-    print "\n" + my_organism + ' // ' + filenames['data_set']
+    if pp.verbose:
+      print("\n" + my_organism + ' // ' + filenames['data_set'])
   
     # for each organism: load list of nonmapped proteins 
-    print filenames['nonmapped']
+    if pp.verbose:
+      print(filenames['nonmapped'])
     fmappings = open(filenames['nonmapped'],"r")
     igot = fmappings.readlines()
     for line in igot:
@@ -202,12 +207,13 @@ def prune_nonmapped_proteins(data_dir,pp):
       my_gene       = q[0]
       all_nonmapped_dict[my_organism].add(my_gene)
   
-    print len(all_nonmapped_dict[my_organism])
+    if pp.verbose:
+      print(len(all_nonmapped_dict[my_organism]))
   
     # -------------------------------------------------------------
     # process data file with length-weighted abundances
-  
-    print " WEIGHTED ABUNDANCE"
+    if pp.verbose:
+      print(" WEIGHTED ABUNDANCE")
     fi1          = open(filenames['cost'],"r")
     fo1          = open(filenames['cost_lumped'],"w")
     fo1l         = open(filenames['cost_lumped_proteins'],"w")
@@ -217,14 +223,15 @@ def prune_nonmapped_proteins(data_dir,pp):
     #fo_mapping   = open(mapping_filenames['final'],"w")
     #fol_mapping  = open(filenames['mapping_cost_lumped'],"w")
   
-    [my_nonmapped_show, my_nonmapped_show_KO] = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism],my_organism)
+    [my_nonmapped_show, my_nonmapped_show_KO] = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism],my_organism,pp)
     nonmapped_show[my_organism] = nonmapped_show[my_organism].union(my_nonmapped_show)
     nonmapped_show_KO = nonmapped_show_KO.union(my_nonmapped_show_KO)
     
     # -------------------------------------------------------------
     # process data file with (non-weighted) abundances
   
-    print " ABUNDANCE"
+    if pp.verbose:
+      print(" ABUNDANCE")
     fi1          = open(filenames['abundance'],"r")
     fo1          = open(filenames['abundance_lumped'],"w")
     fo1l         = open(filenames['abundance_lumped_proteins'],"w")
@@ -234,7 +241,7 @@ def prune_nonmapped_proteins(data_dir,pp):
     #fo_mapping   = open(mapping_filenames['final'],"w")
     #fol_mapping  = open(filenames['mapping_abundance_lumped'],"w")
   
-    [my_nonmapped_show, my_nonmapped_show_KO]  = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism],my_organism)
+    [my_nonmapped_show, my_nonmapped_show_KO]  = prune_nonmapped_proteins_one_data_set(fi1,fo1,fo1l,fi_hierarchy,fo_hierarchy,fo_hierarchy_pos,all_nonmapped_dict[my_organism],my_organism,pp)
     nonmapped_show[my_organism] = nonmapped_show[my_organism].union(my_nonmapped_show)
     nonmapped_show_KO = nonmapped_show_KO.union(my_nonmapped_show_KO)
   

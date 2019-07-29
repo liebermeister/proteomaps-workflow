@@ -4,9 +4,11 @@ from proteomaps_PATHNAMES import proteomaps_PATHNAMES
 
 class proteomaps_path_names:
 
-  def __init__(self,data_dir,hierarchy_version):
+  def __init__(self,data_dir,hierarchy_version,verbose):
 
     pn = proteomaps_PATHNAMES(hierarchy_version)
+
+    self.verbose = verbose
 
     # Predefined directory names
     self.PROTEIN_HIERARCHY_DIR = pn.PROTEIN_HIERARCHY_DIR
@@ -110,17 +112,19 @@ class proteomaps_path_names:
     path = self.OUTDIR_HIERARCHY
     if not os.path.isdir(path):
       os.mkdir(path)
-      print 'Making directory ' + path
+      if self.verbose:
+        print('Making directory ' + path)
     path = self.OUTDIR_TABLES
     if not os.path.isdir(path):
       os.mkdir(path)
-      print 'Making directory ' + path
+      if self.verbose:
+        print('Making directory ' + path)
     for data_file in self.data_files:
       path = self.DATA_DIR + '/' + data_file[2]
       if not os.path.isdir(path):
         os.mkdir(path)
-        print 'Making directory ' + path
-
+        if self.verbose:
+          print('Making directory ' + path)
 
   def get_mapping_files(self, organism_name):
     # Return filenames for all mapping files (for given organism)

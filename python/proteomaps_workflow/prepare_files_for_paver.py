@@ -19,13 +19,15 @@ parser.add_argument('paver_input_file_directory', help='directory name for paver
 parser.add_argument('hierarchy_version', help='subdirectory with hierarchy data')
 args = parser.parse_args()
 
-print args.data_set_directory
-print args.paver_input_file_directory
+print(args.data_set_directory)
+print(args.paver_input_file_directory)
  
 # ---------------------------------------------------------------
 # read data file names
 
-pp = proteomaps_path_names(args.data_set_directory,args.hierarchy_version)
+verbose = 1
+
+pp = proteomaps_path_names(args.data_set_directory,args.hierarchy_version,verbose)
 data_file_triples = pp.get_data_files()
 
 data_files = []

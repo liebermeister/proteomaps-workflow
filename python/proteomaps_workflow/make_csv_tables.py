@@ -59,7 +59,8 @@ def make_csv_tables(data_dir,pp,pn):
   for data_file_triple in data_files:
       my_organism = data_file_triple[1]
       filenames   = pp.get_filenames(data_file_triple)
-      print 'Processing file ' + my_organism + ' // ' + filenames['short']
+      if pp.verbose:
+        print('Processing file ' + my_organism + ' // ' + filenames['short'])
   
       fi_abundance = open(filenames['abundance'],"r")
       fi_cost      = open(filenames['cost'],"r")
@@ -145,7 +146,8 @@ def make_csv_tables(data_dir,pp,pn):
   
       my_data_set = data_file_triple[2]
       outfile = data_dir + "/" + my_data_set + "/" + my_data_set + ".csv"
-      print "Writing file " + outfile
+      if pp.verbose:
+        print("Writing file " + outfile)
       fo_abundance = open(outfile,"w")
 
       fo_abundance.write("!!SBtab TableType='Proteomaps' Organism='" + my_organism + "' DefaultProteinLength='350'")

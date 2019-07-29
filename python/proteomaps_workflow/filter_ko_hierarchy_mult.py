@@ -83,8 +83,8 @@ def filter_ko_hierarchy_mult(data_dir,n_resample,pp):
   levels.append(0)
   
   for it in range(int(n_resample)):
-  
-      print "Randomised assignment " + str(it+1) + "/" + str(n_resample) 
+      if pp.verbose:
+        print("Randomised assignment " + str(it+1) + "/" + str(n_resample))
       
       # ------------------------------------------------------
       ## go through the hierarchy again; for each ko number, count how often it

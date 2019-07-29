@@ -1,3 +1,7 @@
+# ----------------------------------------------------------------
+# Call matlab program to create rectangular treemaps
+# ----------------------------------------------------------------
+
 import sys
 import os
 import subprocess

@@ -58,7 +58,8 @@ def map_protein_data(data_dir,pp):
   for data_file_triple in data_files:
     filenames   = pp.get_filenames(data_file_triple)
     my_organism = filenames['organism']
-    print my_organism + ' // ' + filenames['original_data']
+    if pp.verbose:
+      print(my_organism + ' // ' + filenames['original_data'])
   
     fo0  = open(filenames['abundance'],    "w")
     fo1  = open(filenames['ko'],           "w")
@@ -75,14 +76,16 @@ def map_protein_data(data_dir,pp):
         pass
         # print line
       elif line[0]=="\t":
-        print 'Warning (data set ' + filenames['data_set'] + ': Gene name missing'
+        if pp.verbose:
+          print('Warning (data set ' + filenames['data_set'] + ': Gene name missing')
       else:
         q    = re.split('\t', line.strip())
         name = replace_whitespaces(q[0])
         chop_names = re.split(';',name)
         name = chop_names[0]
         if name in name_list:
-          print 'Warning (data set ' + filenames['data_set'] + ': gene ' + name + ' has appeared before.'
+          if pp.verbose:
+            print('Warning (data set ' + filenames['data_set'] + ': gene ' + name + ' has appeared before.')
         name_list.append(name)
         
         if len(q)>1:
@@ -100,8 +103,9 @@ def map_protein_data(data_dir,pp):
               if not(name in systematic_to_gene[my_organism].values()):
                 if not(name in systematic_in_hierarchy[my_organism]):
                   fo2.write(name + "\t" + name + "\tNotMapped\t" + value_string + "\n")        
-          except ValueError, TypeError:
-            print "Non-numeric value " + q[1] + ". Line ignored."
+          except Exception:
+            if pp.verbose:
+              print("Non-numeric value " + q[1] + ". Line ignored.")
   
     fo0.close()
     fo1.close()
@@ -125,7 +129,8 @@ def map_protein_data(data_dir,pp):
     filenames   = pp.get_filenames(data_file_triple)
     my_organism = filenames['organism']
   
-    print my_organism + ' // ' + filenames['data_set']
+    if pp.verbose:
+      print(my_organism + ' // ' + filenames['data_set'])
     
     protein_to_length = hh.get_protein_lengths(my_organism,standard_length)
   

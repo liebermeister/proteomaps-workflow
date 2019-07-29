@@ -1,0 +1,7 @@
+Data provenance:
+
+The data file valgepea_ecoli.tsv was built from data files in proteomaps github repository
+using the matlab function "join_protein_data_files"
+
+The directory valgepea_ecoli_proteomaps and the proteomovie file valgepea_ecoli_lv3.gif
+can be deleted and be generated again as described in proteomaps-workflow/proteomovies/README

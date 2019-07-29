@@ -8,6 +8,9 @@ class proteomaps_PATHNAMES:
     self.BASE_DIR              = "/home/wolfram/projekte/proteomaps/github/proteomaps-workflow/"
     self.TMP_DIR               = "/tmp/matlab_protein_abundance";
 
+    if not(os.path.isdir(self.TMP_DIR)): 
+      os.mkdir(self.TMP_DIR)
+
     # Predefined directory names
     self.PROTEIN_HIERARCHY_DIR = self.BASE_DIR + "genomic_data/" + hierarchy_version + "/"
     self.PROTEIN_LENGTH_DIR    = self.PROTEIN_HIERARCHY_DIR + "protein_length_data/"

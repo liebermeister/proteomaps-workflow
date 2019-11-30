@@ -6,9 +6,7 @@ Code, proteomics data, and other resources for generating proteomaps graphics an
 For general information about proteomaps, see www.proteomaps.net
 
 
-----------------------------------------
-1. Directories
-----------------------------------------
+## 1. Directories
 
 DOCUMENTATION
   documentation - General documentation
@@ -29,9 +27,7 @@ PROTEOME DATA (storage space for data at different stages of processing)
   data_html         - processed html (to be copied into website directory)
 
 
-----------------------------------------
-2. Installation
-----------------------------------------
+## 2. Installation
 
 For running the python and matlab code on your computer, you need to update the path names.
 They are set in the following files:
@@ -42,9 +38,7 @@ They are set in the following files:
 Of course, also the path names in your scripts CreateProteomaps.sh have to be adjusted.
 
 
-----------------------------------------
-3. How to generate proteomaps
-----------------------------------------
+## 3. How to generate proteomaps
 
 Data sets to be analysed together are called a "bundle". To create 
 a new data bundle (called [DATA_BUNDLE]), create a new directory 
@@ -87,8 +81,17 @@ Then, proceed as follows:
    [DATA_ BUNDLE] in the list "data_set_collections" and run the script.
 
 
-----------------------------------------
-4. How to generate proteomovies
-----------------------------------------
+## 4. How to generate proteomovies
 
 To generate proteomovies from your data files, please see the instructions in proteomaps-workflow/proteomovies/README
+
+## License
+This package is released under the [GNU General Public License](LICENSE).
+
+## Contact
+Please contact [Wolfram Liebermeister](wolfram.liebermeister@gmail.com) with any questions or comments.
+
+## References
+Liebermeister W., Noor E., Flamholz A., Davidi D., Bernhardt J., Milo R. (2014),
+Visual account of protein investment in cellular functions,
+[PNAS 111 (23), 8488-8493](https://www.pnas.org/content/111/23/8488)

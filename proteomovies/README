@@ -21,7 +21,7 @@ Prepare a table file with input proteomics data.
 
    You can choose between two input formats (simple tab-separated tables, or SBtab tables)
 
-   Format 1: Simple table
+   Format 1: Simple table (".tsv": tab-separated or ".csv" comma-separated)
    
    [IGNORED] [sample_1] [sample_2]  ...
    [gene_1]  value      value       ...

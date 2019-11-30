@@ -1,3 +1,4 @@
+import os
 import re
 import sys
 import argparse
@@ -36,12 +37,23 @@ import argparse
 #   ...        ...        ...        ...
 
 def split_data_file(data_set,infile,outfile, organism, organism_long, data_set_long):
+
+    infile_name, infile_extension = os.path.splitext(infile)
+    if infile_extension == '.csv':
+        delimiter = ","
+    else:
+        delimiter = '\t'
+
     input_file = open(infile,'r')
     igot = input_file.readlines()
     item = igot[0]
     if item[0:2]=='!!':
         item = igot[1]
-    line = re.split("\t",item.strip())
+
+    line = re.split(delimiter,item.strip())
+    if len(line)<2:
+        sys.exit("\nINVALID DATA FILE: The input data file must contain at least two tab-separated columns\n")
+        
     conditions = line[1:]
     input_file.close()
 
@@ -54,7 +66,6 @@ def split_data_file(data_set,infile,outfile, organism, organism_long, data_set_l
         if not(cond[0]=='!'):
             z_sample = z_sample + 1
             outfile_full = outfile + "_" + str(z_sample) + "_" + cond.replace(".","_") + ".csv"
-            #print outfile_full
             outfile_log.write(organism + "\t" + outfile_full +  "\t" + data_set + "_" + cond.replace(".","_") + "\t" + data_set_long + "\t" + organism_long + "\n")
             input_file  = open(infile,'r')
             output_file = open(outfile_full,'w')
@@ -62,12 +73,11 @@ def split_data_file(data_set,infile,outfile, organism, organism_long, data_set_l
             if igot[0][0:2]=='!!':
                 igot = igot[1:]
             for item in igot[1:]:
-                line = re.split("\t",item.strip())
+                line = re.split(delimiter,item.strip())
                 gene = line[0]
                 if not(gene[0]=='!'):
                     values = line[1:]
                     output_file.write(gene + "\t" + values[z-1] + '\n')
-                    #print gene + "\t" + values[z-1]
             input_file.close()
     outfile_log.close()
 

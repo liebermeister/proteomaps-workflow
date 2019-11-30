@@ -44,7 +44,6 @@ n_annotation_subsampling = 10
 infile_dir, infile_file   = os.path.split(infile)
 outfile_dir, outfile_file = os.path.split(outfile)
 
-
 proteomaps_dir = args.proteomaps_dir
 data_dir       = proteomaps_dir + "/csv"       # (for input proteomics data (single csv files))
 movie_file     = outfile       # (for input proteomics data)
@@ -55,11 +54,6 @@ outfile_tmp  = data_dir + "/" + outfile_file
 
 # -----------------------------------------
 # make proteomaps data dir if necessary
-
-#if args.proteomaps_dir is not None:
-#    proteomaps_dir = args.proteomaps_dir
-#else:
-#    proteomaps_dir = tmp_dir
 
 if not os.path.exists(proteomaps_dir):
     os.mkdir(proteomaps_dir)
@@ -84,5 +78,3 @@ CreateProteomaps_no_matlab(proteomaps_dir, tmp_dir, n_annotation_subsampling , '
 print("- Proteomaps data files written to " + proteomaps_dir);
         
 print( "- Please start matlab and run the command:\n  proteomovie('" + proteomaps_dir + "','" + movie_file + "'," + str(n_annotation_subsampling) + ");")
-
-#shutil.rmtree(tmp_dir)

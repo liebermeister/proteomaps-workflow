@@ -75,7 +75,7 @@ second_order_names = second_order_names(ind_show);
 
 % load colours
 A = load_any_table([pathnames.PROTEOMAPS_RESOURCE_DIR '/KO_gene_hierarchy_colors.csv']);
-%A = load_any_table('~/projekte/protein_abundance/data/Protein_category_colours_Dark.csv');
+%A = load_any_table('~/projekte/proteomaps/data/Protein_category_colours_Dark.csv');
 lll = label_names(second_order_names,A(:,1)); 
 if find(lll==0), 
   second_order_names(find(lll==0))
@@ -183,7 +183,7 @@ end
 
 if exist('graphics_directory','var'),
 
-  %% previously used:  ~/projekte/protein_abundance/ps-files/numbers_in_categories/
+  %% previously used:  ~/projekte/proteomaps/ps-files/numbers_in_categories/
 
   display(sprintf('Writing graphics to directory %s', graphics_directory));
   cd(graphics_directory); 

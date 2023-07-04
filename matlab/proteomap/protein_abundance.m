@@ -13,7 +13,7 @@ end
 
 % This script is called from the commandline; 
 % so the variable 'data_directory' MUST BE SET, for instance:  
-% data_directory = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_paper';
+% data_directory = '/home/wolfram/projekte/proteomaps/data/protein_abundances_paper';
 
 if ~exist('verbose','var'),
   verbose = 0;

@@ -64,6 +64,8 @@ if not os.path.exists(data_dir):
 # -----------------------------------------
 # Split table into single data files, with extra information, by using the script split_data_table.py
 
+print("- Reading input file " + infile_dir +  infile_file)
+
 split_data_file(data_set, infile, outfile_tmp , organism, organism_long, data_set_long)
 
 copyfile(outfile_tmp + '_LOG.csv', proteomaps_dir + '/filenames.csv')
@@ -71,10 +73,10 @@ copyfile(outfile_tmp + '_LOG.csv', proteomaps_dir + '/filenames.csv')
 # -----------------------------------------
 # Run the proteomaps workflow to generate the .mat files
 
-print("- Generating proteomaps data files - please be patient, this may take a few minutes.")
+print("- Generating intermediate data files for proteomaps - please be patient, this may take a while.")
 
 CreateProteomaps_no_matlab(proteomaps_dir, tmp_dir, n_annotation_subsampling , 'KO_gene_hierarchy_2015-01-01', verbose=0)
 
 print("- Proteomaps data files written to " + proteomaps_dir);
         
-print( "- Please start matlab and run the command:\n  proteomovie('" + proteomaps_dir + "','" + movie_file + "'," + str(n_annotation_subsampling) + ");")
+print( "- To continue, please start matlab and run the command:\n  proteomovie('" + proteomaps_dir + "','" + movie_file + "'," + str(n_annotation_subsampling) + ");")

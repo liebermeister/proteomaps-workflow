@@ -2,20 +2,21 @@
 Rectangle proteomovies
 ----------------------
 
-A proteomovie is generated in two steps:
+A proteomovie is generated from an input data file in three steps:
 
-1. Based on an input data file, generate a proteomaps directory with all files used to generate proteomaps
-2. Based on these files, generate the proteomaps movie
+1. Convert the input data into one of the input file formats described below
+2. From the input data file, generate a "proteomaps" directory, containing all files that are needed to generate proteomaps
+3. Based on these files, generate the proteomaps movie
 
 The input file format and the two steps are explained below.
 
 
 --------------------------------------
-Rectangle proteomovie input file format
+Step 1: rectangle proteomovie input file format
 --------------------------------------
 
 Prepare a table file with input proteomics data. 
-- The table must contain absolute numbers (not logarithms)
+- The table must contain protein abundances on linear scale (not logarithms)
 - Column (sample) names must not contain any special characters (except for "_")
   (any other special characters, including ".", may cause problems whe the sample names are translated into temporary file names)
 
@@ -37,33 +38,31 @@ Prepare a table file with input proteomics data.
    [gene_2]   value      value       ...
    ...        ...        ...         ...
 
-Run the commandline script proteomovie-prepare-files.py
-
 
 ---------------------------------
-Step 1: Generate proteomaps files
+Step 2: Generate proteomaps files
 ---------------------------------
 
-For step 1, use the python commandline script 'proteomovie-prepare-files.py'
+For step 2, run the commandline script 'proteomovie-prepare-files.py'
 
-  python3 proteomovie-prepare-files.py [INPUT FILE] [OUTPUT_FILE] [ORGANISM] [DATA_SET_NAME] [PROTEOMAPS_DIRECTORY]
+python3 proteomovie-prepare-files.py [INPUT FILE] [OUTPUT_FILE] [ORGANISM] [DATA_SET_NAME] [PROTEOMAPS_DIRECTORY]
 
 
-Usage example (where  [GITUB-REPO] = /home/wolfram/projekte/proteomaps/github/proteomaps-workflow/ ) 
+Usage example (where [PATH] points to the proteomaps-workflow directory in your system) 
 
-python3 /home/wolfram/projekte/proteomaps/github/proteomaps-workflow/python/proteomovies/proteomovie-prepare-files.py /home/wolfram/projekte/proteomaps/github/proteomaps-workflow/proteomovies/examples/valgepea_ecoli/valgepea_ecoli.tsv /home/wolfram/projekte/proteomaps/github/proteomaps-workflow/proteomovies/examples/valgepea_ecoli/valgepea_ecoli.gif eco Valgepea_data /home/wolfram/projekte/proteomaps/github/proteomaps-workflow/proteomovies/examples/valgepea_ecoli/valgepea_ecoli_proteomaps
+python3 proteomovie-prepare-files.py [PATH]/proteomovies/examples/valgepea_ecoli/valgepea_ecoli.tsv [PATH]/proteomovies/examples/valgepea_ecoli/valgepea_ecoli.gif eco Valgepea_data [PATH]/proteomovies/examples/valgepea_ecoli/valgepea_ecoli_proteomaps
 
 
 ----------------------------
-Step 2: Generate proteomovie
+Step 3: Generate proteomovie
 ----------------------------
 
 For step 2, use the matlab script 'proteomovie_workflow'
 
 
-Usage example (where  [GITUB-REPO] = /home/wolfram/projekte/proteomaps/github/proteomaps-workflow/ ) 
+Usage example (where [PATH] points to the proteomaps-workflow directory in your system) 
 
-proteomovie('/home/wolfram/projekte/proteomaps/github/proteomaps-workflow/proteomovies/examples/valgepea_ecoli/valgepea_ecoli_proteomaps','/home/wolfram/projekte/proteomaps/github/proteomaps-workflow/proteomovies/examples/valgepea_ecoli/valgepea_ecoli.gif',10);
+proteomovie('[PATH]/proteomovies/examples/valgepea_ecoli/valgepea_ecoli_proteomaps','[PATH]/proteomovies/examples/valgepea_ecoli/valgepea_ecoli.gif',10);
 
 For further options (e.g. framerate, movie duration etc), use the "options" function argument (see "help 'proteomovie_workflow')
 
@@ -72,7 +71,10 @@ For further options (e.g. framerate, movie duration etc), use the "options" func
 Please note
 -----------
 
-o The proteomap instruction file "filenames.csv" contain filenames with absolute paths:
-  if the proteomaps directory is moved or copied to another location, the second step will not work anymore
+o The proteomap instruction file "filenames.csv" contains filenames with absolute paths:
+  if the proteomaps directory is moved or copied to another location, step 3 (which uses 
+  the filenames.csv file) will not work anymore
+
 o In the python script and the matlab script, filenames must be given with absolute path names
+
 o The matlab function "join_protein_data_files" can be used to join several formatted protein data files

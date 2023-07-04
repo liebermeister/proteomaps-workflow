@@ -51,6 +51,7 @@ def split_data_file(data_set,infile,outfile, organism, organism_long, data_set_l
         item = igot[1]
 
     line = re.split(delimiter,item.strip())
+
     if len(line)<2:
         sys.exit("\nINVALID DATA FILE: The input data file must contain at least two tab-separated columns\n")
         
@@ -64,22 +65,31 @@ def split_data_file(data_set,infile,outfile, organism, organism_long, data_set_l
     for cond in conditions:
         z = z + 1
         if not(cond[0]=='!'):
+            cond = cond.replace(".","_");
+            cond = cond.replace("/","_");
+            cond = cond.replace(" ","_");
+            cond = cond.replace("(","_");
+            cond = cond.replace(")","_");
+            cond = cond.replace("-","_");
+            cond = cond.replace("=","_");
             z_sample = z_sample + 1
-            outfile_full = outfile + "_" + str(z_sample) + "_" + cond.replace(".","_") + ".csv"
-            outfile_log.write(organism + "\t" + outfile_full +  "\t" + data_set + "_" + cond.replace(".","_") + "\t" + data_set_long + "\t" + organism_long + "\n")
+            outfile_full = outfile + "_" + str(z_sample) + "_" + cond + ".csv"
+            outfile_log.write(organism + "\t" + outfile_full +  "\t" + data_set + "_" + cond + "\t" + data_set_long + "\t" + organism_long + "\n")
             input_file  = open(infile,'r')
             output_file = open(outfile_full,'w')
             igot = input_file.readlines()
             if igot[0][0:2]=='!!':
                 igot = igot[1:]
             for item in igot[1:]:
-                line = re.split(delimiter,item.strip())
+                line = re.split(delimiter,item)
                 gene = line[0]
-                if not(gene[0]=='!'):
-                    values = line[1:]
-                    output_file.write(gene + "\t" + values[z-1] + '\n')
+                if len(gene)>0:
+                    if not(gene[0]=='!'):
+                        values = line[1:]
+                        output_file.write(gene + "\t" + values[z-1] + '\n')
             input_file.close()
     outfile_log.close()
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Split proteomics csv table file into single-column files')

@@ -14,7 +14,7 @@ eval(default('show_graphics','1'));
 % -----------------------------------------------------
 % Load and show 2nd-level category colours
 
-%A = load_any_table('/home/wolfram/projekte/protein_abundance/gene_hierarchy/Protein_category_colours_Perfect.csv');
+%A = load_any_table('/home/wolfram/projekte/proteomaps/gene_hierarchy/Protein_category_colours_Perfect.csv');
 
 A = load_any_table(colorfile);
 

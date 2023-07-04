@@ -172,4 +172,7 @@ if length(fpath)==0,
   fpath = options.output_directory;
 end
 
-movie_save(sprintf('%s/%s_lv%d%s', fpath,   strrep(fname,' ','_'), options.show_level,fext), M,my_delay);
+my_filename = strrep(fname,' ','_');
+movie_save(sprintf('%s/%s_lv%d%s', fpath, my_filename, options.show_level,fext), M,my_delay);
+
+display(sprintf('Proteomovie written to file %s/%s',fpath,my_filename));

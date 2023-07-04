@@ -1,37 +1,37 @@
-Biosynthesis	0.18120256
+Biosynthesis	0.18120257
 Cancers	0
 Cardiovascular Diseases	0
-Cell Growth and Death	0.0029294556
-Cell Motility	2.679854e-06
-Cell Structure	0.0026964691
+Cell Growth and Death	0.0029294557
+Cell Motility	2.6798541e-06
+Cell Structure	0.0026964692
 Cellular Community	0
 Central Carbon Metabolism	0.13745486
 Circulatory System	0
 Crystallins	0
-Cytoskeleton	0.0031882223
-DNA Maintenance	0.019835529
+Cytoskeleton	0.0031882224
+DNA Maintenance	0.01983553
 Development	0
 Digestive System	0
 Drug resistance	1.0719416e-07
 Endocrine System	0
 Endocrine and Metabolic Diseases	0
-Energy Metabolism	0.021898052
+Energy Metabolism	0.021898053
 Environmental Adaptation	0
 Excretory System	0
-Folding, Sorting and Degradation	0.075699229
+Folding, Sorting and Degradation	0.075699233
 Immune Diseases	0
 Immune System	0
 Infectious Diseases	0
-Membrane Transport	0.075078521
+Membrane Transport	0.075078525
 Nervous System	0
 Neurodegenerative Diseases	0
-Not Mapped	0.058754995
-Other Enzymes	0.041863928
-RNA Family	5.359708e-08
+Not Mapped	0.058754998
+Other Enzymes	0.041863877
+RNA Family	5.3597082e-08
 Sensory System	0
-Signal Transduction	0.0062987824
-Signaling Molecules and Interaction	1.6079124e-07
+Signal Transduction	0.0062987827
+Signaling Molecules and Interaction	1.6079125e-07
 Substance Dependence	0
-Transcription	0.046675124
-Translation	0.32640809
+Transcription	0.046675126
+Translation	0.32640811
 Vesicular transport	1.3184882e-05

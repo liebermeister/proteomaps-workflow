@@ -24,7 +24,9 @@ ca;
 % read sample names in the data set 
   
 T = load_any_table([data_directory '/filenames.csv']);
-[data_directory '/filenames.csv']
+
+%[data_directory '/filenames.csv']
+
 organism       = T{1,1};
 show_data_sets = strrep(T(:,3),'_',' ');
 

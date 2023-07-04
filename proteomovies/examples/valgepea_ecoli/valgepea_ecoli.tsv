@@ -1,4 +1,4 @@
-!!SBtab TableID='Data' TableType='ProteomapsDataMatrix' Organism='eco'					
+!!SBtab TableID='Data' TableType='QuantityMatrix' Organism='eco'					
 !Gene	mu_0_11	mu_0_21	mu_0_31	mu_0_40	mu_0_48
 b0002	932	1529	2452	4404	5102
 b0003	112	182	293	554	658

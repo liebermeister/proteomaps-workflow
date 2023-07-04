@@ -5,13 +5,13 @@ function proteomap_treemap_colour(data_file,organism,options)
 % this is supposed to work with input files like those in online paver 2.0
 
 if 0,
-  data_file = '~/projekte/protein_abundance/online_paver/example_data_sets_for_online_paver/sce_Nagaraj_cost.csv';
+  data_file = '~/projekte/proteomaps/online_paver/example_data_sets_for_online_paver/sce_Nagaraj_cost.csv';
   proteomap_treemap_colour(data_file,'sce');
 end
 
 eval(default('options','struct'));
 
-resource_dir = '/home/wolfram/projekte/protein_abundance/online_paver/online_paver_2.0/';
+resource_dir = '/home/wolfram/projekte/proteomaps/online_paver/online_paver_2.0/';
 
 switch organism,
   case 'sce',

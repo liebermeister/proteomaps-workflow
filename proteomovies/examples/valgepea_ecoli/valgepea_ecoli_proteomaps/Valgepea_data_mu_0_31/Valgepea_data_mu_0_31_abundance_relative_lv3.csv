@@ -3,7 +3,7 @@ Adrenergic signaling in cardiomyocytes	0
 Alcoholism	0
 Aldosterone-regulated sodium reabsorption	0
 Alzheimer's disease	0
-Amino acid metabolism	0.078613537
+Amino acid metabolism	0.078613542
 Amoebiasis	0
 Amphetamine addiction	0
 Amyotrophic lateral sclerosis (ALS)	0
@@ -12,34 +12,34 @@ Apoptosis	0
 Arrhythmogenic right ventricular cardiomyopathy (ARVC)	0
 Axon guidance	0
 B cell receptor signaling pathway	0
-Bacterial chemotaxis	3.1061372e-07
+Bacterial chemotaxis	3.1061374e-07
 Bacterial invasion of epithelial cells	0
-Bacterial motility proteins	2.7955235e-06
-Bacterial secretion system	6.8335019e-07
-Bacterial toxins	1.2424549e-07
-Basal transcription factors	0.0093038128
-Base excision repair	0.00028321759
+Bacterial motility proteins	2.7955237e-06
+Bacterial secretion system	6.8335023e-07
+Bacterial toxins	1.242455e-07
+Basal transcription factors	0.0093038133
+Base excision repair	0.00028321761
 Bile secretion	0
-Biosynthesis of other secondary metabolites	0.0002417196
+Biosynthesis of other secondary metabolites	0.00024171961
 Blood proteins	0
-Butanoate metabolism	2.4849098e-07
+Butanoate metabolism	2.4849099e-07
 CD Molecules	0
 Calcium signaling pathway	0
 Carbohydrate digestion and absorption	0
-Carbohydrate metabolism	0.0063913122
-Carbon fixation in photosynthetic organisms	6.2122744e-08
+Carbohydrate metabolism	0.0063913126
+Carbon fixation in photosynthetic organisms	6.2122748e-08
 Cardiac muscle contraction	0
-Cell adhesion molecules (CAMs)	6.2122744e-08
-Cell cycle	0.0029217569
-Cell envelope	0.0028116754
+Cell adhesion molecules (CAMs)	6.2122748e-08
+Cell cycle	0.0029217571
+Cell envelope	0.0028116756
 Cell wall	0
-Chaperones and folding catalysts	0.061093432
+Chaperones and folding catalysts	0.061093436
 Chemical carcinogenesis	0
 Chemokine signaling pathway	0
-Chromosome-related	0.013940406
+Chromosome-related	0.013940407
 Circadian rhythm	0
 Cocaine addiction	0
-Cofactor biosynthesis	0.017665969
+Cofactor biosynthesis	0.01766597
 Collecting duct acid secretion	0
 Complement and coagulation cascades	0
 Crystallins	0
@@ -47,12 +47,12 @@ Cytochrome P450	0
 Cytokine-cytokine receptor interaction	0
 Cytokines	0
 Cytokinesis	0
-Cytoskeleton proteins	0.0033689164
+Cytoskeleton proteins	0.0033689166
 Cytosolic DNA-sensing pathway	0
-DNA repair and recombination proteins	0.00026650657
-DNA replication	0.00021972815
-DNA replication complex	0.00074932454
-DNA replication control	0.0060810091
+DNA repair and recombination proteins	0.00026650659
+DNA replication	0.00021972816
+DNA replication complex	0.00074932459
+DNA replication control	0.0060810094
 Dopaminergic synapse	0
 Dorso-ventral axis formation	0
 ECM-receptor interaction	0
@@ -61,7 +61,7 @@ Endocytosis	0
 Epstein-Barr virus infection	0
 ErbB signaling pathway	0
 Estrogen signaling pathway	0
-Exosome	1.5282195e-05
+Exosome	1.5282196e-05
 Fanconi anemia pathway	0
 Fat digestion and absorption	0
 Fc gamma R-mediated phagocytosis	0
@@ -72,8 +72,8 @@ GTP-binding signaling proteins	0
 Gap junction	0
 Gastric acid secretion	0
 Glutamatergic synapse	0
-Glycan metabolism	0.0028893288
-Glycolysis	0.070704131
+Glycan metabolism	0.002889329
+Glycolysis	0.070704136
 HIF-1 signaling pathway	0
 HTLV-I infection	0
 Hedgehog signaling pathway	0
@@ -83,7 +83,7 @@ Hepatitis B	0
 Hepatitis C	0
 Herpes simplex infection	0
 Hippo signaling pathway	0
-Homologous recombination	0.0005279812
+Homologous recombination	0.00052798123
 Huntington's disease	0
 Hypertrophic cardiomyopathy (HCM)	0
 Immunoglobulins	0
@@ -94,18 +94,18 @@ Intestinal immune network for IgA production	0
 Jak-STAT signaling pathway	0
 Legionellosis	0
 Leukocyte transendothelial migration	0
-Lipid and steroid metabolism	0.023637518
+Lipid and steroid metabolism	0.023637519
 Long-term depression	0
 Lysosome	0
 MAPK signaling pathway	0
 Maturity onset diabetes of the young	0
 Measles	0
-Messenger RNA Biogenesis	0.0019493496
-Methane metabolism	0.00016773141
+Messenger RNA Biogenesis	0.0019493497
+Methane metabolism	0.00016773142
 MicroRNAs in cancer	0
 Mineral absorption	0
-Mismatch repair	0.00015064765
-Mitochondrial biogenesis	0.00018239238
+Mismatch repair	0.00015064766
+Mitochondrial biogenesis	0.00018239239
 Motor proteins	0
 Myelin	0
 NF-kappa B signaling pathway	0
@@ -114,53 +114,53 @@ Natural killer cell mediated cytotoxicity	0
 Neuroactive ligand-receptor interaction	0
 Neurotrophin signaling pathway	0
 Non-alcoholic fatty liver disease (NAFLD)	0
-Non-coding RNAs	6.2122744e-08
+Non-coding RNAs	6.2122748e-08
 Non-homologous end-joining	0
 Non-small cell lung cancer	0
-Not mapped	0.064768552
+Not mapped	0.064768556
 Notch signaling pathway	0
 Nuclear membrane	0
-Nucleotide excision repair	0.00011778472
+Nucleotide excision repair	0.00011778473
 Olfactory transduction	0
 Oocyte meiosis	0
 Osteoclast differentiation	0
-Other central metabolism enzymes	0.0040163597
-Other enzymes	0.0460109
+Other central metabolism enzymes	0.0040163599
+Other enzymes	0.046010841
 Other signaling pathways	0
 Ovarian Steroidogenesis	0
-Oxidative phosphorylation	0.023156998
+Oxidative phosphorylation	0.023157
 PI3K-Akt signaling pathway	0
 PPAR signaling pathway	0
 Pancreatic secretion	0
 Parkinson's disease	0
 Pathways in cancer	0
-Pentose phosphate metabolism	0.012905006
+Pentose phosphate metabolism	0.012905007
 Peptidases	0.01014042
 Peroxisome	0
 Pertussis	0
 Phagosome	0
-Phosphotransferase system (PTS)	0.0019941401
+Phosphotransferase system (PTS)	0.0019941402
 Photosynthesis	0
-Photosynthesis proteins	6.2122744e-08
+Photosynthesis proteins	6.2122748e-08
 Phototransduction	0
 Plant hormone signal transduction	0
 Plant-pathogen interaction	0
 Protease inhibitors	0
-Proteases	1.8636823e-07
+Proteases	1.8636824e-07
 Proteasome	0
 Protein digestion and absorption	0
-Protein export	0.0030996764
+Protein export	0.0030996766
 Protein kinases	0
 Protein processing in endoplasmic reticulum	0
 Proteoglycans in cancer	0
 Proximal tubule bicarbonate reclamation	0
-Purine metabolism	0.023561604
-Pyrimidine metabolism	0.018755788
-Pyruvate metabolism	0.0028355305
+Purine metabolism	0.023561605
+Pyrimidine metabolism	0.018755789
+Pyruvate metabolism	0.0028355307
 RIG-I-like receptor signaling pathway	0
-RNA degradation	0.002267915
-RNA polymerase	0.0043175307
-RNA transport	1.2859408e-05
+RNA degradation	0.0022679152
+RNA polymerase	0.004317531
+RNA transport	1.2859409e-05
 Rap1 signaling pathway	0
 Ras signaling pathway	0
 Regulation of actin cytoskeleton	0
@@ -168,36 +168,36 @@ Regulation of autophagy	0
 Renin-angiotensin system	0
 Response to viral infection	0
 Retrograde endocannabinoid signaling	0
-Ribosome	0.24219198
-Ribosome biogenesis	0.0074786465
-Ribosome biogenesis in eukaryotes	0.00020127769
+Ribosome	0.24219199
+Ribosome biogenesis	0.007478647
+Ribosome biogenesis in eukaryotes	0.0002012777
 SNARE interactions in vesicular transport	0
 Salivary secretion	0
 Salmonella infection	0
-Secretion system	1.3667004e-06
+Secretion system	1.3667005e-06
 Serotonergic synapse	0
 Signaling molecules	0
 Spliceosome	0
 Staphylococcus aureus infection	0
 Steroid hormone biosynthesis	0
-Sulfur relay system	0.00057258533
+Sulfur relay system	0.00057258537
 Synaptic vesicle cycle	0
 Systemic lupus erythematosus	0
 T cell receptor signaling pathway	0
-TCA cycle and anaplerotic enzymes	0.056025273
+TCA cycle and anaplerotic enzymes	0.056025276
 TGF-beta signaling pathway	0
 TNF signaling pathway	0
 Thyroid hormone synthesis	0
 Tight junction	0
 Toll-like receptor signaling pathway	0
-Transcription factors	0.032616801
-Transcription machinery	0.0036436853
+Transcription factors	0.032616803
+Transcription machinery	0.0036436855
 Transcriptional misregulation in cancer	0
-Transfer RNA biogenesis	0.0029672307
-Translation factors	0.028753326
-Transport	0.084460157
+Transfer RNA biogenesis	0.0029672309
+Translation factors	0.028753328
+Transport	0.084460162
 Tuberculosis	0
-Two-component system	0.0074877165
+Two-component system	0.0074877169
 Type I diabetes mellitus	0
 Ubiquitin labeling	0
 Ubiquitin mediated proteolysis	0
@@ -207,9 +207,9 @@ Viral carcinogenesis	0
 Viral myocarditis	0
 Vitamin digestion and absorption	0
 Wnt signaling pathway	0
-beta-Lactam resistance	1.2424549e-07
+beta-Lactam resistance	1.242455e-07
 cAMP signaling pathway	0
 mRNA surveillance pathway	0
 mTOR signaling pathway	0
 p53 signaling pathway	0
-tRNA loading	0.011457484
+tRNA loading	0.011457485

@@ -1,25 +1,25 @@
 if 0,
   
   %% E coli
-  data_file    = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_paper/eco_Lu/eco_abundance_table_protein_data_E_coli_Lu_1.csv';
+  data_file    = '/home/wolfram/projekte/proteomaps/data/protein_abundances_paper/eco_Lu/eco_abundance_table_protein_data_E_coli_Lu_1.csv';
   ps_file_pie      = 'pie_chart_eco_Lu';
   ps_file_bar      = 'bar_chart_eco_Lu';
   title_string = 'E. coli proteome (Lu et al. 2006)';
- colour_file = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_paper/hierarchy/KO_colour_table.csv';
+ colour_file = '/home/wolfram/projekte/proteomaps/data/protein_abundances_paper/hierarchy/KO_colour_table.csv';
 
  %% H sapiens
- data_file    = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_paper/hsa_Nagaraj/hsa_abundance_table_msb201181-s2_final_GluC.csv';
+ data_file    = '/home/wolfram/projekte/proteomaps/data/protein_abundances_paper/hsa_Nagaraj/hsa_abundance_table_msb201181-s2_final_GluC.csv';
  ps_file_pie      = 'pie_chart_hsa_Nagaraj';
  ps_file_bar      = 'bar_chart_hsa_Nagaraj';
  title_string = 'Human cell line proteome (Nagaraj et al. 2011)';
- colour_file = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_paper/hierarchy/KO_colour_table.csv';
+ colour_file = '/home/wolfram/projekte/proteomaps/data/protein_abundances_paper/hierarchy/KO_colour_table.csv';
 
   %% S cerevisiae
- data_file    = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_other/sce_Nagaraj/sce_abundance_table_sce_nagaraj.csv';
+ data_file    = '/home/wolfram/projekte/proteomaps/data/protein_abundances_other/sce_Nagaraj/sce_abundance_table_sce_nagaraj.csv';
  ps_file_pie      = 'pie_chart_sce_Nagaraj';
  ps_file_bar      = 'bar_chart_sce_Nagaraj';
  title_string = 'Yeast proteome (Nagaraj et al. 2012)';
- colour_file = '/home/wolfram/projekte/protein_abundance/data/protein_abundances_other/hierarchy/KO_colour_table.csv';
+ colour_file = '/home/wolfram/projekte/proteomaps/data/protein_abundances_other/hierarchy/KO_colour_table.csv';
  
 end
 
@@ -76,7 +76,7 @@ for it = 1:length(show.value),
 end
 axis off
 
-cd ~/projekte/protein_abundance/ps-files/pie_charts
+cd ~/projekte/proteomaps/ps-files/pie_charts
 exportfig(1, ps_file_pie,'Color','rgb');
 exportfig(2, ps_file_bar,'Color','rgb');
 

@@ -37,6 +37,8 @@ They are set in the following files:
 
 Of course, also the path names in your scripts CreateProteomaps.sh have to be adjusted.
 
+The matlab code requires the Matlab utility functions (https://github.com/liebermeister/matlab-utils).
+
 
 ## 3. How to generate proteomaps
 
